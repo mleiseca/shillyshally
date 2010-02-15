@@ -271,12 +271,13 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>089C165CFE840E0CC02AAC07</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>1</integer>
+									<integer>13</integer>
+									<integer>11</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -312,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D00C55881128959E0013AB05</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WorkTimerWithPersistence_DataModel.xcdatamodel</string>
+								<string>WorkTimerWithPersistence-Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -320,21 +321,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D00C55891128959E0013AB05</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WorkTimerWithPersistence_DataModel.xcdatamodel</string>
+										<string>WorkTimerWithPersistence-Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D07846311129100C00A2755E</string>
+										<string>D078464A1129121100A2755E</string>
 										<key>history</key>
 										<array>
 											<string>D00C558B1128959E0013AB05</string>
-											<string>D00C559D11289DD90013AB05</string>
 											<string>D00C559F11289DD90013AB05</string>
-											<string>D0784589112901E200A2755E</string>
-											<string>D078458A112901E200A2755E</string>
 											<string>D078462A11290FFD00A2755E</string>
 											<string>D078462B11290FFD00A2755E</string>
-											<string>D078462C11290FFD00A2755E</string>
+											<string>D078463F1129113100A2755E</string>
+											<string>D07846451129121100A2755E</string>
+											<string>D07846461129121100A2755E</string>
+											<string>D07846471129121100A2755E</string>
+											<string>D07846481129121100A2755E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -655,7 +657,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D07846321129100C00A2755E</string>
+		<string>D078464B1129121100A2755E</string>
 		<string>D07845841129017900A2755E</string>
 		<string>D07845851129017900A2755E</string>
 		<string>/Users/mleiseca/dev/osx/WorkTimerWithPersistence/WorkTimerWithPersistence.xcodeproj</string>
