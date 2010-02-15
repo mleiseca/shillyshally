@@ -8,31 +8,34 @@
 
 #import "MGLTaskProgressTimer.h"
 #import "MGLTask.h"
+#import "MGLTaskSession.h"
 
 @implementation MGLTaskProgressTimer
-@synthesize activeTask;
+@synthesize activeTaskSession;
 @synthesize timer;
 @synthesize startDate;
 
--(void) startTask:(MGLTask *) task{
-	NSLog(@"Starting task: %@", [task desc]);
+-(void) startTaskSession:(MGLTaskSession *) taskSession{
+	NSLog(@"Starting task: %@", [[taskSession task] desc]);
 	
-	if(activeTask){
+	if(activeTaskSession){
 		[self stopTask];
 	}
+	
 	self.startDate = [NSDate date];
-	self.activeTask = task;
-	self.timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(incrementTime:) userInfo: nil repeats:YES];
+	self.activeTaskSession = taskSession;
+	self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(incrementTime:) userInfo: nil repeats:YES];
 }
 
 -(void) incrementTime:(id) userInfo{
 	NSTimeInterval interval = [self.startDate timeIntervalSinceNow];
 	NSLog(@"interval: %@, %f", self.startDate, interval); 
+	self.activeTaskSession.secondsWorked = [NSNumber numberWithInteger: abs(interval)];
 }
 
 -(void) stopTask{
-	NSLog(@"stopping task: %@", [self.activeTask desc]);
-	self.activeTask = nil;
+	NSLog(@"stopping task: %@", [[self.activeTaskSession task] desc]);
+	self.activeTaskSession = nil;
 	
 	//todo: save changes, etc	
 

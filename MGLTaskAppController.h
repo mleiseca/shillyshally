@@ -9,14 +9,18 @@
 #import <Cocoa/Cocoa.h>
 
 @class MGLTaskProgressTimer;
+@class WorkTimerWithPersistence_AppDelegate;
 
 @interface MGLTaskAppController : NSObject {
 	NSArrayController *taskList;
 	MGLTaskProgressTimer *taskProgressTimer;
+	WorkTimerWithPersistence_AppDelegate *appDelegate;
 }
 
 @property(nonatomic, retain) IBOutlet NSArrayController *taskList;
 @property(nonatomic, retain) IBOutlet MGLTaskProgressTimer *taskProgressTimer;
+@property (nonatomic, retain) IBOutlet WorkTimerWithPersistence_AppDelegate *appDelegate;
+
 
 -(IBAction) startSelectedTask:(id) sender;
 
