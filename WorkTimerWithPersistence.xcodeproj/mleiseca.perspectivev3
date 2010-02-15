@@ -255,7 +255,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>185</real>
+								<real>311</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -276,13 +276,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
-									<integer>11</integer>
+									<integer>9</integer>
+									<integer>5</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {185, 660}}</string>
+							<string>{{0, 0}, {311, 660}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -292,17 +292,17 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {202, 678}}</string>
+						<string>{{0, 0}, {328, 678}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>185</real>
+							<real>311</real>
 						</array>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>202pt</string>
+					<string>328pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -313,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D00C55881128959E0013AB05</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WorkTimerWithPersistence-Info.plist</string>
+								<string>MGLTaskProgressTimer.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,22 +321,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D00C55891128959E0013AB05</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WorkTimerWithPersistence-Info.plist</string>
+										<string>MGLTaskProgressTimer.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D078464A1129121100A2755E</string>
+										<string>D078475A112921CD00A2755E</string>
 										<key>history</key>
 										<array>
-											<string>D00C558B1128959E0013AB05</string>
-											<string>D00C559F11289DD90013AB05</string>
-											<string>D078462A11290FFD00A2755E</string>
-											<string>D078462B11290FFD00A2755E</string>
-											<string>D078463F1129113100A2755E</string>
 											<string>D07846451129121100A2755E</string>
 											<string>D07846461129121100A2755E</string>
 											<string>D07846471129121100A2755E</string>
-											<string>D07846481129121100A2755E</string>
+											<string>D078465F1129145300A2755E</string>
+											<string>D07846601129145300A2755E</string>
+											<string>D07846611129145300A2755E</string>
+											<string>D07846641129145300A2755E</string>
+											<string>D0784671112914C600A2755E</string>
+											<string>D07846741129161100A2755E</string>
+											<string>D078470111291E3700A2755E</string>
+											<string>D07847161129200D00A2755E</string>
+											<string>D078472D1129209900A2755E</string>
+											<string>D0784739112920A800A2755E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -350,7 +354,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1073, 507}}</string>
+								<string>{{0, 0}, {947, 507}}</string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -373,7 +377,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1073, 139}}</string>
+										<string>{{10, 27}, {947, 139}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -427,7 +431,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1073, 134}}</string>
+										<string>{{10, 27}, {947, 139}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -436,7 +440,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1073pt</string>
+					<string>947pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -657,7 +661,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D078464B1129121100A2755E</string>
+		<string>D078475B112921CD00A2755E</string>
 		<string>D07845841129017900A2755E</string>
 		<string>D07845851129017900A2755E</string>
 		<string>/Users/mleiseca/dev/osx/WorkTimerWithPersistence/WorkTimerWithPersistence.xcodeproj</string>

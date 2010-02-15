@@ -14,7 +14,9 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D00C5597112897650013AB05 /* MainMenu-example.nib in Resources */ = {isa = PBXBuildFile; fileRef = D00C5596112897650013AB05 /* MainMenu-example.nib */; };
-		D078461E11290F8A00A2755E /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = D078461D11290F8A00A2755E /* Task.m */; };
+		D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */; };
+		D078465C1129144400A2755E /* MGLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D078465B1129144400A2755E /* MGLTask.m */; };
+		D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078469E112918E600A2755E /* MGLTaskAppController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +34,12 @@
 		8D1107310486CEB800E47090 /* WorkTimerWithPersistence-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "WorkTimerWithPersistence-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTimerWithPersistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00C5596112897650013AB05 /* MainMenu-example.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = "MainMenu-example.nib"; sourceTree = "<group>"; };
-		D078461C11290F8A00A2755E /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
-		D078461D11290F8A00A2755E /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		D0784651112913D100A2755E /* MGLTaskProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskProgressTimer.h; sourceTree = "<group>"; };
+		D0784652112913D100A2755E /* MGLTaskProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskProgressTimer.m; sourceTree = "<group>"; };
+		D078465A1129144400A2755E /* MGLTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTask.h; sourceTree = "<group>"; };
+		D078465B1129144400A2755E /* MGLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTask.m; sourceTree = "<group>"; };
+		D078469D112918E600A2755E /* MGLTaskAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskAppController.h; sourceTree = "<group>"; };
+		D078469E112918E600A2755E /* MGLTaskAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskAppController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,10 @@
 			children = (
 				77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */,
 				77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */,
+				D0784651112913D100A2755E /* MGLTaskProgressTimer.h */,
+				D0784652112913D100A2755E /* MGLTaskProgressTimer.m */,
+				D078469D112918E600A2755E /* MGLTaskAppController.h */,
+				D078469E112918E600A2755E /* MGLTaskAppController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -128,8 +138,8 @@
 		7756732906782D8800D1FEB8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D078461C11290F8A00A2755E /* Task.h */,
-				D078461D11290F8A00A2755E /* Task.m */,
+				D078465A1129144400A2755E /* MGLTask.h */,
+				D078465B1129144400A2755E /* MGLTask.m */,
 				770B37EC0679A11B001EADE2 /* WorkTimerWithPersistence_DataModel.xcdatamodel */,
 			);
 			name = Models;
@@ -194,7 +204,9 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				77C8280E06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* WorkTimerWithPersistence_DataModel.xcdatamodel in Sources */,
-				D078461E11290F8A00A2755E /* Task.m in Sources */,
+				D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */,
+				D078465C1129144400A2755E /* MGLTask.m in Sources */,
+				D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
