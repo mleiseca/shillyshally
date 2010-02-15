@@ -275,7 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -324,7 +324,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D07845A91129058000A2755E</string>
+										<string>D07846311129100C00A2755E</string>
 										<key>history</key>
 										<array>
 											<string>D00C558B1128959E0013AB05</string>
@@ -332,7 +332,9 @@
 											<string>D00C559F11289DD90013AB05</string>
 											<string>D0784589112901E200A2755E</string>
 											<string>D078458A112901E200A2755E</string>
-											<string>D07845A71129057F00A2755E</string>
+											<string>D078462A11290FFD00A2755E</string>
+											<string>D078462B11290FFD00A2755E</string>
+											<string>D078462C11290FFD00A2755E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -653,7 +655,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D07845AA1129058000A2755E</string>
+		<string>D07846321129100C00A2755E</string>
 		<string>D07845841129017900A2755E</string>
 		<string>D07845851129017900A2755E</string>
 		<string>/Users/mleiseca/dev/osx/WorkTimerWithPersistence/WorkTimerWithPersistence.xcodeproj</string>

@@ -14,6 +14,7 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D00C5597112897650013AB05 /* MainMenu-example.nib in Resources */ = {isa = PBXBuildFile; fileRef = D00C5596112897650013AB05 /* MainMenu-example.nib */; };
+		D078461E11290F8A00A2755E /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = D078461D11290F8A00A2755E /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		8D1107310486CEB800E47090 /* WorkTimerWithPersistence-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "WorkTimerWithPersistence-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTimerWithPersistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00C5596112897650013AB05 /* MainMenu-example.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = "MainMenu-example.nib"; sourceTree = "<group>"; };
+		D078461C11290F8A00A2755E /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		D078461D11290F8A00A2755E /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 		7756732906782D8800D1FEB8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D078461C11290F8A00A2755E /* Task.h */,
+				D078461D11290F8A00A2755E /* Task.m */,
 				770B37EC0679A11B001EADE2 /* WorkTimerWithPersistence_DataModel.xcdatamodel */,
 			);
 			name = Models;
@@ -189,6 +194,7 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				77C8280E06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* WorkTimerWithPersistence_DataModel.xcdatamodel in Sources */,
+				D078461E11290F8A00A2755E /* Task.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
