@@ -41,7 +41,19 @@
 		secondsWorked = secondsWorked + [taskSession.secondsWorked longValue];
 	}
 	return [NSNumber numberWithLong:secondsWorked];
+}
+
+- (NSString *) timeWorked{
+	NSNumber *secondsWorked = [self secondsWorked];
 	
+	if(secondsWorked){
+		int seconds = [secondsWorked intValue];
+		int minutesWorked =  seconds / 60;
+		
+		return [NSString stringWithFormat:@"%d:%02d", (minutesWorked/60), (minutesWorked % 60)];
+    }else{
+	   return @"";
+    }
 }
 
 

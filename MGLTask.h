@@ -32,6 +32,8 @@
 - (void)removeTaskSessionsObject:(NSManagedObject *)value;
 - (void)addTaskSessions:(NSSet *)value;
 - (void)removeTaskSessions:(NSSet *)value;
+- (NSString *) timeWorked;
+
 
 @end
 
