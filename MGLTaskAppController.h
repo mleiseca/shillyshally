@@ -25,10 +25,10 @@
 @property(nonatomic, retain) IBOutlet WorkTimerWithPersistence_AppDelegate *appDelegate;
 @property(nonatomic, retain) IBOutlet NSTextField *activeTaskLabel;
 @property(nonatomic, retain) IBOutlet NSButton *toggleTaskButton;
-@property(nonatomic, retain) IBOutlet NSMenuItem  *toggleMenuItem;
 
 
 
 -(IBAction) toggleSelectedTask:(id) sender;
+-(IBAction) finishTask:(id) sender;
 
 @end

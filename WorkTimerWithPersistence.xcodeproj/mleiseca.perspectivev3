@@ -276,8 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>22</integer>
-									<integer>17</integer>
+									<integer>12</integer>
+									<integer>7</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -313,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D00C55881128959E0013AB05</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MGLTaskAppController.m</string>
+								<string>MGLTaskAppController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,11 +321,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D00C55891128959E0013AB05</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MGLTaskAppController.m</string>
+										<string>MGLTaskAppController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D07849E81131EBA300A2755E</string>
+										<string>D07849F71131ED9700A2755E</string>
 										<key>history</key>
 										<array>
 											<string>D07846451129121100A2755E</string>
@@ -339,11 +339,11 @@
 											<string>D078481F1129E24F00A2755E</string>
 											<string>D07848201129E24F00A2755E</string>
 											<string>D0784863112A1FD300A2755E</string>
-											<string>D078489A112A234C00A2755E</string>
 											<string>D07848D6112A27AC00A2755E</string>
 											<string>D07848E4112A283D00A2755E</string>
-											<string>D07849E11131EB3E00A2755E</string>
-											<string>D07849E21131EB3E00A2755E</string>
+											<string>D07849EE1131EC7500A2755E</string>
+											<string>D07849F31131ED9300A2755E</string>
+											<string>D07849F41131ED9300A2755E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -664,7 +664,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D07849E91131EBA300A2755E</string>
+		<string>D07849F81131ED9700A2755E</string>
 		<string>D07848DD112A27B100A2755E</string>
 		<string>D0784871112A1FE400A2755E</string>
 		<string>D0784872112A1FE400A2755E</string>

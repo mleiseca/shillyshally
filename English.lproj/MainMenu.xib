@@ -336,7 +336,7 @@
 						</object>
 						<object class="NSButton" id="52268149">
 							<reference key="NSNextResponder" ref="823886803"/>
-							<int key="NSvFlags">265</int>
+							<int key="NSvFlags">289</int>
 							<string key="NSFrame">{{547, 12}, {96, 32}}</string>
 							<reference key="NSSuperview" ref="823886803"/>
 							<bool key="NSEnabled">YES</bool>
@@ -979,7 +979,7 @@
 										</object>
 									</object>
 								</object>
-								<object class="NSMenuItem" id="1050151788">
+								<object class="NSMenuItem" id="169131209">
 									<reference key="NSMenu" ref="1022019938"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
@@ -989,10 +989,10 @@
 									<reference key="NSOnImage" ref="893455832"/>
 									<reference key="NSMixedImage" ref="424226900"/>
 								</object>
-								<object class="NSMenuItem" id="37956877">
+								<object class="NSMenuItem" id="23490135">
 									<reference key="NSMenu" ref="1022019938"/>
 									<string key="NSTitle">Start/Stop</string>
-									<string key="NSKeyEquiv">s</string>
+									<string key="NSKeyEquiv">e</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="893455832"/>
@@ -2456,7 +2456,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">toggleSelectedTask:</string>
 						<reference key="source" ref="1061286503"/>
-						<reference key="destination" ref="37956877"/>
+						<reference key="destination" ref="23490135"/>
 					</object>
 					<int key="connectionID">630</int>
 				</object>
@@ -3069,8 +3069,8 @@
 							<reference ref="958645126"/>
 							<reference ref="814247416"/>
 							<reference ref="1058116061"/>
-							<reference ref="1050151788"/>
-							<reference ref="37956877"/>
+							<reference ref="169131209"/>
+							<reference ref="23490135"/>
 						</object>
 						<reference key="parent" ref="545718297"/>
 					</object>
@@ -3561,12 +3561,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">628</int>
-						<reference key="object" ref="1050151788"/>
+						<reference key="object" ref="169131209"/>
 						<reference key="parent" ref="1022019938"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">629</int>
-						<reference key="object" ref="37956877"/>
+						<reference key="object" ref="23490135"/>
 						<reference key="parent" ref="1022019938"/>
 					</object>
 				</object>
@@ -4025,8 +4025,17 @@
 					<string key="className">MGLTaskAppController</string>
 					<string key="superclassName">NSObject</string>
 					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">toggleSelectedTask:</string>
-						<string key="NS.object.0">id</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>finishTask:</string>
+							<string>toggleSelectedTask:</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+						</object>
 					</object>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -4036,7 +4045,6 @@
 							<string>appDelegate</string>
 							<string>taskList</string>
 							<string>taskProgressTimer</string>
-							<string>toggleMenuItem</string>
 							<string>toggleTaskButton</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -4045,7 +4053,6 @@
 							<string>WorkTimerWithPersistence_AppDelegate</string>
 							<string>NSArrayController</string>
 							<string>MGLTaskProgressTimer</string>
-							<string>NSMenuItem</string>
 							<string>NSButton</string>
 						</object>
 					</object>

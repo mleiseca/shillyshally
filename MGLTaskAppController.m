@@ -19,7 +19,6 @@
 @synthesize appDelegate;
 @synthesize activeTaskLabel;
 @synthesize toggleTaskButton;
-@synthesize toggleMenuItem;
 
 - (void) startTask: (MGLTask *) selectedTask  {
 			//either 
