@@ -17,6 +17,7 @@
 	WorkTimerWithPersistence_AppDelegate *appDelegate;
 	NSTextField *activeTaskLabel;
 	NSButton    *toggleTaskButton;
+	NSMenuItem  *toggleMenuItem;
 }
 
 @property(nonatomic, retain) IBOutlet NSArrayController *taskList;
@@ -24,6 +25,7 @@
 @property(nonatomic, retain) IBOutlet WorkTimerWithPersistence_AppDelegate *appDelegate;
 @property(nonatomic, retain) IBOutlet NSTextField *activeTaskLabel;
 @property(nonatomic, retain) IBOutlet NSButton *toggleTaskButton;
+@property(nonatomic, retain) IBOutlet NSMenuItem  *toggleMenuItem;
 
 
 

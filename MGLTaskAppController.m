@@ -19,6 +19,7 @@
 @synthesize appDelegate;
 @synthesize activeTaskLabel;
 @synthesize toggleTaskButton;
+@synthesize toggleMenuItem;
 
 - (void) startTask: (MGLTask *) selectedTask  {
 			//either 
@@ -26,7 +27,6 @@
 										   insertNewObjectForEntityForName:@"MGLTaskSession" inManagedObjectContext:self.appDelegate.managedObjectContext];
 			
 			taskSession.task = selectedTask;
-	
 	
 			[self.toggleTaskButton setTitle:@"Stop"];
 			
