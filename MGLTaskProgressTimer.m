@@ -44,4 +44,8 @@
 	
 }
 
+-(BOOL) isRunning{
+	return [self.timer isValid];
+}
+
 @end

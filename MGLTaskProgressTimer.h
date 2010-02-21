@@ -23,6 +23,7 @@
 
 -(void) startTaskSession:(MGLTaskSession *) task;
 -(void) stopTask;
+-(BOOL) isRunning;
 
 
 @end

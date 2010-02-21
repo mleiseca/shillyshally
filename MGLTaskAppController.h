@@ -15,13 +15,18 @@
 	NSArrayController *taskList;
 	MGLTaskProgressTimer *taskProgressTimer;
 	WorkTimerWithPersistence_AppDelegate *appDelegate;
+	NSTextField *activeTaskLabel;
+	NSButton    *toggleTaskButton;
 }
 
 @property(nonatomic, retain) IBOutlet NSArrayController *taskList;
 @property(nonatomic, retain) IBOutlet MGLTaskProgressTimer *taskProgressTimer;
-@property (nonatomic, retain) IBOutlet WorkTimerWithPersistence_AppDelegate *appDelegate;
+@property(nonatomic, retain) IBOutlet WorkTimerWithPersistence_AppDelegate *appDelegate;
+@property(nonatomic, retain) IBOutlet NSTextField *activeTaskLabel;
+@property(nonatomic, retain) IBOutlet NSButton *toggleTaskButton;
 
 
--(IBAction) startSelectedTask:(id) sender;
+
+-(IBAction) toggleSelectedTask:(id) sender;
 
 @end
