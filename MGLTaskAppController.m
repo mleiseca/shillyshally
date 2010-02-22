@@ -18,8 +18,9 @@
 @synthesize taskProgressTimer;
 @synthesize appDelegate;
 @synthesize activeTaskLabel;
-@synthesize toggleTaskToolbarItem;
+@synthesize taskToggleToolbarItem;
 @synthesize taskTableView;
+@synthesize taskDoneToolbarItem;
 
 - (void) startTask: (MGLTask *) selectedTask  {
 	//either 
@@ -28,14 +29,19 @@
 
 	taskSession.task = selectedTask;
 
-	[self.toggleTaskToolbarItem setPaletteLabel:@"Stop"];
-
+	[self.taskToggleToolbarItem setPaletteLabel:@"Pause"];
+	[self.taskToggleToolbarItem setLabel:@"Pause"];
+	[self.taskToggleToolbarItem setImage:[NSImage imageNamed:@"Pause.tiff"]];
+	
 	[self.activeTaskLabel setStringValue:[NSString stringWithFormat:@"%@", selectedTask.desc]];
 	[self.taskProgressTimer startTaskSession:taskSession];
 }
 
 -(void) stopTask{
-	[self.toggleTaskToolbarItem setPaletteLabel:@"Start"];
+	[self.taskToggleToolbarItem setPaletteLabel:@"Start"];
+	[self.taskToggleToolbarItem setLabel:@"Start"];
+	[self.taskToggleToolbarItem setImage:[NSImage imageNamed:@"Play.tiff"]];
+
 
 	[self.activeTaskLabel setStringValue:@""];
 	

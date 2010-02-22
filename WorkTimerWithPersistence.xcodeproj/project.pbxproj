@@ -13,7 +13,6 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		D00C5597112897650013AB05 /* MainMenu-example.nib in Resources */ = {isa = PBXBuildFile; fileRef = D00C5596112897650013AB05 /* MainMenu-example.nib */; };
 		D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */; };
 		D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078469E112918E600A2755E /* MGLTaskAppController.m */; };
 		D078476A1129D3CC00A2755E /* MGLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847671129D3CC00A2755E /* MGLTask.m */; };
@@ -66,6 +65,8 @@
 		D0784B751132210D00A2755E /* Terminal.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B461132210D00A2755E /* Terminal.tiff */; };
 		D0784B761132210D00A2755E /* Universal Binary.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B471132210D00A2755E /* Universal Binary.tiff */; };
 		D0784B771132210D00A2755E /* Users.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B481132210D00A2755E /* Users.tiff */; };
+		D0784C091132319C00A2755E /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0784C081132319C00A2755E /* todo.txt */; };
+		D0784C5D11323C2800A2755E /* TheBends.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0784C5C11323C2800A2755E /* TheBends.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,7 +83,6 @@
 		77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkTimerWithPersistence_AppDelegate.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* WorkTimerWithPersistence-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "WorkTimerWithPersistence-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTimerWithPersistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D00C5596112897650013AB05 /* MainMenu-example.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = "MainMenu-example.nib"; sourceTree = "<group>"; };
 		D0784651112913D100A2755E /* MGLTaskProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskProgressTimer.h; sourceTree = "<group>"; };
 		D0784652112913D100A2755E /* MGLTaskProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskProgressTimer.m; sourceTree = "<group>"; };
 		D078469D112918E600A2755E /* MGLTaskAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskAppController.h; sourceTree = "<group>"; };
@@ -140,6 +140,8 @@
 		D0784B461132210D00A2755E /* Terminal.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Terminal.tiff; sourceTree = "<group>"; };
 		D0784B471132210D00A2755E /* Universal Binary.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Universal Binary.tiff"; sourceTree = "<group>"; };
 		D0784B481132210D00A2755E /* Users.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Users.tiff; sourceTree = "<group>"; };
+		D0784C081132319C00A2755E /* todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
+		D0784C5C11323C2800A2755E /* TheBends.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TheBends.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 		29B97314FDCFA39411CA2CEA /* WorkTimerWithPersistence */ = {
 			isa = PBXGroup;
 			children = (
+				D0784C081132319C00A2755E /* todo.txt */,
 				D0784B19113220F000A2755E /* Icons */,
 				7756732906782D8800D1FEB8 /* Models */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -221,7 +224,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D00C5596112897650013AB05 /* MainMenu-example.nib */,
 				8D1107310486CEB800E47090 /* WorkTimerWithPersistence-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
@@ -253,6 +255,7 @@
 		D0784B19113220F000A2755E /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				D0784C5C11323C2800A2755E /* TheBends.icns */,
 				D0784B1A1132210D00A2755E /* Add.tiff */,
 				D0784B1B1132210D00A2755E /* Blue Ball.tiff */,
 				D0784B1C1132210D00A2755E /* Brushed Window.tiff */,
@@ -349,7 +352,6 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
-				D00C5597112897650013AB05 /* MainMenu-example.nib in Resources */,
 				D0784B491132210D00A2755E /* Add.tiff in Resources */,
 				D0784B4A1132210D00A2755E /* Blue Ball.tiff in Resources */,
 				D0784B4B1132210D00A2755E /* Brushed Window.tiff in Resources */,
@@ -397,6 +399,8 @@
 				D0784B751132210D00A2755E /* Terminal.tiff in Resources */,
 				D0784B761132210D00A2755E /* Universal Binary.tiff in Resources */,
 				D0784B771132210D00A2755E /* Users.tiff in Resources */,
+				D0784C091132319C00A2755E /* todo.txt in Resources */,
+				D0784C5D11323C2800A2755E /* TheBends.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
