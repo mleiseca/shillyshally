@@ -18,9 +18,6 @@
 @dynamic createDate;
 @dynamic desc;
 @dynamic taskSessions;
-//@dynamic workStartDate;
-//@dynamic secondsWorked;
-
 
 - (void) awakeFromInsert
 {

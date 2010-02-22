@@ -1,0 +1,4 @@
+- icon for dock
+- title for dock
+- title for window
+- timeout style break timing

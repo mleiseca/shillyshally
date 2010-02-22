@@ -275,18 +275,19 @@
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>D0784BAC1132295500A2755E</string>
+								<string>D0784C8311323E0200A2755E</string>
 								<string>1C37FAAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>22</integer>
-									<integer>21</integer>
+									<integer>8</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 74}, {311, 606}}</string>
+							<string>{{0, 0}, {311, 606}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -303,7 +304,7 @@
 							<real>311</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 113 1280 665 0 0 1280 778 </string>
+						<string>-19 1220 1280 665 -333 800 1920 1200 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -319,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D00C55881128959E0013AB05</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WorkTimerWithPersistence-Info.plist</string>
+								<string>WorkTimerWithPersistence_DataModel.xcdatamodel</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D00C55891128959E0013AB05</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WorkTimerWithPersistence-Info.plist</string>
+										<string>WorkTimerWithPersistence_DataModel.xcdatamodel</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D0784C6B11323C8C00A2755E</string>
+										<string>D0784CC81132481B00A2755E</string>
 										<key>history</key>
 										<array>
 											<string>D07846451129121100A2755E</string>
@@ -342,8 +343,6 @@
 											<string>D07848201129E24F00A2755E</string>
 											<string>D0784A1E1131F4AD00A2755E</string>
 											<string>D0784A2C1131F60700A2755E</string>
-											<string>D0784A741131F95900A2755E</string>
-											<string>D0784ADF1132019D00A2755E</string>
 											<string>D0784AE21132044B00A2755E</string>
 											<string>D0784AF6113204CC00A2755E</string>
 											<string>D0784BA4113228F400A2755E</string>
@@ -390,7 +389,6 @@
 											<string>D0784BF81132303300A2755E</string>
 											<string>D0784BF91132303300A2755E</string>
 											<string>D0784BFA1132303300A2755E</string>
-											<string>D0784BFB1132303300A2755E</string>
 											<string>D0784C021132312400A2755E</string>
 											<string>D0784C361132359600A2755E</string>
 											<string>D0784C431132367D00A2755E</string>
@@ -398,8 +396,11 @@
 											<string>D0784C6111323C6600A2755E</string>
 											<string>D0784C6211323C6600A2755E</string>
 											<string>D0784C6311323C6600A2755E</string>
-											<string>D0784C6411323C6600A2755E</string>
-											<string>D0784C6A11323C7A00A2755E</string>
+											<string>D0784C8411323E0200A2755E</string>
+											<string>D0784C9A1132410A00A2755E</string>
+											<string>D0784CA81132415600A2755E</string>
+											<string>D0784CB9113246E000A2755E</string>
+											<string>D0784CC71132481600A2755E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -415,7 +416,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {947, 424}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 113 1280 665 0 0 1280 778 </string>
+								<string>-19 1220 1280 665 -333 800 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -440,7 +441,7 @@
 										<key>Frame</key>
 										<string>{{10, 27}, {947, 168}}</string>
 										<key>RubberWindowFrame</key>
-										<string>0 113 1280 665 0 0 1280 778 </string>
+										<string>-19 1220 1280 665 -333 800 1920 1200 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -716,14 +717,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D0784C6811323C6B00A2755E</string>
 		<string>D07848DD112A27B100A2755E</string>
 		<string>D0784871112A1FE400A2755E</string>
 		<string>D0784872112A1FE400A2755E</string>
 		<string>/Users/mleiseca/dev/osx/WorkTimerWithPersistence/WorkTimerWithPersistence.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 113 1280 665 0 0 1280 778 </string>
+	<string>-19 1220 1280 665 -333 800 1920 1200 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
