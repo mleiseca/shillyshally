@@ -18,6 +18,7 @@
 		D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078469E112918E600A2755E /* MGLTaskAppController.m */; };
 		D078476A1129D3CC00A2755E /* MGLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847671129D3CC00A2755E /* MGLTask.m */; };
 		D078476B1129D3CC00A2755E /* MGLTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* MGLTaskSession.m */; };
+		D0784A971131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		D07847671129D3CC00A2755E /* MGLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTask.m; sourceTree = "<group>"; };
 		D07847681129D3CC00A2755E /* MGLTaskSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskSession.h; sourceTree = "<group>"; };
 		D07847691129D3CC00A2755E /* MGLTaskSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskSession.m; sourceTree = "<group>"; };
+		D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLArrayController_CompletedTaskFilter.h; sourceTree = "<group>"; };
+		D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLArrayController_CompletedTaskFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				D0784652112913D100A2755E /* MGLTaskProgressTimer.m */,
 				D078469D112918E600A2755E /* MGLTaskAppController.h */,
 				D078469E112918E600A2755E /* MGLTaskAppController.m */,
+				D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */,
+				D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 				D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */,
 				D078476A1129D3CC00A2755E /* MGLTask.m in Sources */,
 				D078476B1129D3CC00A2755E /* MGLTaskSession.m in Sources */,
+				D0784A971131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

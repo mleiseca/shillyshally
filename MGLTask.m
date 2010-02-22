@@ -30,7 +30,17 @@
 }
 
 - (NSDate *) workStartDate{
-	return [NSDate date];
+	MGLTaskSession *taskSession = nil;
+	NSDate *earliestStart = nil;
+	
+	for(taskSession in self.taskSessions){
+		if(earliestStart == nil){
+			earliestStart = taskSession.createDate;
+		} else{
+			earliestStart = [earliestStart earlierDate:taskSession.createDate];
+		}
+	}
+	return earliestStart;
 }
 
 - (NSNumber *) secondsWorked{

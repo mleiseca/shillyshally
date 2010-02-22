@@ -20,6 +20,7 @@
 @property (nonatomic, retain) NSString * desc;
 @property (nonatomic, retain) NSSet* taskSessions;
 
+//these are computed based on work sessions
 @property (nonatomic, retain, readonly) NSDate * workStartDate;
 @property (nonatomic, retain, readonly) NSNumber * secondsWorked;
 

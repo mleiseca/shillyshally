@@ -19,6 +19,7 @@
 	NSLog(@"Starting task: %@", [[taskSession task] desc]);
 	
 	if(activeTaskSession){
+		//we are starting a new task. This will shut down the old one
 		[self stopTask];
 	}
 	

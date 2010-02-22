@@ -26,7 +26,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1348,
+					708,
 					20,
 					48,
 					43,
@@ -151,6 +151,129 @@
 			D07849F41131ED9300A2755E /* PBXTextBookmark */ = D07849F41131ED9300A2755E /* PBXTextBookmark */;
 			D07849F51131ED9300A2755E /* PBXTextBookmark */ = D07849F51131ED9300A2755E /* PBXTextBookmark */;
 			D07849F71131ED9700A2755E /* PBXTextBookmark */ = D07849F71131ED9700A2755E /* PBXTextBookmark */;
+			D0784A021131F31600A2755E /* PBXTextBookmark */ = D0784A021131F31600A2755E /* PBXTextBookmark */;
+			D0784A031131F31600A2755E /* PBXTextBookmark */ = D0784A031131F31600A2755E /* PBXTextBookmark */;
+			D0784A041131F33C00A2755E /* PBXTextBookmark */ = D0784A041131F33C00A2755E /* PBXTextBookmark */;
+			D0784A051131F33C00A2755E /* PBXTextBookmark */ = D0784A051131F33C00A2755E /* PBXTextBookmark */;
+			D0784A061131F33C00A2755E /* PBXTextBookmark */ = D0784A061131F33C00A2755E /* PBXTextBookmark */;
+			D0784A0C1131F39E00A2755E /* PBXTextBookmark */ = D0784A0C1131F39E00A2755E /* PBXTextBookmark */;
+			D0784A0E1131F3A100A2755E /* PBXTextBookmark */ = D0784A0E1131F3A100A2755E /* PBXTextBookmark */;
+			D0784A131131F3D800A2755E /* PBXTextBookmark */ = D0784A131131F3D800A2755E /* PBXTextBookmark */;
+			D0784A141131F3D800A2755E /* PBXTextBookmark */ = D0784A141131F3D800A2755E /* PBXTextBookmark */;
+			D0784A171131F43000A2755E /* PBXTextBookmark */ = D0784A171131F43000A2755E /* PBXTextBookmark */;
+			D0784A191131F43100A2755E /* PBXTextBookmark */ = D0784A191131F43100A2755E /* PBXTextBookmark */;
+			D0784A1B1131F44500A2755E /* PBXTextBookmark */ = D0784A1B1131F44500A2755E /* PBXTextBookmark */;
+			D0784A1E1131F4AD00A2755E /* PBXTextBookmark */ = D0784A1E1131F4AD00A2755E /* PBXTextBookmark */;
+			D0784A1F1131F4AD00A2755E /* PBXTextBookmark */ = D0784A1F1131F4AD00A2755E /* PBXTextBookmark */;
+			D0784A201131F4AD00A2755E /* PBXTextBookmark */ = D0784A201131F4AD00A2755E /* PBXTextBookmark */;
+			D0784A211131F4AD00A2755E /* PBXTextBookmark */ = D0784A211131F4AD00A2755E /* PBXTextBookmark */;
+			D0784A221131F4AD00A2755E /* PBXTextBookmark */ = D0784A221131F4AD00A2755E /* PBXTextBookmark */;
+			D0784A231131F4AD00A2755E /* PBXTextBookmark */ = D0784A231131F4AD00A2755E /* PBXTextBookmark */;
+			D0784A281131F60700A2755E /* PBXTextBookmark */ = D0784A281131F60700A2755E /* PBXTextBookmark */;
+			D0784A291131F60700A2755E /* PBXTextBookmark */ = D0784A291131F60700A2755E /* PBXTextBookmark */;
+			D0784A2A1131F60700A2755E /* PBXTextBookmark */ = D0784A2A1131F60700A2755E /* PBXTextBookmark */;
+			D0784A2B1131F60700A2755E /* PBXTextBookmark */ = D0784A2B1131F60700A2755E /* PBXTextBookmark */;
+			D0784A2C1131F60700A2755E /* PBXTextBookmark */ = D0784A2C1131F60700A2755E /* PBXTextBookmark */;
+			D0784A2D1131F60700A2755E /* PBXTextBookmark */ = D0784A2D1131F60700A2755E /* PBXTextBookmark */;
+			D0784A2E1131F60700A2755E /* PBXTextBookmark */ = D0784A2E1131F60700A2755E /* PBXTextBookmark */;
+			D0784A311131F60B00A2755E /* PBXTextBookmark */ = D0784A311131F60B00A2755E /* PBXTextBookmark */;
+			D0784A331131F60E00A2755E /* PBXTextBookmark */ = D0784A331131F60E00A2755E /* PBXTextBookmark */;
+			D0784A3B1131F6BB00A2755E /* PBXTextBookmark */ = D0784A3B1131F6BB00A2755E /* PBXTextBookmark */;
+			D0784A3C1131F6BB00A2755E /* PBXTextBookmark */ = D0784A3C1131F6BB00A2755E /* PBXTextBookmark */;
+			D0784A3F1131F79800A2755E /* PBXTextBookmark */ = D0784A3F1131F79800A2755E /* PBXTextBookmark */;
+			D0784A401131F79800A2755E /* PBXTextBookmark */ = D0784A401131F79800A2755E /* PBXTextBookmark */;
+			D0784A411131F79800A2755E /* PBXTextBookmark */ = D0784A411131F79800A2755E /* PBXTextBookmark */;
+			D0784A431131F79D00A2755E /* PBXTextBookmark */ = D0784A431131F79D00A2755E /* PBXTextBookmark */;
+			D0784A481131F7E400A2755E /* PBXTextBookmark */ = D0784A481131F7E400A2755E /* PBXTextBookmark */;
+			D0784A491131F7E400A2755E /* PBXTextBookmark */ = D0784A491131F7E400A2755E /* PBXTextBookmark */;
+			D0784A4A1131F7EA00A2755E /* PBXTextBookmark */ = D0784A4A1131F7EA00A2755E /* PBXTextBookmark */;
+			D0784A501131F81B00A2755E /* PBXTextBookmark */ = D0784A501131F81B00A2755E /* PBXTextBookmark */;
+			D0784A511131F81B00A2755E /* PBXTextBookmark */ = D0784A511131F81B00A2755E /* PBXTextBookmark */;
+			D0784A531131F81D00A2755E /* PBXTextBookmark */ = D0784A531131F81D00A2755E /* PBXTextBookmark */;
+			D0784A5E1131F84500A2755E /* PBXTextBookmark */ = D0784A5E1131F84500A2755E /* PBXTextBookmark */;
+			D0784A721131F94100A2755E /* PBXTextBookmark */ = D0784A721131F94100A2755E /* PBXTextBookmark */;
+			D0784A731131F94100A2755E /* PBXTextBookmark */ = D0784A731131F94100A2755E /* PBXTextBookmark */;
+			D0784A741131F95900A2755E /* PBXTextBookmark */ = D0784A741131F95900A2755E /* PBXTextBookmark */;
+			D0784A751131F95900A2755E /* PBXTextBookmark */ = D0784A751131F95900A2755E /* PBXTextBookmark */;
+			D0784A761131F95900A2755E /* PBXTextBookmark */ = D0784A761131F95900A2755E /* PBXTextBookmark */;
+			D0784A7A1131F97500A2755E /* PBXTextBookmark */ = D0784A7A1131F97500A2755E /* PBXTextBookmark */;
+			D0784A7B1131F97500A2755E /* PBXTextBookmark */ = D0784A7B1131F97500A2755E /* PBXTextBookmark */;
+			D0784A7C1131F99800A2755E /* PBXTextBookmark */ = D0784A7C1131F99800A2755E /* PBXTextBookmark */;
+			D0784A7D1131F9D100A2755E /* PBXTextBookmark */ = D0784A7D1131F9D100A2755E /* PBXTextBookmark */;
+			D0784A801131F9D600A2755E /* PBXTextBookmark */ = D0784A801131F9D600A2755E /* PBXTextBookmark */;
+			D0784A821131F9DA00A2755E /* PBXTextBookmark */ = D0784A821131F9DA00A2755E /* PBXTextBookmark */;
+			D0784A851131F9E900A2755E /* PBXTextBookmark */ = D0784A851131F9E900A2755E /* PBXTextBookmark */;
+			D0784A861131F9E900A2755E /* PBXTextBookmark */ = D0784A861131F9E900A2755E /* PBXTextBookmark */;
+			D0784A871131F9E900A2755E /* PBXTextBookmark */ = D0784A871131F9E900A2755E /* PBXTextBookmark */;
+			D0784A891131F9E900A2755E /* PBXTextBookmark */ = D0784A891131F9E900A2755E /* PBXTextBookmark */;
+			D0784A8B1131F9F000A2755E /* PBXTextBookmark */ = D0784A8B1131F9F000A2755E /* PBXTextBookmark */;
+			D0784A8E1131FA3600A2755E /* PBXTextBookmark */ = D0784A8E1131FA3600A2755E /* PBXTextBookmark */;
+			D0784A901131FA3A00A2755E /* PBXTextBookmark */ = D0784A901131FA3A00A2755E /* PBXTextBookmark */;
+			D0784A921131FA6F00A2755E /* PBXTextBookmark */ = D0784A921131FA6F00A2755E /* PBXTextBookmark */;
+			D0784A931131FA7300A2755E /* PBXTextBookmark */ = D0784A931131FA7300A2755E /* PBXTextBookmark */;
+			D0784A9D1131FF3F00A2755E /* PBXTextBookmark */ = D0784A9D1131FF3F00A2755E /* PBXTextBookmark */;
+			D0784A9E1131FF3F00A2755E /* PBXTextBookmark */ = D0784A9E1131FF3F00A2755E /* PBXTextBookmark */;
+			D0784A9F1131FF3F00A2755E /* PBXTextBookmark */ = D0784A9F1131FF3F00A2755E /* PBXTextBookmark */;
+			D0784AA01131FF3F00A2755E /* PBXTextBookmark */ = D0784AA01131FF3F00A2755E /* PBXTextBookmark */;
+			D0784AA11131FF3F00A2755E /* PBXTextBookmark */ = D0784AA11131FF3F00A2755E /* PBXTextBookmark */;
+			D0784AA31131FF4400A2755E /* PBXTextBookmark */ = D0784AA31131FF4400A2755E /* PBXTextBookmark */;
+			D0784AA51131FF8B00A2755E /* PBXTextBookmark */ = D0784AA51131FF8B00A2755E /* PBXTextBookmark */;
+			D0784AA61131FF8B00A2755E /* PBXTextBookmark */ = D0784AA61131FF8B00A2755E /* PBXTextBookmark */;
+			D0784AA71131FFA900A2755E /* PBXTextBookmark */ = D0784AA71131FFA900A2755E /* PBXTextBookmark */;
+			D0784AA81131FFA900A2755E /* PBXTextBookmark */ = D0784AA81131FFA900A2755E /* PBXTextBookmark */;
+			D0784AA91131FFA900A2755E /* PBXTextBookmark */ = D0784AA91131FFA900A2755E /* PBXTextBookmark */;
+			D0784AAC1131FFE500A2755E /* PBXTextBookmark */ = D0784AAC1131FFE500A2755E /* PBXTextBookmark */;
+			D0784AAD1131FFE500A2755E /* PBXTextBookmark */ = D0784AAD1131FFE500A2755E /* PBXTextBookmark */;
+			D0784AAF1131FFE900A2755E /* PBXTextBookmark */ = D0784AAF1131FFE900A2755E /* PBXTextBookmark */;
+			D0784AB11131FFFF00A2755E /* PBXTextBookmark */ = D0784AB11131FFFF00A2755E /* PBXTextBookmark */;
+			D0784AB21131FFFF00A2755E /* PBXTextBookmark */ = D0784AB21131FFFF00A2755E /* PBXTextBookmark */;
+			D0784AB31132000300A2755E /* PBXTextBookmark */ = D0784AB31132000300A2755E /* PBXTextBookmark */;
+			D0784AB61132003200A2755E /* PBXTextBookmark */ = D0784AB61132003200A2755E /* PBXTextBookmark */;
+			D0784AB81132003400A2755E /* PBXTextBookmark */ = D0784AB81132003400A2755E /* PBXTextBookmark */;
+			D0784ABA1132004B00A2755E /* PBXTextBookmark */ = D0784ABA1132004B00A2755E /* PBXTextBookmark */;
+			D0784ABB1132005E00A2755E /* PBXTextBookmark */ = D0784ABB1132005E00A2755E /* PBXTextBookmark */;
+			D0784AC01132006700A2755E /* PBXTextBookmark */ = D0784AC01132006700A2755E /* PBXTextBookmark */;
+			D0784AC21132006800A2755E /* PBXTextBookmark */ = D0784AC21132006800A2755E /* PBXTextBookmark */;
+			D0784AC41132008F00A2755E /* PBXTextBookmark */ = D0784AC41132008F00A2755E /* PBXTextBookmark */;
+			D0784AC7113200A500A2755E /* PBXTextBookmark */ = D0784AC7113200A500A2755E /* PBXTextBookmark */;
+			D0784AC9113200A700A2755E /* PBXTextBookmark */ = D0784AC9113200A700A2755E /* PBXTextBookmark */;
+			D0784ACB113200DB00A2755E /* PBXTextBookmark */ = D0784ACB113200DB00A2755E /* PBXTextBookmark */;
+			D0784ACE113200FC00A2755E /* PBXTextBookmark */ = D0784ACE113200FC00A2755E /* PBXTextBookmark */;
+			D0784AD0113200FF00A2755E /* PBXTextBookmark */ = D0784AD0113200FF00A2755E /* PBXTextBookmark */;
+			D0784AD71132013100A2755E /* PBXTextBookmark */ = D0784AD71132013100A2755E /* PBXTextBookmark */;
+			D0784AD91132015800A2755E /* PBXTextBookmark */ = D0784AD91132015800A2755E /* PBXTextBookmark */;
+			D0784ADA1132015800A2755E /* PBXTextBookmark */ = D0784ADA1132015800A2755E /* PBXTextBookmark */;
+			D0784ADE1132019D00A2755E /* PBXTextBookmark */ = D0784ADE1132019D00A2755E /* PBXTextBookmark */;
+			D0784ADF1132019D00A2755E /* XDModelBookmark */ = D0784ADF1132019D00A2755E /* XDModelBookmark */;
+			D0784AE01132019D00A2755E /* PBXTextBookmark */ = D0784AE01132019D00A2755E /* PBXTextBookmark */;
+			D0784AE11132019D00A2755E /* PBXTextBookmark */ = D0784AE11132019D00A2755E /* PBXTextBookmark */;
+			D0784AE21132044B00A2755E /* PBXTextBookmark */ = D0784AE21132044B00A2755E /* PBXTextBookmark */;
+			D0784AE31132044B00A2755E /* PBXTextBookmark */ = D0784AE31132044B00A2755E /* PBXTextBookmark */;
+			D0784AE41132044B00A2755E /* PBXTextBookmark */ = D0784AE41132044B00A2755E /* PBXTextBookmark */;
+			D0784AE51132044B00A2755E /* PBXTextBookmark */ = D0784AE51132044B00A2755E /* PBXTextBookmark */;
+			D0784AE61132044B00A2755E /* PBXTextBookmark */ = D0784AE61132044B00A2755E /* PBXTextBookmark */;
+			D0784AED1132047800A2755E /* PBXTextBookmark */ = D0784AED1132047800A2755E /* PBXTextBookmark */;
+			D0784AEE1132047800A2755E /* PBXTextBookmark */ = D0784AEE1132047800A2755E /* PBXTextBookmark */;
+			D0784AEF1132047800A2755E /* PBXTextBookmark */ = D0784AEF1132047800A2755E /* PBXTextBookmark */;
+			D0784AF01132047C00A2755E /* PBXTextBookmark */ = D0784AF01132047C00A2755E /* PBXTextBookmark */;
+			D0784AF2113204B900A2755E /* PBXTextBookmark */ = D0784AF2113204B900A2755E /* PBXTextBookmark */;
+			D0784AF3113204B900A2755E /* PBXTextBookmark */ = D0784AF3113204B900A2755E /* PBXTextBookmark */;
+			D0784AF4113204B900A2755E /* PBXTextBookmark */ = D0784AF4113204B900A2755E /* PBXTextBookmark */;
+			D0784AF5113204B900A2755E /* PBXTextBookmark */ = D0784AF5113204B900A2755E /* PBXTextBookmark */;
+			D0784AF6113204CC00A2755E /* PBXTextBookmark */ = D0784AF6113204CC00A2755E /* PBXTextBookmark */;
+			D0784AF7113204CC00A2755E /* PBXTextBookmark */ = D0784AF7113204CC00A2755E /* PBXTextBookmark */;
+			D0784AF8113204CC00A2755E /* PBXTextBookmark */ = D0784AF8113204CC00A2755E /* PBXTextBookmark */;
+			D0784AF9113204CC00A2755E /* PBXTextBookmark */ = D0784AF9113204CC00A2755E /* PBXTextBookmark */;
+			D0784AFC113204D100A2755E /* PBXTextBookmark */ = D0784AFC113204D100A2755E /* PBXTextBookmark */;
+			D0784AFD113204D400A2755E /* PBXTextBookmark */ = D0784AFD113204D400A2755E /* PBXTextBookmark */;
+			D0784AFF113204DB00A2755E /* PBXTextBookmark */ = D0784AFF113204DB00A2755E /* PBXTextBookmark */;
+			D0784B00113204F300A2755E /* PBXTextBookmark */ = D0784B00113204F300A2755E /* PBXTextBookmark */;
+			D0784B01113204F300A2755E /* PBXTextBookmark */ = D0784B01113204F300A2755E /* PBXTextBookmark */;
+			D0784B02113204F900A2755E /* PBXTextBookmark */ = D0784B02113204F900A2755E /* PBXTextBookmark */;
+			D0784B051132054100A2755E /* PBXTextBookmark */ = D0784B051132054100A2755E /* PBXTextBookmark */;
+			D0784B061132054100A2755E /* PBXTextBookmark */ = D0784B061132054100A2755E /* PBXTextBookmark */;
+			D0784B071132054100A2755E /* PBXTextBookmark */ = D0784B071132054100A2755E /* PBXTextBookmark */;
+			D0784B081132054400A2755E /* PBXTextBookmark */ = D0784B081132054400A2755E /* PBXTextBookmark */;
 		};
 		sourceControlManager = D00C55941128959E0013AB05 /* Source Control */;
 		userBuildSettings = {
@@ -196,7 +319,7 @@
 					chosenTableWidths = (
 						103.000000,
 						22.000000,
-						191.080078,
+						53.080078,
 					);
 				};
 				UIContextForLayoutManager = {
@@ -206,8 +329,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {1035, 218}}",
-							"{{1040, 0}, {545, 218}}",
+							"{{0, 0}, {616, 218}}",
+							"{{621, 0}, {324, 218}}",
 						);
 					};
 					diagramSplitGeometry = {
@@ -216,8 +339,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {1585, 220}}",
-							"{{0, 225}, {1585, 691}}",
+							"{{0, 0}, {945, 220}}",
+							"{{0, 225}, {945, 330}}",
 						);
 					};
 					tableSplitGeometry = {
@@ -226,8 +349,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {341, 218}}",
-							"{{346, 0}, {687, 218}}",
+							"{{0, 0}, {203, 218}}",
+							"{{208, 0}, {408, 218}}",
 						);
 					};
 				};
@@ -316,7 +439,7 @@
 					chosenTableWidthsPT = (
 						128.000000,
 						108.110840,
-						357.570801,
+						145.570801,
 					);
 					chosenTableWidthsRT = (
 						128.000000,
@@ -324,7 +447,7 @@
 					);
 				};
 				"xdesign model browser state key - shown/hidden" = 1;
-				"xdesign model diagram view visible rect key" = "{{-461, -122}, {1570, 676}}";
+				"xdesign model diagram view visible rect key" = "{{-141, 0}, {930, 315}}";
 			};
 		};
 	};
@@ -337,9 +460,9 @@
 	};
 	77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1526, 2691}}";
-			sepNavSelRange = "{245, 36}";
-			sepNavVisRange = "{0, 2515}";
+			sepNavIntBoundsRect = "{{0, 0}, {999, 2821}}";
+			sepNavSelRange = "{3437, 0}";
+			sepNavVisRange = "{1967, 1829}";
 		};
 	};
 	8D1107260486CEB800E47090 /* WorkTimerWithPersistence */ = {
@@ -426,16 +549,16 @@
 	};
 	D0784651112913D100A2755E /* MGLTaskProgressTimer.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1526, 875}}";
+			sepNavIntBoundsRect = "{{0, 0}, {886, 540}}";
 			sepNavSelRange = "{559, 19}";
 			sepNavVisRange = "{0, 585}";
 		};
 	};
 	D0784652112913D100A2755E /* MGLTaskProgressTimer.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1526, 898}}";
-			sepNavSelRange = "{1214, 0}";
-			sepNavVisRange = "{0, 1223}";
+			sepNavIntBoundsRect = "{{0, 0}, {957, 689}}";
+			sepNavSelRange = "{579, 0}";
+			sepNavVisRange = "{161, 1121}";
 		};
 	};
 	D078465F1129145300A2755E /* PlistBookmark */ = {
@@ -451,30 +574,30 @@
 	};
 	D078469D112918E600A2755E /* MGLTaskAppController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1526, 875}}";
-			sepNavSelRange = "{979, 0}";
-			sepNavVisRange = "{0, 985}";
+			sepNavIntBoundsRect = "{{0, 0}, {886, 540}}";
+			sepNavSelRange = "{307, 0}";
+			sepNavVisRange = "{0, 1169}";
 		};
 	};
 	D078469E112918E600A2755E /* MGLTaskAppController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1859, 975}}";
-			sepNavSelRange = "{1098, 0}";
-			sepNavVisRange = "{744, 396}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1300}}";
+			sepNavSelRange = "{2432, 0}";
+			sepNavVisRange = "{2043, 399}";
 		};
 	};
 	D07847661129D3CC00A2755E /* MGLTask.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1526, 898}}";
-			sepNavSelRange = "{0, 1}";
-			sepNavVisRange = "{0, 957}";
+			sepNavIntBoundsRect = "{{0, 0}, {886, 540}}";
+			sepNavSelRange = "{580, 0}";
+			sepNavVisRange = "{0, 1001}";
 		};
 	};
 	D07847671129D3CC00A2755E /* MGLTask.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1526, 875}}";
-			sepNavSelRange = "{626, 0}";
-			sepNavVisRange = "{0, 1203}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 988}}";
+			sepNavSelRange = "{891, 0}";
+			sepNavVisRange = "{573, 388}";
 		};
 	};
 	D07847681129D3CC00A2755E /* MGLTaskSession.h */ = {
@@ -516,7 +639,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 30";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 0;
@@ -526,7 +649,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 12";
 		rLen = 0;
-		rLoc = 260;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 721;
 		vrLoc = 0;
@@ -536,7 +659,7 @@
 		fRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */;
 		name = "MGLTaskProgressTimer.m: 27";
 		rLen = 0;
-		rLoc = 645;
+		rLoc = 709;
 		rType = 0;
 		vrLen = 1171;
 		vrLoc = 0;
@@ -556,7 +679,7 @@
 		fRef = D07847661129D3CC00A2755E /* MGLTask.h */;
 		name = "MGLTask.h: 24";
 		rLen = 0;
-		rLoc = 639;
+		rLoc = 683;
 		rType = 0;
 		vrLen = 929;
 		vrLoc = 0;
@@ -639,7 +762,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 51;
+		rLoc = 61;
 		rType = 1;
 	};
 	D0784865112A1FD300A2755E /* PBXTextBookmark */ = {
@@ -647,7 +770,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 50";
 		rLen = 0;
-		rLoc = 988;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 1224;
 		vrLoc = 0;
@@ -657,7 +780,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 50";
 		rLen = 0;
-		rLoc = 988;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 0;
@@ -667,7 +790,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 50";
 		rLen = 0;
-		rLoc = 988;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 0;
@@ -677,7 +800,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 50";
 		rLen = 0;
-		rLoc = 988;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 1201;
 		vrLoc = 0;
@@ -687,7 +810,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 50";
 		rLen = 0;
-		rLoc = 988;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 0;
@@ -697,7 +820,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 50";
 		rLen = 0;
-		rLoc = 988;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 0;
@@ -707,7 +830,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 50";
 		rLen = 0;
-		rLoc = 988;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 0;
@@ -717,7 +840,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 50";
 		rLen = 0;
-		rLoc = 988;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 0;
@@ -727,7 +850,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 50";
 		rLen = 0;
-		rLoc = 988;
+		rLoc = 1255;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 0;
@@ -737,7 +860,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 53";
 		rLen = 0;
-		rLoc = 1113;
+		rLoc = 1380;
 		rType = 0;
 		vrLen = 361;
 		vrLoc = 835;
@@ -747,7 +870,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 53";
 		rLen = 0;
-		rLoc = 1113;
+		rLoc = 1380;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 0;
@@ -757,7 +880,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 12";
 		rLen = 0;
-		rLoc = 260;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 721;
 		vrLoc = 0;
@@ -767,7 +890,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 18";
 		rLen = 0;
-		rLoc = 524;
+		rLoc = 621;
 		rType = 0;
 		vrLen = 730;
 		vrLoc = 0;
@@ -777,7 +900,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 24";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 880;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 0;
@@ -787,7 +910,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 20";
 		rLen = 0;
-		rLoc = 499;
+		rLoc = 526;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 0;
@@ -797,7 +920,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 20";
 		rLen = 0;
-		rLoc = 499;
+		rLoc = 526;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 0;
@@ -807,7 +930,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 29";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 0;
@@ -817,7 +940,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 22";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 718;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 0;
@@ -827,7 +950,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 22";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 718;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 0;
@@ -837,7 +960,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 53";
 		rLen = 0;
-		rLoc = 1113;
+		rLoc = 1380;
 		rType = 0;
 		vrLen = 361;
 		vrLoc = 835;
@@ -847,7 +970,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 22";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 718;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 262;
@@ -857,7 +980,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 24";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 880;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 0;
@@ -867,7 +990,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 30";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 0;
@@ -877,7 +1000,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 0;
@@ -887,7 +1010,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 0;
@@ -897,7 +1020,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 22";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 718;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 262;
@@ -907,7 +1030,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 514;
@@ -917,7 +1040,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 0;
@@ -927,7 +1050,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 0;
@@ -937,7 +1060,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 514;
@@ -947,7 +1070,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 0;
@@ -957,7 +1080,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 0;
@@ -967,7 +1090,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 0;
@@ -977,7 +1100,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 34";
 		rLen = 0;
-		rLoc = 1974;
+		rLoc = 1978;
 		rType = 0;
 		vrLen = 607;
 		vrLoc = 470;
@@ -997,7 +1120,7 @@
 		fRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */;
 		name = "MGLTaskProgressTimer.m: 48";
 		rLen = 0;
-		rLoc = 1214;
+		rLoc = 1278;
 		rType = 0;
 		vrLen = 1223;
 		vrLoc = 0;
@@ -1007,7 +1130,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 24";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 880;
 		rType = 0;
 		vrLen = 820;
 		vrLoc = 0;
@@ -1017,7 +1140,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 31";
 		rLen = 0;
-		rLoc = 502;
+		rLoc = 529;
 		rType = 0;
 		vrLen = 1463;
 		vrLoc = 0;
@@ -1027,7 +1150,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 49";
 		rLen = 0;
-		rLoc = 1975;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1495;
 		vrLoc = 0;
@@ -1037,7 +1160,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 49";
 		rLen = 0;
-		rLoc = 1975;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1495;
 		vrLoc = 0;
@@ -1047,7 +1170,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 41";
 		rLen = 0;
-		rLoc = 502;
+		rLoc = 529;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 818;
@@ -1057,7 +1180,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 24";
 		rLen = 0;
-		rLoc = 762;
+		rLoc = 880;
 		rType = 0;
 		vrLen = 820;
 		vrLoc = 0;
@@ -1077,7 +1200,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 45";
 		rLen = 0;
-		rLoc = 1582;
+		rLoc = 1586;
 		rType = 0;
 		vrLen = 1659;
 		vrLoc = 0;
@@ -1087,7 +1210,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 46";
 		rLen = 0;
-		rLoc = 1603;
+		rLoc = 1607;
 		rType = 0;
 		vrLen = 1690;
 		vrLoc = 0;
@@ -1097,7 +1220,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 46";
 		rLen = 0;
-		rLoc = 1603;
+		rLoc = 1607;
 		rType = 0;
 		vrLen = 1690;
 		vrLoc = 0;
@@ -1107,7 +1230,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 46";
 		rLen = 0;
-		rLoc = 1603;
+		rLoc = 1607;
 		rType = 0;
 		vrLen = 1690;
 		vrLoc = 0;
@@ -1117,7 +1240,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 35";
 		rLen = 0;
-		rLoc = 1201;
+		rLoc = 1205;
 		rType = 0;
 		vrLen = 544;
 		vrLoc = 718;
@@ -1126,8 +1249,8 @@
 		isa = PBXTextBookmark;
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 26";
-		rLen = 16;
-		rLoc = 878;
+		rLen = 0;
+		rLoc = 948;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1137,7 +1260,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 28";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 1691;
 		vrLoc = 0;
@@ -1147,7 +1270,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 31";
 		rLen = 0;
-		rLoc = 827;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 1859;
 		vrLoc = 0;
@@ -1157,7 +1280,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 31";
 		rLen = 0;
-		rLoc = 827;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 1859;
 		vrLoc = 0;
@@ -1167,7 +1290,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 31";
 		rLen = 0;
-		rLoc = 827;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 1890;
 		vrLoc = 0;
@@ -1177,7 +1300,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 31";
 		rLen = 0;
-		rLoc = 827;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 1924;
 		vrLoc = 0;
@@ -1187,7 +1310,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 32";
 		rLen = 0;
-		rLoc = 831;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 1836;
 		vrLoc = 0;
@@ -1197,7 +1320,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 35";
 		rLen = 0;
-		rLoc = 989;
+		rLoc = 993;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 618;
@@ -1207,7 +1330,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 38";
 		rLen = 0;
-		rLoc = 1028;
+		rLoc = 1032;
 		rType = 0;
 		vrLen = 1888;
 		vrLoc = 0;
@@ -1217,7 +1340,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 28";
 		rLen = 0;
-		rLoc = 897;
+		rLoc = 1081;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1227,7 +1350,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 38";
 		rLen = 0;
-		rLoc = 1028;
+		rLoc = 1032;
 		rType = 0;
 		vrLen = 1794;
 		vrLoc = 105;
@@ -1237,7 +1360,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 38";
 		rLen = 0;
-		rLoc = 1028;
+		rLoc = 1032;
 		rType = 0;
 		vrLen = 1840;
 		vrLoc = 59;
@@ -1247,7 +1370,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 38";
 		rLen = 0;
-		rLoc = 1028;
+		rLoc = 1032;
 		rType = 0;
 		vrLen = 1840;
 		vrLoc = 59;
@@ -1257,7 +1380,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 38";
 		rLen = 0;
-		rLoc = 1028;
+		rLoc = 1032;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 618;
@@ -1267,7 +1390,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 64";
 		rLen = 0;
-		rLoc = 1824;
+		rLoc = 1828;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 62;
@@ -1277,7 +1400,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 64";
 		rLen = 0;
-		rLoc = 1824;
+		rLoc = 1828;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 62;
@@ -1287,7 +1410,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 64";
 		rLen = 0;
-		rLoc = 1824;
+		rLoc = 1828;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 618;
@@ -1297,7 +1420,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 60";
 		rLen = 0;
-		rLoc = 1688;
+		rLoc = 1692;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 30;
@@ -1307,7 +1430,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 60";
 		rLen = 0;
-		rLoc = 1688;
+		rLoc = 1692;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 30;
@@ -1317,7 +1440,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 60";
 		rLen = 0;
-		rLoc = 1688;
+		rLoc = 1692;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 618;
@@ -1327,7 +1450,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 70";
 		rLen = 0;
-		rLoc = 1965;
+		rLoc = 1969;
 		rType = 0;
 		vrLen = 1828;
 		vrLoc = 158;
@@ -1337,7 +1460,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 70";
 		rLen = 0;
-		rLoc = 1965;
+		rLoc = 1969;
 		rType = 0;
 		vrLen = 1828;
 		vrLoc = 158;
@@ -1347,7 +1470,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 70";
 		rLen = 0;
-		rLoc = 1965;
+		rLoc = 1969;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 618;
@@ -1357,7 +1480,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 28";
 		rLen = 0;
-		rLoc = 769;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 1824;
 		vrLoc = 162;
@@ -1367,7 +1490,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 28";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 576;
 		rType = 0;
 		vrLen = 1823;
 		vrLoc = 161;
@@ -1377,7 +1500,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 28";
 		rLen = 0;
-		rLoc = 896;
+		rLoc = 1080;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 0;
@@ -1387,7 +1510,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 23";
 		rLen = 0;
-		rLoc = 517;
+		rLoc = 544;
 		rType = 0;
 		vrLen = 1823;
 		vrLoc = 161;
@@ -1397,7 +1520,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 22";
 		rLen = 0;
-		rLoc = 500;
+		rLoc = 527;
 		rType = 0;
 		vrLen = 1854;
 		vrLoc = 158;
@@ -1407,7 +1530,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 22";
 		rLen = 0;
-		rLoc = 500;
+		rLoc = 527;
 		rType = 0;
 		vrLen = 1854;
 		vrLoc = 158;
@@ -1417,7 +1540,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 22";
 		rLen = 0;
-		rLoc = 500;
+		rLoc = 527;
 		rType = 0;
 		vrLen = 1854;
 		vrLoc = 158;
@@ -1427,7 +1550,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 40";
 		rLen = 0;
-		rLoc = 1098;
+		rLoc = 1102;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 646;
@@ -1437,7 +1560,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 22";
 		rLen = 0;
-		rLoc = 500;
+		rLoc = 527;
 		rType = 0;
 		vrLen = 1823;
 		vrLoc = 161;
@@ -1447,7 +1570,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 28";
 		rLen = 0;
-		rLoc = 896;
+		rLoc = 1080;
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 0;
@@ -1457,7 +1580,7 @@
 		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
 		name = "MGLTask.m: 34";
 		rLen = 0;
-		rLoc = 626;
+		rLoc = 893;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 0;
@@ -1467,7 +1590,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 28";
 		rLen = 0;
-		rLoc = 896;
+		rLoc = 1080;
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 0;
@@ -1477,7 +1600,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 33";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1163;
 		rType = 0;
 		vrLen = 985;
 		vrLoc = 0;
@@ -1487,9 +1610,1411 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 33";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1163;
 		rType = 0;
 		vrLen = 985;
 		vrLoc = 0;
+	};
+	D0784A021131F31600A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 39";
+		rLen = 0;
+		rLoc = 1102;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 744;
+	};
+	D0784A031131F31600A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 25";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 462;
+	};
+	D0784A041131F33C00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 32";
+		rLen = 36;
+		rLoc = 1127;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 0;
+	};
+	D0784A051131F33C00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 22";
+		rLen = 0;
+		rLoc = 527;
+		rType = 0;
+		vrLen = 1162;
+		vrLoc = 416;
+	};
+	D0784A061131F33C00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 76";
+		rLen = 0;
+		rLoc = 2437;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 1219;
+	};
+	D0784A0C1131F39E00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 75";
+		rLen = 0;
+		rLoc = 2435;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 1184;
+	};
+	D0784A0E1131F3A100A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 75";
+		rLen = 0;
+		rLoc = 2435;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 1184;
+	};
+	D0784A131131F3D800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 25";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 462;
+	};
+	D0784A141131F3D800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 64";
+		rLen = 0;
+		rLoc = 1856;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 1599;
+	};
+	D0784A171131F43000A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 80";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1191;
+		vrLoc = 1030;
+	};
+	D0784A191131F43100A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 80";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1191;
+		vrLoc = 1030;
+	};
+	D0784A1B1131F44500A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 80";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 548;
+		vrLoc = 1354;
+	};
+	D0784A1E1131F4AD00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784651112913D100A2755E /* MGLTaskProgressTimer.h */;
+		name = "MGLTaskProgressTimer.h: 26";
+		rLen = 19;
+		rLoc = 559;
+		rType = 0;
+		vrLen = 585;
+		vrLoc = 0;
+	};
+	D0784A1F1131F4AD00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847661129D3CC00A2755E /* MGLTask.h */;
+		name = "MGLTask.h: 1";
+		rLen = 1;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 957;
+		vrLoc = 0;
+	};
+	D0784A201131F4AD00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 34";
+		rLen = 0;
+		rLoc = 893;
+		rType = 0;
+		vrLen = 875;
+		vrLoc = 328;
+	};
+	D0784A211131F4AD00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */;
+		name = "MGLTaskProgressTimer.m: 33";
+		rLen = 85;
+		rLoc = 949;
+		rType = 0;
+		vrLen = 1008;
+		vrLoc = 215;
+	};
+	D0784A221131F4AD00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 80";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1085;
+		vrLoc = 1161;
+	};
+	D0784A231131F4AD00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 82";
+		rLen = 0;
+		rLoc = 2251;
+		rType = 0;
+		vrLen = 992;
+		vrLoc = 1289;
+	};
+	D0784A281131F60700A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 82";
+		rLen = 0;
+		rLoc = 2251;
+		rType = 0;
+		vrLen = 1159;
+		vrLoc = 1116;
+	};
+	D0784A291131F60700A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 32";
+		rLen = 36;
+		rLoc = 1127;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 0;
+	};
+	D0784A2A1131F60700A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 34";
+		rLen = 0;
+		rLoc = 893;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 313;
+	};
+	D0784A2B1131F60700A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 11";
+		rLen = 36;
+		rLoc = 245;
+		rType = 0;
+		vrLen = 1558;
+		vrLoc = 957;
+	};
+	D0784A2C1131F60700A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */;
+		name = "MGLTaskProgressTimer.m: 24";
+		rLen = 0;
+		rLoc = 579;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 161;
+	};
+	D0784A2D1131F60700A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847661129D3CC00A2755E /* MGLTask.h */;
+		name = "MGLTask.h: 1";
+		rLen = 1;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 957;
+		vrLoc = 0;
+	};
+	D0784A2E1131F60700A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847661129D3CC00A2755E /* MGLTask.h */;
+		name = "MGLTask.h: 23";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 0;
+	};
+	D0784A311131F60B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847661129D3CC00A2755E /* MGLTask.h */;
+		name = "MGLTask.h: 23";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 0;
+	};
+	D0784A331131F60E00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847661129D3CC00A2755E /* MGLTask.h */;
+		name = "MGLTask.h: 23";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 0;
+	};
+	D0784A3B1131F6BB00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 85";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 570;
+		vrLoc = 1256;
+	};
+	D0784A3C1131F6BB00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847661129D3CC00A2755E /* MGLTask.h */;
+		name = "MGLTask.h: 23";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 336;
+	};
+	D0784A3F1131F79800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847661129D3CC00A2755E /* MGLTask.h */;
+		name = "MGLTask.h: 23";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 0;
+	};
+	D0784A401131F79800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 34";
+		rLen = 0;
+		rLoc = 893;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 313;
+	};
+	D0784A411131F79800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 38";
+		rLen = 0;
+		rLoc = 780;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 197;
+	};
+	D0784A431131F79D00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 38";
+		rLen = 0;
+		rLoc = 780;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 197;
+	};
+	D0784A481131F7E400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847661129D3CC00A2755E /* MGLTask.h */;
+		name = "MGLTask.h: 23";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 336;
+	};
+	D0784A491131F7E400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 37";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 397;
+		vrLoc = 574;
+	};
+	D0784A4A1131F7EA00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 37";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 197;
+	};
+	D0784A501131F81B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 37";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 197;
+	};
+	D0784A511131F81B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 37";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 197;
+	};
+	D0784A531131F81D00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 37";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 197;
+	};
+	D0784A5E1131F84500A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 37";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 908;
+		vrLoc = 197;
+	};
+	D0784A721131F94100A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 37";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 372;
+		vrLoc = 573;
+	};
+	D0784A731131F94100A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 43";
+		rLen = 0;
+		rLoc = 891;
+		rType = 0;
+		vrLen = 388;
+		vrLoc = 573;
+	};
+	D0784A741131F95900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 43";
+		rLen = 0;
+		rLoc = 891;
+		rType = 0;
+		vrLen = 908;
+		vrLoc = 197;
+	};
+	D0784A751131F95900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 82";
+		rLen = 0;
+		rLoc = 2251;
+		rType = 0;
+		vrLen = 1156;
+		vrLoc = 1116;
+	};
+	D0784A761131F95900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 74";
+		rLen = 0;
+		rLoc = 2014;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 1351;
+	};
+	D0784A7A1131F97500A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 74";
+		rLen = 0;
+		rLoc = 2014;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 1351;
+	};
+	D0784A7B1131F97500A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 74";
+		rLen = 0;
+		rLoc = 2014;
+		rType = 0;
+		vrLen = 1192;
+		vrLoc = 1076;
+	};
+	D0784A7C1131F99800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 74";
+		rLen = 0;
+		rLoc = 2014;
+		rType = 0;
+		vrLen = 1024;
+		vrLoc = 1256;
+	};
+	D0784A7D1131F9D100A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 83";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 1256;
+	};
+	D0784A801131F9D600A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 83";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 1256;
+	};
+	D0784A821131F9DA00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 83";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 1256;
+	};
+	D0784A851131F9E900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847671129D3CC00A2755E /* MGLTask.m */;
+		name = "MGLTask.m: 43";
+		rLen = 0;
+		rLoc = 891;
+		rType = 0;
+		vrLen = 388;
+		vrLoc = 573;
+	};
+	D0784A861131F9E900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 83";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 1955;
+	};
+	D0784A871131F9E900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A881131F9E900A2755E /* asm objc_exception_throw  0x00007fff87d730c6 */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	D0784A881131F9E900A2755E /* asm objc_exception_throw  0x00007fff87d730c6 */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		path = "asm objc_exception_throw  0x00007fff87d730c6";
+		sourceTree = "<group>";
+	};
+	D0784A891131F9E900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A8A1131F9E900A2755E /* asm objc_exception_throw  0x00007fff87d730c6 */;
+		name = "asm objc_exception_throw  0x00007fff87d730c6: 8";
+		rLen = 0;
+		rLoc = 384;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 0;
+	};
+	D0784A8A1131F9E900A2755E /* asm objc_exception_throw  0x00007fff87d730c6 */ = {
+		isa = PBXFileReference;
+		path = "asm objc_exception_throw  0x00007fff87d730c6";
+		sourceTree = "<group>";
+	};
+	D0784A8B1131F9F000A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 83";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 1292;
+	};
+	D0784A8E1131FA3600A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 83";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1027;
+		vrLoc = 1256;
+	};
+	D0784A901131FA3A00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 83";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1027;
+		vrLoc = 1256;
+	};
+	D0784A921131FA6F00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 74";
+		rLen = 0;
+		rLoc = 2011;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 1902;
+	};
+	D0784A931131FA7300A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 74";
+		rLen = 0;
+		rLoc = 2011;
+		rType = 0;
+		vrLen = 1027;
+		vrLoc = 1256;
+	};
+	D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {886, 540}}";
+			sepNavSelRange = "{258, 17}";
+			sepNavVisRange = "{0, 287}";
+		};
+	};
+	D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 494}}";
+			sepNavSelRange = "{475, 0}";
+			sepNavVisRange = "{505, 435}";
+		};
+	};
+	D0784A9D1131FF3F00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 74";
+		rLen = 0;
+		rLoc = 2011;
+		rType = 0;
+		vrLen = 1027;
+		vrLoc = 1256;
+	};
+	D0784A9E1131FF3F00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */;
+		name = "MGLArrayController_CompletedTaskFilter.h: 13";
+		rLen = 0;
+		rLoc = 278;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	D0784A9F1131FF3F00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D07847661129D3CC00A2755E /* MGLTask.h */;
+		name = "MGLTask.h: 23";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 0;
+	};
+	D0784AA01131FF3F00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 24";
+		rLen = 0;
+		rLoc = 879;
+		rType = 0;
+		vrLen = 895;
+		vrLoc = 0;
+	};
+	D0784AA11131FF3F00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 26";
+		rLen = 0;
+		rLoc = 706;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 0;
+	};
+	D0784AA31131FF4400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 26";
+		rLen = 0;
+		rLoc = 706;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 0;
+	};
+	D0784AA51131FF8B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 74";
+		rLen = 0;
+		rLoc = 2011;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 1902;
+	};
+	D0784AA61131FF8B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 32";
+		rLen = 0;
+		rLoc = 885;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 456;
+	};
+	D0784AA71131FFA900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 32";
+		rLen = 0;
+		rLoc = 885;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 0;
+	};
+	D0784AA81131FFA900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 32";
+		rLen = 36;
+		rLoc = 1127;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 0;
+	};
+	D0784AA91131FFA900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 29";
+		rLen = 0;
+		rLoc = 1078;
+		rType = 0;
+		vrLen = 1080;
+		vrLoc = 0;
+	};
+	D0784AAC1131FFE500A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 29";
+		rLen = 13;
+		rLoc = 1065;
+		rType = 0;
+		vrLen = 1080;
+		vrLoc = 0;
+	};
+	D0784AAD1131FFE500A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 84";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 1196;
+	};
+	D0784AAF1131FFE900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 84";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 1196;
+	};
+	D0784AB11131FFFF00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 32";
+		rLen = 0;
+		rLoc = 885;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 456;
+	};
+	D0784AB21131FFFF00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 84";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 1953;
+	};
+	D0784AB31132000300A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 84";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 1196;
+	};
+	D0784AB61132003200A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 22";
+		rLen = 0;
+		rLoc = 526;
+		rType = 0;
+		vrLen = 1024;
+		vrLoc = 1316;
+	};
+	D0784AB81132003400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 22";
+		rLen = 0;
+		rLoc = 526;
+		rType = 0;
+		vrLen = 1024;
+		vrLoc = 1316;
+	};
+	D0784ABA1132004B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2439;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 1980;
+	};
+	D0784ABB1132005E00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 86";
+		rLen = 0;
+		rLoc = 2433;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 1378;
+	};
+	D0784AC01132006700A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 85";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 1057;
+		vrLoc = 1316;
+	};
+	D0784AC21132006800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 85";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 1057;
+		vrLoc = 1316;
+	};
+	D0784AC41132008F00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 85";
+		rLen = 0;
+		rLoc = 2364;
+		rType = 0;
+		vrLen = 332;
+		vrLoc = 2041;
+	};
+	D0784AC7113200A500A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 85";
+		rLen = 0;
+		rLoc = 2337;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 1319;
+	};
+	D0784AC9113200A700A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 85";
+		rLen = 0;
+		rLoc = 2337;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 1319;
+	};
+	D0784ACB113200DB00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 85";
+		rLen = 0;
+		rLoc = 2326;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 1982;
+	};
+	D0784ACE113200FC00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 1319;
+	};
+	D0784AD0113200FF00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 1319;
+	};
+	D0784AD71132013100A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 1120;
+		vrLoc = 1319;
+	};
+	D0784AD91132015800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 1982;
+	};
+	D0784ADA1132015800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 1982;
+	};
+	D0784ADE1132019D00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 1319;
+	};
+	D0784ADF1132019D00A2755E /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 770B37EC0679A11B001EADE2 /* WorkTimerWithPersistence_DataModel.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 1;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					22.000000,
+					53.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {616, 218}}",
+						"{{621, 0}, {324, 218}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {945, 220}}",
+						"{{0, 225}, {945, 330}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {203, 218}}",
+						"{{208, 0}, {408, 218}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					64.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					64.000000,
+					144.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					249.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					145.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					64.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-141, 0}, {930, 315}}";
+			"xdesign model selected entities key" = (
+			);
+			"xdesign model selected properties key" = (
+			);
+		};
+	};
+	D0784AE01132019D00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 32";
+		rLen = 0;
+		rLoc = 885;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 0;
+	};
+	D0784AE11132019D00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 32";
+		rLen = 0;
+		rLoc = 885;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 0;
+	};
+	D0784AE21132044B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */;
+		name = "MGLArrayController_CompletedTaskFilter.h: 12";
+		rLen = 17;
+		rLoc = 258;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	D0784AE31132044B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 33";
+		rLen = 0;
+		rLoc = 936;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 0;
+	};
+	D0784AE41132044B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 15";
+		rLen = 0;
+		rLoc = 393;
+		rType = 0;
+		vrLen = 1101;
+		vrLoc = 0;
+	};
+	D0784AE51132044B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 1491;
+	};
+	D0784AE61132044B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 1491;
+	};
+	D0784AED1132047800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 18";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 1144;
+		vrLoc = 0;
+	};
+	D0784AEE1132047800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 13";
+		rLen = 0;
+		rLoc = 307;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 0;
+	};
+	D0784AEF1132047800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 25";
+		rLen = 0;
+		rLoc = 700;
+		rType = 0;
+		vrLen = 1169;
+		vrLoc = 0;
+	};
+	D0784AF01132047C00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 25";
+		rLen = 0;
+		rLoc = 700;
+		rType = 0;
+		vrLen = 1169;
+		vrLoc = 0;
+	};
+	D0784AF2113204B900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 25";
+		rLen = 0;
+		rLoc = 700;
+		rType = 0;
+		vrLen = 728;
+		vrLoc = 354;
+	};
+	D0784AF3113204B900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 86";
+		rLen = 0;
+		rLoc = 2338;
+		rType = 0;
+		vrLen = 487;
+		vrLoc = 1982;
+	};
+	D0784AF4113204B900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		rLen = 0;
+		rLoc = 21;
+		rType = 1;
+	};
+	D0784AF5113204B900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 19";
+		rLen = 0;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 435;
+		vrLoc = 505;
+	};
+	D0784AF6113204CC00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 19";
+		rLen = 0;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 0;
+	};
+	D0784AF7113204CC00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 13";
+		rLen = 0;
+		rLoc = 307;
+		rType = 0;
+		vrLen = 1169;
+		vrLoc = 0;
+	};
+	D0784AF8113204CC00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 18";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 1144;
+		vrLoc = 0;
+	};
+	D0784AF9113204CC00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 1450;
+	};
+	D0784AFC113204D100A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 1381;
+	};
+	D0784AFD113204D400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 1381;
+	};
+	D0784AFF113204DB00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 1061;
+		vrLoc = 1381;
+	};
+	D0784B00113204F300A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 19";
+		rLen = 0;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 435;
+		vrLoc = 505;
+	};
+	D0784B01113204F300A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2432;
+		rType = 0;
+		vrLen = 399;
+		vrLoc = 2043;
+	};
+	D0784B02113204F900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 85";
+		rLen = 0;
+		rLoc = 2337;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 1381;
+	};
+	D0784B051132054100A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 82";
+		rLen = 0;
+		rLoc = 2212;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 1381;
+	};
+	D0784B061132054100A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 11";
+		rLen = 36;
+		rLoc = 245;
+		rType = 0;
+		vrLen = 1558;
+		vrLoc = 957;
+	};
+	D0784B071132054100A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 90";
+		rLen = 0;
+		rLoc = 3437;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 1967;
+	};
+	D0784B081132054400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 90";
+		rLen = 0;
+		rLoc = 3437;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 1967;
 	};
 }

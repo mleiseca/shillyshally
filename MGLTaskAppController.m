@@ -19,18 +19,19 @@
 @synthesize appDelegate;
 @synthesize activeTaskLabel;
 @synthesize toggleTaskButton;
+@synthesize taskTableView;
 
 - (void) startTask: (MGLTask *) selectedTask  {
-			//either 
-			  MGLTaskSession *taskSession = [NSEntityDescription
-										   insertNewObjectForEntityForName:@"MGLTaskSession" inManagedObjectContext:self.appDelegate.managedObjectContext];
-			
-			taskSession.task = selectedTask;
-	
-			[self.toggleTaskButton setTitle:@"Stop"];
-			
-			[self.activeTaskLabel setStringValue:[NSString stringWithFormat:@"%@", selectedTask.desc]];
-			[self.taskProgressTimer startTaskSession:taskSession];
+	//either 
+	MGLTaskSession *taskSession = [NSEntityDescription
+								   insertNewObjectForEntityForName:@"MGLTaskSession" inManagedObjectContext:self.appDelegate.managedObjectContext];
+
+	taskSession.task = selectedTask;
+
+	[self.toggleTaskButton setTitle:@"Stop"];
+
+	[self.activeTaskLabel setStringValue:[NSString stringWithFormat:@"%@", selectedTask.desc]];
+	[self.taskProgressTimer startTaskSession:taskSession];
 }
 
 -(void) stopTask{
@@ -70,5 +71,24 @@
 		}
 	}
 }
+
+-(IBAction) finishTask:(id) sender{
+	NSLog(@"finished"); 
+	
+	NSArray *selectedTasks = [self.taskList selectedObjects] ;
+	if([selectedTasks count] == 1){
+		MGLTask *selectedTask = [selectedTasks objectAtIndex:0];
+
+		NSLog(@"finishing task: %@", [selectedTask desc]);
+		selectedTask.completedDate = [NSDate date];
+		
+		NSLog(@"Processing pending changes");
+		[appDelegate.managedObjectContext processPendingChanges] ;
+		
+		[taskList rearrangeObjects];
+	}
+	
+}
+
 
 @end
