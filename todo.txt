@@ -1,4 +1,7 @@
-- icon for dock
-- title for dock
-- title for window
+- copy row in table:
+  - subclass table view (http://www.cocoabuilder.com/archive/cocoa/115492-copy-paste-in-nstableview.html)
+  - - (IBAction) copy:(id)sender {
+		NSLog(@"Copy");
+	}
+
 - timeout style break timing

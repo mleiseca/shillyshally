@@ -315,12 +315,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>D00C55881128959E0013AB05</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WorkTimerWithPersistence_DataModel.xcdatamodel</string>
+								<string>todo.txt</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D00C55891128959E0013AB05</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WorkTimerWithPersistence_DataModel.xcdatamodel</string>
+										<string>todo.txt</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D0784CC81132481B00A2755E</string>
+										<string>D0784CD2113249D900A2755E</string>
 										<key>history</key>
 										<array>
 											<string>D07846451129121100A2755E</string>
@@ -393,14 +395,14 @@
 											<string>D0784C361132359600A2755E</string>
 											<string>D0784C431132367D00A2755E</string>
 											<string>D0784C531132396A00A2755E</string>
-											<string>D0784C6111323C6600A2755E</string>
 											<string>D0784C6211323C6600A2755E</string>
 											<string>D0784C6311323C6600A2755E</string>
 											<string>D0784C8411323E0200A2755E</string>
 											<string>D0784C9A1132410A00A2755E</string>
 											<string>D0784CA81132415600A2755E</string>
 											<string>D0784CB9113246E000A2755E</string>
-											<string>D0784CC71132481600A2755E</string>
+											<string>D0784CC91132493B00A2755E</string>
+											<string>D0784C6111323C6600A2755E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

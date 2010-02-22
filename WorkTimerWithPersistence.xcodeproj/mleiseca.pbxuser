@@ -517,6 +517,10 @@
 			D0784CC3113246F300A2755E /* XDModelBookmark */ = D0784CC3113246F300A2755E /* XDModelBookmark */;
 			D0784CC71132481600A2755E /* XDModelBookmark */ = D0784CC71132481600A2755E /* XDModelBookmark */;
 			D0784CC81132481B00A2755E /* XDModelBookmark */ = D0784CC81132481B00A2755E /* XDModelBookmark */;
+			D0784CC91132493B00A2755E /* XDModelBookmark */ = D0784CC91132493B00A2755E /* XDModelBookmark */;
+			D0784CCA1132493B00A2755E /* PBXTextBookmark */ = D0784CCA1132493B00A2755E /* PBXTextBookmark */;
+			D0784CCB1132494300A2755E /* PBXTextBookmark */ = D0784CCB1132494300A2755E /* PBXTextBookmark */;
+			D0784CD2113249D900A2755E /* PBXTextBookmark */ = D0784CD2113249D900A2755E /* PBXTextBookmark */;
 		};
 		sourceControlManager = D00C55941128959E0013AB05 /* Source Control */;
 		userBuildSettings = {
@@ -4034,8 +4038,8 @@
 	D0784C081132319C00A2755E /* todo.txt */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {886, 367}}";
-			sepNavSelRange = "{51, 0}";
-			sepNavVisRange = "{0, 81}";
+			sepNavSelRange = "{126, 0}";
+			sepNavVisRange = "{0, 213}";
 		};
 	};
 	D0784C14113232EB00A2755E /* PBXTextBookmark */ = {
@@ -4043,7 +4047,7 @@
 		fRef = D0784C081132319C00A2755E /* todo.txt */;
 		name = "todo.txt: 3";
 		rLen = 0;
-		rLoc = 81;
+		rLoc = 213;
 		rType = 0;
 		vrLen = 54;
 		vrLoc = 0;
@@ -4431,7 +4435,7 @@
 		fRef = D0784C081132319C00A2755E /* todo.txt */;
 		name = "todo.txt: 3";
 		rLen = 0;
-		rLoc = 81;
+		rLoc = 213;
 		rType = 0;
 		vrLen = 54;
 		vrLoc = 0;
@@ -4441,7 +4445,7 @@
 		fRef = D0784C081132319C00A2755E /* todo.txt */;
 		name = "todo.txt: 3";
 		rLen = 0;
-		rLoc = 51;
+		rLoc = 182;
 		rType = 0;
 		vrLen = 81;
 		vrLoc = 0;
@@ -4456,7 +4460,7 @@
 		fRef = D0784C081132319C00A2755E /* todo.txt */;
 		name = "todo.txt: 3";
 		rLen = 0;
-		rLoc = 51;
+		rLoc = 182;
 		rType = 0;
 		vrLen = 81;
 		vrLoc = 0;
@@ -7320,5 +7324,200 @@
 				"<XDPMAttribute: 0x209a9a0e0>{name=hoursEstimate, type=(null)}",
 			);
 		};
+	};
+	D0784CC91132493B00A2755E /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 770B37EC0679A11B001EADE2 /* WorkTimerWithPersistence_DataModel.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 1;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+					"ET Class",
+				);
+				chosenTableColumnns_sortDirections = (
+					YES,
+				);
+				chosenTableColumnns_sortKeys = (
+					name,
+				);
+				chosenTableColumnns_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidths = (
+					103.000000,
+					22.000000,
+					53.080078,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {616, 218}}",
+						"{{621, 0}, {324, 218}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {945, 220}}",
+						"{{0, 225}, {945, 182}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {203, 218}}",
+						"{{208, 0}, {408, 218}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnFRTs = (
+					"FT Fetch Request",
+					"FT Predicate",
+				);
+				chosenTableColumnnFRTs_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnFRTs_sortKeys = (
+					name,
+				);
+				chosenTableColumnnFRTs_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Type",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsAT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsFPT = (
+					"FP FetchedProperty",
+					"FP Destination",
+					"FP Predicate",
+				);
+				chosenTableColumnnsFPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsFPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsFPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+					"PT SharedKeyOne",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsPT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+					YES,
+				);
+				chosenTableColumnnsRT_sortKeys = (
+					name,
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+					"_xdcaseInsensitiveNumericCompare:",
+				);
+				chosenTableWidthsAT = (
+					128.000000,
+					64.000000,
+				);
+				chosenTableWidthsFPT = (
+					128.000000,
+					64.000000,
+					144.764160,
+				);
+				chosenTableWidthsFRT = (
+					128.000000,
+					249.764160,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					108.110840,
+					145.570801,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					64.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-141, 41}, {930, 167}}";
+			"xdesign model selected entities key" = (
+				"<XDPMEntity: 0x208b0e400>{name=MGLTask, package=}",
+			);
+			"xdesign model selected properties key" = (
+				"<XDPMAttribute: 0x209a9a0e0>{name=hoursEstimate, type=(null)}",
+			);
+		};
+	};
+	D0784CCA1132493B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784C081132319C00A2755E /* todo.txt */;
+		name = "todo.txt: 5";
+		rLen = 0;
+		rLoc = 181;
+		rType = 0;
+		vrLen = 131;
+		vrLoc = 0;
+	};
+	D0784CCB1132494300A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784C081132319C00A2755E /* todo.txt */;
+		name = "todo.txt: 2";
+		rLen = 0;
+		rLoc = 126;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+	D0784CD2113249D900A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784C081132319C00A2755E /* todo.txt */;
+		name = "todo.txt: 2";
+		rLen = 0;
+		rLoc = 126;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
 	};
 }
