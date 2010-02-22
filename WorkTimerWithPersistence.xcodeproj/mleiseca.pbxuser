@@ -21,6 +21,20 @@
 			D00C55831128957F0013AB05 /* WorkTimerWithPersistence */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					596,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -41,6 +55,28 @@
 					PBXFileDataSource_Errors_ColumnID,
 					PBXFileDataSource_Warnings_ColumnID,
 					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					668,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
 			PBXPerProjectTemplateStateSaveDate = 287972918;
@@ -274,6 +310,56 @@
 			D0784B061132054100A2755E /* PBXTextBookmark */ = D0784B061132054100A2755E /* PBXTextBookmark */;
 			D0784B071132054100A2755E /* PBXTextBookmark */ = D0784B071132054100A2755E /* PBXTextBookmark */;
 			D0784B081132054400A2755E /* PBXTextBookmark */ = D0784B081132054400A2755E /* PBXTextBookmark */;
+			D0784B0F113220EC00A2755E /* PBXTextBookmark */ = D0784B0F113220EC00A2755E /* PBXTextBookmark */;
+			D0784B10113220EC00A2755E /* PBXTextBookmark */ = D0784B10113220EC00A2755E /* PBXTextBookmark */;
+			D0784B7B113222AA00A2755E /* PBXTextBookmark */ = D0784B7B113222AA00A2755E /* PBXTextBookmark */;
+			D0784B7C113222AA00A2755E /* PBXBookmark */ = D0784B7C113222AA00A2755E /* PBXBookmark */;
+			D0784B7D113222AA00A2755E /* PBXTextBookmark */ = D0784B7D113222AA00A2755E /* PBXTextBookmark */;
+			D0784B7E113222AA00A2755E /* PBXBookmark */ = D0784B7E113222AA00A2755E /* PBXBookmark */;
+			D0784B7F113222AA00A2755E /* PBXBookmark */ = D0784B7F113222AA00A2755E /* PBXBookmark */;
+			D0784B80113222AA00A2755E /* PBXBookmark */ = D0784B80113222AA00A2755E /* PBXBookmark */;
+			D0784B81113222AF00A2755E /* PBXBookmark */ = D0784B81113222AF00A2755E /* PBXBookmark */;
+			D0784B83113222D600A2755E /* PBXTextBookmark */ = D0784B83113222D600A2755E /* PBXTextBookmark */;
+			D0784B84113222D600A2755E /* PBXBookmark */ = D0784B84113222D600A2755E /* PBXBookmark */;
+			D0784B85113222D700A2755E /* PBXBookmark */ = D0784B85113222D700A2755E /* PBXBookmark */;
+			D0784B861132234D00A2755E /* PBXBookmark */ = D0784B861132234D00A2755E /* PBXBookmark */;
+			D0784B871132234D00A2755E /* PBXTextBookmark */ = D0784B871132234D00A2755E /* PBXTextBookmark */;
+			D0784B881132234D00A2755E /* PBXTextBookmark */ = D0784B881132234D00A2755E /* PBXTextBookmark */;
+			D0784B891132234D00A2755E /* PBXTextBookmark */ = D0784B891132234D00A2755E /* PBXTextBookmark */;
+			D0784B8A113223F400A2755E /* PBXTextBookmark */ = D0784B8A113223F400A2755E /* PBXTextBookmark */;
+			D0784B8B113223F400A2755E /* PBXTextBookmark */ = D0784B8B113223F400A2755E /* PBXTextBookmark */;
+			D0784B8E1132245300A2755E /* PBXTextBookmark */ = D0784B8E1132245300A2755E /* PBXTextBookmark */;
+			D0784B8F1132245600A2755E /* PBXTextBookmark */ = D0784B8F1132245600A2755E /* PBXTextBookmark */;
+			D0784B901132245F00A2755E /* PBXTextBookmark */ = D0784B901132245F00A2755E /* PBXTextBookmark */;
+			D0784B941132249B00A2755E /* PBXTextBookmark */ = D0784B941132249B00A2755E /* PBXTextBookmark */;
+			D0784B961132252E00A2755E /* PBXBookmark */ = D0784B961132252E00A2755E /* PBXBookmark */;
+			D0784B971132252E00A2755E /* PBXTextBookmark */ = D0784B971132252E00A2755E /* PBXTextBookmark */;
+			D0784B981132275300A2755E /* PBXTextBookmark */ = D0784B981132275300A2755E /* PBXTextBookmark */;
+			D0784B991132275300A2755E /* PBXTextBookmark */ = D0784B991132275300A2755E /* PBXTextBookmark */;
+			D0784B9A1132275300A2755E /* PBXTextBookmark */ = D0784B9A1132275300A2755E /* PBXTextBookmark */;
+			D0784B9B1132276700A2755E /* PBXTextBookmark */ = D0784B9B1132276700A2755E /* PBXTextBookmark */;
+			D0784B9F113227D000A2755E /* PBXTextBookmark */ = D0784B9F113227D000A2755E /* PBXTextBookmark */;
+			D0784BA0113227D500A2755E /* PBXTextBookmark */ = D0784BA0113227D500A2755E /* PBXTextBookmark */;
+			D0784BA2113228E600A2755E /* PBXTextBookmark */ = D0784BA2113228E600A2755E /* PBXTextBookmark */;
+			D0784BA3113228E600A2755E /* PBXTextBookmark */ = D0784BA3113228E600A2755E /* PBXTextBookmark */;
+			D0784BA4113228F400A2755E /* PBXTextBookmark */ = D0784BA4113228F400A2755E /* PBXTextBookmark */;
+			D0784BA5113228F400A2755E /* PBXTextBookmark */ = D0784BA5113228F400A2755E /* PBXTextBookmark */;
+			D0784BA6113228F400A2755E /* PBXTextBookmark */ = D0784BA6113228F400A2755E /* PBXTextBookmark */;
+			D0784BA71132290D00A2755E /* PBXTextBookmark */ = D0784BA71132290D00A2755E /* PBXTextBookmark */;
+			D0784BA81132291400A2755E /* PBXTextBookmark */ = D0784BA81132291400A2755E /* PBXTextBookmark */;
+			D0784BA91132294800A2755E /* PBXTextBookmark */ = D0784BA91132294800A2755E /* PBXTextBookmark */;
+			D0784BAA1132294800A2755E /* PBXTextBookmark */ = D0784BAA1132294800A2755E /* PBXTextBookmark */;
+			D0784BAD1132295500A2755E /* PBXTextBookmark */ = D0784BAD1132295500A2755E /* PBXTextBookmark */;
+			D0784BB01132297600A2755E /* PBXTextBookmark */ = D0784BB01132297600A2755E /* PBXTextBookmark */;
+			D0784BB11132297A00A2755E /* PBXTextBookmark */ = D0784BB11132297A00A2755E /* PBXTextBookmark */;
+			D0784BB311322DA200A2755E /* PBXTextBookmark */ = D0784BB311322DA200A2755E /* PBXTextBookmark */;
+			D0784BB611322DAF00A2755E /* PBXTextBookmark */ = D0784BB611322DAF00A2755E /* PBXTextBookmark */;
+			D0784BB711322DB300A2755E /* PBXTextBookmark */ = D0784BB711322DB300A2755E /* PBXTextBookmark */;
+			D0784BBD11322E0700A2755E /* PBXTextBookmark */ = D0784BBD11322E0700A2755E /* PBXTextBookmark */;
+			D0784BC011322E0D00A2755E /* PBXTextBookmark */ = D0784BC011322E0D00A2755E /* PBXTextBookmark */;
+			D0784BC111322E0E00A2755E /* PBXTextBookmark */ = D0784BC111322E0E00A2755E /* PBXTextBookmark */;
+			D0784BC311322E2F00A2755E /* PBXTextBookmark */ = D0784BC311322E2F00A2755E /* PBXTextBookmark */;
+			D0784BC411322E3000A2755E /* PBXTextBookmark */ = D0784BC411322E3000A2755E /* PBXTextBookmark */;
 		};
 		sourceControlManager = D00C55941128959E0013AB05 /* Source Control */;
 		userBuildSettings = {
@@ -460,9 +546,9 @@
 	};
 	77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {999, 2821}}";
-			sepNavSelRange = "{3437, 0}";
-			sepNavVisRange = "{1967, 1829}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 2860}}";
+			sepNavSelRange = "{3654, 0}";
+			sepNavVisRange = "{3250, 406}";
 		};
 	};
 	8D1107260486CEB800E47090 /* WorkTimerWithPersistence */ = {
@@ -474,8 +560,10 @@
 	D00C55831128957F0013AB05 /* WorkTimerWithPersistence */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
+			NO,
 		);
 		argumentStrings = (
+			"-com.apple.CoreData.SQLDebug 1",
 		);
 		autoAttachOnCrash = 1;
 		breakpointsEnabled = 1;
@@ -574,16 +662,16 @@
 	};
 	D078469D112918E600A2755E /* MGLTaskAppController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {886, 540}}";
-			sepNavSelRange = "{307, 0}";
-			sepNavVisRange = "{0, 1169}";
+			sepNavIntBoundsRect = "{{0, 0}, {886, 520}}";
+			sepNavSelRange = "{550, 21}";
+			sepNavVisRange = "{105, 973}";
 		};
 	};
 	D078469E112918E600A2755E /* MGLTaskAppController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 1300}}";
-			sepNavSelRange = "{2432, 0}";
-			sepNavVisRange = "{2043, 399}";
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 1248}}";
+			sepNavSelRange = "{2077, 0}";
+			sepNavVisRange = "{1830, 647}";
 		};
 	};
 	D07847661129D3CC00A2755E /* MGLTask.h */ = {
@@ -639,7 +727,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 30";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 0;
@@ -890,7 +978,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 18";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 603;
 		rType = 0;
 		vrLen = 730;
 		vrLoc = 0;
@@ -900,7 +988,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 24";
 		rLen = 0;
-		rLoc = 880;
+		rLoc = 865;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 0;
@@ -910,7 +998,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 20";
 		rLen = 0;
-		rLoc = 526;
+		rLoc = 531;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 0;
@@ -920,7 +1008,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 20";
 		rLen = 0;
-		rLoc = 526;
+		rLoc = 531;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 0;
@@ -930,7 +1018,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 29";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 0;
@@ -940,7 +1028,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 22";
 		rLen = 0;
-		rLoc = 718;
+		rLoc = 694;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 0;
@@ -950,7 +1038,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 22";
 		rLen = 0;
-		rLoc = 718;
+		rLoc = 694;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 0;
@@ -970,7 +1058,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 22";
 		rLen = 0;
-		rLoc = 718;
+		rLoc = 694;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 262;
@@ -980,7 +1068,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 24";
 		rLen = 0;
-		rLoc = 880;
+		rLoc = 865;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 0;
@@ -990,7 +1078,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 30";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 0;
@@ -1000,7 +1088,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 0;
@@ -1010,7 +1098,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 0;
@@ -1020,7 +1108,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 22";
 		rLen = 0;
-		rLoc = 718;
+		rLoc = 694;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 262;
@@ -1030,7 +1118,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 514;
@@ -1040,7 +1128,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 0;
@@ -1050,7 +1138,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 0;
@@ -1060,7 +1148,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 514;
@@ -1070,7 +1158,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 0;
@@ -1080,7 +1168,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 0;
@@ -1090,7 +1178,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 33";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 0;
@@ -1100,7 +1188,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 34";
 		rLen = 0;
-		rLoc = 1978;
+		rLoc = 2008;
 		rType = 0;
 		vrLen = 607;
 		vrLoc = 470;
@@ -1130,7 +1218,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 24";
 		rLen = 0;
-		rLoc = 880;
+		rLoc = 865;
 		rType = 0;
 		vrLen = 820;
 		vrLoc = 0;
@@ -1140,7 +1228,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 31";
 		rLen = 0;
-		rLoc = 529;
+		rLoc = 534;
 		rType = 0;
 		vrLen = 1463;
 		vrLoc = 0;
@@ -1150,7 +1238,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 49";
 		rLen = 0;
-		rLoc = 1979;
+		rLoc = 2009;
 		rType = 0;
 		vrLen = 1495;
 		vrLoc = 0;
@@ -1160,7 +1248,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 49";
 		rLen = 0;
-		rLoc = 1979;
+		rLoc = 2009;
 		rType = 0;
 		vrLen = 1495;
 		vrLoc = 0;
@@ -1170,7 +1258,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 41";
 		rLen = 0;
-		rLoc = 529;
+		rLoc = 534;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 818;
@@ -1180,7 +1268,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 24";
 		rLen = 0;
-		rLoc = 880;
+		rLoc = 865;
 		rType = 0;
 		vrLen = 820;
 		vrLoc = 0;
@@ -1200,7 +1288,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 45";
 		rLen = 0;
-		rLoc = 1586;
+		rLoc = 1616;
 		rType = 0;
 		vrLen = 1659;
 		vrLoc = 0;
@@ -1210,7 +1298,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 46";
 		rLen = 0;
-		rLoc = 1607;
+		rLoc = 1637;
 		rType = 0;
 		vrLen = 1690;
 		vrLoc = 0;
@@ -1220,7 +1308,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 46";
 		rLen = 0;
-		rLoc = 1607;
+		rLoc = 1637;
 		rType = 0;
 		vrLen = 1690;
 		vrLoc = 0;
@@ -1230,7 +1318,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 46";
 		rLen = 0;
-		rLoc = 1607;
+		rLoc = 1637;
 		rType = 0;
 		vrLen = 1690;
 		vrLoc = 0;
@@ -1240,7 +1328,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 35";
 		rLen = 0;
-		rLoc = 1205;
+		rLoc = 1235;
 		rType = 0;
 		vrLen = 544;
 		vrLoc = 718;
@@ -1250,7 +1338,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 26";
 		rLen = 0;
-		rLoc = 948;
+		rLoc = 933;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1260,7 +1348,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 28";
 		rLen = 0;
-		rLoc = 576;
+		rLoc = 581;
 		rType = 0;
 		vrLen = 1691;
 		vrLoc = 0;
@@ -1270,7 +1358,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 31";
 		rLen = 0;
-		rLoc = 576;
+		rLoc = 581;
 		rType = 0;
 		vrLen = 1859;
 		vrLoc = 0;
@@ -1280,7 +1368,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 31";
 		rLen = 0;
-		rLoc = 576;
+		rLoc = 581;
 		rType = 0;
 		vrLen = 1859;
 		vrLoc = 0;
@@ -1290,7 +1378,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 31";
 		rLen = 0;
-		rLoc = 576;
+		rLoc = 581;
 		rType = 0;
 		vrLen = 1890;
 		vrLoc = 0;
@@ -1300,7 +1388,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 31";
 		rLen = 0;
-		rLoc = 576;
+		rLoc = 581;
 		rType = 0;
 		vrLen = 1924;
 		vrLoc = 0;
@@ -1310,7 +1398,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 32";
 		rLen = 0;
-		rLoc = 576;
+		rLoc = 581;
 		rType = 0;
 		vrLen = 1836;
 		vrLoc = 0;
@@ -1320,7 +1408,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 35";
 		rLen = 0;
-		rLoc = 993;
+		rLoc = 1010;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 618;
@@ -1330,7 +1418,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 38";
 		rLen = 0;
-		rLoc = 1032;
+		rLoc = 1086;
 		rType = 0;
 		vrLen = 1888;
 		vrLoc = 0;
@@ -1340,7 +1428,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 28";
 		rLen = 0;
-		rLoc = 1081;
+		rLoc = 1076;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1350,7 +1438,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 38";
 		rLen = 0;
-		rLoc = 1032;
+		rLoc = 1086;
 		rType = 0;
 		vrLen = 1794;
 		vrLoc = 105;
@@ -1360,7 +1448,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 38";
 		rLen = 0;
-		rLoc = 1032;
+		rLoc = 1086;
 		rType = 0;
 		vrLen = 1840;
 		vrLoc = 59;
@@ -1370,7 +1458,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 38";
 		rLen = 0;
-		rLoc = 1032;
+		rLoc = 1086;
 		rType = 0;
 		vrLen = 1840;
 		vrLoc = 59;
@@ -1380,7 +1468,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 38";
 		rLen = 0;
-		rLoc = 1032;
+		rLoc = 1086;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 618;
@@ -1390,7 +1478,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 64";
 		rLen = 0;
-		rLoc = 1828;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 62;
@@ -1400,7 +1488,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 64";
 		rLen = 0;
-		rLoc = 1828;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 62;
@@ -1410,7 +1498,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 64";
 		rLen = 0;
-		rLoc = 1828;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 618;
@@ -1420,7 +1508,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 60";
 		rLen = 0;
-		rLoc = 1692;
+		rLoc = 1722;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 30;
@@ -1430,7 +1518,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 60";
 		rLen = 0;
-		rLoc = 1692;
+		rLoc = 1722;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 30;
@@ -1440,7 +1528,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 60";
 		rLen = 0;
-		rLoc = 1692;
+		rLoc = 1722;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 618;
@@ -1450,7 +1538,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 70";
 		rLen = 0;
-		rLoc = 1969;
+		rLoc = 1999;
 		rType = 0;
 		vrLen = 1828;
 		vrLoc = 158;
@@ -1460,7 +1548,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 70";
 		rLen = 0;
-		rLoc = 1969;
+		rLoc = 1999;
 		rType = 0;
 		vrLen = 1828;
 		vrLoc = 158;
@@ -1470,7 +1558,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 70";
 		rLen = 0;
-		rLoc = 1969;
+		rLoc = 1999;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 618;
@@ -1480,7 +1568,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 28";
 		rLen = 0;
-		rLoc = 576;
+		rLoc = 581;
 		rType = 0;
 		vrLen = 1824;
 		vrLoc = 162;
@@ -1490,7 +1578,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 28";
 		rLen = 0;
-		rLoc = 576;
+		rLoc = 581;
 		rType = 0;
 		vrLen = 1823;
 		vrLoc = 161;
@@ -1500,7 +1588,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 28";
 		rLen = 0;
-		rLoc = 1080;
+		rLoc = 1075;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 0;
@@ -1510,7 +1598,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 23";
 		rLen = 0;
-		rLoc = 544;
+		rLoc = 549;
 		rType = 0;
 		vrLen = 1823;
 		vrLoc = 161;
@@ -1520,7 +1608,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 22";
 		rLen = 0;
-		rLoc = 527;
+		rLoc = 532;
 		rType = 0;
 		vrLen = 1854;
 		vrLoc = 158;
@@ -1530,7 +1618,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 22";
 		rLen = 0;
-		rLoc = 527;
+		rLoc = 532;
 		rType = 0;
 		vrLen = 1854;
 		vrLoc = 158;
@@ -1540,7 +1628,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 22";
 		rLen = 0;
-		rLoc = 527;
+		rLoc = 532;
 		rType = 0;
 		vrLen = 1854;
 		vrLoc = 158;
@@ -1550,7 +1638,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 40";
 		rLen = 0;
-		rLoc = 1102;
+		rLoc = 1132;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 646;
@@ -1560,7 +1648,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 22";
 		rLen = 0;
-		rLoc = 527;
+		rLoc = 532;
 		rType = 0;
 		vrLen = 1823;
 		vrLoc = 161;
@@ -1570,7 +1658,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 28";
 		rLen = 0;
-		rLoc = 1080;
+		rLoc = 1075;
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 0;
@@ -1590,7 +1678,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 28";
 		rLen = 0;
-		rLoc = 1080;
+		rLoc = 1075;
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 0;
@@ -1600,7 +1688,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 33";
 		rLen = 0;
-		rLoc = 1163;
+		rLoc = 1158;
 		rType = 0;
 		vrLen = 985;
 		vrLoc = 0;
@@ -1610,7 +1698,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 33";
 		rLen = 0;
-		rLoc = 1163;
+		rLoc = 1158;
 		rType = 0;
 		vrLen = 985;
 		vrLoc = 0;
@@ -1620,7 +1708,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 39";
 		rLen = 0;
-		rLoc = 1102;
+		rLoc = 1132;
 		rType = 0;
 		vrLen = 396;
 		vrLoc = 744;
@@ -1630,7 +1718,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 25";
 		rLen = 0;
-		rLoc = 843;
+		rLoc = 746;
 		rType = 0;
 		vrLen = 523;
 		vrLoc = 462;
@@ -1640,7 +1728,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 32";
 		rLen = 36;
-		rLoc = 1127;
+		rLoc = 1122;
 		rType = 0;
 		vrLen = 985;
 		vrLoc = 0;
@@ -1650,7 +1738,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 22";
 		rLen = 0;
-		rLoc = 527;
+		rLoc = 532;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 416;
@@ -1660,7 +1748,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 76";
 		rLen = 0;
-		rLoc = 2437;
+		rLoc = 2467;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 1219;
@@ -1670,7 +1758,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 75";
 		rLen = 0;
-		rLoc = 2435;
+		rLoc = 2465;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 1184;
@@ -1680,7 +1768,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 75";
 		rLen = 0;
-		rLoc = 2435;
+		rLoc = 2465;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 1184;
@@ -1690,7 +1778,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 25";
 		rLen = 0;
-		rLoc = 843;
+		rLoc = 746;
 		rType = 0;
 		vrLen = 523;
 		vrLoc = 462;
@@ -1700,7 +1788,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 64";
 		rLen = 0;
-		rLoc = 1856;
+		rLoc = 1886;
 		rType = 0;
 		vrLen = 379;
 		vrLoc = 1599;
@@ -1710,7 +1798,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 80";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 1030;
@@ -1720,7 +1808,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 80";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 1030;
@@ -1730,7 +1818,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 80";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 1354;
@@ -1780,7 +1868,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 80";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 1161;
@@ -1790,7 +1878,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 82";
 		rLen = 0;
-		rLoc = 2251;
+		rLoc = 2281;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 1289;
@@ -1800,7 +1888,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 82";
 		rLen = 0;
-		rLoc = 2251;
+		rLoc = 2281;
 		rType = 0;
 		vrLen = 1159;
 		vrLoc = 1116;
@@ -1810,7 +1898,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 32";
 		rLen = 36;
-		rLoc = 1127;
+		rLoc = 1122;
 		rType = 0;
 		vrLen = 985;
 		vrLoc = 0;
@@ -1890,7 +1978,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 85";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 570;
 		vrLoc = 1256;
@@ -2050,7 +2138,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 82";
 		rLen = 0;
-		rLoc = 2251;
+		rLoc = 2281;
 		rType = 0;
 		vrLen = 1156;
 		vrLoc = 1116;
@@ -2060,7 +2148,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 74";
 		rLen = 0;
-		rLoc = 2014;
+		rLoc = 2044;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 1351;
@@ -2070,7 +2158,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 74";
 		rLen = 0;
-		rLoc = 2014;
+		rLoc = 2044;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 1351;
@@ -2080,7 +2168,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 74";
 		rLen = 0;
-		rLoc = 2014;
+		rLoc = 2044;
 		rType = 0;
 		vrLen = 1192;
 		vrLoc = 1076;
@@ -2090,7 +2178,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 74";
 		rLen = 0;
-		rLoc = 2014;
+		rLoc = 2044;
 		rType = 0;
 		vrLen = 1024;
 		vrLoc = 1256;
@@ -2100,7 +2188,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 83";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 1256;
@@ -2110,7 +2198,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 83";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 1256;
@@ -2120,7 +2208,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 83";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 1256;
@@ -2140,7 +2228,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 83";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 347;
 		vrLoc = 1955;
@@ -2178,7 +2266,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 83";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 991;
 		vrLoc = 1292;
@@ -2188,7 +2276,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 83";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 1256;
@@ -2198,7 +2286,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 83";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 1256;
@@ -2208,7 +2296,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 74";
 		rLen = 0;
-		rLoc = 2011;
+		rLoc = 2041;
 		rType = 0;
 		vrLen = 370;
 		vrLoc = 1902;
@@ -2218,7 +2306,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 74";
 		rLen = 0;
-		rLoc = 2011;
+		rLoc = 2041;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 1256;
@@ -2242,7 +2330,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 74";
 		rLen = 0;
-		rLoc = 2011;
+		rLoc = 2041;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 1256;
@@ -2302,7 +2390,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 74";
 		rLen = 0;
-		rLoc = 2011;
+		rLoc = 2041;
 		rType = 0;
 		vrLen = 370;
 		vrLoc = 1902;
@@ -2332,7 +2420,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 32";
 		rLen = 36;
-		rLoc = 1127;
+		rLoc = 1122;
 		rType = 0;
 		vrLen = 985;
 		vrLoc = 0;
@@ -2342,7 +2430,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 29";
 		rLen = 0;
-		rLoc = 1078;
+		rLoc = 1073;
 		rType = 0;
 		vrLen = 1080;
 		vrLoc = 0;
@@ -2352,7 +2440,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 29";
 		rLen = 13;
-		rLoc = 1065;
+		rLoc = 1060;
 		rType = 0;
 		vrLen = 1080;
 		vrLoc = 0;
@@ -2362,7 +2450,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 84";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1111;
 		vrLoc = 1196;
@@ -2372,7 +2460,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 84";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1111;
 		vrLoc = 1196;
@@ -2392,7 +2480,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 84";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 1953;
@@ -2402,7 +2490,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 84";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1111;
 		vrLoc = 1196;
@@ -2412,7 +2500,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 22";
 		rLen = 0;
-		rLoc = 526;
+		rLoc = 531;
 		rType = 0;
 		vrLen = 1024;
 		vrLoc = 1316;
@@ -2422,7 +2510,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 22";
 		rLen = 0;
-		rLoc = 526;
+		rLoc = 531;
 		rType = 0;
 		vrLen = 1024;
 		vrLoc = 1316;
@@ -2432,7 +2520,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2439;
+		rLoc = 2469;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 1980;
@@ -2442,7 +2530,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 86";
 		rLen = 0;
-		rLoc = 2433;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 994;
 		vrLoc = 1378;
@@ -2452,7 +2540,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 85";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 1057;
 		vrLoc = 1316;
@@ -2462,7 +2550,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 85";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 1057;
 		vrLoc = 1316;
@@ -2472,7 +2560,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 85";
 		rLen = 0;
-		rLoc = 2364;
+		rLoc = 2394;
 		rType = 0;
 		vrLen = 332;
 		vrLoc = 2041;
@@ -2482,7 +2570,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 85";
 		rLen = 0;
-		rLoc = 2337;
+		rLoc = 2367;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 1319;
@@ -2492,7 +2580,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 85";
 		rLen = 0;
-		rLoc = 2337;
+		rLoc = 2367;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 1319;
@@ -2502,7 +2590,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 85";
 		rLen = 0;
-		rLoc = 2326;
+		rLoc = 2356;
 		rType = 0;
 		vrLen = 424;
 		vrLoc = 1982;
@@ -2512,7 +2600,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 1121;
 		vrLoc = 1319;
@@ -2522,7 +2610,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 1121;
 		vrLoc = 1319;
@@ -2532,7 +2620,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 1120;
 		vrLoc = 1319;
@@ -2542,7 +2630,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 453;
 		vrLoc = 1982;
@@ -2552,7 +2640,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 453;
 		vrLoc = 1982;
@@ -2562,7 +2650,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 1121;
 		vrLoc = 1319;
@@ -2785,7 +2873,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 1491;
@@ -2795,7 +2883,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 1491;
@@ -2825,7 +2913,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 25";
 		rLen = 0;
-		rLoc = 700;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 1169;
 		vrLoc = 0;
@@ -2835,7 +2923,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 25";
 		rLen = 0;
-		rLoc = 700;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 1169;
 		vrLoc = 0;
@@ -2845,7 +2933,7 @@
 		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
 		name = "MGLTaskAppController.h: 25";
 		rLen = 0;
-		rLoc = 700;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 728;
 		vrLoc = 354;
@@ -2855,7 +2943,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 86";
 		rLen = 0;
-		rLoc = 2338;
+		rLoc = 2368;
 		rType = 0;
 		vrLen = 487;
 		vrLoc = 1982;
@@ -2912,7 +3000,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 1450;
@@ -2922,7 +3010,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 1381;
@@ -2932,7 +3020,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 1381;
@@ -2942,7 +3030,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 1061;
 		vrLoc = 1381;
@@ -2962,7 +3050,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 88";
 		rLen = 0;
-		rLoc = 2432;
+		rLoc = 2462;
 		rType = 0;
 		vrLen = 399;
 		vrLoc = 2043;
@@ -2972,7 +3060,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 85";
 		rLen = 0;
-		rLoc = 2337;
+		rLoc = 2367;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 1381;
@@ -2982,7 +3070,7 @@
 		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
 		name = "MGLTaskAppController.m: 82";
 		rLen = 0;
-		rLoc = 2212;
+		rLoc = 2242;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 1381;
@@ -3002,7 +3090,7 @@
 		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
 		name = "WorkTimerWithPersistence_AppDelegate.m: 90";
 		rLen = 0;
-		rLoc = 3437;
+		rLoc = 3447;
 		rType = 0;
 		vrLen = 1829;
 		vrLoc = 1967;
@@ -3012,9 +3100,462 @@
 		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
 		name = "WorkTimerWithPersistence_AppDelegate.m: 90";
 		rLen = 0;
-		rLoc = 3437;
+		rLoc = 3447;
 		rType = 0;
 		vrLen = 1829;
 		vrLoc = 1967;
+	};
+	D0784B0F113220EC00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 88";
+		rLen = 0;
+		rLoc = 2462;
+		rType = 0;
+		vrLen = 399;
+		vrLoc = 2043;
+	};
+	D0784B10113220EC00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 90";
+		rLen = 0;
+		rLoc = 3447;
+		rType = 0;
+		vrLen = 543;
+		vrLoc = 3100;
+	};
+	D0784B3A1132210D00A2755E /* README.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 398}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 857}";
+		};
+	};
+	D0784B7B113222AA00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 90";
+		rLen = 0;
+		rLoc = 3447;
+		rType = 0;
+		vrLen = 1485;
+		vrLoc = 2119;
+	};
+	D0784B7C113222AA00A2755E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D0784B1A1132210D00A2755E /* Add.tiff */;
+	};
+	D0784B7D113222AA00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784B3A1132210D00A2755E /* README.txt */;
+		name = "README.txt: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 0;
+	};
+	D0784B7E113222AA00A2755E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D0784B371132210D00A2755E /* Play.tiff */;
+	};
+	D0784B7F113222AA00A2755E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D0784B361132210D00A2755E /* Pause.tiff */;
+	};
+	D0784B80113222AA00A2755E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D0784B361132210D00A2755E /* Pause.tiff */;
+	};
+	D0784B81113222AF00A2755E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D0784B361132210D00A2755E /* Pause.tiff */;
+	};
+	D0784B83113222D600A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 90";
+		rLen = 0;
+		rLoc = 3447;
+		rType = 0;
+		vrLen = 543;
+		vrLoc = 3100;
+	};
+	D0784B84113222D600A2755E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D0784B361132210D00A2755E /* Pause.tiff */;
+	};
+	D0784B85113222D700A2755E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D0784B361132210D00A2755E /* Pause.tiff */;
+	};
+	D0784B861132234D00A2755E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D0784B361132210D00A2755E /* Pause.tiff */;
+	};
+	D0784B871132234D00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 82";
+		rLen = 0;
+		rLoc = 2242;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1853;
+	};
+	D0784B881132234D00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 20";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 0;
+	};
+	D0784B891132234D00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 30";
+		rLen = 0;
+		rLoc = 1007;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 59;
+	};
+	D0784B8A113223F400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469D112918E600A2755E /* MGLTaskAppController.h */;
+		name = "MGLTaskAppController.h: 22";
+		rLen = 21;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 105;
+	};
+	D0784B8B113223F400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 21";
+		rLen = 0;
+		rLoc = 503;
+		rType = 0;
+		vrLen = 847;
+		vrLoc = 0;
+	};
+	D0784B8E1132245300A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 39";
+		rLen = 0;
+		rLoc = 1086;
+		rType = 0;
+		vrLen = 1016;
+		vrLoc = 853;
+	};
+	D0784B8F1132245600A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 39";
+		rLen = 0;
+		rLoc = 1086;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 1002;
+	};
+	D0784B901132245F00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 39";
+		rLen = 0;
+		rLoc = 1086;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 1002;
+	};
+	D0784B941132249B00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 39";
+		rLen = 0;
+		rLoc = 1086;
+		rType = 0;
+		vrLen = 874;
+		vrLoc = 1009;
+	};
+	D0784B961132252E00A2755E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D0784B361132210D00A2755E /* Pause.tiff */;
+	};
+	D0784B971132252E00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 36";
+		rLen = 0;
+		rLoc = 1011;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 581;
+	};
+	D0784B981132275300A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 87";
+		rLen = 61;
+		rLoc = 2369;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1883;
+	};
+	D0784B991132275300A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 90";
+		rLen = 0;
+		rLoc = 3447;
+		rType = 0;
+		vrLen = 1564;
+		vrLoc = 2039;
+	};
+	D0784B9A1132275300A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 83";
+		rLen = 0;
+		rLoc = 3330;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 2628;
+	};
+	D0784B9B1132276700A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 74";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1182;
+		vrLoc = 2628;
+	};
+	D0784B9F113227D000A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 74";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 2656;
+	};
+	D0784BA0113227D500A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 74";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 2656;
+	};
+	D0784BA2113228E600A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 36";
+		rLen = 0;
+		rLoc = 1011;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 581;
+	};
+	D0784BA3113228E600A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 96";
+		rLen = 0;
+		rLoc = 3654;
+		rType = 0;
+		vrLen = 406;
+		vrLoc = 3250;
+	};
+	D0784BA4113228F400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 96";
+		rLen = 0;
+		rLoc = 3654;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 2656;
+	};
+	D0784BA5113228F400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 87";
+		rLen = 61;
+		rLoc = 2369;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 1840;
+	};
+	D0784BA6113228F400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 87";
+		rLen = 21;
+		rLoc = 2404;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1883;
+	};
+	D0784BA71132290D00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 83";
+		rLen = 0;
+		rLoc = 2228;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1883;
+	};
+	D0784BA81132291400A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 83";
+		rLen = 0;
+		rLoc = 2228;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1883;
+	};
+	D0784BA91132294800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */;
+		name = "WorkTimerWithPersistence_AppDelegate.m: 96";
+		rLen = 0;
+		rLoc = 3654;
+		rType = 0;
+		vrLen = 406;
+		vrLoc = 3250;
+	};
+	D0784BAA1132294800A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 82";
+		rLen = 0;
+		rLoc = 2225;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 2013;
+	};
+	D0784BAD1132295500A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 82";
+		rLen = 0;
+		rLoc = 2225;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1883;
+	};
+	D0784BB01132297600A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 86";
+		rLen = 0;
+		rLoc = 2339;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1883;
+	};
+	D0784BB11132297A00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 86";
+		rLen = 0;
+		rLoc = 2339;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1883;
+	};
+	D0784BB311322DA200A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 85";
+		rLen = 0;
+		rLoc = 2327;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 2013;
+	};
+	D0784BB611322DAF00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 73";
+		rLen = 0;
+		rLoc = 2009;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1883;
+	};
+	D0784BB711322DB300A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 73";
+		rLen = 0;
+		rLoc = 2009;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1883;
+	};
+	D0784BBD11322E0700A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 80";
+		rLen = 0;
+		rLoc = 2148;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 2013;
+	};
+	D0784BC011322E0D00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 79";
+		rLen = 0;
+		rLoc = 2077;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1883;
+	};
+	D0784BC111322E0E00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 79";
+		rLen = 0;
+		rLoc = 2077;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 1883;
+	};
+	D0784BC311322E2F00A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 79";
+		rLen = 0;
+		rLoc = 2077;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 2013;
+	};
+	D0784BC411322E3000A2755E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 79";
+		rLen = 0;
+		rLoc = 2077;
+		rType = 0;
+		vrLen = 647;
+		vrLoc = 1830;
 	};
 }

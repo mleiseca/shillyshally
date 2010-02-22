@@ -18,7 +18,7 @@
 @synthesize taskProgressTimer;
 @synthesize appDelegate;
 @synthesize activeTaskLabel;
-@synthesize toggleTaskButton;
+@synthesize toggleTaskToolbarItem;
 @synthesize taskTableView;
 
 - (void) startTask: (MGLTask *) selectedTask  {
@@ -28,14 +28,15 @@
 
 	taskSession.task = selectedTask;
 
-	[self.toggleTaskButton setTitle:@"Stop"];
+	[self.toggleTaskToolbarItem setPaletteLabel:@"Stop"];
 
 	[self.activeTaskLabel setStringValue:[NSString stringWithFormat:@"%@", selectedTask.desc]];
 	[self.taskProgressTimer startTaskSession:taskSession];
 }
 
 -(void) stopTask{
-	[self.toggleTaskButton setTitle:@"Start"];
+	[self.toggleTaskToolbarItem setPaletteLabel:@"Start"];
+
 	[self.activeTaskLabel setStringValue:@""];
 	
 	[self.taskProgressTimer stopTask];

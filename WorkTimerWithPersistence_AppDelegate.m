@@ -71,7 +71,7 @@
 		}
     }
     
-    NSURL *url = [NSURL fileURLWithPath: [applicationSupportDirectory stringByAppendingPathComponent: @"storedata"]];
+    NSURL *url = [NSURL fileURLWithPath: [applicationSupportDirectory stringByAppendingPathComponent: @"storedata.worktimer"]];
     persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel: mom];
     //if (![persistentStoreCoordinator addPersistentStoreWithType:NSXMLStoreType 
 //                                                configuration:nil 

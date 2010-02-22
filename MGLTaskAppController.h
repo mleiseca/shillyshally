@@ -13,21 +13,24 @@
 @class MGLArrayController_CompletedTaskFilter;
 
 @interface MGLTaskAppController : NSObject {
-	MGLArrayController_CompletedTaskFilter *taskList;
+	MGLArrayController_CompletedTaskFilter	*taskList;
+	WorkTimerWithPersistence_AppDelegate	*appDelegate;
+
 	MGLTaskProgressTimer *taskProgressTimer;
-	WorkTimerWithPersistence_AppDelegate *appDelegate;
-	NSTextField *activeTaskLabel;
-	NSButton    *toggleTaskButton;
-	NSMenuItem  *toggleMenuItem;
-	NSTableView *taskTableView;
+	
+	NSTextField		*activeTaskLabel;
+	NSToolbarItem	*toggleTaskToolbarItem;
+	NSMenuItem		*toggleMenuItem;
 }
 
 @property(nonatomic, retain) IBOutlet MGLArrayController_CompletedTaskFilter *taskList;
-@property(nonatomic, retain) IBOutlet MGLTaskProgressTimer *taskProgressTimer;
-@property(nonatomic, retain) IBOutlet WorkTimerWithPersistence_AppDelegate *appDelegate;
-@property(nonatomic, retain) IBOutlet NSTextField *activeTaskLabel;
-@property(nonatomic, retain) IBOutlet NSButton *toggleTaskButton;
-@property(nonatomic, retain) IBOutlet NSTableView *taskTableView;
+@property(nonatomic, retain) IBOutlet WorkTimerWithPersistence_AppDelegate	 *appDelegate;
+
+@property(nonatomic, retain) IBOutlet MGLTaskProgressTimer	*taskProgressTimer;
+
+@property(nonatomic, retain) IBOutlet NSTextField	*activeTaskLabel;
+@property(nonatomic, retain) IBOutlet NSToolbarItem	*toggleTaskToolbarItem;
+@property(nonatomic, retain) IBOutlet NSTableView	*taskTableView;
 
 
 
