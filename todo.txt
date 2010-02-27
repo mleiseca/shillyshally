@@ -1,7 +1,15 @@
-- copy row in table:
+- copy row in table: (ie, when row is selected, hitting command-c will copy a nicely formatted commit message with hours estimate and ticket)
   - subclass table view (http://www.cocoabuilder.com/archive/cocoa/115492-copy-paste-in-nstableview.html)
   - - (IBAction) copy:(id)sender {
 		NSLog(@"Copy");
 	}
 
 - timeout style break timing
+- reporting for work done
+- "done" with running task doesn't stop timer
+- maybe display seconds for currently running task?
+- change dock/tab icon depending on state (ie, working = green clock, not working = red clock)
+- add groups for tasks
+ -> this requires a screen to enter groups / manage reference data
+- screen overlay example: FunkyOverlayWindow
+- how do you retain user preference information so that windows open in the same place?

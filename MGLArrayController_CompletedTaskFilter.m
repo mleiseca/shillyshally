@@ -11,6 +11,7 @@
 
 @implementation MGLArrayController_CompletedTaskFilter
 
+
 - (NSArray *)arrangeObjects:(NSArray *)objects {
 
 	// pg 77 CocoaBindings.pdf

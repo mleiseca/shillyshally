@@ -7,10 +7,23 @@
 //
 
 #import "WorkTimerWithPersistence_AppDelegate.h"
+#import "MGLTaskAppController.h"
 
 @implementation WorkTimerWithPersistence_AppDelegate
 
 @synthesize window;
+@synthesize appController;
+
+
+- (void)copy:(id)sender;
+{
+	NSLog(@"Copy: WorkTimerWithPersistence_AppDelegate");
+//	NSResponder *firstResponder;
+	
+//	firstResponder = [[self window] firstResponder];
+
+	[self.appController copyCurrentTableRow];
+}
 
 /**
     Returns the support directory for the application, used to store the Core Data
@@ -210,6 +223,7 @@
 - (void)dealloc {
 
     [window release];
+	[reportingWindow release];
     [managedObjectContext release];
     [persistentStoreCoordinator release];
     [managedObjectModel release];

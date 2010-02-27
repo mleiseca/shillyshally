@@ -38,5 +38,6 @@
 
 -(IBAction) toggleSelectedTask:(id) sender;
 -(IBAction) finishTask:(id) sender;
+-(void) copyCurrentTableRow;
 
 @end

@@ -8,16 +8,24 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class MGLTaskAppController;
+
 @interface WorkTimerWithPersistence_AppDelegate : NSObject 
 {
     NSWindow *window;
+	NSWindow *reportingWindow;
     
+	MGLTaskAppController *appController;
+	
     NSPersistentStoreCoordinator *persistentStoreCoordinator;
     NSManagedObjectModel *managedObjectModel;
     NSManagedObjectContext *managedObjectContext;
 }
 
 @property (nonatomic, retain) IBOutlet NSWindow *window;
+@property (nonatomic, retain) IBOutlet NSWindow *reportingWindow;
+
+@property (nonatomic, retain) IBOutlet 	MGLTaskAppController *appController;
 
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
