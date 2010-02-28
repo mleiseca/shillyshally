@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Debug</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -200,8 +200,8 @@
 	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
-		<integer>1280</integer>
-		<integer>1280</integer>
+		<integer>1920</integer>
+		<integer>1920</integer>
 	</array>
 	<key>Perspectives</key>
 	<array>
@@ -279,13 +279,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
-									<integer>9</integer>
+									<integer>10</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {313, 605}}</string>
+							<string>{{0, 0}, {313, 1086}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -295,14 +295,12 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {330, 623}}</string>
+						<string>{{0, 0}, {330, 1104}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>313</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>-2 114 1280 664 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -313,14 +311,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>D00C55881128959E0013AB05</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WorkTimerWithPersistence_AppDelegate.m</string>
+								<string>WorkTimerWithPersistence_DataModel.xcdatamodel</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D00C55891128959E0013AB05</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WorkTimerWithPersistence_AppDelegate.m</string>
+										<string>WorkTimerWithPersistence_DataModel.xcdatamodel</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D0420C3F1138E892008D0211</string>
+										<string>D0420C62113AF14D008D0211</string>
 										<key>history</key>
 										<array>
 											<string>D07846461129121100A2755E</string>
@@ -386,21 +382,23 @@
 											<string>D0784C6311323C6600A2755E</string>
 											<string>D0784C8411323E0200A2755E</string>
 											<string>D0784C9A1132410A00A2755E</string>
-											<string>D0784CA81132415600A2755E</string>
-											<string>D012251B11347F5500987D7B</string>
-											<string>D01225CF1135E52400987D7B</string>
 											<string>D01225D01135E52400987D7B</string>
-											<string>D01225D11135E52400987D7B</string>
-											<string>D0420BFB1138E39E008D0211</string>
 											<string>D0420BFC1138E39E008D0211</string>
-											<string>D0420BFD1138E39E008D0211</string>
 											<string>D0420BFF1138E39E008D0211</string>
 											<string>D0420C001138E39E008D0211</string>
-											<string>D0420C101138E3C4008D0211</string>
-											<string>D0420C2D1138E5BF008D0211</string>
-											<string>D0420C2E1138E5BF008D0211</string>
-											<string>D0420C3D1138E892008D0211</string>
-											<string>D0420C3E1138E892008D0211</string>
+											<string>D0420C40113AC466008D0211</string>
+											<string>D0420C55113AF14A008D0211</string>
+											<string>D0420C56113AF14A008D0211</string>
+											<string>D0420C57113AF14A008D0211</string>
+											<string>D0420C58113AF14A008D0211</string>
+											<string>D0420C59113AF14A008D0211</string>
+											<string>D0420C5A113AF14A008D0211</string>
+											<string>D0420C5B113AF14A008D0211</string>
+											<string>D0420C5C113AF14A008D0211</string>
+											<string>D0420C5D113AF14A008D0211</string>
+											<string>D0420C5E113AF14A008D0211</string>
+											<string>D0420C5F113AF14A008D0211</string>
+											<string>D0420C60113AF14A008D0211</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -414,14 +412,12 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {945, 499}}</string>
-								<key>RubberWindowFrame</key>
-								<string>-2 114 1280 664 0 0 1280 778 </string>
+								<string>{{0, 0}, {1585, 980}}</string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>499pt</string>
+							<string>980pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
@@ -439,9 +435,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {945, 92}}</string>
-										<key>RubberWindowFrame</key>
-										<string>-2 114 1280 664 0 0 1280 778 </string>
+										<string>{{10, 27}, {1585, 92}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -504,7 +498,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>945pt</string>
+					<string>1585pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -568,6 +562,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
@@ -578,12 +574,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {1280, 174}}</string>
+						<string>{{0, 0}, {1920, 655}}</string>
+						<key>RubberWindowFrame</key>
+						<string>-333 855 1920 1145 -333 800 1920 1200 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
 					<key>Proportion</key>
-					<string>174pt</string>
+					<string>655pt</string>
 				</dict>
 				<dict>
 					<key>ContentConfiguration</key>
@@ -602,8 +600,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {625, 215}}</string>
-									<string>{{625, 0}, {655, 215}}</string>
+									<string>{{0, 0}, {938, 215}}</string>
+									<string>{{938, 0}, {982, 215}}</string>
 								</array>
 							</dict>
 							<key>VerticalSplitView</key>
@@ -618,8 +616,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {1280, 215}}</string>
-									<string>{{0, 215}, {1280, 229}}</string>
+									<string>{{0, 0}, {1920, 215}}</string>
+									<string>{{0, 215}, {1920, 229}}</string>
 								</array>
 							</dict>
 						</dict>
@@ -639,7 +637,7 @@
 						<key>DebugSTDIOWindowFrame</key>
 						<string>{{200, 200}, {500, 300}}</string>
 						<key>Frame</key>
-						<string>{{0, 179}, {1280, 444}}</string>
+						<string>{{0, 660}, {1920, 444}}</string>
 						<key>PBXDebugSessionStackFrameViewKey</key>
 						<dict>
 							<key>DebugVariablesTableConfiguration</key>
@@ -649,11 +647,15 @@
 								<string>Value</string>
 								<real>85</real>
 								<string>Summary</string>
-								<real>425</real>
+								<real>752</real>
 							</array>
 							<key>Frame</key>
-							<string>{{625, 0}, {655, 215}}</string>
+							<string>{{938, 0}, {982, 215}}</string>
+							<key>RubberWindowFrame</key>
+							<string>-333 855 1920 1145 -333 800 1920 1200 </string>
 						</dict>
+						<key>RubberWindowFrame</key>
+						<string>-333 855 1920 1145 -333 800 1920 1200 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -717,13 +719,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D0420C3A1138E62A008D0211</string>
+		<string>D0420C63113AF14D008D0211</string>
 		<string>D0420C071138E39F008D0211</string>
 		<string>D0420C081138E39F008D0211</string>
 		<string>/Users/mleiseca/dev/osx/WorkTimerWithPersistence/WorkTimerWithPersistence.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-2 114 1280 664 0 0 1280 778 </string>
+	<string>-333 855 1920 1145 -333 800 1920 1200 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
