@@ -17,12 +17,14 @@
 
 - (void)copy:(id)sender;
 {
+//	http://www.omnigroup.com/mailman/archive/macosx-dev/2001-June/028436.html
 	NSLog(@"Copy: WorkTimerWithPersistence_AppDelegate");
 //	NSResponder *firstResponder;
 	
 //	firstResponder = [[self window] firstResponder];
 
 	[self.appController copyCurrentTableRow];
+
 }
 
 /**
