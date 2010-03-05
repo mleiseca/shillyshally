@@ -2,22 +2,25 @@
 //  MGLTask.m
 //  WorkTimerWithPersistence
 //
-//  Created by Michael Leiseca on 2/15/10.
+//  Created by Michael Leiseca on 3/5/10.
 //  Copyright 2010 Grubhub Inc. All rights reserved.
 //
 
 #import "MGLTask.h"
-#import "MGLTaskSession.h"
 
+#import "MGLProject.h"
+#import "MGLTaskSession.h"
 
 @implementation MGLTask 
 
-@dynamic hoursEstimate;
 @dynamic completedDate;
-@dynamic ticketId;
 @dynamic createDate;
+@dynamic ticketId;
 @dynamic desc;
+@dynamic hoursEstimate;
 @dynamic taskSessions;
+@dynamic project;
+
 
 - (void) awakeFromInsert
 {
@@ -59,9 +62,8 @@
 		
 		return [NSString stringWithFormat:@"%d:%02d", (minutesWorked/60), (minutesWorked % 60)];
     }else{
-	   return @"";
+		return @"";
     }
 }
-
 
 @end

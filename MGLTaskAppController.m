@@ -15,6 +15,7 @@
 @implementation MGLTaskAppController
 
 @synthesize taskList;
+@synthesize projectList;
 @synthesize taskProgressTimer;
 @synthesize appDelegate;
 @synthesize activeTaskLabel;
@@ -45,8 +46,7 @@
 
 	[self.activeTaskLabel setStringValue:@""];
 	
-	[self.taskProgressTimer stopTask];
-	
+	[self.taskProgressTimer stopTask];	
 }
 
 -(IBAction) toggleSelectedTask:(id) sender{
@@ -67,6 +67,7 @@
 				//NSLog(@"Selected task is in taskProgressTimer but NOT running");
 				//[self startTask: selectedTask];
 			}
+			
 		}else {
 			NSLog(@"Selected task is NOT running");
 			
@@ -78,6 +79,55 @@
 		}
 	}
 }
+
+-(void) changeSelectedProjectWithIndex: (NSInteger) change{
+	NSArray *projects = [projectList arrangedObjects];
+	
+	if(projects == nil || [projects count] ==0){
+		//no project entered. No use in continuing
+		
+		return;
+	}
+	
+	NSArray *selectedTasks = [self.taskList selectedObjects] ;
+	if([selectedTasks count] == 1){
+		MGLTask *selectedTask = [selectedTasks objectAtIndex:0];
+		
+		NSInteger currentIndex = [projects indexOfObject: selectedTask.project];
+		
+		if(currentIndex == NSNotFound){
+			
+			if(change > 0){
+				selectedTask.project = [projects objectAtIndex:0];
+			}else{
+				selectedTask.project = [projects objectAtIndex:[projects count]-1];				
+			}
+			
+		}else{
+			
+			//make sure that index is within valid range.
+			NSInteger newIndex = change + currentIndex;
+			NSInteger projectCount = [projects count];
+			
+			NSLog(@"new index: %d, project count %d", newIndex, projectCount );
+			if(0 <= newIndex &&   newIndex < projectCount ){
+				selectedTask.project = [projects objectAtIndex:newIndex];
+				NSLog(@"Switching projects");
+			}else{
+				NSLog(@"NOT Switching projects");
+			}
+		}
+	}
+}
+
+-(IBAction) changeSelectedTaskProjectUp{
+	[self changeSelectedProjectWithIndex:-1];
+}
+
+-(IBAction) changeSelectedTaskProjectDown{
+	[self changeSelectedProjectWithIndex:1];
+}
+
 
 -(IBAction) finishTask:(id) sender{
 	NSLog(@"finished"); 
@@ -107,7 +157,7 @@
 		NSPasteboard *pasteboard = [NSPasteboard generalPasteboard];
 		[pasteboard clearContents];
 		NSArray *objectsToCopy = [NSArray arrayWithObject:message];
-		 [pasteboard writeObjects:objectsToCopy];
+		[pasteboard writeObjects:objectsToCopy];
 		
 	}
 	

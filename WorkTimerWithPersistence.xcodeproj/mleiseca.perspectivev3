@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>D0845FAB1141BB400082DC6E</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>WorkTimerWithPersistence_DataModel.xcdatamodel</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>D0845FAC1141BB400082DC6E</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>WorkTimerWithPersistence_DataModel.xcdatamodel</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>D0E16F6B1141BD980026607A</string>
+						<key>history</key>
+						<array>
+							<string>D0845FAD1141BB400082DC6E</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1666, 1037}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>-295 896 1666 1078 -333 800 1920 1200 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>1920</integer>
@@ -279,8 +320,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
-									<integer>11</integer>
+									<integer>30</integer>
+									<integer>25</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -316,7 +357,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D00C55881128959E0013AB05</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WorkTimerWithPersistence_AppDelegate.m</string>
+								<string>MGLTaskAppController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +365,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D00C55891128959E0013AB05</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WorkTimerWithPersistence_AppDelegate.m</string>
+										<string>MGLTaskAppController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D0845F281141A6370082DC6E</string>
+										<string>D0E16F6A1141BD980026607A</string>
 										<key>history</key>
 										<array>
 											<string>D07846461129121100A2755E</string>
@@ -336,17 +377,8 @@
 											<string>D0784C8411323E0200A2755E</string>
 											<string>D0784C9A1132410A00A2755E</string>
 											<string>D01225D01135E52400987D7B</string>
-											<string>D0420BFC1138E39E008D0211</string>
-											<string>D0420BFF1138E39E008D0211</string>
-											<string>D0420C001138E39E008D0211</string>
 											<string>D0420C5B113AF14A008D0211</string>
-											<string>D0420C5C113AF14A008D0211</string>
 											<string>D0420C5D113AF14A008D0211</string>
-											<string>D0420C5E113AF14A008D0211</string>
-											<string>D0420C5F113AF14A008D0211</string>
-											<string>D0420CDE113EE605008D0211</string>
-											<string>D0420CDF113EE605008D0211</string>
-											<string>D0845EC111419F6B0082DC6E</string>
 											<string>D0845EC71141A1D10082DC6E</string>
 											<string>D0845EC81141A1D10082DC6E</string>
 											<string>D0845EC91141A1D10082DC6E</string>
@@ -396,10 +428,19 @@
 											<string>D0845EF51141A1D10082DC6E</string>
 											<string>D0845EF61141A1D10082DC6E</string>
 											<string>D0845EF71141A1D10082DC6E</string>
-											<string>D0845F1B1141A49F0082DC6E</string>
-											<string>D0845F1C1141A49F0082DC6E</string>
-											<string>D0845F1D1141A49F0082DC6E</string>
-											<string>D0845F221141A5C30082DC6E</string>
+											<string>D0845F331141A7110082DC6E</string>
+											<string>D0845F821141AFB60082DC6E</string>
+											<string>D0845F831141AFB60082DC6E</string>
+											<string>D0845F9E1141BB400082DC6E</string>
+											<string>D0845FA01141BB400082DC6E</string>
+											<string>D0845FA31141BB400082DC6E</string>
+											<string>D0845FA41141BB400082DC6E</string>
+											<string>D0845FA51141BB400082DC6E</string>
+											<string>D0845FA61141BB400082DC6E</string>
+											<string>D0845FA71141BB400082DC6E</string>
+											<string>D0845FA81141BB400082DC6E</string>
+											<string>D0E16F461141BBF60026607A</string>
+											<string>D0E16F661141BD6B0026607A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -413,16 +454,16 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1585, 978}}</string>
+								<string>{{0, 0}, {1585, 841}}</string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>978pt</string>
+							<string>841pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>121pt</string>
+							<string>258pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -436,7 +477,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1585, 94}}</string>
+										<string>{{10, 27}, {1585, 231}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -490,7 +531,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {945, 92}}</string>
+										<string>{{10, 27}, {1585, 231}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -518,11 +559,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D0845EB011419C320082DC6E</string>
+				<string>D0E16F1E1141BB5F0026607A</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>D0845EB111419C320082DC6E</string>
+				<string>D0E16F1F1141BB5F0026607A</string>
 				<string>D00C55881128959E0013AB05</string>
-				<string>D0845EB211419C320082DC6E</string>
+				<string>D0E16F201141BB5F0026607A</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -679,14 +720,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D0845EB811419F270082DC6E</string>
+				<string>D0E16F331141BBA20026607A</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>D0845EB911419F270082DC6E</string>
-				<string>D0845EBA11419F270082DC6E</string>
-				<string>D0845EBB11419F270082DC6E</string>
-				<string>D0845EBC11419F270082DC6E</string>
-				<string>D00C55881128959E0013AB05</string>
+				<string>D0E16F341141BBA20026607A</string>
+				<string>D0E16F351141BBA20026607A</string>
+				<string>D0E16F361141BBA20026607A</string>
+				<string>D0E16F371141BBA20026607A</string>
+				<string>D0E16F381141BBA20026607A</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -720,9 +761,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D0845F291141A6370082DC6E</string>
-		<string>D0845EBE11419F270082DC6E</string>
-		<string>D0845EBF11419F270082DC6E</string>
+		<string>D0E16F6C1141BD980026607A</string>
+		<string>D0E16F411141BBBF0026607A</string>
+		<string>D0E16F421141BBBF0026607A</string>
+		<string>D0845FAB1141BB400082DC6E</string>
 		<string>/Users/mleiseca/dev/osx/WorkTimerWithPersistence/WorkTimerWithPersistence.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -1564,7 +1606,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D07848DD112A27B100A2755E</string>
-				<string>D07848DE112A27B100A2755E</string>
+				<string>D0845F461141A8070082DC6E</string>
 				<string>D07848DC112A27B100A2755E</string>
 			</array>
 			<key>WindowString</key>

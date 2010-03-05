@@ -13,8 +13,9 @@
 @class MGLArrayController_CompletedTaskFilter;
 
 @interface MGLTaskAppController : NSObject {
-	MGLArrayController_CompletedTaskFilter	*taskList;
 	WorkTimerWithPersistence_AppDelegate	*appDelegate;
+	MGLArrayController_CompletedTaskFilter	*taskList;
+	NSArrayController	*projectList;
 
 	MGLTaskProgressTimer *taskProgressTimer;
 	
@@ -24,8 +25,11 @@
 	NSMenuItem		*toggleMenuItem;
 }
 
-@property(nonatomic, retain) IBOutlet MGLArrayController_CompletedTaskFilter *taskList;
 @property(nonatomic, retain) IBOutlet WorkTimerWithPersistence_AppDelegate	 *appDelegate;
+
+@property(nonatomic, retain) IBOutlet MGLArrayController_CompletedTaskFilter *taskList;
+@property(nonatomic, retain) IBOutlet NSArrayController  *projectList;
+
 
 @property(nonatomic, retain) IBOutlet MGLTaskProgressTimer	*taskProgressTimer;
 
@@ -39,6 +43,9 @@
 -(IBAction) toggleSelectedTask:(id) sender;
 -(IBAction) finishTask:(id) sender;
 
+-(IBAction) changeSelectedTaskProjectUp;
+-(IBAction) changeSelectedTaskProjectDown;
+	
 -(void) copyCurrentTableRow;
 
 

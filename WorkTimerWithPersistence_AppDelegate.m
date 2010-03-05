@@ -17,10 +17,6 @@
 @synthesize projectsWindow;
 @synthesize reportingWindow;
 
-- (void)keyDown:(NSEvent *)theEvent{
-	NSLog(@"keyDown: %@", [theEvent characters]);
-	
-}
 - (void)copy:(id)sender;
 {
 //	http://www.omnigroup.com/mailman/archive/macosx-dev/2001-June/028436.html
