@@ -13,6 +13,7 @@
 @interface WorkTimerWithPersistence_AppDelegate : NSObject 
 {
     NSWindow *window;
+	NSWindow *projectsWindow;
 	NSWindow *reportingWindow;
     
 	MGLTaskAppController *appController;
@@ -23,6 +24,7 @@
 }
 
 @property (nonatomic, retain) IBOutlet NSWindow *window;
+@property (nonatomic, retain) IBOutlet NSWindow *projectsWindow;
 @property (nonatomic, retain) IBOutlet NSWindow *reportingWindow;
 
 @property (nonatomic, retain) IBOutlet 	MGLTaskAppController *appController;
@@ -32,5 +34,9 @@
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
 
 - (IBAction)saveAction:sender;
+
+-(IBAction) openProjectsWindow:(id) sender;
+-(IBAction) openReportingWindw:(id) sender;
+
 
 @end

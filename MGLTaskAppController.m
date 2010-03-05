@@ -97,7 +97,6 @@
 	
 }
 
-
 -(void) copyCurrentTableRow{
 	NSArray *selectedTasks = [self.taskList selectedObjects] ;
 	if([selectedTasks count] == 1){

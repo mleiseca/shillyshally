@@ -14,11 +14,17 @@
 @synthesize window;
 @synthesize appController;
 
+@synthesize projectsWindow;
+@synthesize reportingWindow;
 
+- (void)keyDown:(NSEvent *)theEvent{
+	NSLog(@"keyDown: %@", [theEvent characters]);
+	
+}
 - (void)copy:(id)sender;
 {
 //	http://www.omnigroup.com/mailman/archive/macosx-dev/2001-June/028436.html
-	NSLog(@"Copy: WorkTimerWithPersistence_AppDelegate");
+	//NSLog(@"Copy: WorkTimerWithPersistence_AppDelegate");
 //	NSResponder *firstResponder;
 	
 //	firstResponder = [[self window] firstResponder];
@@ -26,6 +32,17 @@
 	[self.appController copyCurrentTableRow];
 
 }
+
+-(IBAction) openProjectsWindow:(id) sender{
+	[self.projectsWindow orderFront:sender];
+}
+
+-(IBAction) openReportingWindw:(id) sender{
+	[self.reportingWindow orderFront:sender];
+}
+
+#pragma mark -
+#pragma mark Core Data
 
 /**
     Returns the support directory for the application, used to store the Core Data
@@ -163,6 +180,11 @@
     }
 }
 
+
+
+
+#pragma mark -
+#pragma mark App/Window
 
 /**
     Implementation of the applicationShouldTerminate: method, used here to

@@ -1,4 +1,8 @@
 
+
+- adding project support
+ -> shortcut for project dropdown in table?
+
 - timeout style break timing
 - reporting for work done
 - "done" with running task doesn't stop timer
