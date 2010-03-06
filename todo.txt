@@ -1,15 +1,17 @@
 
-- "done" with running task doesn't stop timer
-- maybe display seconds for currently running task?
+- reporting for work done
 
 - timeout style break timing
-- reporting for work done
 - screen overlay example: FunkyOverlayWindow
+
 - how do you retain user preference information so that windows open in the same place?
+
 - if you are making data model changes, how do you migrate the changes?
 
+- maybe display seconds for currently running task?
 --------------------------------------------------------------------------------------------------------------------------------
 
+- "done" with running task doesn't stop timer
 - change dock/tab icon depending on state (ie, working = green clock, not working = red clock)
 
 - copy row in table: (ie, when row is selected, hitting command-c will copy a nicely formatted commit message with hours estimate and ticket)

@@ -141,11 +141,17 @@
 	if([selectedTasks count] == 1){
 		MGLTask *selectedTask = [selectedTasks objectAtIndex:0];
 
+		if(self.taskProgressTimer.activeTaskSession.task == selectedTask){
+			NSLog(@"...done with currently running task");
+			[self stopTask];
+		}
+		
 		NSLog(@"finishing task: %@", [selectedTask desc]);
 		selectedTask.completedDate = [NSDate date];
 		
 		NSLog(@"Processing pending changes");
 		[appDelegate.managedObjectContext processPendingChanges] ;
+		
 		
 		[taskList rearrangeObjects];
 	}
