@@ -36,6 +36,9 @@
 	
 	[self.activeTaskLabel setStringValue:[NSString stringWithFormat:@"%@", selectedTask.desc]];
 	[self.taskProgressTimer startTaskSession:taskSession];
+	
+	NSImage *newIconImage = [NSImage imageNamed: @"TheBendsActive"];
+	[NSApp setApplicationIconImage: newIconImage];
 }
 
 -(void) stopTask{
@@ -45,6 +48,8 @@
 
 
 	[self.activeTaskLabel setStringValue:@""];
+	[NSApp setApplicationIconImage: nil];
+
 	
 	[self.taskProgressTimer stopTask];	
 }
