@@ -4,11 +4,17 @@
 - add project deadline
 - add task priority
 
+- project inactive button 
+ -> should only work if no active tasks exist for that project
+ -> if there are no active tasks, it should remove project from list and mark it as inactive
+
 
 - timeout style break timing
 - screen overlay example: FunkyOverlayWindow
 
-- how do you retain user preference information so that windows open in the same place?
+- how do you retain user preference information
+ -> so that windows open in the same place?
+ -> so that table columns retain their adjusted size?
 
 - if you are making data model changes, how do you migrate the changes?
 

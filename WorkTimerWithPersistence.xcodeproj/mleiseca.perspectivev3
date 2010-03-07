@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Debug</string>
+	<string>Project</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -279,13 +279,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>3</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 55}, {313, 605}}</string>
+							<string>{{0, 0}, {313, 605}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -301,6 +300,8 @@
 							<string>MainColumn</string>
 							<real>313</real>
 						</array>
+						<key>RubberWindowFrame</key>
+						<string>0 114 1280 664 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -316,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D00C55881128959E0013AB05</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MGLProject.m</string>
+								<string>todo.txt</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D00C55891128959E0013AB05</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MGLProject.m</string>
+										<string>todo.txt</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D0E16FE1114325C30026607A</string>
+										<string>D0E1700811442D2C0026607A</string>
 										<key>history</key>
 										<array>
 											<string>D07846461129121100A2755E</string>
@@ -397,12 +398,12 @@
 											<string>D0E16F91114280F80026607A</string>
 											<string>D0E16FA41142830D0026607A</string>
 											<string>D0E16FB4114284DF0026607A</string>
-											<string>D0E16FC8114311580026607A</string>
 											<string>D0E16FC9114311580026607A</string>
 											<string>D0E16FDC114325C20026607A</string>
 											<string>D0E16FDD114325C20026607A</string>
 											<string>D0E16FDE114325C20026607A</string>
-											<string>D0E16FDF114325C20026607A</string>
+											<string>D0E16FF5114425A70026607A</string>
+											<string>D0E1700711442D290026607A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -417,6 +418,8 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {945, 422}}</string>
+								<key>RubberWindowFrame</key>
+								<string>0 114 1280 664 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -439,7 +442,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {945, 75}}</string>
+										<string>{{10, 27}, {945, 169}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 114 1280 664 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -566,8 +571,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
@@ -579,8 +582,6 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1280, 174}}</string>
-						<key>RubberWindowFrame</key>
-						<string>0 114 1280 664 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -655,11 +656,7 @@
 							</array>
 							<key>Frame</key>
 							<string>{{625, 0}, {655, 215}}</string>
-							<key>RubberWindowFrame</key>
-							<string>0 114 1280 664 0 0 1280 778 </string>
 						</dict>
-						<key>RubberWindowFrame</key>
-						<string>0 114 1280 664 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -723,7 +720,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D0E16FE2114325C30026607A</string>
+		<string>D0E1700611442B8A0026607A</string>
 		<string>D0E16F411141BBBF0026607A</string>
 		<string>D0E16F421141BBBF0026607A</string>
 		<string>/Users/mleiseca/dev/osx/WorkTimerWithPersistence/WorkTimerWithPersistence.xcodeproj</string>
