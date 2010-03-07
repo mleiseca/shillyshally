@@ -23,6 +23,10 @@
 @property (nonatomic, retain) NSSet* taskSessions;
 @property (nonatomic, retain) MGLProject * project;
 
+- (NSString *) timeWorked;
+- (NSDate *) workStartDate;
+- (NSNumber *) secondsWorked;
+
 @end
 
 

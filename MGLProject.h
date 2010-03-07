@@ -19,6 +19,9 @@
 @property (nonatomic, retain) NSString * desc;
 @property (nonatomic, retain) NSSet* tasks;
 
+- (NSString *) timeWorked;
+- (NSDate *) workStartDate;
+
 @end
 
 
