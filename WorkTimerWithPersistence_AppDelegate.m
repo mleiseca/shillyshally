@@ -15,7 +15,6 @@
 @synthesize appController;
 
 @synthesize projectsWindow;
-@synthesize reportingWindow;
 
 - (void)copy:(id)sender;
 {
@@ -34,7 +33,7 @@
 }
 
 -(IBAction) openReportingWindw:(id) sender{
-	[self.reportingWindow orderFront:sender];
+//	[self.reportingWindow orderFront:sender];
 }
 
 #pragma mark -
@@ -108,10 +107,14 @@
 //                                                error:&error]){
 //        
 	
+	NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
+							 [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption, 
+							 [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+	
 	if (![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType 
 											configuration:nil 
 											URL:url 
-											options:nil 
+											options:options 
 											error:&error]){
 		   
 		   
@@ -243,7 +246,7 @@
 - (void)dealloc {
 
     [window release];
-	[reportingWindow release];
+//	[reportingWindow release];
     [managedObjectContext release];
     [persistentStoreCoordinator release];
     [managedObjectModel release];
