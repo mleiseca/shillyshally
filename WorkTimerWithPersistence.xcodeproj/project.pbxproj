@@ -70,6 +70,7 @@
 		D0784C5D11323C2800A2755E /* TheBends.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0784C5C11323C2800A2755E /* TheBends.icns */; };
 		D0845F2F1141A6ED0082DC6E /* MGLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F2E1141A6ED0082DC6E /* MGLTableView.m */; };
 		D0845F8B1141B11B0082DC6E /* MGLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F8A1141B11B0082DC6E /* MGLTask.m */; };
+		D0C9C24C1169502C0050026D /* Reports.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0C9C24B1169502C0050026D /* Reports.xib */; };
 		D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0E16F701141E2D80026607A /* TheBendsActive.icns */; };
 		D0E400A61148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
@@ -87,7 +88,7 @@
 		77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkTimerWithPersistence_AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkTimerWithPersistence_AppDelegate.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* WorkTimerWithPersistence-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "WorkTimerWithPersistence-Info.plist"; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* Work Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTimerWithPersistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03812A51144A65E0097C1A5 /* BreakWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BreakWindow.xib; sourceTree = "<group>"; };
 		D0420C43113AC4E6008D0211 /* MainMenu-example.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = "MainMenu-example.nib"; sourceTree = "<group>"; };
 		D0420C50113AEFE7008D0211 /* MGLProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLProject.h; sourceTree = "<group>"; };
@@ -153,6 +154,7 @@
 		D0845F2E1141A6ED0082DC6E /* MGLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTableView.m; sourceTree = "<group>"; };
 		D0845F891141B11B0082DC6E /* MGLTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTask.h; sourceTree = "<group>"; };
 		D0845F8A1141B11B0082DC6E /* MGLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTask.m; sourceTree = "<group>"; };
+		D0C9C24B1169502C0050026D /* Reports.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Reports.xib; sourceTree = "<group>"; };
 		D0E16F701141E2D80026607A /* TheBendsActive.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TheBendsActive.icns; sourceTree = "<group>"; };
 		D0E400A71148376600C29464 /* WorkTimerWithPersistence_DataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -207,7 +209,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* Work Timer.app */,
+				8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,6 +246,7 @@
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
 				D03812A51144A65E0097C1A5 /* BreakWindow.xib */,
+				D0C9C24B1169502C0050026D /* Reports.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -345,7 +348,7 @@
 			name = "Work Timer";
 			productInstallPath = "$(HOME)/Applications";
 			productName = WorkTimerWithPersistence;
-			productReference = 8D1107320486CEB800E47090 /* Work Timer.app */;
+			productReference = 8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -424,6 +427,7 @@
 				D0420C44113AC4E6008D0211 /* MainMenu-example.nib in Resources */,
 				D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */,
 				D03812A61144A65E0097C1A5 /* BreakWindow.xib in Resources */,
+				D0C9C24C1169502C0050026D /* Reports.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

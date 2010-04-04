@@ -158,12 +158,13 @@
 	
 }
 
+
 -(void) copyCurrentTableRow{
 	NSArray *selectedTasks = [self.taskList selectedObjects] ;
 	if([selectedTasks count] == 1){
 
 		MGLTask *selectedTask = [selectedTasks objectAtIndex:0];
-		NSString *message = [NSString stringWithFormat:@"%@ refs #%@", [selectedTask desc], [selectedTask ticketId]];
+		NSString *message = [NSString stringWithFormat:@"%@: %@ refs #%@", [[selectedTask project] desc], [selectedTask desc], [selectedTask ticketId]];
 		
 		NSPasteboard *pasteboard = [NSPasteboard generalPasteboard];
 		[pasteboard clearContents];

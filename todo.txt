@@ -1,5 +1,9 @@
 
 - reporting for work done
+ - it would be neat if it could display bars per ticket showing how much time spent
+ 
+- lock screen shortcut to stop timer?
+ - The best I've found to to use a NSTask to launch and terminate ScreenSaverEngine. When terminated, without -background, ScreenSaverEngine will stop to prompt for a password if the user has configured their system to do so.
 
 - add project deadline
 - add task priority

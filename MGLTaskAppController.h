@@ -23,6 +23,8 @@
 	NSToolbarItem	*taskToggleToolbarItem;
 	NSToolbarItem	*taskDoneToolbarItem;
 	NSMenuItem		*toggleMenuItem;
+	
+	NSTableView	*taskTableView;
 }
 
 @property(nonatomic, retain) IBOutlet WorkTimerWithPersistence_AppDelegate	 *appDelegate;
