@@ -15,6 +15,7 @@
 @synthesize appController;
 
 @synthesize projectsWindow;
+@synthesize reportingWindow;
 
 - (void)copy:(id)sender;
 {
@@ -33,7 +34,7 @@
 }
 
 -(IBAction) openReportingWindw:(id) sender{
-//	[self.reportingWindow orderFront:sender];
+	[self.reportingWindow orderFront:sender];
 }
 
 #pragma mark -
@@ -246,7 +247,7 @@
 - (void)dealloc {
 
     [window release];
-//	[reportingWindow release];
+	[reportingWindow release];
     [managedObjectContext release];
     [persistentStoreCoordinator release];
     [managedObjectModel release];

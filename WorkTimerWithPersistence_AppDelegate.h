@@ -14,7 +14,8 @@
 {
     NSWindow *window;
 	NSWindow *projectsWindow;
-    
+	NSWindow *reportingWindow;
+	
 	MGLTaskAppController *appController;
 	
     NSPersistentStoreCoordinator *persistentStoreCoordinator;

@@ -29,6 +29,10 @@ In a Core Data document-based application, the standard NSDocument undo manager 
 - (NSUndoManager *)windowWillReturnUndoManager:(NSWindow *)sender {
     return [[self managedObjectContext] undoManager];
 }
+
+- refactor so that windows have their own nib files
+
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 - "done" with running task doesn't stop timer
