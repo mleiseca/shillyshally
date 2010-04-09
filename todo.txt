@@ -1,5 +1,6 @@
 
 - add notes sections for each task below table 
+
 - reporting for work done
  - it would be neat if it could display bars per ticket showing how much time spent
  

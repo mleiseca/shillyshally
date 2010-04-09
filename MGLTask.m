@@ -17,6 +17,7 @@
 @dynamic createDate;
 @dynamic ticketId;
 @dynamic desc;
+@dynamic note;
 @dynamic hoursEstimate;
 @dynamic taskSessions;
 @dynamic project;

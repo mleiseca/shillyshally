@@ -19,6 +19,7 @@
 @property (nonatomic, retain) NSDate * createDate;
 @property (nonatomic, retain) NSString * ticketId;
 @property (nonatomic, retain) NSString * desc;
+@property (nonatomic, retain) NSString * note;
 @property (nonatomic, retain) NSNumber * hoursEstimate;
 @property (nonatomic, retain) NSSet* taskSessions;
 @property (nonatomic, retain) MGLProject * project;
