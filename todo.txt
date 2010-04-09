@@ -1,4 +1,5 @@
 
+- add notes sections for each task below table 
 - reporting for work done
  - it would be neat if it could display bars per ticket showing how much time spent
  
@@ -32,6 +33,9 @@ In a Core Data document-based application, the standard NSDocument undo manager 
 
 - refactor so that windows have their own nib files
 
+- refactor: reportingWindow in both app delegate and reportscontroller
+
+- refactor: what is a good way to share the managedObjectContext?
 
 --------------------------------------------------------------------------------------------------------------------------------
 

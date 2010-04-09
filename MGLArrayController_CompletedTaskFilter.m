@@ -11,7 +11,6 @@
 
 @implementation MGLArrayController_CompletedTaskFilter
 
-
 - (NSArray *)arrangeObjects:(NSArray *)objects {
 
 	// pg 77 CocoaBindings.pdf
@@ -19,6 +18,8 @@
     //if (searchString == nil) {
 //        return [super arrangeObjects:objects];
 //    }
+	
+	NSLog(@"Array Controller for Tasks: arrangeObjets");
 	
     NSMutableArray *filteredObjects = [NSMutableArray arrayWithCapacity:[objects count]];
     NSEnumerator *objectsEnumerator = [objects objectEnumerator];

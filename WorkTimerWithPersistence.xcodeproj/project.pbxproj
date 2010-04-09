@@ -12,6 +12,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D027C697116A236D00EEB624 /* MGLReportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027C696116A236D00EEB624 /* MGLReportsController.m */; };
 		D03812A61144A65E0097C1A5 /* BreakWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03812A51144A65E0097C1A5 /* BreakWindow.xib */; };
 		D0420C44113AC4E6008D0211 /* MainMenu-example.nib in Resources */ = {isa = PBXBuildFile; fileRef = D0420C43113AC4E6008D0211 /* MainMenu-example.nib */; };
 		D0420C52113AEFE7008D0211 /* MGLProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0420C51113AEFE7008D0211 /* MGLProject.m */; };
@@ -87,7 +88,9 @@
 		77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkTimerWithPersistence_AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkTimerWithPersistence_AppDelegate.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* WorkTimerWithPersistence-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "WorkTimerWithPersistence-Info.plist"; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTimerWithPersistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Work Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D027C695116A236D00EEB624 /* MGLReportsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLReportsController.h; sourceTree = "<group>"; };
+		D027C696116A236D00EEB624 /* MGLReportsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLReportsController.m; sourceTree = "<group>"; };
 		D03812A51144A65E0097C1A5 /* BreakWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BreakWindow.xib; sourceTree = "<group>"; };
 		D0420C43113AC4E6008D0211 /* MainMenu-example.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = "MainMenu-example.nib"; sourceTree = "<group>"; };
 		D0420C50113AEFE7008D0211 /* MGLProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLProject.h; sourceTree = "<group>"; };
@@ -154,7 +157,6 @@
 		D0845F891141B11B0082DC6E /* MGLTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTask.h; sourceTree = "<group>"; };
 		D0845F8A1141B11B0082DC6E /* MGLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTask.m; sourceTree = "<group>"; };
 		D0E16F701141E2D80026607A /* TheBendsActive.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TheBendsActive.icns; sourceTree = "<group>"; };
-		D0E400A71148376600C29464 /* WorkTimerWithPersistence_DataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,8 @@
 				D0784652112913D100A2755E /* MGLTaskProgressTimer.m */,
 				D078469D112918E600A2755E /* MGLTaskAppController.h */,
 				D078469E112918E600A2755E /* MGLTaskAppController.m */,
+				D027C695116A236D00EEB624 /* MGLReportsController.h */,
+				D027C696116A236D00EEB624 /* MGLReportsController.m */,
 				D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */,
 				D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */,
 				D0845F2D1141A6ED0082DC6E /* MGLTableView.h */,
@@ -207,7 +211,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */,
+				8D1107320486CEB800E47090 /* Work Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -345,7 +349,7 @@
 			name = "Work Timer";
 			productInstallPath = "$(HOME)/Applications";
 			productName = WorkTimerWithPersistence;
-			productReference = 8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */;
+			productReference = 8D1107320486CEB800E47090 /* Work Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -444,6 +448,7 @@
 				D0420C52113AEFE7008D0211 /* MGLProject.m in Sources */,
 				D0845F2F1141A6ED0082DC6E /* MGLTableView.m in Sources */,
 				D0845F8B1141B11B0082DC6E /* MGLTask.m in Sources */,
+				D027C697116A236D00EEB624 /* MGLReportsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,7 +561,6 @@
 			isa = XCVersionGroup;
 			children = (
 				770B37EC0679A11B001EADE2 /* WorkTimerWithPersistence_DataModel.xcdatamodel */,
-				D0E400A71148376600C29464 /* WorkTimerWithPersistence_DataModel 2.xcdatamodel */,
 			);
 			currentVersion = 770B37EC0679A11B001EADE2 /* WorkTimerWithPersistence_DataModel.xcdatamodel */;
 			path = WorkTimerWithPersistence_DataModel.xcdatamodeld;

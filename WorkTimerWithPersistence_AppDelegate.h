@@ -9,12 +9,13 @@
 #import <Cocoa/Cocoa.h>
 
 @class MGLTaskAppController;
+@class MGLReportsController;
 
 @interface WorkTimerWithPersistence_AppDelegate : NSObject 
 {
     NSWindow *window;
 	NSWindow *projectsWindow;
-	NSWindow *reportingWindow;
+	MGLReportsController *reportController;
 	
 	MGLTaskAppController *appController;
 	
@@ -25,7 +26,7 @@
 
 @property (nonatomic, retain) IBOutlet NSWindow *window;
 @property (nonatomic, retain) IBOutlet NSWindow *projectsWindow;
-@property (nonatomic, retain) IBOutlet NSWindow *reportingWindow;
+@property (nonatomic, retain) IBOutlet MGLReportsController *reportController;
 
 @property (nonatomic, retain) IBOutlet 	MGLTaskAppController *appController;
 
@@ -38,5 +39,6 @@
 -(IBAction) openProjectsWindow:(id) sender;
 -(IBAction) openReportingWindw:(id) sender;
 
+- (NSUndoManager *)applicationUndoManager;
 
 @end

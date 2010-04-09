@@ -140,6 +140,8 @@
 	NSArray *selectedTasks = [self.taskList selectedObjects] ;
 	if([selectedTasks count] == 1){
 		MGLTask *selectedTask = [selectedTasks objectAtIndex:0];
+		
+		[[[appDelegate applicationUndoManager]  prepareWithInvocationTarget:self.taskList] rearrangeObjects];
 
 		if(self.taskProgressTimer.activeTaskSession.task == selectedTask){
 			NSLog(@"...done with currently running task");
@@ -147,7 +149,7 @@
 		}
 		
 		NSLog(@"finishing task: %@", [selectedTask desc]);
-		selectedTask.completedDate = [NSDate date];
+		[selectedTask setCompletedDate:[NSDate date]];
 		
 		NSLog(@"Processing pending changes");
 		[appDelegate.managedObjectContext processPendingChanges] ;

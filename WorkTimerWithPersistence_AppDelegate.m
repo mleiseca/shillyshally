@@ -15,7 +15,7 @@
 @synthesize appController;
 
 @synthesize projectsWindow;
-@synthesize reportingWindow;
+@synthesize reportController;
 
 - (void)copy:(id)sender;
 {
@@ -34,7 +34,7 @@
 }
 
 -(IBAction) openReportingWindw:(id) sender{
-	[self.reportingWindow orderFront:sender];
+	[self.reportController showReportsWindow:sender];
 }
 
 #pragma mark -
@@ -160,6 +160,9 @@
     return [[self managedObjectContext] undoManager];
 }
 
+- (NSUndoManager *)applicationUndoManager{
+    return [[self managedObjectContext] undoManager];		
+}
 
 /**
     Performs the save action for the application, which is to send the save:
@@ -247,7 +250,7 @@
 - (void)dealloc {
 
     [window release];
-	[reportingWindow release];
+//	[reportingWindow release];
     [managedObjectContext release];
     [persistentStoreCoordinator release];
     [managedObjectModel release];
