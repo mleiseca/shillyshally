@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="21"/>
+			<integer value="817"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1817,18 +1817,18 @@
 								<reference key="NSTextColor" ref="1027693125"/>
 							</object>
 						</object>
-						<object class="NSTextField" id="444770841">
+						<object class="NSTextField" id="859644897">
 							<reference key="NSNextResponder" ref="823886803"/>
-							<int key="NSvFlags">268</int>
+							<int key="NSvFlags">290</int>
 							<string key="NSFrame">{{20, 20}, {923, 231}}</string>
 							<reference key="NSSuperview" ref="823886803"/>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSTextFieldCell" key="NSCell" id="788593693">
+							<object class="NSTextFieldCell" key="NSCell" id="313479130">
 								<int key="NSCellFlags">-1805517311</int>
 								<int key="NSCellFlags2">272629760</int>
 								<string key="NSContents"/>
 								<reference key="NSSupport" ref="105259232"/>
-								<reference key="NSControlView" ref="444770841"/>
+								<reference key="NSControlView" ref="859644897"/>
 								<bool key="NSDrawsBackground">YES</bool>
 								<object class="NSColor" key="NSBackgroundColor">
 									<int key="NSColorSpace">6</int>
@@ -3469,18 +3469,22 @@
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
 						<string key="label">value: selection.note</string>
-						<reference key="source" ref="788593693"/>
+						<reference key="source" ref="313479130"/>
 						<reference key="destination" ref="604434242"/>
 						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="788593693"/>
+							<reference key="NSSource" ref="313479130"/>
 							<reference key="NSDestination" ref="604434242"/>
 							<string key="NSLabel">value: selection.note</string>
 							<string key="NSBinding">value</string>
 							<string key="NSKeyPath">selection.note</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSNoSelectionPlaceholder</string>
+								<string type="base64-UTF8" key="NS.object.0">IA</string>
+							</object>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">820</int>
+					<int key="connectionID">821</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3529,7 +3533,7 @@
 							<reference ref="405420415"/>
 							<reference ref="262010242"/>
 							<reference ref="761541095"/>
-							<reference ref="444770841"/>
+							<reference ref="859644897"/>
 						</object>
 						<reference key="parent" ref="483958638"/>
 					</object>
@@ -4908,17 +4912,17 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">817</int>
-						<reference key="object" ref="444770841"/>
+						<reference key="object" ref="859644897"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="788593693"/>
+							<reference ref="313479130"/>
 						</object>
 						<reference key="parent" ref="823886803"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">818</int>
-						<reference key="object" ref="788593693"/>
-						<reference key="parent" ref="444770841"/>
+						<reference key="object" ref="313479130"/>
+						<reference key="parent" ref="859644897"/>
 					</object>
 				</object>
 			</object>
@@ -5473,7 +5477,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">820</int>
+			<int key="maxID">821</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

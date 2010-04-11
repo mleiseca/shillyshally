@@ -1,6 +1,4 @@
 
-- add notes sections for each task below table 
-
 - reporting for work done
  - it would be neat if it could display bars per ticket showing how much time spent
  
@@ -55,4 +53,8 @@ In a Core Data document-based application, the standard NSDocument undo manager 
 
 - add groups for tasks
  -> this requires a screen to enter groups / manage reference data
+ 
+- add notes sections for each task below table 
+
+
 
