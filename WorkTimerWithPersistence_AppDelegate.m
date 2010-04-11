@@ -9,13 +9,14 @@
 #import "WorkTimerWithPersistence_AppDelegate.h"
 #import "MGLTaskAppController.h"
 #import "MGLReportsController.h"
+#import "MGLProjectsController.h"
 
 @implementation WorkTimerWithPersistence_AppDelegate
 
 @synthesize window;
 @synthesize appController;
 
-@synthesize projectsWindow;
+@synthesize projectsController;
 @synthesize reportController;
 
 - (void)copy:(id)sender;
@@ -31,7 +32,10 @@
 }
 
 -(IBAction) openProjectsWindow:(id) sender{
-	[self.projectsWindow orderFront:sender];
+	if (projectsController == nil){
+		self.projectsController = [[MGLProjectsController alloc] init];
+	}
+	[self.projectsController showProjectsWindow:sender];
 }
 
 -(IBAction) openReportingWindw:(id) sender{
@@ -255,7 +259,9 @@
 - (void)dealloc {
 
     [window release];
-//	[reportingWindow release];
+	[reportController release];
+	[projectsController release];
+	
     [managedObjectContext release];
     [persistentStoreCoordinator release];
     [managedObjectModel release];

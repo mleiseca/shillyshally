@@ -16,6 +16,8 @@
 		D03812A61144A65E0097C1A5 /* BreakWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03812A51144A65E0097C1A5 /* BreakWindow.xib */; };
 		D0420C52113AEFE7008D0211 /* MGLProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0420C51113AEFE7008D0211 /* MGLProject.m */; };
 		D054A9C91171582B001B23AE /* Reports.xib in Resources */ = {isa = PBXBuildFile; fileRef = D054A9C81171582B001B23AE /* Reports.xib */; };
+		D054A9F111715A82001B23AE /* Projects.xib in Resources */ = {isa = PBXBuildFile; fileRef = D054A9F011715A82001B23AE /* Projects.xib */; };
+		D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D054A9F411715AA5001B23AE /* MGLProjectsController.m */; };
 		D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */; };
 		D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078469E112918E600A2755E /* MGLTaskAppController.m */; };
 		D078476B1129D3CC00A2755E /* MGLTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* MGLTaskSession.m */; };
@@ -95,6 +97,9 @@
 		D0420C50113AEFE7008D0211 /* MGLProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLProject.h; sourceTree = "<group>"; };
 		D0420C51113AEFE7008D0211 /* MGLProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLProject.m; sourceTree = "<group>"; };
 		D054A9C81171582B001B23AE /* Reports.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Reports.xib; sourceTree = "<group>"; };
+		D054A9F011715A82001B23AE /* Projects.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Projects.xib; sourceTree = "<group>"; };
+		D054A9F311715AA5001B23AE /* MGLProjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLProjectsController.h; sourceTree = "<group>"; };
+		D054A9F411715AA5001B23AE /* MGLProjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLProjectsController.m; sourceTree = "<group>"; };
 		D0784651112913D100A2755E /* MGLTaskProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskProgressTimer.h; sourceTree = "<group>"; };
 		D0784652112913D100A2755E /* MGLTaskProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskProgressTimer.m; sourceTree = "<group>"; };
 		D078469D112918E600A2755E /* MGLTaskAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskAppController.h; sourceTree = "<group>"; };
@@ -175,14 +180,13 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D054A9F611715AAB001B23AE /* secondary windows */,
 				77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */,
 				77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */,
 				D0784651112913D100A2755E /* MGLTaskProgressTimer.h */,
 				D0784652112913D100A2755E /* MGLTaskProgressTimer.m */,
 				D078469D112918E600A2755E /* MGLTaskAppController.h */,
 				D078469E112918E600A2755E /* MGLTaskAppController.m */,
-				D027C695116A236D00EEB624 /* MGLReportsController.h */,
-				D027C696116A236D00EEB624 /* MGLReportsController.m */,
 				D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */,
 				D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */,
 				D0845F2D1141A6ED0082DC6E /* MGLTableView.h */,
@@ -249,6 +253,7 @@
 				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
 				D03812A51144A65E0097C1A5 /* BreakWindow.xib */,
 				D054A9C81171582B001B23AE /* Reports.xib */,
+				D054A9F011715A82001B23AE /* Projects.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -274,6 +279,17 @@
 				D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		D054A9F611715AAB001B23AE /* secondary windows */ = {
+			isa = PBXGroup;
+			children = (
+				D027C695116A236D00EEB624 /* MGLReportsController.h */,
+				D027C696116A236D00EEB624 /* MGLReportsController.m */,
+				D054A9F311715AA5001B23AE /* MGLProjectsController.h */,
+				D054A9F411715AA5001B23AE /* MGLProjectsController.m */,
+			);
+			name = "secondary windows";
 			sourceTree = "<group>";
 		};
 		D0784B19113220F000A2755E /* Icons */ = {
@@ -429,6 +445,7 @@
 				D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */,
 				D03812A61144A65E0097C1A5 /* BreakWindow.xib in Resources */,
 				D054A9C91171582B001B23AE /* Reports.xib in Resources */,
+				D054A9F111715A82001B23AE /* Projects.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +467,7 @@
 				D0845F2F1141A6ED0082DC6E /* MGLTableView.m in Sources */,
 				D0845F8B1141B11B0082DC6E /* MGLTask.m in Sources */,
 				D027C697116A236D00EEB624 /* MGLReportsController.m in Sources */,
+				D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

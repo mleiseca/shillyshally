@@ -12,7 +12,6 @@
  -> should only work if no active tasks exist for that project
  -> if there are no active tasks, it should remove project from list and mark it as inactive
 
-
 - timeout style break timing
 - screen overlay example: FunkyOverlayWindow
 
@@ -20,23 +19,11 @@
  -> so that windows open in the same place?
  -> so that table columns retain their adjusted size?
 
-- if you are making data model changes, how do you migrate the changes?
-
 - maybe display seconds for currently running task?
 
-How do I get undo/redo for free in my non-document-architecture-based app?
-In a Core Data document-based application, the standard NSDocument undo manager is replaced by the document’s managed object context’s undo manager. In a non-document-based application for desktop Mac OS X, your window’s delegate can supply the managed object context’s undo manager using the windowWillReturnUndoManager: delegate method. If your window delegate has an accessor method for the managed object context (as is the case if you use the Core Data Application template), your implementation of windowWillReturnUndoManager: might be as follows.
-- (NSUndoManager *)windowWillReturnUndoManager:(NSWindow *)sender {
-    return [[self managedObjectContext] undoManager];
-}
-
-- refactor so that windows have their own nib files
-
-- refactor: reportingWindow in both app delegate and reportscontroller
-
-- refactor: what is a good way to share the managedObjectContext?
-
 - shortcuts to close window with apple-w
+
+- weirdness if you have an active task with an inactive project
 
 --------------------------------------------------------------------------------------------------------------------------------
 
@@ -58,5 +45,18 @@ In a Core Data document-based application, the standard NSDocument undo manager 
  
 - add notes sections for each task below table 
 
+- if you are making data model changes, how do you migrate the changes?
+
+How do I get undo/redo for free in my non-document-architecture-based app?
+In a Core Data document-based application, the standard NSDocument undo manager is replaced by the document’s managed object context’s undo manager. In a non-document-based application for desktop Mac OS X, your window’s delegate can supply the managed object context’s undo manager using the windowWillReturnUndoManager: delegate method. If your window delegate has an accessor method for the managed object context (as is the case if you use the Core Data Application template), your implementation of windowWillReturnUndoManager: might be as follows.
+- (NSUndoManager *)windowWillReturnUndoManager:(NSWindow *)sender {
+    return [[self managedObjectContext] undoManager];
+}
+
+- refactor so that windows have their own nib files
+
+- refactor: reportingWindow in both app delegate and reportscontroller
+
+- refactor: what is a good way to share the managedObjectContext?
 
 

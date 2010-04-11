@@ -11,6 +11,7 @@
 @interface MGLReportsController : NSObject {
 
 	NSWindow *reportingWindow;
+	
 
 }
 

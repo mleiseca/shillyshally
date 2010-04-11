@@ -10,12 +10,13 @@
 
 @class MGLTaskAppController;
 @class MGLReportsController;
+@class MGLProjectsController;
 
 @interface WorkTimerWithPersistence_AppDelegate : NSObject 
 {
     NSWindow *window;
-	NSWindow *projectsWindow;
-	MGLReportsController *reportController;
+	MGLProjectsController *projectsController;
+	MGLReportsController  *reportController;
 	
 	MGLTaskAppController *appController;
 	
@@ -25,10 +26,10 @@
 }
 
 @property (nonatomic, retain) IBOutlet NSWindow *window;
-@property (nonatomic, retain) IBOutlet NSWindow *projectsWindow;
-@property (nonatomic, retain) IBOutlet MGLReportsController *reportController;
+@property (nonatomic, retain) IBOutlet MGLTaskAppController *appController;
 
-@property (nonatomic, retain) IBOutlet 	MGLTaskAppController *appController;
+@property (nonatomic, retain) MGLProjectsController *projectsController;
+@property (nonatomic, retain) MGLReportsController  *reportController;
 
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
