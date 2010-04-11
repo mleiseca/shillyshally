@@ -15,6 +15,7 @@
 		D027C697116A236D00EEB624 /* MGLReportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027C696116A236D00EEB624 /* MGLReportsController.m */; };
 		D03812A61144A65E0097C1A5 /* BreakWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03812A51144A65E0097C1A5 /* BreakWindow.xib */; };
 		D0420C52113AEFE7008D0211 /* MGLProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0420C51113AEFE7008D0211 /* MGLProject.m */; };
+		D054A9C91171582B001B23AE /* Reports.xib in Resources */ = {isa = PBXBuildFile; fileRef = D054A9C81171582B001B23AE /* Reports.xib */; };
 		D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */; };
 		D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078469E112918E600A2755E /* MGLTaskAppController.m */; };
 		D078476B1129D3CC00A2755E /* MGLTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* MGLTaskSession.m */; };
@@ -93,6 +94,7 @@
 		D03812A51144A65E0097C1A5 /* BreakWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BreakWindow.xib; sourceTree = "<group>"; };
 		D0420C50113AEFE7008D0211 /* MGLProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLProject.h; sourceTree = "<group>"; };
 		D0420C51113AEFE7008D0211 /* MGLProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLProject.m; sourceTree = "<group>"; };
+		D054A9C81171582B001B23AE /* Reports.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Reports.xib; sourceTree = "<group>"; };
 		D0784651112913D100A2755E /* MGLTaskProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskProgressTimer.h; sourceTree = "<group>"; };
 		D0784652112913D100A2755E /* MGLTaskProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskProgressTimer.m; sourceTree = "<group>"; };
 		D078469D112918E600A2755E /* MGLTaskAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskAppController.h; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
 				D03812A51144A65E0097C1A5 /* BreakWindow.xib */,
+				D054A9C81171582B001B23AE /* Reports.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				D0784C5D11323C2800A2755E /* TheBends.icns in Resources */,
 				D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */,
 				D03812A61144A65E0097C1A5 /* BreakWindow.xib in Resources */,
+				D054A9C91171582B001B23AE /* Reports.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

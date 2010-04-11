@@ -36,6 +36,8 @@ In a Core Data document-based application, the standard NSDocument undo manager 
 
 - refactor: what is a good way to share the managedObjectContext?
 
+- shortcuts to close window with apple-w
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 - "done" with running task doesn't stop timer

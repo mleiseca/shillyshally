@@ -8,6 +8,7 @@
 
 #import "WorkTimerWithPersistence_AppDelegate.h"
 #import "MGLTaskAppController.h"
+#import "MGLReportsController.h"
 
 @implementation WorkTimerWithPersistence_AppDelegate
 
@@ -34,6 +35,10 @@
 }
 
 -(IBAction) openReportingWindw:(id) sender{
+	if( reportController == nil){
+		self.reportController = [[MGLReportsController alloc] init];
+	}
+	
 	[self.reportController showReportsWindow:sender];
 }
 
