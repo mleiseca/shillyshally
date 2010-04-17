@@ -1,3 +1,8 @@
+- menu bar to remind you if you are inactive
+
+- start/stop when notes field is selected
+
+- option enter for a newline?
 
 - reporting for work done
  - it would be neat if it could display bars per ticket showing how much time spent
@@ -13,6 +18,11 @@
  -> if there are no active tasks, it should remove project from list and mark it as inactive
 
 - timeout style break timing
+ -> should make sure that you are still at computer before restarting timer
+ -> certain tasks should be excempt from breaks (ie, is meeting?)
+ 
+- is there a way to get notified of suspend operation and stop current timer?
+
 - screen overlay example: FunkyOverlayWindow
 
 - how do you retain user preference information
@@ -24,6 +34,8 @@
 - shortcuts to close window with apple-w
 
 - weirdness if you have an active task with an inactive project
+
+- refactor: category for "taskStopper" instead of passing around appController (ie, in breakController.initWithAppController)
 
 --------------------------------------------------------------------------------------------------------------------------------
 

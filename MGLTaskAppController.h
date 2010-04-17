@@ -16,6 +16,8 @@
 	WorkTimerWithPersistence_AppDelegate	*appDelegate;
 	MGLArrayController_CompletedTaskFilter	*taskList;
 	NSArrayController	*projectList;
+	
+	NSWindow *mainWindow;
 
 	MGLTaskProgressTimer *taskProgressTimer;
 	
@@ -31,6 +33,7 @@
 
 @property(nonatomic, retain) IBOutlet MGLArrayController_CompletedTaskFilter *taskList;
 @property(nonatomic, retain) IBOutlet NSArrayController  *projectList;
+@property(nonatomic, retain) IBOutlet NSWindow *mainWindow;
 
 
 @property(nonatomic, retain) IBOutlet MGLTaskProgressTimer	*taskProgressTimer;
@@ -44,6 +47,8 @@
 
 -(IBAction) toggleSelectedTask:(id) sender;
 -(IBAction) finishTask:(id) sender;
+-(void) stopTask;
+
 
 -(IBAction) changeSelectedTaskProjectUp;
 -(IBAction) changeSelectedTaskProjectDown;

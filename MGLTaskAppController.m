@@ -22,6 +22,7 @@
 @synthesize taskToggleToolbarItem;
 @synthesize taskTableView;
 @synthesize taskDoneToolbarItem;
+@synthesize mainWindow;
 
 - (void) startTask: (MGLTask *) selectedTask  {
 	//either 

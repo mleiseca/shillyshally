@@ -10,6 +10,7 @@
 #import "MGLTaskAppController.h"
 #import "MGLReportsController.h"
 #import "MGLProjectsController.h"
+#import "MGLBreakController.h"
 
 @implementation WorkTimerWithPersistence_AppDelegate
 
@@ -18,6 +19,7 @@
 
 @synthesize projectsController;
 @synthesize reportController;
+@synthesize breakController;
 
 - (void)copy:(id)sender;
 {
@@ -44,6 +46,16 @@
 	}
 	
 	[self.reportController showReportsWindow:sender];
+}
+
+-(IBAction) startBreak:(id) sender{
+	NSLog(@"Starting Break");
+	if( breakController == nil){
+		self.breakController = [[MGLBreakController alloc] initWithAppController:self.appController];
+	}
+	
+	[self.breakController showBreakWindow:sender];
+	
 }
 
 #pragma mark -
@@ -261,6 +273,7 @@
     [window release];
 	[reportController release];
 	[projectsController release];
+	[breakController release];
 	
     [managedObjectContext release];
     [persistentStoreCoordinator release];
