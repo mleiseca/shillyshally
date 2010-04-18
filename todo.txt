@@ -1,5 +1,9 @@
 - menu bar to remind you if you are inactive
 
+- how to write unit tests???
+
+- bwtoolkit for interface elements?	
+
 - start/stop when notes field is selected
 
 - option enter for a newline?
@@ -37,6 +41,7 @@
 
 - refactor: category for "taskStopper" instead of passing around appController (ie, in breakController.initWithAppController)
 
+- use sparkle for pushing updates
 --------------------------------------------------------------------------------------------------------------------------------
 
 - "done" with running task doesn't stop timer
