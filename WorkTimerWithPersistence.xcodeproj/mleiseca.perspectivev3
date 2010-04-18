@@ -334,7 +334,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D065EF621179405F00A2E1C0</string>
+										<string>D0C22CEC117B864500E7888C</string>
 										<key>history</key>
 										<array>
 											<string>D07848061129E12300A2755E</string>
@@ -415,7 +415,7 @@
 											<string>D0CFCCF6117227F60091CA0D</string>
 											<string>D0326A0F11724A8600648769</string>
 											<string>D0326A1011724A8600648769</string>
-											<string>D065EF231178C3E800A2E1C0</string>
+											<string>D065EF621179405F00A2E1C0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -429,18 +429,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {940, 599}}</string>
+								<string>{{0, 0}, {940, 597}}</string>
 								<key>RubberWindowFrame</key>
 								<string>20 59 1214 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>599pt</string>
+							<string>597pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>74pt</string>
+							<string>76pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -454,7 +454,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {940, 47}}</string>
+										<string>{{10, 27}, {940, 49}}</string>
 										<key>RubberWindowFrame</key>
 										<string>20 59 1214 719 0 0 1280 778 </string>
 									</dict>
@@ -538,11 +538,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D065EF631179405F00A2E1C0</string>
+				<string>D0C22CED117B864500E7888C</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>D065EF641179405F00A2E1C0</string>
+				<string>D0C22CEE117B864500E7888C</string>
 				<string>D00C55881128959E0013AB05</string>
-				<string>D065EF651179405F00A2E1C0</string>
+				<string>D0C22CEF117B864500E7888C</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
