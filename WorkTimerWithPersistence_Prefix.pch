@@ -5,3 +5,10 @@
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
 #endif
+
+
+#ifdef DEBUG
+	#define dataFileLocation @"storedata.worktimer.dev"
+#else
+	#define dataFileLocation @"storedata.worktimer"
+#endif

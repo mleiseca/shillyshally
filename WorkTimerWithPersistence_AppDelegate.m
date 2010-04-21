@@ -11,6 +11,7 @@
 #import "MGLReportsController.h"
 #import "MGLProjectsController.h"
 #import "MGLBreakController.h"
+#import "MGLPreferencesController.h"
 
 @implementation WorkTimerWithPersistence_AppDelegate
 
@@ -20,6 +21,7 @@
 @synthesize projectsController;
 @synthesize reportController;
 @synthesize breakController;
+@synthesize preferencesController;
 
 - (void)copy:(id)sender;
 {
@@ -34,14 +36,23 @@
 }
 
 -(IBAction) openProjectsWindow:(id) sender{
-	if (projectsController == nil){
+	if (! projectsController){
 		self.projectsController = [[MGLProjectsController alloc] init];
 	}
 	[self.projectsController showProjectsWindow:sender];
 }
 
+-(IBAction) openPreferencesWindow: (id) sender{
+	if (! preferencesController){
+		preferencesController = [[MGLPreferencesController alloc] init];
+	}
+	
+	[preferencesController showWindow:self];
+}
+
+
 -(IBAction) openReportingWindw:(id) sender{
-	if( reportController == nil){
+	if(! reportController){
 		self.reportController = [[MGLReportsController alloc] init];
 	}
 	
@@ -120,8 +131,10 @@
 		}
     }
     
-    NSURL *url = [NSURL fileURLWithPath: [applicationSupportDirectory stringByAppendingPathComponent: @"storedata.worktimer"]];
-    persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel: mom];
+    NSURL *url = [NSURL fileURLWithPath: [applicationSupportDirectory stringByAppendingPathComponent: dataFileLocation ]];
+    
+	NSLog(@"Using data file: %@", url);
+	persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel: mom];
     //if (![persistentStoreCoordinator addPersistentStoreWithType:NSXMLStoreType 
 //                                                configuration:nil 
 //                                                URL:url 

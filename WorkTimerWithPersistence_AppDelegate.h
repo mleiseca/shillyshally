@@ -12,6 +12,7 @@
 @class MGLReportsController;
 @class MGLProjectsController;
 @class MGLBreakController;
+@class MGLPreferencesController;
 
 @interface WorkTimerWithPersistence_AppDelegate : NSObject 
 {
@@ -19,6 +20,7 @@
 	MGLProjectsController *projectsController;
 	MGLReportsController  *reportController;
 	MGLBreakController    *breakController;
+	MGLPreferencesController *preferencesController;
 	
 	MGLTaskAppController *appController;
 	
@@ -33,6 +35,7 @@
 @property (nonatomic, retain) MGLProjectsController *projectsController;
 @property (nonatomic, retain) MGLReportsController  *reportController;
 @property (nonatomic, retain) MGLBreakController *breakController;
+@property (nonatomic, retain) MGLPreferencesController *preferencesController;
 
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
@@ -42,6 +45,7 @@
 
 -(IBAction) openProjectsWindow:(id) sender;
 -(IBAction) openReportingWindw:(id) sender;
+-(IBAction) openPreferencesWindow: (id) sender;
 -(IBAction) startBreak:(id) sender;
 
 - (NSUndoManager *)applicationUndoManager;

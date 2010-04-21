@@ -15,6 +15,10 @@
 		D027C697116A236D00EEB624 /* MGLReportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027C696116A236D00EEB624 /* MGLReportsController.m */; };
 		D03812A61144A65E0097C1A5 /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03812A51144A65E0097C1A5 /* Break.xib */; };
 		D0420C52113AEFE7008D0211 /* MGLProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0420C51113AEFE7008D0211 /* MGLProject.m */; };
+		D046A13F117BF957008DD853 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
+		D046A174117BF9A8008DD853 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
+		D046A3BC117F1019008DD853 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D046A3BB117F1019008DD853 /* Preferences.xib */; };
+		D046A3BF117F102D008DD853 /* MGLPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = D046A3BE117F102D008DD853 /* MGLPreferencesController.m */; };
 		D054A9C91171582B001B23AE /* Reports.xib in Resources */ = {isa = PBXBuildFile; fileRef = D054A9C81171582B001B23AE /* Reports.xib */; };
 		D054A9F111715A82001B23AE /* Projects.xib in Resources */ = {isa = PBXBuildFile; fileRef = D054A9F011715A82001B23AE /* Projects.xib */; };
 		D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D054A9F411715AA5001B23AE /* MGLProjectsController.m */; };
@@ -55,7 +59,6 @@
 		D0784B661132210D00A2755E /* Play.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B371132210D00A2755E /* Play.tiff */; };
 		D0784B671132210D00A2755E /* plus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = D0784B381132210D00A2755E /* plus-8.png */; };
 		D0784B681132210D00A2755E /* Power.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B391132210D00A2755E /* Power.tiff */; };
-		D0784B691132210D00A2755E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0784B3A1132210D00A2755E /* README.txt */; };
 		D0784B6A1132210D00A2755E /* Record.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B3B1132210D00A2755E /* Record.tiff */; };
 		D0784B6B1132210D00A2755E /* Red Ball.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B3C1132210D00A2755E /* Red Ball.tiff */; };
 		D0784B6C1132210D00A2755E /* reload.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B3D1132210D00A2755E /* reload.tiff */; };
@@ -78,6 +81,19 @@
 		D0E400A61148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D046A145117BF988008DD853 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D046A174117BF9A8008DD853 /* BWToolkitFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -91,12 +107,16 @@
 		77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkTimerWithPersistence_AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkTimerWithPersistence_AppDelegate.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* WorkTimerWithPersistence-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "WorkTimerWithPersistence-Info.plist"; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTimerWithPersistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Work Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D027C695116A236D00EEB624 /* MGLReportsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLReportsController.h; sourceTree = "<group>"; };
 		D027C696116A236D00EEB624 /* MGLReportsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLReportsController.m; sourceTree = "<group>"; };
 		D03812A51144A65E0097C1A5 /* Break.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Break.xib; sourceTree = "<group>"; };
 		D0420C50113AEFE7008D0211 /* MGLProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLProject.h; sourceTree = "<group>"; };
 		D0420C51113AEFE7008D0211 /* MGLProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLProject.m; sourceTree = "<group>"; };
+		D046A13E117BF957008DD853 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/mleiseca/dev/osx/Frameworks/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
+		D046A3BB117F1019008DD853 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		D046A3BD117F102D008DD853 /* MGLPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLPreferencesController.h; sourceTree = "<group>"; };
+		D046A3BE117F102D008DD853 /* MGLPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLPreferencesController.m; sourceTree = "<group>"; };
 		D054A9C81171582B001B23AE /* Reports.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Reports.xib; sourceTree = "<group>"; };
 		D054A9F011715A82001B23AE /* Projects.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Projects.xib; sourceTree = "<group>"; };
 		D054A9F311715AA5001B23AE /* MGLProjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLProjectsController.h; sourceTree = "<group>"; };
@@ -174,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D046A13F117BF957008DD853 /* BWToolkitFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +215,8 @@
 				D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */,
 				D0845F2D1141A6ED0082DC6E /* MGLTableView.h */,
 				D0845F2E1141A6ED0082DC6E /* MGLTableView.m */,
+				D046A3BD117F102D008DD853 /* MGLPreferencesController.h */,
+				D046A3BE117F102D008DD853 /* MGLPreferencesController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -202,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				D046A13E117BF957008DD853 /* BWToolkitFramework.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -219,7 +243,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */,
+				8D1107320486CEB800E47090 /* Work Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,6 +281,7 @@
 				D03812A51144A65E0097C1A5 /* Break.xib */,
 				D054A9C81171582B001B23AE /* Reports.xib */,
 				D054A9F011715A82001B23AE /* Projects.xib */,
+				D046A3BB117F1019008DD853 /* Preferences.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -363,6 +388,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				D046A145117BF988008DD853 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -371,7 +397,7 @@
 			name = "Work Timer";
 			productInstallPath = "$(HOME)/Applications";
 			productName = WorkTimerWithPersistence;
-			productReference = 8D1107320486CEB800E47090 /* WorkTimerWithPersistence.app */;
+			productReference = 8D1107320486CEB800E47090 /* Work Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -430,7 +456,6 @@
 				D0784B661132210D00A2755E /* Play.tiff in Resources */,
 				D0784B671132210D00A2755E /* plus-8.png in Resources */,
 				D0784B681132210D00A2755E /* Power.tiff in Resources */,
-				D0784B691132210D00A2755E /* README.txt in Resources */,
 				D0784B6A1132210D00A2755E /* Record.tiff in Resources */,
 				D0784B6B1132210D00A2755E /* Red Ball.tiff in Resources */,
 				D0784B6C1132210D00A2755E /* reload.tiff in Resources */,
@@ -451,6 +476,7 @@
 				D03812A61144A65E0097C1A5 /* Break.xib in Resources */,
 				D054A9C91171582B001B23AE /* Reports.xib in Resources */,
 				D054A9F111715A82001B23AE /* Projects.xib in Resources */,
+				D046A3BC117F1019008DD853 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +500,7 @@
 				D027C697116A236D00EEB624 /* MGLReportsController.m in Sources */,
 				D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */,
 				D054AA8C11720A79001B23AE /* MGLBreakController.m in Sources */,
+				D046A3BF117F102D008DD853 /* MGLPreferencesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +531,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks/BWToolkit\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -511,6 +542,9 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WorkTimerWithPersistence_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+				);
 				INFOPLIST_FILE = "WorkTimerWithPersistence-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "Work Timer";
@@ -522,6 +556,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks/BWToolkit\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
