@@ -8,6 +8,7 @@
 
 #import "MGLBreakController.h"
 #import "MGLTaskAppController.h"
+#import "SSConstants.h"
 
 @implementation MGLBreakController
 
@@ -47,7 +48,9 @@
 		[self.stillAroundButton setHidden:NO];
 			//[self.stillAroundButton becomeFirstResponder];
 
-		NSTimeInterval interval = 5.0; //todo: allow user preference setting
+		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+		NSTimeInterval interval = [defaults doubleForKey:SSPrefBreakStillAroundConfirmationInterval];
+
 		self.stopTaskTimer = [NSTimer timerWithTimeInterval:interval target:self selector:@selector(stopCurrentTask:) userInfo: nil repeats:YES];
 		
 		[[NSRunLoop currentRunLoop] addTimer: self.stopTaskTimer
@@ -61,12 +64,8 @@
 	self.stopTaskTimer = nil;
 	[[NSApplication sharedApplication] stopModalWithCode:0];
 
-		//[self.breakWindow orderBack:sender];
 	[self.breakWindow close];	
-	
-		//	[self.appController.mainWindow orderFront:sender];
 
-		//[NSMenu setMenuBarVisible:YES];
 }
 
 - (void) stopCurrentTask:(id) userInfo{
@@ -83,11 +82,15 @@
 	} else {
 		NSLog(@"showBreakWindow");
 		
-		NSModalSession session = [[NSApplication sharedApplication] beginModalSessionForWindow:self.breakWindow];
-				
-		/*** Show Window ***/
-			//[NSMenu setMenuBarVisible:NO];
-		
+		/***
+		 
+		 Push break window to take over whole screen
+		 
+		 Found clues here:
+		 - http://www.cocoabuilder.com/archive/cocoa/284023-prevent-nswindow-from-hiding-with-app.html
+		 ***/
+		 
+		 
 		[breakWindow setOpaque:NO];
 		[breakWindow setAlphaValue:.8];
 		[breakWindow setStyleMask:NSBorderlessWindowMask];
@@ -96,15 +99,24 @@
 			 setFrame:[breakWindow frameRectForContentRect:[[breakWindow screen] frame]]
 			 display:YES
 			 animate:YES];
+
+		//[breakWindow setLevel:NSPopUpMenuWindowLevel ];
+		[breakWindow orderFront:sender];
 		
-		[self.breakWindow orderFront:sender];
 		
-		/*** Set up Timer. 
+		/*** 
+		 
+		 Set up Timer. 
 		 
 		 This MUST be scheduled in the modal run loop
 		 
 		 ***/
-		secondsRemainingInBreak = 5 ; //todo: allow user preference setting
+		
+		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+		secondsRemainingInBreak = [defaults integerForKey:SSPrefBreakDuration];
+		
+		NSModalSession session = [[NSApplication sharedApplication] beginModalSessionForWindow:self.breakWindow];
+
 		self.breakTimer = [NSTimer timerWithTimeInterval:1.0 target:self selector:@selector(incrementBreakTime:) userInfo: nil repeats:YES];
 		[[NSRunLoop currentRunLoop] addTimer: self.breakTimer
 									 forMode:NSModalPanelRunLoopMode];

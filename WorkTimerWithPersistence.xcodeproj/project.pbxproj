@@ -77,6 +77,8 @@
 		D0784C5D11323C2800A2755E /* TheBends.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0784C5C11323C2800A2755E /* TheBends.icns */; };
 		D0845F2F1141A6ED0082DC6E /* MGLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F2E1141A6ED0082DC6E /* MGLTableView.m */; };
 		D0845F8B1141B11B0082DC6E /* MGLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F8A1141B11B0082DC6E /* MGLTask.m */; };
+		D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
+		D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */; };
 		D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0E16F701141E2D80026607A /* TheBendsActive.icns */; };
 		D0E400A61148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
@@ -185,6 +187,10 @@
 		D0845F891141B11B0082DC6E /* MGLTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTask.h; sourceTree = "<group>"; };
 		D0845F8A1141B11B0082DC6E /* MGLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTask.m; sourceTree = "<group>"; };
 		D0984969116F480900CD6C20 /* WorkTimerWithPersistence_DataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 2.xcdatamodel"; sourceTree = "<group>"; };
+		D0C9F50A1181AFA900A2E55B /* SSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConstants.h; sourceTree = "<group>"; };
+		D0C9F50B1181AFA900A2E55B /* SSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConstants.m; sourceTree = "<group>"; };
+		D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBreakTimer.h; sourceTree = "<group>"; };
+		D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBreakTimer.m; sourceTree = "<group>"; };
 		D0E16F701141E2D80026607A /* TheBendsActive.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TheBendsActive.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,26 +207,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D054A9F611715AAB001B23AE /* secondary windows */,
-				77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */,
-				77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */,
-				D0784651112913D100A2755E /* MGLTaskProgressTimer.h */,
-				D0784652112913D100A2755E /* MGLTaskProgressTimer.m */,
-				D078469D112918E600A2755E /* MGLTaskAppController.h */,
-				D078469E112918E600A2755E /* MGLTaskAppController.m */,
-				D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */,
-				D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */,
-				D0845F2D1141A6ED0082DC6E /* MGLTableView.h */,
-				D0845F2E1141A6ED0082DC6E /* MGLTableView.m */,
-				D046A3BD117F102D008DD853 /* MGLPreferencesController.h */,
-				D046A3BE117F102D008DD853 /* MGLPreferencesController.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,10 +237,17 @@
 		29B97314FDCFA39411CA2CEA /* WorkTimerWithPersistence */ = {
 			isa = PBXGroup;
 			children = (
-				D0784C081132319C00A2755E /* todo.txt */,
 				D0784B19113220F000A2755E /* Icons */,
 				7756732906782D8800D1FEB8 /* Models */,
-				080E96DDFE201D6D7F000001 /* Classes */,
+				D0C9F5111181B05B00A2E55B /* Preferences */,
+				D0C9F5101181B05400A2E55B /* Timers */,
+				D0C9F50D1181B00200A2E55B /* Main Window */,
+				D0C9F50F1181B03200A2E55B /* Projects */,
+				D0C9F50E1181B02300A2E55B /* Reports */,
+				D054A9F611715AAB001B23AE /* Break */,
+				77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */,
+				D0784C081132319C00A2755E /* todo.txt */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -268,6 +261,8 @@
 			children = (
 				32CA4F630368D1EE00C91783 /* WorkTimerWithPersistence_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				D0C9F50A1181AFA900A2E55B /* SSConstants.h */,
+				D0C9F50B1181AFA900A2E55B /* SSConstants.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -277,11 +272,6 @@
 			children = (
 				8D1107310486CEB800E47090 /* WorkTimerWithPersistence-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
-				D03812A51144A65E0097C1A5 /* Break.xib */,
-				D054A9C81171582B001B23AE /* Reports.xib */,
-				D054A9F011715A82001B23AE /* Projects.xib */,
-				D046A3BB117F1019008DD853 /* Preferences.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -309,17 +299,14 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
-		D054A9F611715AAB001B23AE /* secondary windows */ = {
+		D054A9F611715AAB001B23AE /* Break */ = {
 			isa = PBXGroup;
 			children = (
-				D027C695116A236D00EEB624 /* MGLReportsController.h */,
-				D027C696116A236D00EEB624 /* MGLReportsController.m */,
-				D054A9F311715AA5001B23AE /* MGLProjectsController.h */,
-				D054A9F411715AA5001B23AE /* MGLProjectsController.m */,
+				D03812A51144A65E0097C1A5 /* Break.xib */,
 				D054AA8A11720A79001B23AE /* MGLBreakController.h */,
 				D054AA8B11720A79001B23AE /* MGLBreakController.m */,
 			);
-			name = "secondary windows";
+			name = Break;
 			sourceTree = "<group>";
 		};
 		D0784B19113220F000A2755E /* Icons */ = {
@@ -376,6 +363,61 @@
 				D0784B481132210D00A2755E /* Users.tiff */,
 			);
 			name = Icons;
+			sourceTree = "<group>";
+		};
+		D0C9F50D1181B00200A2E55B /* Main Window */ = {
+			isa = PBXGroup;
+			children = (
+				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+				D078469D112918E600A2755E /* MGLTaskAppController.h */,
+				D078469E112918E600A2755E /* MGLTaskAppController.m */,
+				D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */,
+				D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */,
+				D0845F2D1141A6ED0082DC6E /* MGLTableView.h */,
+				D0845F2E1141A6ED0082DC6E /* MGLTableView.m */,
+			);
+			name = "Main Window";
+			sourceTree = "<group>";
+		};
+		D0C9F50E1181B02300A2E55B /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				D054A9C81171582B001B23AE /* Reports.xib */,
+				D027C695116A236D00EEB624 /* MGLReportsController.h */,
+				D027C696116A236D00EEB624 /* MGLReportsController.m */,
+			);
+			name = Reports;
+			sourceTree = "<group>";
+		};
+		D0C9F50F1181B03200A2E55B /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				D054A9F011715A82001B23AE /* Projects.xib */,
+				D054A9F311715AA5001B23AE /* MGLProjectsController.h */,
+				D054A9F411715AA5001B23AE /* MGLProjectsController.m */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		D0C9F5101181B05400A2E55B /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				D0784651112913D100A2755E /* MGLTaskProgressTimer.h */,
+				D0784652112913D100A2755E /* MGLTaskProgressTimer.m */,
+				D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */,
+				D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */,
+			);
+			name = Timers;
+			sourceTree = "<group>";
+		};
+		D0C9F5111181B05B00A2E55B /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				D046A3BB117F1019008DD853 /* Preferences.xib */,
+				D046A3BD117F102D008DD853 /* MGLPreferencesController.h */,
+				D046A3BE117F102D008DD853 /* MGLPreferencesController.m */,
+			);
+			name = Preferences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -501,6 +543,8 @@
 				D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */,
 				D054AA8C11720A79001B23AE /* MGLBreakController.m in Sources */,
 				D046A3BF117F102D008DD853 /* MGLPreferencesController.m in Sources */,
+				D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */,
+				D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,9 +586,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WorkTimerWithPersistence_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				INFOPLIST_FILE = "WorkTimerWithPersistence-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "Work Timer";

@@ -2,9 +2,10 @@
 
 - how to write unit tests???
 
-- bwtoolkit for interface elements?	
-
 - start/stop when notes field is selected
+
+- sidebar for showing projects
+ -> add "Context" to project so that I can see/hide GRubhub or personal or just choose one project
 
 - option enter for a newline?
 

@@ -13,6 +13,7 @@
 @class MGLProjectsController;
 @class MGLBreakController;
 @class MGLPreferencesController;
+@class SSBreakTimer;
 
 @interface WorkTimerWithPersistence_AppDelegate : NSObject 
 {
@@ -21,6 +22,8 @@
 	MGLReportsController  *reportController;
 	MGLBreakController    *breakController;
 	MGLPreferencesController *preferencesController;
+	
+	SSBreakTimer *breakTimer;
 	
 	MGLTaskAppController *appController;
 	
@@ -36,6 +39,7 @@
 @property (nonatomic, retain) MGLReportsController  *reportController;
 @property (nonatomic, retain) MGLBreakController *breakController;
 @property (nonatomic, retain) MGLPreferencesController *preferencesController;
+@property (nonatomic, retain) SSBreakTimer *breakTimer;
 
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;

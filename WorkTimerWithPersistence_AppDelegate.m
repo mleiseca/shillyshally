@@ -13,6 +13,9 @@
 #import "MGLBreakController.h"
 #import "MGLPreferencesController.h"
 
+#import "SSConstants.h"
+#import "SSBreakTimer.h"
+
 @implementation WorkTimerWithPersistence_AppDelegate
 
 @synthesize window;
@@ -22,7 +25,25 @@
 @synthesize reportController;
 @synthesize breakController;
 @synthesize preferencesController;
+@synthesize breakTimer;
 
++ (void) initialize{
+	
+	NSMutableDictionary *defaults = [[NSMutableDictionary alloc] init];
+	
+	//in seconds
+	[defaults setObject:@"10" forKey:SSPrefBreakDuration];
+	
+	//in minutes
+	[defaults setObject:@"10" forKey:SSPrefBreakInterval];
+	
+	//in seconds
+	[defaults setObject:@"120" forKey:SSPrefBreakStillAroundConfirmationInterval];
+	
+	[[NSUserDefaults standardUserDefaults] registerDefaults:defaults];
+	
+	[defaults release];
+}
 - (void)copy:(id)sender;
 {
 //	http://www.omnigroup.com/mailman/archive/macosx-dev/2001-June/028436.html
@@ -223,6 +244,12 @@
 #pragma mark -
 #pragma mark App/Window
 
+- (void)applicationWillFinishLaunching:(NSNotification *)aNotification{
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSNumber *breakInterval = [defaults objectForKey:SSPrefBreakInterval];
+	self.breakTimer = [[SSBreakTimer alloc] initWithBreakIntervalInMinutes:breakInterval];
+}
+
 /**
     Implementation of the applicationShouldTerminate: method, used here to
     handle the saving of changes in the application managed object context
@@ -287,6 +314,7 @@
 	[reportController release];
 	[projectsController release];
 	[breakController release];
+	[breakTimer release];
 	
     [managedObjectContext release];
     [persistentStoreCoordinator release];
