@@ -16,6 +16,7 @@
 @dynamic completedDate;
 @dynamic createDate;
 @dynamic ticketId;
+@dynamic meeting;
 @dynamic desc;
 @dynamic note;
 @dynamic hoursEstimate;

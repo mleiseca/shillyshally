@@ -30,7 +30,9 @@
 + (void) initialize{
 	
 	NSMutableDictionary *defaults = [[NSMutableDictionary alloc] init];
-	
+
+	[defaults setObject:@"1" forKey:SSPrefBreakEnabled];	
+
 	//in seconds
 	[defaults setObject:@"10" forKey:SSPrefBreakDuration];
 	

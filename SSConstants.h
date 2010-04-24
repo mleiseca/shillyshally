@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString * const SSPrefBreakEnabled;
 extern NSString * const SSPrefBreakDuration;
 extern NSString * const SSPrefBreakInterval;
 extern NSString * const SSPrefBreakStillAroundConfirmationInterval;

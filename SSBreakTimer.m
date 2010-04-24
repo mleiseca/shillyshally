@@ -7,7 +7,11 @@
 //
 
 #import "SSBreakTimer.h"
+#import "WorkTimerWithPersistence_AppDelegate.h"
+#import "MGLTaskAppController.h"
 
+#import "MGLTask.h"
+#import "SSConstants.h"
 
 @implementation SSBreakTimer
 
@@ -15,7 +19,23 @@
 @synthesize breakIntervalInSeconds;
 
 - (void) startBreak{
-	[[NSApp delegate] startBreak: self]; 
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	BOOL breaksEnabled = [defaults boolForKey:SSPrefBreakEnabled];
+
+	if (! breaksEnabled){
+		NSLog(@"Breaks are disabled. Skipping break");
+		return;
+	}
+	
+	WorkTimerWithPersistence_AppDelegate *appDelegate = [NSApp delegate];
+	MGLTask *currentTask = [appDelegate.appController taskInProgress];
+	
+	NSLog(@"currentTask meeting? %@" ,[currentTask meeting]);
+	if ( currentTask &&  [[currentTask meeting] boolValue] ){
+		NSLog(@"Skipping break because task is away");
+	}else{
+		[appDelegate startBreak: self]; 
+	}
 }
 
 - (id) initWithBreakIntervalInMinutes: (NSNumber *) interval{

@@ -15,14 +15,15 @@
 {
 }
 
+@property (nonatomic, retain) NSString * desc;
+@property (nonatomic, retain) NSNumber * meeting;
+@property (nonatomic, retain) NSString * note;
 @property (nonatomic, retain) NSDate * completedDate;
 @property (nonatomic, retain) NSDate * createDate;
 @property (nonatomic, retain) NSString * ticketId;
-@property (nonatomic, retain) NSString * desc;
-@property (nonatomic, retain) NSString * note;
 @property (nonatomic, retain) NSNumber * hoursEstimate;
-@property (nonatomic, retain) NSSet* taskSessions;
 @property (nonatomic, retain) MGLProject * project;
+@property (nonatomic, retain) NSSet* taskSessions;
 
 - (NSString *) timeWorked;
 - (NSDate *) workStartDate;

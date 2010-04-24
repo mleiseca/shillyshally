@@ -11,6 +11,7 @@
 @class MGLTaskProgressTimer;
 @class WorkTimerWithPersistence_AppDelegate;
 @class MGLArrayController_CompletedTaskFilter;
+@class MGLTask;
 
 @interface MGLTaskAppController : NSObject {
 	WorkTimerWithPersistence_AppDelegate	*appDelegate;
@@ -54,6 +55,8 @@
 -(IBAction) changeSelectedTaskProjectDown;
 	
 -(void) copyCurrentTableRow;
+
+-(MGLTask *) taskInProgress;
 
 
 @end

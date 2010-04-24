@@ -174,8 +174,12 @@
 		NSArray *objectsToCopy = [NSArray arrayWithObject:message];
 		[pasteboard writeObjects:objectsToCopy];
 		
-	}
-	
+	}	
+}
+
+
+-(MGLTask *) taskInProgress{
+	return [[taskProgressTimer activeTaskSession] task];	
 }
 
 
