@@ -268,6 +268,7 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>7756732906782D8800D1FEB8</string>
+								<string>D0E400A51148376600C29464</string>
 								<string>D0C9F5111181B05B00A2E55B</string>
 								<string>D0C9F5101181B05400A2E55B</string>
 								<string>D0C9F50D1181B00200A2E55B</string>
@@ -281,13 +282,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>20</integer>
-									<integer>19</integer>
+									<integer>12</integer>
+									<integer>9</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 73}, {264, 606}}</string>
+							<string>{{0, 0}, {264, 606}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -318,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D00C55881128959E0013AB05</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SSBreakTimer.m</string>
+								<string>WorkTimerWithPersistence_DataModel 3.xcdatamodel</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D00C55891128959E0013AB05</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SSBreakTimer.m</string>
+										<string>WorkTimerWithPersistence_DataModel 3.xcdatamodel</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D036786D118284B300561690</string>
+										<string>D03678A51183832600561690</string>
 										<key>history</key>
 										<array>
 											<string>D07848061129E12300A2755E</string>
@@ -391,7 +393,6 @@
 											<string>D054AAED1172147C001B23AE</string>
 											<string>D046A381117F0D4D008DD853</string>
 											<string>D046A3F8117F19E7008DD853</string>
-											<string>D0C9F51D1181B0C100A2E55B</string>
 											<string>D0C9F5241181B0C100A2E55B</string>
 											<string>D0C9F5251181B0C100A2E55B</string>
 											<string>D0C9F54F1181B70400A2E55B</string>
@@ -403,7 +404,6 @@
 											<string>D0C9F5C01181C2D500A2E55B</string>
 											<string>D03675F41181C4E600561690</string>
 											<string>D03676691181C86600561690</string>
-											<string>D03677CD118275FC00561690</string>
 											<string>D03677CE118275FC00561690</string>
 											<string>D03677CF118275FC00561690</string>
 											<string>D03677F3118278D100561690</string>
@@ -411,13 +411,15 @@
 											<string>D03677F7118278D100561690</string>
 											<string>D0367806118279D900561690</string>
 											<string>D0367807118279D900561690</string>
-											<string>D036782411827B7D00561690</string>
 											<string>D03678561182836B00561690</string>
 											<string>D03678571182836B00561690</string>
 											<string>D036785A1182836B00561690</string>
 											<string>D0367861118283DF00561690</string>
 											<string>D0367862118283DF00561690</string>
-											<string>D03678671182846B00561690</string>
+											<string>D036787311837B6800561690</string>
+											<string>D036788B1183820A00561690</string>
+											<string>D036788C1183820A00561690</string>
+											<string>D03678A0118382ED00561690</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -595,7 +597,7 @@
 						<key>Frame</key>
 						<string>{{0, 0}, {1280, 348}}</string>
 						<key>RubberWindowFrame</key>
-						<string>546 113 1280 665 0 0 1280 778 </string>
+						<string>0 113 1280 665 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -671,10 +673,10 @@
 							<key>Frame</key>
 							<string>{{622, 0}, {658, 138}}</string>
 							<key>RubberWindowFrame</key>
-							<string>546 113 1280 665 0 0 1280 778 </string>
+							<string>0 113 1280 665 0 0 1280 778 </string>
 						</dict>
 						<key>RubberWindowFrame</key>
-						<string>546 113 1280 665 0 0 1280 778 </string>
+						<string>0 113 1280 665 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -738,13 +740,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D036786E118284B300561690</string>
+		<string>D03678A61183832600561690</string>
 		<string>D03677C01182758E00561690</string>
 		<string>D03677C11182758E00561690</string>
 		<string>/Users/mleiseca/dev/osx/shillyshally/WorkTimerWithPersistence.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>546 113 1280 665 0 0 1280 778 </string>
+	<string>0 113 1280 665 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

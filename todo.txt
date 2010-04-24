@@ -22,12 +22,6 @@
  -> should only work if no active tasks exist for that project
  -> if there are no active tasks, it should remove project from list and mark it as inactive
 
-- timeout style break timing
- -> should make sure that you are still at computer before restarting timer
- -> certain tasks should be excempt from breaks (ie, is meeting?)
- 
-- is there a way to get notified of suspend operation and stop current timer?
-
 - screen overlay example: FunkyOverlayWindow
 
 - how do you retain user preference information
@@ -44,6 +38,11 @@
 
 - use sparkle for pushing updates
 --------------------------------------------------------------------------------------------------------------------------------
+
+- timeout style break timing
+ -> should make sure that you are still at computer before restarting timer
+ -> certain tasks should be excempt from breaks (ie, is meeting?)
+
 
 - "done" with running task doesn't stop timer
 - change dock/tab icon depending on state (ie, working = green clock, not working = red clock)
