@@ -272,6 +272,7 @@
 								<string>D0C9F5111181B05B00A2E55B</string>
 								<string>D0C9F5101181B05400A2E55B</string>
 								<string>D0C9F50D1181B00200A2E55B</string>
+								<string>D0C9F50E1181B02300A2E55B</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
@@ -282,8 +283,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
-									<integer>9</integer>
+									<integer>7</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
@@ -320,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D00C55881128959E0013AB05</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WorkTimerWithPersistence_DataModel 3.xcdatamodel</string>
+								<string>MGLTaskSession.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D00C55891128959E0013AB05</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WorkTimerWithPersistence_DataModel 3.xcdatamodel</string>
+										<string>MGLTaskSession.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D03678A51183832600561690</string>
+										<string>D03678D811849E0900561690</string>
 										<key>history</key>
 										<array>
 											<string>D07848061129E12300A2755E</string>
@@ -373,7 +373,6 @@
 											<string>D0E16F821141E2E00026607A</string>
 											<string>D0E16F831141E2E00026607A</string>
 											<string>D0E16F91114280F80026607A</string>
-											<string>D0E16FC9114311580026607A</string>
 											<string>D098496E116F483400CD6C20</string>
 											<string>D054AA0611715D9A001B23AE</string>
 											<string>D054AA9A11720C65001B23AE</string>
@@ -401,7 +400,6 @@
 											<string>D0C9F55F1181B83900A2E55B</string>
 											<string>D0C9F5601181B83900A2E55B</string>
 											<string>D0C9F5771181BB7200A2E55B</string>
-											<string>D0C9F5C01181C2D500A2E55B</string>
 											<string>D03675F41181C4E600561690</string>
 											<string>D03676691181C86600561690</string>
 											<string>D03677CE118275FC00561690</string>
@@ -419,7 +417,9 @@
 											<string>D036787311837B6800561690</string>
 											<string>D036788B1183820A00561690</string>
 											<string>D036788C1183820A00561690</string>
-											<string>D03678A0118382ED00561690</string>
+											<string>D03678D411849E0300561690</string>
+											<string>D03678D511849E0300561690</string>
+											<string>D03678D611849E0300561690</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -740,7 +740,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D03678A61183832600561690</string>
+		<string>D03678D911849E0900561690</string>
 		<string>D03677C01182758E00561690</string>
 		<string>D03677C11182758E00561690</string>
 		<string>/Users/mleiseca/dev/osx/shillyshally/WorkTimerWithPersistence.xcodeproj</string>
