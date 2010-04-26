@@ -81,6 +81,7 @@
 		D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */; };
 		D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0E16F701141E2D80026607A /* TheBendsActive.icns */; };
 		D0E400A61148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */; };
+		D0F0A0781185494200DDB9F0 /* shillyshally-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -108,8 +109,7 @@
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkTimerWithPersistence_AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkTimerWithPersistence_AppDelegate.m; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* WorkTimerWithPersistence-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "WorkTimerWithPersistence-Info.plist"; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* Work Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* shillyshally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shillyshally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D027C695116A236D00EEB624 /* MGLReportsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLReportsController.h; sourceTree = "<group>"; };
 		D027C696116A236D00EEB624 /* MGLReportsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLReportsController.m; sourceTree = "<group>"; };
 		D036779E118273A400561690 /* WorkTimerWithPersistence_DataModel 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 3.xcdatamodel"; sourceTree = "<group>"; };
@@ -193,6 +193,7 @@
 		D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBreakTimer.h; sourceTree = "<group>"; };
 		D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBreakTimer.m; sourceTree = "<group>"; };
 		D0E16F701141E2D80026607A /* TheBendsActive.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TheBendsActive.icns; sourceTree = "<group>"; };
+		D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "shillyshally-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,7 +231,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* Work Timer.app */,
+				8D1107320486CEB800E47090 /* shillyshally.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,7 +272,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107310486CEB800E47090 /* WorkTimerWithPersistence-Info.plist */,
+				D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
 			name = Resources;
@@ -424,9 +425,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* Work Timer */ = {
+		8D1107260486CEB800E47090 /* shillyshally */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Work Timer" */;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "shillyshally" */;
 			buildPhases = (
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -437,10 +438,10 @@
 			);
 			dependencies = (
 			);
-			name = "Work Timer";
+			name = shillyshally;
 			productInstallPath = "$(HOME)/Applications";
 			productName = WorkTimerWithPersistence;
-			productReference = 8D1107320486CEB800E47090 /* Work Timer.app */;
+			productReference = 8D1107320486CEB800E47090 /* shillyshally.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -455,7 +456,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* Work Timer */,
+				8D1107260486CEB800E47090 /* shillyshally */,
 			);
 		};
 /* End PBXProject section */
@@ -520,6 +521,7 @@
 				D054A9C91171582B001B23AE /* Reports.xib in Resources */,
 				D054A9F111715A82001B23AE /* Projects.xib in Resources */,
 				D046A3BC117F1019008DD853 /* Preferences.xib in Resources */,
+				D0F0A0781185494200DDB9F0 /* shillyshally-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,9 +590,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WorkTimerWithPersistence_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				INFOPLIST_FILE = "WorkTimerWithPersistence-Info.plist";
+				INFOPLIST_FILE = "shillyshally-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = "Work Timer";
+				PRODUCT_NAME = shillyshally;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -607,9 +609,9 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WorkTimerWithPersistence_Prefix.pch;
-				INFOPLIST_FILE = "WorkTimerWithPersistence-Info.plist";
+				INFOPLIST_FILE = "shillyshally-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = WorkTimerWithPersistence;
+				PRODUCT_NAME = shillyshally;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -642,7 +644,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Work Timer" */ = {
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "shillyshally" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26FC0A850875C7B200E6366F /* Debug */,

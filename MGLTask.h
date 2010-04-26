@@ -27,7 +27,6 @@
 
 - (NSString *) timeWorked;
 - (NSDate *) workStartDate;
-- (NSNumber *) secondsWorked;
 
 @end
 

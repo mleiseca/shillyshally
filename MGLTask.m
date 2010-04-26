@@ -46,26 +46,20 @@
 }
 
 - (NSNumber *) secondsWorked{
-	MGLTaskSession *taskSession = nil;
-	long secondsWorked = 0l;
-	
-	for(taskSession in self.taskSessions){
-		secondsWorked = secondsWorked + [taskSession.secondsWorked longValue];
-	}
-	return [NSNumber numberWithLong:secondsWorked];
+	return [self valueForKeyPath:@"taskSessions.@sum.secondsWorked"];
 }
 
 - (NSString *) timeWorked{
 	NSNumber *secondsWorked = [self secondsWorked];
-	
 	if(secondsWorked){
 		int seconds = [secondsWorked intValue];
 		int minutesWorked =  seconds / 60;
 		
-		return [NSString stringWithFormat:@"%d:%02d", (minutesWorked/60), (minutesWorked % 60)];
+		return [NSString stringWithFormat:@"%d:%02d:%02d", (minutesWorked/60), (minutesWorked % 60), (seconds % 60) ];
     }else{
 		return @"";
     }
 }
+
 
 @end

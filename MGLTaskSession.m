@@ -68,7 +68,10 @@
 	if(newSecondsWorked && (newSecondsWorked  > 0)){
 		self.secondsWorked = [NSNumber numberWithInt:newSecondsWorked];
 	}
-	
+}
+
++ (NSSet *)keyPathsForValuesAffectingTimeWorked{
+	return [NSSet setWithObjects:@"secondsWorked", nil];
 }
 
 

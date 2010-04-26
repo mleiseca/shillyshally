@@ -26,13 +26,7 @@
 }
 
 - (NSNumber *) secondsWorked{
-	MGLTask *task = nil;
-	long secondsWorked = 0l;
-	
-	for(task in self.tasks){
-		secondsWorked = secondsWorked + [task.secondsWorked longValue];
-	}
-	return [NSNumber numberWithLong:secondsWorked];
+	return [self valueForKeyPath:@"tasks.@sum.secondsWorked"];
 }
 
 - (NSString *) timeWorked{
