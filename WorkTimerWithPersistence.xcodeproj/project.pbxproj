@@ -291,10 +291,10 @@
 			children = (
 				D0845F891141B11B0082DC6E /* MGLTask.h */,
 				D0845F8A1141B11B0082DC6E /* MGLTask.m */,
-				D0420C50113AEFE7008D0211 /* MGLProject.h */,
-				D0420C51113AEFE7008D0211 /* MGLProject.m */,
 				D07847681129D3CC00A2755E /* MGLTaskSession.h */,
 				D07847691129D3CC00A2755E /* MGLTaskSession.m */,
+				D0420C50113AEFE7008D0211 /* MGLProject.h */,
+				D0420C51113AEFE7008D0211 /* MGLProject.m */,
 				D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */,
 			);
 			name = Models;
