@@ -14,6 +14,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D027C697116A236D00EEB624 /* MGLReportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027C696116A236D00EEB624 /* MGLReportsController.m */; };
 		D03812A61144A65E0097C1A5 /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03812A51144A65E0097C1A5 /* Break.xib */; };
+		D038BFC3119529500020D86A /* SSNotificationWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D038BFC2119529500020D86A /* SSNotificationWatcher.m */; };
 		D0420C52113AEFE7008D0211 /* MGLProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0420C51113AEFE7008D0211 /* MGLProject.m */; };
 		D046A13F117BF957008DD853 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
 		D046A174117BF9A8008DD853 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
@@ -114,6 +115,8 @@
 		D027C696116A236D00EEB624 /* MGLReportsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLReportsController.m; sourceTree = "<group>"; };
 		D036779E118273A400561690 /* WorkTimerWithPersistence_DataModel 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 3.xcdatamodel"; sourceTree = "<group>"; };
 		D03812A51144A65E0097C1A5 /* Break.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Break.xib; sourceTree = "<group>"; };
+		D038BFC1119529500020D86A /* SSNotificationWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNotificationWatcher.h; sourceTree = "<group>"; };
+		D038BFC2119529500020D86A /* SSNotificationWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNotificationWatcher.m; sourceTree = "<group>"; };
 		D0420C50113AEFE7008D0211 /* MGLProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLProject.h; sourceTree = "<group>"; };
 		D0420C51113AEFE7008D0211 /* MGLProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLProject.m; sourceTree = "<group>"; };
 		D046A13E117BF957008DD853 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/mleiseca/dev/osx/Frameworks/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
@@ -377,6 +380,8 @@
 				D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */,
 				D0845F2D1141A6ED0082DC6E /* MGLTableView.h */,
 				D0845F2E1141A6ED0082DC6E /* MGLTableView.m */,
+				D038BFC1119529500020D86A /* SSNotificationWatcher.h */,
+				D038BFC2119529500020D86A /* SSNotificationWatcher.m */,
 			);
 			name = "Main Window";
 			sourceTree = "<group>";
@@ -548,6 +553,7 @@
 				D046A3BF117F102D008DD853 /* MGLPreferencesController.m in Sources */,
 				D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */,
 				D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */,
+				D038BFC3119529500020D86A /* SSNotificationWatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,7 @@
 @class MGLBreakController;
 @class MGLPreferencesController;
 @class SSBreakTimer;
+@class SSNotificationWatcher;
 
 @interface WorkTimerWithPersistence_AppDelegate : NSObject 
 {
@@ -30,6 +31,8 @@
     NSPersistentStoreCoordinator *persistentStoreCoordinator;
     NSManagedObjectModel *managedObjectModel;
     NSManagedObjectContext *managedObjectContext;
+	
+	SSNotificationWatcher *notificationWatcher;
 }
 
 @property (nonatomic, retain) IBOutlet NSWindow *window;
@@ -40,6 +43,7 @@
 @property (nonatomic, retain) MGLBreakController *breakController;
 @property (nonatomic, retain) MGLPreferencesController *preferencesController;
 @property (nonatomic, retain) SSBreakTimer *breakTimer;
+@property (nonatomic, retain) SSNotificationWatcher *notificationWatcher;
 
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;

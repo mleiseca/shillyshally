@@ -12,6 +12,7 @@
 #import "MGLProjectsController.h"
 #import "MGLBreakController.h"
 #import "MGLPreferencesController.h"
+#import "SSNotificationWatcher.h"
 
 #import "SSConstants.h"
 #import "SSBreakTimer.h"
@@ -26,6 +27,7 @@
 @synthesize breakController;
 @synthesize preferencesController;
 @synthesize breakTimer;
+@synthesize notificationWatcher;
 
 + (void) initialize{
 	
@@ -250,6 +252,8 @@
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	NSNumber *breakInterval = [defaults objectForKey:SSPrefBreakInterval];
 	self.breakTimer = [[SSBreakTimer alloc] initWithBreakIntervalInMinutes:breakInterval];
+	
+	self.notificationWatcher = [[SSNotificationWatcher alloc] init];
 }
 
 /**
@@ -317,6 +321,7 @@
 	[projectsController release];
 	[breakController release];
 	[breakTimer release];
+	[notificationWatcher release];
 	
     [managedObjectContext release];
     [persistentStoreCoordinator release];

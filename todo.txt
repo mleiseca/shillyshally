@@ -6,6 +6,7 @@
 
 - sidebar for showing projects
  -> add "Context" to project so that I can see/hide GRubhub or personal or just choose one project
+ -> http://developer.apple.com/mac/library/samplecode/SourceView/Introduction/Intro.html
 
 - option enter for a newline?
 

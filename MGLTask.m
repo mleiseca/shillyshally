@@ -55,7 +55,7 @@
 		int seconds = [secondsWorked intValue];
 		int minutesWorked =  seconds / 60;
 		
-		return [NSString stringWithFormat:@"%d:%02d:%02d", (minutesWorked/60), (minutesWorked % 60), (seconds % 60) ];
+		return [NSString stringWithFormat:@"%d:%02d", (minutesWorked/60), (minutesWorked % 60) ];
     }else{
 		return @"";
     }

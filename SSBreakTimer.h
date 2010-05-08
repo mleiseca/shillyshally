@@ -20,4 +20,7 @@
 @property (nonatomic, retain) NSTimer *breakIntervalTimer;
 @property (nonatomic, copy) NSNumber *breakIntervalInSeconds;
 
+
+- (id) initWithBreakIntervalInMinutes: (NSNumber *) interval;
+
 @end
