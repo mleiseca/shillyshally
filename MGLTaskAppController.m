@@ -18,11 +18,11 @@
 @synthesize projectList;
 @synthesize taskProgressTimer;
 @synthesize appDelegate;
-@synthesize activeTaskLabel;
 @synthesize taskToggleToolbarItem;
 @synthesize taskTableView;
 @synthesize taskDoneToolbarItem;
 @synthesize mainWindow;
+
 
 - (void) startTask: (MGLTask *) selectedTask  {
 	//either 
@@ -35,7 +35,6 @@
 	[self.taskToggleToolbarItem setLabel:@"Pause"];
 	[self.taskToggleToolbarItem setImage:[NSImage imageNamed:@"Pause.tiff"]];
 	
-	[self.activeTaskLabel setStringValue:[NSString stringWithFormat:@"%@", selectedTask.desc]];
 	[self.taskProgressTimer startTaskSession:taskSession];
 	
 	NSImage *newIconImage = [NSImage imageNamed: @"TheBendsActive"];
@@ -47,10 +46,7 @@
 	[self.taskToggleToolbarItem setLabel:@"Start"];
 	[self.taskToggleToolbarItem setImage:[NSImage imageNamed:@"Play.tiff"]];
 
-
-	[self.activeTaskLabel setStringValue:@""];
 	[NSApp setApplicationIconImage: nil];
-
 	
 	[self.taskProgressTimer stopTask];	
 }

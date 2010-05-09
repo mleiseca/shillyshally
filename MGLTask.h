@@ -13,6 +13,7 @@
 
 @interface MGLTask :  NSManagedObject  
 {
+	BOOL running;
 }
 
 @property (nonatomic, retain) NSString * desc;
@@ -24,9 +25,12 @@
 @property (nonatomic, retain) NSNumber * hoursEstimate;
 @property (nonatomic, retain) MGLProject * project;
 @property (nonatomic, retain) NSSet* taskSessions;
+@property (nonatomic, assign) BOOL running;
 
 - (NSString *) timeWorked;
 - (NSDate *) workStartDate;
+- (NSFont *) font;
+- (NSColor *) color;
 
 @end
 

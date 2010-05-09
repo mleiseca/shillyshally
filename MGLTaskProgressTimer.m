@@ -16,13 +16,15 @@
 @synthesize startDate;
 
 -(void) startTaskSession:(MGLTaskSession *) taskSession{
-	NSLog(@"Starting task: %@", [[taskSession task] desc]);
+	MGLTask *task = [taskSession task];
+	NSLog(@"Starting task: %@", [task desc]);
 	
 	if(activeTaskSession){
 		//we are starting a new task. This will shut down the old one
 		[self stopTask];
 	}
 	
+	task.running = YES;
 	self.startDate = [NSDate date];
 	self.activeTaskSession = taskSession;
 	self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(incrementTime:) userInfo: nil repeats:YES];
@@ -35,7 +37,10 @@
 }
 
 -(void) stopTask{
-	NSLog(@"stopping task: %@", [[self.activeTaskSession task] desc]);
+	MGLTask *task = [self.activeTaskSession task];
+	NSLog(@"stopping task: %@", [task desc]);
+	
+	task.running = NO;
 	self.activeTaskSession = nil;
 	
 	//todo: save changes, etc	

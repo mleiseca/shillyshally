@@ -22,7 +22,6 @@
 
 	MGLTaskProgressTimer *taskProgressTimer;
 	
-	NSTextField		*activeTaskLabel;
 	NSToolbarItem	*taskToggleToolbarItem;
 	NSToolbarItem	*taskDoneToolbarItem;
 	NSMenuItem		*toggleMenuItem;
@@ -39,11 +38,9 @@
 
 @property(nonatomic, retain) IBOutlet MGLTaskProgressTimer	*taskProgressTimer;
 
-@property(nonatomic, retain) IBOutlet NSTextField	*activeTaskLabel;
 @property(nonatomic, retain) IBOutlet NSToolbarItem	*taskToggleToolbarItem;
 @property(nonatomic, retain) IBOutlet NSToolbarItem	*taskDoneToolbarItem;
 @property(nonatomic, retain) IBOutlet NSTableView	*taskTableView;
-
 
 
 -(IBAction) toggleSelectedTask:(id) sender;
@@ -57,6 +54,7 @@
 -(void) copyCurrentTableRow;
 
 -(MGLTask *) taskInProgress;
+
 
 
 @end
