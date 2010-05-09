@@ -10,7 +10,7 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeArchitecturePreference = i386;
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = D00C55831128957F0013AB05 /* shillyshally */;
 		activeTarget = 8D1107260486CEB800E47090 /* shillyshally */;
 		addToTargets = (
@@ -195,6 +195,18 @@
 			D022625611976A35007F4694 /* PBXTextBookmark */ = D022625611976A35007F4694 /* PBXTextBookmark */;
 			D022626811976D07007F4694 /* PBXTextBookmark */ = D022626811976D07007F4694 /* PBXTextBookmark */;
 			D022626911976D07007F4694 /* PBXTextBookmark */ = D022626911976D07007F4694 /* PBXTextBookmark */;
+			D022627211976DDB007F4694 /* PBXTextBookmark */ = D022627211976DDB007F4694 /* PBXTextBookmark */;
+			D022627311976DDB007F4694 /* PBXTextBookmark */ = D022627311976DDB007F4694 /* PBXTextBookmark */;
+			D022627411976DDB007F4694 /* PlistBookmark */ = D022627411976DDB007F4694 /* PlistBookmark */;
+			D022627511976DDB007F4694 /* PlistBookmark */ = D022627511976DDB007F4694 /* PlistBookmark */;
+			D022627611976DE3007F4694 /* PlistBookmark */ = D022627611976DE3007F4694 /* PlistBookmark */;
+			D022627C11976E25007F4694 /* PlistBookmark */ = D022627C11976E25007F4694 /* PlistBookmark */;
+			D022627E11976E2E007F4694 /* PlistBookmark */ = D022627E11976E2E007F4694 /* PlistBookmark */;
+			D022628211976E51007F4694 /* PBXTextBookmark */ = D022628211976E51007F4694 /* PBXTextBookmark */;
+			D022628311976E51007F4694 /* PlistBookmark */ = D022628311976E51007F4694 /* PlistBookmark */;
+			D022628411976E60007F4694 /* PlistBookmark */ = D022628411976E60007F4694 /* PlistBookmark */;
+			D022628811976F04007F4694 /* PlistBookmark */ = D022628811976F04007F4694 /* PlistBookmark */;
+			D022628911976F05007F4694 /* PlistBookmark */ = D022628911976F05007F4694 /* PlistBookmark */;
 			D03675F41181C4E600561690 = D03675F41181C4E600561690 /* PBXTextBookmark */;
 			D03676691181C86600561690 = D03676691181C86600561690 /* PBXTextBookmark */;
 			D03677F3118278D100561690 = D03677F3118278D100561690 /* PBXTextBookmark */;
@@ -1390,6 +1402,135 @@
 		vrLen = 329;
 		vrLoc = 1164;
 	};
+	D022627211976DDB007F4694 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 54";
+		rLen = 0;
+		rLoc = 1537;
+		rType = 0;
+		vrLen = 870;
+		vrLoc = 858;
+	};
+	D022627311976DDB007F4694 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */;
+		name = "MGLArrayController_CompletedTaskFilter.m: 30";
+		rLen = 36;
+		rLoc = 853;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 339;
+	};
+	D022627411976DDB007F4694 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/mleiseca/dev/osx/shillyshally/shillyshally-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D022627511976DDB007F4694 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/mleiseca/dev/osx/shillyshally/shillyshally-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D022627611976DE3007F4694 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/mleiseca/dev/osx/shillyshally/shillyshally-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D022627C11976E25007F4694 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/mleiseca/dev/osx/shillyshally/shillyshally-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D022627E11976E2E007F4694 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/mleiseca/dev/osx/shillyshally/shillyshally-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D022628211976E51007F4694 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D078469E112918E600A2755E /* MGLTaskAppController.m */;
+		name = "MGLTaskAppController.m: 50";
+		rLen = 0;
+		rLoc = 1452;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 1164;
+	};
+	D022628311976E51007F4694 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/mleiseca/dev/osx/shillyshally/shillyshally-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D022628411976E60007F4694 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/mleiseca/dev/osx/shillyshally/shillyshally-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D022628811976F04007F4694 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/mleiseca/dev/osx/shillyshally/shillyshally-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D022628911976F05007F4694 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/mleiseca/dev/osx/shillyshally/shillyshally-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
 	D027C695116A236D00EEB624 /* MGLReportsController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {945, 426}}";
@@ -2049,8 +2190,9 @@
 	D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {933, 520}}";
-			sepNavSelRange = "{995, 0}";
-			sepNavVisRange = "{179, 823}";
+			sepNavSelRange = "{853, 36}";
+			sepNavVisRange = "{339, 663}";
+			sepNavWindowFrame = "{{0, 59}, {1280, 719}}";
 		};
 	};
 	D0784B3A1132210D00A2755E /* README.txt */ = {

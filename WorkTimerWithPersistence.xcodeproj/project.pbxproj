@@ -82,7 +82,6 @@
 		D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */; };
 		D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0E16F701141E2D80026607A /* TheBendsActive.icns */; };
 		D0E400A61148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */; };
-		D0F0A0781185494200DDB9F0 /* shillyshally-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -526,7 +525,6 @@
 				D054A9C91171582B001B23AE /* Reports.xib in Resources */,
 				D054A9F111715A82001B23AE /* Projects.xib in Resources */,
 				D046A3BC117F1019008DD853 /* Preferences.xib in Resources */,
-				D0F0A0781185494200DDB9F0 /* shillyshally-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
