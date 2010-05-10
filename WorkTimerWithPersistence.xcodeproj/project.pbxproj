@@ -24,6 +24,8 @@
 		D054A9F111715A82001B23AE /* Projects.xib in Resources */ = {isa = PBXBuildFile; fileRef = D054A9F011715A82001B23AE /* Projects.xib */; };
 		D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D054A9F411715AA5001B23AE /* MGLProjectsController.m */; };
 		D054AA8C11720A79001B23AE /* MGLBreakController.m in Sources */ = {isa = PBXBuildFile; fileRef = D054AA8B11720A79001B23AE /* MGLBreakController.m */; };
+		D0615A711197AD5B00568295 /* SSTaskReport.m in Sources */ = {isa = PBXBuildFile; fileRef = D0615A701197AD5B00568295 /* SSTaskReport.m */; };
+		D0615A971197B12900568295 /* SSTimeSlice.m in Sources */ = {isa = PBXBuildFile; fileRef = D0615A961197B12900568295 /* SSTimeSlice.m */; };
 		D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */; };
 		D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078469E112918E600A2755E /* MGLTaskAppController.m */; };
 		D078476B1129D3CC00A2755E /* MGLTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* MGLTaskSession.m */; };
@@ -128,6 +130,10 @@
 		D054A9F411715AA5001B23AE /* MGLProjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLProjectsController.m; sourceTree = "<group>"; };
 		D054AA8A11720A79001B23AE /* MGLBreakController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLBreakController.h; sourceTree = "<group>"; };
 		D054AA8B11720A79001B23AE /* MGLBreakController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLBreakController.m; sourceTree = "<group>"; };
+		D0615A6F1197AD5B00568295 /* SSTaskReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskReport.h; sourceTree = "<group>"; };
+		D0615A701197AD5B00568295 /* SSTaskReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReport.m; sourceTree = "<group>"; };
+		D0615A951197B12900568295 /* SSTimeSlice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTimeSlice.h; sourceTree = "<group>"; };
+		D0615A961197B12900568295 /* SSTimeSlice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTimeSlice.m; sourceTree = "<group>"; };
 		D0784651112913D100A2755E /* MGLTaskProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskProgressTimer.h; sourceTree = "<group>"; };
 		D0784652112913D100A2755E /* MGLTaskProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskProgressTimer.m; sourceTree = "<group>"; };
 		D078469D112918E600A2755E /* MGLTaskAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskAppController.h; sourceTree = "<group>"; };
@@ -389,6 +395,10 @@
 			isa = PBXGroup;
 			children = (
 				D054A9C81171582B001B23AE /* Reports.xib */,
+				D0615A951197B12900568295 /* SSTimeSlice.h */,
+				D0615A961197B12900568295 /* SSTimeSlice.m */,
+				D0615A6F1197AD5B00568295 /* SSTaskReport.h */,
+				D0615A701197AD5B00568295 /* SSTaskReport.m */,
 				D027C695116A236D00EEB624 /* MGLReportsController.h */,
 				D027C696116A236D00EEB624 /* MGLReportsController.m */,
 			);
@@ -552,6 +562,8 @@
 				D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */,
 				D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */,
 				D038BFC3119529500020D86A /* SSNotificationWatcher.m in Sources */,
+				D0615A711197AD5B00568295 /* SSTaskReport.m in Sources */,
+				D0615A971197B12900568295 /* SSTimeSlice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

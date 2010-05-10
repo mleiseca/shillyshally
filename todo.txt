@@ -1,3 +1,8 @@
+Date range (start) - (end) Project (project name) aggregate? (checkbox)
+ -> maybe replace "date range" section with "week" or "Month" and let the user browse http://farm5.static.flickr.com/4015/4332774384_063d1be994.jpg
+ -> http://projecthamster.files.wordpress.com/2010/01/overview-with-search.png?w=720
+ -> "what's happening?" http://farm5.static.flickr.com/4004/4481743631_804c079944.jpg
+
 - menu bar to remind you if you are inactive
 
 - how to write unit tests???
@@ -7,8 +12,6 @@
 - sidebar for showing projects
  -> add "Context" to project so that I can see/hide GRubhub or personal or just choose one project
  -> http://developer.apple.com/mac/library/samplecode/SourceView/Introduction/Intro.html
-
-- option enter for a newline?
 
 - reporting for work done
  - it would be neat if it could display bars per ticket showing how much time spent
@@ -23,21 +26,24 @@
  -> should only work if no active tasks exist for that project
  -> if there are no active tasks, it should remove project from list and mark it as inactive
 
-- screen overlay example: FunkyOverlayWindow
-
 - how do you retain user preference information
  -> so that windows open in the same place?
  -> so that table columns retain their adjusted size?
-
-- maybe display seconds for currently running task?
 
 - shortcuts to close window with apple-w
 
 - weirdness if you have an active task with an inactive project
 
-- refactor: category for "taskStopper" instead of passing around appController (ie, in breakController.initWithAppController)
-
 - use sparkle for pushing updates
+
+- add tags to tasks
+ -> this could lead to interesting reports (http://projecthamster.wordpress.com/2010/01/03/implementing-tags-part-two/)
+ -> OR, could be used like how I search in yojimbo (or delicious)
+ 
+ 
+ 
+
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 - timeout style break timing
@@ -76,5 +82,19 @@ In a Core Data document-based application, the standard NSDocument undo manager 
 - refactor: reportingWindow in both app delegate and reportscontroller
 
 - refactor: what is a good way to share the managedObjectContext?
+
+- option enter for a newline?
+
+- maybe display seconds for currently running task?
+
+- screen overlay example: FunkyOverlayWindow
+
+- refactor: category for "taskStopper" instead of passing around appController (ie, in breakController.initWithAppController)
+
+
+
+
+
+
 
 
