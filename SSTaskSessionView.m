@@ -6,10 +6,10 @@
 //  Copyright 2010 Grubhub Inc. All rights reserved.
 //
 
-#import "SSTimeSlice.h"
+#import "SSTaskSessionView.h"
 
 
-@implementation SSTimeSlice
+@implementation SSTaskSessionView
 
 - (id)initWithFrame:(NSRect)frame {
     self = [super initWithFrame:frame];
@@ -21,8 +21,8 @@
 
 - (void)drawRect:(NSRect)dirtyRect {
     // Drawing code here.
-	[[NSColor magentaColor] set];
-    NSRectFill(dirtyRect);
+	//[[NSColor magentaColor] set];
+    //NSRectFill(dirtyRect);
 }
 
 @end

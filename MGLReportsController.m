@@ -8,6 +8,7 @@
 
 #import "MGLReportsController.h"
 #import "SSTaskReport.h"
+#import "SSTaskReportView.h"
 
 
 @implementation MGLReportsController
@@ -55,6 +56,7 @@
 	startDate = [gregorian dateFromComponents:components];	
 	
 	//get tasks which have a taskSession after the start and before the end
+	// http://www.cocoabuilder.com/archive/cocoa/210757-nspredicate-for-any-match-based-on-two-properties-at-once.html
 	NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(SUBQUERY(taskSessions, $x, $x.createDate >= %@ AND $x.createDate <= %@) != 0)",
 						 startDate, endDate];
 	
@@ -69,13 +71,10 @@
 	NSArray * results = [context executeFetchRequest:fetch error:nil];
 	NSLog(@"%@", results );
 	
+	NSRect frame = NSMakeRect(10, 10, 100, 100);
+	NSView *slice = [[SSTaskReportView alloc] initWithFrame:frame];
 	
-	//NSRect frame = NSMakeRect(10, 10, 20, 20);
-	//SView *slice = [[SSTaskReport alloc] initWithFrame:frame];
-	
-	//[self.contentsView addSubview:slice]; 
-	
-	
+	[self.contentsView addSubview:slice]; 
 	
 }
 
