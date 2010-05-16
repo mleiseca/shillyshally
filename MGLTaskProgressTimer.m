@@ -7,16 +7,16 @@
 //
 
 #import "MGLTaskProgressTimer.h"
-#import "MGLTask.h"
-#import "MGLTaskSession.h"
+#import "SSTask.h"
+#import "SSTaskSession.h"
 
 @implementation MGLTaskProgressTimer
 @synthesize activeTaskSession;
 @synthesize timer;
 @synthesize startDate;
 
--(void) startTaskSession:(MGLTaskSession *) taskSession{
-	MGLTask *task = [taskSession task];
+-(void) startTaskSession:(SSTaskSession *) taskSession{
+	SSTask *task = [taskSession task];
 	NSLog(@"Starting task: %@", [task desc]);
 	
 	if(activeTaskSession){
@@ -37,7 +37,7 @@
 }
 
 -(void) stopTask{
-	MGLTask *task = [self.activeTaskSession task];
+	SSTask *task = [self.activeTaskSession task];
 	NSLog(@"stopping task: %@", [task desc]);
 	
 	task.running = NO;

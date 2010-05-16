@@ -6,11 +6,11 @@
 //  .
 //
 
-#import "MGLProject.h"
+#import "SSProject.h"
 
-#import "MGLTask.h"
+#import "SSTask.h"
 
-@implementation MGLProject 
+@implementation SSProject 
 
 @dynamic createDate;
 @dynamic active;
@@ -43,7 +43,7 @@
 }
 
 - (NSDate *) workStartDate{
-	MGLTask *task = nil;
+	SSTask *task = nil;
 	NSDate *earliestStart = nil;
 	
 	for(task in self.tasks){

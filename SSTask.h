@@ -8,10 +8,10 @@
 
 #import <CoreData/CoreData.h>
 
-@class MGLProject;
-@class MGLTaskSession;
+@class SSProject;
+@class SSTaskSession;
 
-@interface MGLTask :  NSManagedObject
+@interface SSTask :  NSManagedObject
 {
 	BOOL running;
 }
@@ -23,16 +23,16 @@
 @property (nonatomic, retain) NSDate * createDate;
 @property (nonatomic, retain) NSString * ticketId;
 @property (nonatomic, retain) NSNumber * hoursEstimate;
-@property (nonatomic, retain) MGLProject * project;
+@property (nonatomic, retain) SSProject * project;
 @property (nonatomic, retain) NSSet* taskSessions;
 @property (nonatomic, assign) BOOL running;
 
 @end
 
 
-@interface MGLTask (CoreDataGeneratedAccessors)
-- (void)addTaskSessionsObject:(MGLTaskSession *)value;
-- (void)removeTaskSessionsObject:(MGLTaskSession *)value;
+@interface SSTask (CoreDataGeneratedAccessors)
+- (void)addTaskSessionsObject:(SSTaskSession *)value;
+- (void)removeTaskSessionsObject:(SSTaskSession *)value;
 - (void)addTaskSessions:(NSSet *)value;
 - (void)removeTaskSessions:(NSSet *)value;
 

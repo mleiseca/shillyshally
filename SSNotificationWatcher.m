@@ -7,8 +7,8 @@
 //
 
 #import "SSNotificationWatcher.h"
-#import "MGLTask.h"
-#import "MGLTaskSession.h"
+#import "SSTask.h"
+#import "SSTaskSession.h"
 
 
 
@@ -35,9 +35,9 @@
 	id updatedObject = nil;
 	for (updatedObject in updatedObjects){
 			
-		if ([updatedObject class] == [MGLTaskSession class]){
+		if ([updatedObject class] == [SSTaskSession class]){
 			NSLog(@"updating task with current time");
-			MGLTask *task = [updatedObject task];
+			SSTask *task = [updatedObject task];
 			[task willChangeValueForKey:@"timeWorked"];
 			[task didChangeValueForKey:@"timeWorked"];
 		}

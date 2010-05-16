@@ -8,10 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "MGLTaskSession.h"
+#import "SSTaskSession.h"
 
 
-@interface SSFakeTaskSession : MGLTaskSession {
+@interface SSFakeTaskSession : SSTaskSession {
 	NSNumber *secondsWorked;
 }
 

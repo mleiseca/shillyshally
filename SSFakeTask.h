@@ -8,9 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "MGLTask.h"
+#import "SSTask.h"
 
-@interface SSFakeTask : MGLTask {
+@interface SSFakeTask : SSTask {
 	NSSet *taskSessions;
 }
 

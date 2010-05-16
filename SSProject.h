@@ -8,9 +8,9 @@
 
 #import <CoreData/CoreData.h>
 
-@class MGLTask;
+@class SSTask;
 
-@interface MGLProject :  NSManagedObject  
+@interface SSProject :  NSManagedObject  
 {
 }
 
@@ -25,9 +25,9 @@
 @end
 
 
-@interface MGLProject (CoreDataGeneratedAccessors)
-- (void)addTasksObject:(MGLTask *)value;
-- (void)removeTasksObject:(MGLTask *)value;
+@interface SSProject (CoreDataGeneratedAccessors)
+- (void)addTasksObject:(SSTask *)value;
+- (void)removeTasksObject:(SSTask *)value;
 - (void)addTasks:(NSSet *)value;
 - (void)removeTasks:(NSSet *)value;
 

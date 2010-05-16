@@ -8,9 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "MGLTask.h"
+#import "SSTask.h"
 
-@interface MGLTask (reporting)
+@interface SSTask (reporting)
 
 - (NSNumber *) secondsWorked;
 - (NSString *) timeWorked;

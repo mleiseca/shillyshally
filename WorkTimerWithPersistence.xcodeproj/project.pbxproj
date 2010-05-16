@@ -15,7 +15,7 @@
 		D027C697116A236D00EEB624 /* MGLReportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027C696116A236D00EEB624 /* MGLReportsController.m */; };
 		D03812A61144A65E0097C1A5 /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03812A51144A65E0097C1A5 /* Break.xib */; };
 		D038BFC3119529500020D86A /* SSNotificationWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D038BFC2119529500020D86A /* SSNotificationWatcher.m */; };
-		D0420C52113AEFE7008D0211 /* MGLProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0420C51113AEFE7008D0211 /* MGLProject.m */; };
+		D0420C52113AEFE7008D0211 /* SSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0420C51113AEFE7008D0211 /* SSProject.m */; };
 		D046A13F117BF957008DD853 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
 		D046A174117BF9A8008DD853 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
 		D046A3BC117F1019008DD853 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D046A3BB117F1019008DD853 /* Preferences.xib */; };
@@ -28,12 +28,12 @@
 		D0615A971197B12900568295 /* SSTaskSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0615A961197B12900568295 /* SSTaskSessionView.m */; };
 		D0622B1C119DE0DF0040ECD7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0622B1B119DE0DF0040ECD7 /* SenTestingKit.framework */; };
 		D0622B61119DE49C0040ECD7 /* SSTaskReportingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D0622B3B119DE1690040ECD7 /* SSTaskReportingTest.m */; };
-		D0622B63119DE49C0040ECD7 /* MGLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F8A1141B11B0082DC6E /* MGLTask.m */; };
+		D0622B63119DE49C0040ECD7 /* SSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F8A1141B11B0082DC6E /* SSTask.m */; };
 		D0622BBB119DEE790040ECD7 /* Test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0622BBA119DEE790040ECD7 /* Test-Info.plist */; };
-		D0622BCA119DF1760040ECD7 /* MGLTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* MGLTaskSession.m */; };
+		D0622BCA119DF1760040ECD7 /* SSTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* SSTaskSession.m */; };
 		D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */; };
 		D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078469E112918E600A2755E /* MGLTaskAppController.m */; };
-		D078476B1129D3CC00A2755E /* MGLTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* MGLTaskSession.m */; };
+		D078476B1129D3CC00A2755E /* SSTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* SSTaskSession.m */; };
 		D0784A971131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */; };
 		D0784B491132210D00A2755E /* Add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B1A1132210D00A2755E /* Add.tiff */; };
 		D0784B4A1132210D00A2755E /* Blue Ball.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B1B1132210D00A2755E /* Blue Ball.tiff */; };
@@ -85,7 +85,7 @@
 		D0784C5D11323C2800A2755E /* TheBends.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0784C5C11323C2800A2755E /* TheBends.icns */; };
 		D07C00571197CB080046EB88 /* SSTaskReportView.m in Sources */ = {isa = PBXBuildFile; fileRef = D07C00561197CB080046EB88 /* SSTaskReportView.m */; };
 		D0845F2F1141A6ED0082DC6E /* MGLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F2E1141A6ED0082DC6E /* MGLTableView.m */; };
-		D0845F8B1141B11B0082DC6E /* MGLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F8A1141B11B0082DC6E /* MGLTask.m */; };
+		D0845F8B1141B11B0082DC6E /* SSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F8A1141B11B0082DC6E /* SSTask.m */; };
 		D0BAC99F11A03C520000C54B /* SSTask+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */; };
 		D0BAC9A011A03C520000C54B /* SSTask+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */; };
 		D0BAC9C911A03DE10000C54B /* SSFakeTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9C711A03DE10000C54B /* SSFakeTask.m */; };
@@ -130,8 +130,8 @@
 		D03812A51144A65E0097C1A5 /* Break.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Break.xib; sourceTree = "<group>"; };
 		D038BFC1119529500020D86A /* SSNotificationWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNotificationWatcher.h; sourceTree = "<group>"; };
 		D038BFC2119529500020D86A /* SSNotificationWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNotificationWatcher.m; sourceTree = "<group>"; };
-		D0420C50113AEFE7008D0211 /* MGLProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLProject.h; sourceTree = "<group>"; };
-		D0420C51113AEFE7008D0211 /* MGLProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLProject.m; sourceTree = "<group>"; };
+		D0420C50113AEFE7008D0211 /* SSProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProject.h; sourceTree = "<group>"; };
+		D0420C51113AEFE7008D0211 /* SSProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProject.m; sourceTree = "<group>"; };
 		D046A13E117BF957008DD853 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/mleiseca/dev/osx/Frameworks/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
 		D046A3BB117F1019008DD853 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		D046A3BD117F102D008DD853 /* MGLPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLPreferencesController.h; sourceTree = "<group>"; };
@@ -155,8 +155,8 @@
 		D0784652112913D100A2755E /* MGLTaskProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskProgressTimer.m; sourceTree = "<group>"; };
 		D078469D112918E600A2755E /* MGLTaskAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskAppController.h; sourceTree = "<group>"; };
 		D078469E112918E600A2755E /* MGLTaskAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskAppController.m; sourceTree = "<group>"; };
-		D07847681129D3CC00A2755E /* MGLTaskSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskSession.h; sourceTree = "<group>"; };
-		D07847691129D3CC00A2755E /* MGLTaskSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskSession.m; sourceTree = "<group>"; };
+		D07847681129D3CC00A2755E /* SSTaskSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskSession.h; sourceTree = "<group>"; };
+		D07847691129D3CC00A2755E /* SSTaskSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskSession.m; sourceTree = "<group>"; };
 		D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLArrayController_CompletedTaskFilter.h; sourceTree = "<group>"; };
 		D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLArrayController_CompletedTaskFilter.m; sourceTree = "<group>"; };
 		D0784B1A1132210D00A2755E /* Add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Add.tiff; sourceTree = "<group>"; };
@@ -212,8 +212,8 @@
 		D07C00561197CB080046EB88 /* SSTaskReportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReportView.m; sourceTree = "<group>"; };
 		D0845F2D1141A6ED0082DC6E /* MGLTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTableView.h; sourceTree = "<group>"; };
 		D0845F2E1141A6ED0082DC6E /* MGLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTableView.m; sourceTree = "<group>"; };
-		D0845F891141B11B0082DC6E /* MGLTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTask.h; sourceTree = "<group>"; };
-		D0845F8A1141B11B0082DC6E /* MGLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTask.m; sourceTree = "<group>"; };
+		D0845F891141B11B0082DC6E /* SSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTask.h; sourceTree = "<group>"; };
+		D0845F8A1141B11B0082DC6E /* SSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTask.m; sourceTree = "<group>"; };
 		D0984969116F480900CD6C20 /* WorkTimerWithPersistence_DataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 2.xcdatamodel"; sourceTree = "<group>"; };
 		D0BAC99D11A03C520000C54B /* SSTask+Reporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSTask+Reporting.h"; sourceTree = "<group>"; };
 		D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSTask+Reporting.m"; sourceTree = "<group>"; };
@@ -341,12 +341,12 @@
 				D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */,
 				D0BAC9F811A042DA0000C54B /* SSTask+TableFormatting.h */,
 				D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */,
-				D0845F891141B11B0082DC6E /* MGLTask.h */,
-				D0845F8A1141B11B0082DC6E /* MGLTask.m */,
-				D07847681129D3CC00A2755E /* MGLTaskSession.h */,
-				D07847691129D3CC00A2755E /* MGLTaskSession.m */,
-				D0420C50113AEFE7008D0211 /* MGLProject.h */,
-				D0420C51113AEFE7008D0211 /* MGLProject.m */,
+				D0845F891141B11B0082DC6E /* SSTask.h */,
+				D0845F8A1141B11B0082DC6E /* SSTask.m */,
+				D07847681129D3CC00A2755E /* SSTaskSession.h */,
+				D07847691129D3CC00A2755E /* SSTaskSession.m */,
+				D0420C50113AEFE7008D0211 /* SSProject.h */,
+				D0420C51113AEFE7008D0211 /* SSProject.m */,
 				D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */,
 			);
 			name = Models;
@@ -651,11 +651,11 @@
 				D0E400A61148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */,
 				D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */,
 				D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */,
-				D078476B1129D3CC00A2755E /* MGLTaskSession.m in Sources */,
+				D078476B1129D3CC00A2755E /* SSTaskSession.m in Sources */,
 				D0784A971131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m in Sources */,
-				D0420C52113AEFE7008D0211 /* MGLProject.m in Sources */,
+				D0420C52113AEFE7008D0211 /* SSProject.m in Sources */,
 				D0845F2F1141A6ED0082DC6E /* MGLTableView.m in Sources */,
-				D0845F8B1141B11B0082DC6E /* MGLTask.m in Sources */,
+				D0845F8B1141B11B0082DC6E /* SSTask.m in Sources */,
 				D027C697116A236D00EEB624 /* MGLReportsController.m in Sources */,
 				D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */,
 				D054AA8C11720A79001B23AE /* MGLBreakController.m in Sources */,
@@ -675,9 +675,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0622BCA119DF1760040ECD7 /* MGLTaskSession.m in Sources */,
+				D0622BCA119DF1760040ECD7 /* SSTaskSession.m in Sources */,
 				D0622B61119DE49C0040ECD7 /* SSTaskReportingTest.m in Sources */,
-				D0622B63119DE49C0040ECD7 /* MGLTask.m in Sources */,
+				D0622B63119DE49C0040ECD7 /* SSTask.m in Sources */,
 				D0BAC99F11A03C520000C54B /* SSTask+Reporting.m in Sources */,
 				D0BAC9C911A03DE10000C54B /* SSFakeTask.m in Sources */,
 				D0BAC9D211A03FAD0000C54B /* SSFakeTaskSession.m in Sources */,

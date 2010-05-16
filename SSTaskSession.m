@@ -6,11 +6,11 @@
 //  .
 //
 
-#import "MGLTaskSession.h"
+#import "SSTaskSession.h"
 
-#import "MGLTask.h"
+#import "SSTask.h"
 
-@implementation MGLTaskSession 
+@implementation SSTaskSession 
 
 @dynamic createDate;
 @dynamic secondsWorked;

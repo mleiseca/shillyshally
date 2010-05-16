@@ -9,7 +9,7 @@
 #import "SSTask+TableFormatting.h"
 
 
-@implementation MGLTask (tableformatting)
+@implementation SSTask (tableformatting)
 
 + (NSSet *)keyPathsForValuesAffectingFont{
 	return [NSSet setWithObjects:@"running", nil];

@@ -7,9 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "MGLTask.h"
+#import "SSTask.h"
 
-@interface MGLTask (tableformatting)
+@interface SSTask (tableformatting)
 - (NSFont *) font;
 - (NSColor *) color;
 

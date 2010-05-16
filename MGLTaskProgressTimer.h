@@ -8,20 +8,20 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class MGLTaskSession;
+@class SSTaskSession;
 
 @interface MGLTaskProgressTimer : NSObject {
-	MGLTaskSession *activeTaskSession;
+	SSTaskSession *activeTaskSession;
 	NSDate *startDate;
 	NSTimer *timer;
 }
 
-@property(nonatomic, retain) MGLTaskSession *activeTaskSession;
+@property(nonatomic, retain) SSTaskSession *activeTaskSession;
 @property(nonatomic, retain) NSTimer *timer;
 @property(nonatomic, retain) NSDate *startDate;
 
 
--(void) startTaskSession:(MGLTaskSession *) task;
+-(void) startTaskSession:(SSTaskSession *) task;
 -(void) stopTask;
 -(BOOL) isRunning;
 

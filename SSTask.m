@@ -6,12 +6,12 @@
 //  .
 //
 
-#import "MGLTask.h"
+#import "SSTask.h"
 
-#import "MGLProject.h"
-#import "MGLTaskSession.h"
+#import "SSProject.h"
+#import "SSTaskSession.h"
 
-@implementation MGLTask 
+@implementation SSTask 
 
 @dynamic completedDate;
 @dynamic createDate;
@@ -26,8 +26,7 @@
 @synthesize running;
 
 
-- (void) awakeFromInsert
-{
+- (void) awakeFromInsert{
 	//this is the only way I found to default the create date to current date on insert
 	NSDate *now = [NSDate date];
 	self.createDate = now;

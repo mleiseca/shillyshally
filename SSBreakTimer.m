@@ -10,7 +10,7 @@
 #import "WorkTimerWithPersistence_AppDelegate.h"
 #import "MGLTaskAppController.h"
 
-#import "MGLTask.h"
+#import "SSTask.h"
 #import "SSConstants.h"
 
 @implementation SSBreakTimer
@@ -28,7 +28,7 @@
 	}
 	
 	WorkTimerWithPersistence_AppDelegate *appDelegate = [NSApp delegate];
-	MGLTask *currentTask = [appDelegate.appController taskInProgress];
+	SSTask *currentTask = [appDelegate.appController taskInProgress];
 	
 	NSLog(@"currentTask meeting? %@" ,[currentTask meeting]);
 	if ( currentTask &&  [[currentTask meeting] boolValue] ){

@@ -8,8 +8,8 @@
 
 #import "MGLTaskAppController.h"
 #import "MGLTaskProgressTimer.h"
-#import "MGLTask.h"
-#import "MGLTaskSession.h"
+#import "SSTask.h"
+#import "SSTaskSession.h"
 #import "WorkTimerWithPersistence_AppDelegate.h"
 
 @implementation MGLTaskAppController
@@ -24,9 +24,9 @@
 @synthesize mainWindow;
 
 
-- (void) startTask: (MGLTask *) selectedTask  {
+- (void) startTask: (SSTask *) selectedTask  {
 	//either 
-	MGLTaskSession *taskSession = [NSEntityDescription
+	SSTaskSession *taskSession = [NSEntityDescription
 								   insertNewObjectForEntityForName:@"MGLTaskSession" inManagedObjectContext:self.appDelegate.managedObjectContext];
 
 	taskSession.task = selectedTask;
@@ -56,7 +56,7 @@
 	NSArray *selectedTasks = [self.taskList selectedObjects] ;
 	if([selectedTasks count] == 1){
 		
-		MGLTask *selectedTask = [selectedTasks objectAtIndex:0];
+		SSTask *selectedTask = [selectedTasks objectAtIndex:0];
 		
 		if(self.taskProgressTimer.activeTaskSession.task == selectedTask){
 			if(self.taskProgressTimer.isRunning){
@@ -93,7 +93,7 @@
 	
 	NSArray *selectedTasks = [self.taskList selectedObjects] ;
 	if([selectedTasks count] == 1){
-		MGLTask *selectedTask = [selectedTasks objectAtIndex:0];
+		SSTask *selectedTask = [selectedTasks objectAtIndex:0];
 		
 		NSInteger currentIndex = [projects indexOfObject: selectedTask.project];
 		
@@ -136,7 +136,7 @@
 	
 	NSArray *selectedTasks = [self.taskList selectedObjects] ;
 	if([selectedTasks count] == 1){
-		MGLTask *selectedTask = [selectedTasks objectAtIndex:0];
+		SSTask *selectedTask = [selectedTasks objectAtIndex:0];
 		
 		[[[appDelegate applicationUndoManager]  prepareWithInvocationTarget:self.taskList] rearrangeObjects];
 
@@ -161,7 +161,7 @@
 -(void) copyCurrentTableRow{
 	NSArray *selectedTasks = [self.taskList selectedObjects] ;
 	if([selectedTasks count] == 1){
-		MGLTask *selectedTask = [selectedTasks objectAtIndex:0];
+		SSTask *selectedTask = [selectedTasks objectAtIndex:0];
 
 		NSString *ticketReference= @"";
 		
@@ -181,7 +181,7 @@
 }
 
 
--(MGLTask *) taskInProgress{
+-(SSTask *) taskInProgress{
 	return [[taskProgressTimer activeTaskSession] task];	
 }
 

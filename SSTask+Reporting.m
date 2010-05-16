@@ -7,9 +7,9 @@
 //
 
 #import "SSTask+Reporting.h"
-#import "MGLTaskSession.h"
+#import "SSTaskSession.h"
 
-@implementation MGLTask (reporting)
+@implementation SSTask (reporting)
 
 - (NSNumber *) secondsWorked{
 	return [self valueForKeyPath:@"taskSessions.@sum.secondsWorked"];
@@ -28,7 +28,7 @@
 }
 
 - (NSDate *) workStartDate{
-	MGLTaskSession *taskSession = nil;
+	SSTaskSession *taskSession = nil;
 	NSDate *earliestStart = nil;
 	
 	for(taskSession in self.taskSessions){
