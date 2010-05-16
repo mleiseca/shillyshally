@@ -27,11 +27,6 @@
 @property (nonatomic, retain) NSSet* taskSessions;
 @property (nonatomic, assign) BOOL running;
 
-/*- (NSString *) timeWorked;*/
-/*- (NSDate *) workStartDate; */
-- (NSFont *) font;
-- (NSColor *) color;
-
 @end
 
 
@@ -40,8 +35,6 @@
 - (void)removeTaskSessionsObject:(MGLTaskSession *)value;
 - (void)addTaskSessions:(NSSet *)value;
 - (void)removeTaskSessions:(NSSet *)value;
-
-
 
 @end
 

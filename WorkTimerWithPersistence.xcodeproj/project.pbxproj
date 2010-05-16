@@ -90,6 +90,8 @@
 		D0BAC9A011A03C520000C54B /* SSTask+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */; };
 		D0BAC9C911A03DE10000C54B /* SSFakeTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9C711A03DE10000C54B /* SSFakeTask.m */; };
 		D0BAC9D211A03FAD0000C54B /* SSFakeTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9D111A03FAD0000C54B /* SSFakeTaskSession.m */; };
+		D0BAC9FA11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */; };
+		D0BAC9FB11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */; };
 		D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
 		D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */; };
 		D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0E16F701141E2D80026607A /* TheBendsActive.icns */; };
@@ -219,6 +221,8 @@
 		D0BAC9C711A03DE10000C54B /* SSFakeTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFakeTask.m; sourceTree = "<group>"; };
 		D0BAC9D011A03FAD0000C54B /* SSFakeTaskSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFakeTaskSession.h; sourceTree = "<group>"; };
 		D0BAC9D111A03FAD0000C54B /* SSFakeTaskSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFakeTaskSession.m; sourceTree = "<group>"; };
+		D0BAC9F811A042DA0000C54B /* SSTask+TableFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSTask+TableFormatting.h"; sourceTree = "<group>"; };
+		D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSTask+TableFormatting.m"; sourceTree = "<group>"; };
 		D0C9F50A1181AFA900A2E55B /* SSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConstants.h; sourceTree = "<group>"; };
 		D0C9F50B1181AFA900A2E55B /* SSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConstants.m; sourceTree = "<group>"; };
 		D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBreakTimer.h; sourceTree = "<group>"; };
@@ -335,6 +339,8 @@
 			children = (
 				D0BAC99D11A03C520000C54B /* SSTask+Reporting.h */,
 				D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */,
+				D0BAC9F811A042DA0000C54B /* SSTask+TableFormatting.h */,
+				D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */,
 				D0845F891141B11B0082DC6E /* MGLTask.h */,
 				D0845F8A1141B11B0082DC6E /* MGLTask.m */,
 				D07847681129D3CC00A2755E /* MGLTaskSession.h */,
@@ -661,6 +667,7 @@
 				D0615A971197B12900568295 /* SSTaskSessionView.m in Sources */,
 				D07C00571197CB080046EB88 /* SSTaskReportView.m in Sources */,
 				D0BAC9A011A03C520000C54B /* SSTask+Reporting.m in Sources */,
+				D0BAC9FB11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,6 +681,7 @@
 				D0BAC99F11A03C520000C54B /* SSTask+Reporting.m in Sources */,
 				D0BAC9C911A03DE10000C54B /* SSFakeTask.m in Sources */,
 				D0BAC9D211A03FAD0000C54B /* SSFakeTaskSession.m in Sources */,
+				D0BAC9FA11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
