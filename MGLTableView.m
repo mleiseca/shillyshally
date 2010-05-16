@@ -3,7 +3,7 @@
 //  WorkTimerWithPersistence
 //
 //  Created by Michael Leiseca on 3/5/10.
-//  Copyright 2010 Grubhub Inc. All rights reserved.
+//  .
 //
 
 #import "MGLTableView.h"

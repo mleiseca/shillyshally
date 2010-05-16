@@ -3,7 +3,7 @@
 //  WorkTimerWithPersistence
 //
 //  Created by Michael Leiseca on 3/5/10.
-//  Copyright 2010 Grubhub Inc. All rights reserved.
+//  .
 //
 
 #import <CoreData/CoreData.h>
@@ -11,7 +11,7 @@
 @class MGLProject;
 @class MGLTaskSession;
 
-@interface MGLTask :  NSManagedObject  
+@interface MGLTask :  NSManagedObject
 {
 	BOOL running;
 }
@@ -27,8 +27,8 @@
 @property (nonatomic, retain) NSSet* taskSessions;
 @property (nonatomic, assign) BOOL running;
 
-- (NSString *) timeWorked;
-- (NSDate *) workStartDate;
+/*- (NSString *) timeWorked;*/
+/*- (NSDate *) workStartDate; */
 - (NSFont *) font;
 - (NSColor *) color;
 
@@ -40,6 +40,8 @@
 - (void)removeTaskSessionsObject:(MGLTaskSession *)value;
 - (void)addTaskSessions:(NSSet *)value;
 - (void)removeTaskSessions:(NSSet *)value;
+
+
 
 @end
 

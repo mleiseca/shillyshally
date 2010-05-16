@@ -26,6 +26,11 @@
 		D054AA8C11720A79001B23AE /* MGLBreakController.m in Sources */ = {isa = PBXBuildFile; fileRef = D054AA8B11720A79001B23AE /* MGLBreakController.m */; };
 		D0615A711197AD5B00568295 /* SSTaskReport.m in Sources */ = {isa = PBXBuildFile; fileRef = D0615A701197AD5B00568295 /* SSTaskReport.m */; };
 		D0615A971197B12900568295 /* SSTaskSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0615A961197B12900568295 /* SSTaskSessionView.m */; };
+		D0622B1C119DE0DF0040ECD7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0622B1B119DE0DF0040ECD7 /* SenTestingKit.framework */; };
+		D0622B61119DE49C0040ECD7 /* SSTaskReportingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D0622B3B119DE1690040ECD7 /* SSTaskReportingTest.m */; };
+		D0622B63119DE49C0040ECD7 /* MGLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F8A1141B11B0082DC6E /* MGLTask.m */; };
+		D0622BBB119DEE790040ECD7 /* Test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0622BBA119DEE790040ECD7 /* Test-Info.plist */; };
+		D0622BCA119DF1760040ECD7 /* MGLTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* MGLTaskSession.m */; };
 		D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */; };
 		D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078469E112918E600A2755E /* MGLTaskAppController.m */; };
 		D078476B1129D3CC00A2755E /* MGLTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* MGLTaskSession.m */; };
@@ -81,6 +86,10 @@
 		D07C00571197CB080046EB88 /* SSTaskReportView.m in Sources */ = {isa = PBXBuildFile; fileRef = D07C00561197CB080046EB88 /* SSTaskReportView.m */; };
 		D0845F2F1141A6ED0082DC6E /* MGLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F2E1141A6ED0082DC6E /* MGLTableView.m */; };
 		D0845F8B1141B11B0082DC6E /* MGLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F8A1141B11B0082DC6E /* MGLTask.m */; };
+		D0BAC99F11A03C520000C54B /* SSTask+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */; };
+		D0BAC9A011A03C520000C54B /* SSTask+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */; };
+		D0BAC9C911A03DE10000C54B /* SSFakeTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9C711A03DE10000C54B /* SSFakeTask.m */; };
+		D0BAC9D211A03FAD0000C54B /* SSFakeTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9D111A03FAD0000C54B /* SSFakeTaskSession.m */; };
 		D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
 		D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */; };
 		D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0E16F701141E2D80026607A /* TheBendsActive.icns */; };
@@ -135,6 +144,11 @@
 		D0615A701197AD5B00568295 /* SSTaskReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReport.m; sourceTree = "<group>"; };
 		D0615A951197B12900568295 /* SSTaskSessionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskSessionView.h; sourceTree = "<group>"; };
 		D0615A961197B12900568295 /* SSTaskSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskSessionView.m; sourceTree = "<group>"; };
+		D0622B1B119DE0DF0040ECD7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = SDKROOT; };
+		D0622B3A119DE1690040ECD7 /* SSTaskReportingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskReportingTest.h; sourceTree = "<group>"; };
+		D0622B3B119DE1690040ECD7 /* SSTaskReportingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReportingTest.m; sourceTree = "<group>"; };
+		D0622B57119DE42D0040ECD7 /* Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0622BBA119DEE790040ECD7 /* Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
 		D0784651112913D100A2755E /* MGLTaskProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskProgressTimer.h; sourceTree = "<group>"; };
 		D0784652112913D100A2755E /* MGLTaskProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskProgressTimer.m; sourceTree = "<group>"; };
 		D078469D112918E600A2755E /* MGLTaskAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskAppController.h; sourceTree = "<group>"; };
@@ -199,6 +213,12 @@
 		D0845F891141B11B0082DC6E /* MGLTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTask.h; sourceTree = "<group>"; };
 		D0845F8A1141B11B0082DC6E /* MGLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTask.m; sourceTree = "<group>"; };
 		D0984969116F480900CD6C20 /* WorkTimerWithPersistence_DataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 2.xcdatamodel"; sourceTree = "<group>"; };
+		D0BAC99D11A03C520000C54B /* SSTask+Reporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSTask+Reporting.h"; sourceTree = "<group>"; };
+		D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSTask+Reporting.m"; sourceTree = "<group>"; };
+		D0BAC9C611A03DE10000C54B /* SSFakeTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFakeTask.h; sourceTree = "<group>"; };
+		D0BAC9C711A03DE10000C54B /* SSFakeTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFakeTask.m; sourceTree = "<group>"; };
+		D0BAC9D011A03FAD0000C54B /* SSFakeTaskSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFakeTaskSession.h; sourceTree = "<group>"; };
+		D0BAC9D111A03FAD0000C54B /* SSFakeTaskSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFakeTaskSession.m; sourceTree = "<group>"; };
 		D0C9F50A1181AFA900A2E55B /* SSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConstants.h; sourceTree = "<group>"; };
 		D0C9F50B1181AFA900A2E55B /* SSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConstants.m; sourceTree = "<group>"; };
 		D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBreakTimer.h; sourceTree = "<group>"; };
@@ -214,6 +234,14 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				D046A13F117BF957008DD853 /* BWToolkitFramework.framework in Frameworks */,
+				D0622B1C119DE0DF0040ECD7 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0622B54119DE42D0040ECD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +251,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0622B1B119DE0DF0040ECD7 /* SenTestingKit.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				D046A13E117BF957008DD853 /* BWToolkitFramework.framework */,
 			);
@@ -243,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* shillyshally.app */,
+				D0622B57119DE42D0040ECD7 /* Test.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,6 +280,7 @@
 		29B97314FDCFA39411CA2CEA /* WorkTimerWithPersistence */ = {
 			isa = PBXGroup;
 			children = (
+				D0622B39119DE0EC0040ECD7 /* Test Cases */,
 				D0784B19113220F000A2755E /* Icons */,
 				7756732906782D8800D1FEB8 /* Models */,
 				D0C9F5111181B05B00A2E55B /* Preferences */,
@@ -265,6 +296,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				D0622BBA119DEE790040ECD7 /* Test-Info.plist */,
 			);
 			name = WorkTimerWithPersistence;
 			sourceTree = "<group>";
@@ -301,6 +333,8 @@
 		7756732906782D8800D1FEB8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D0BAC99D11A03C520000C54B /* SSTask+Reporting.h */,
+				D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */,
 				D0845F891141B11B0082DC6E /* MGLTask.h */,
 				D0845F8A1141B11B0082DC6E /* MGLTask.m */,
 				D07847681129D3CC00A2755E /* MGLTaskSession.h */,
@@ -320,6 +354,19 @@
 				D054AA8B11720A79001B23AE /* MGLBreakController.m */,
 			);
 			name = Break;
+			sourceTree = "<group>";
+		};
+		D0622B39119DE0EC0040ECD7 /* Test Cases */ = {
+			isa = PBXGroup;
+			children = (
+				D0622B3A119DE1690040ECD7 /* SSTaskReportingTest.h */,
+				D0622B3B119DE1690040ECD7 /* SSTaskReportingTest.m */,
+				D0BAC9C611A03DE10000C54B /* SSFakeTask.h */,
+				D0BAC9C711A03DE10000C54B /* SSFakeTask.m */,
+				D0BAC9D011A03FAD0000C54B /* SSFakeTaskSession.h */,
+				D0BAC9D111A03FAD0000C54B /* SSFakeTaskSession.m */,
+			);
+			name = "Test Cases";
 			sourceTree = "<group>";
 		};
 		D0784B19113220F000A2755E /* Icons */ = {
@@ -463,6 +510,24 @@
 			productReference = 8D1107320486CEB800E47090 /* shillyshally.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D0622B56119DE42D0040ECD7 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0622B5B119DE42D0040ECD7 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				D0622B52119DE42D0040ECD7 /* Resources */,
+				D0622B53119DE42D0040ECD7 /* Sources */,
+				D0622B54119DE42D0040ECD7 /* Frameworks */,
+				D0622B55119DE42D0040ECD7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = D0622B57119DE42D0040ECD7 /* Test.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -476,6 +541,7 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* shillyshally */,
+				D0622B56119DE42D0040ECD7 /* Test */,
 			);
 		};
 /* End PBXProject section */
@@ -540,10 +606,34 @@
 				D054A9C91171582B001B23AE /* Reports.xib in Resources */,
 				D054A9F111715A82001B23AE /* Projects.xib in Resources */,
 				D046A3BC117F1019008DD853 /* Preferences.xib in Resources */,
+				D0622BBB119DEE790040ECD7 /* Test-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0622B52119DE42D0040ECD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0622B55119DE42D0040ECD7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D11072C0486CEB800E47090 /* Sources */ = {
@@ -570,6 +660,20 @@
 				D0615A711197AD5B00568295 /* SSTaskReport.m in Sources */,
 				D0615A971197B12900568295 /* SSTaskSessionView.m in Sources */,
 				D07C00571197CB080046EB88 /* SSTaskReportView.m in Sources */,
+				D0BAC9A011A03C520000C54B /* SSTask+Reporting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0622B53119DE42D0040ECD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0622BCA119DF1760040ECD7 /* MGLTaskSession.m in Sources */,
+				D0622B61119DE49C0040ECD7 /* SSTaskReportingTest.m in Sources */,
+				D0622B63119DE49C0040ECD7 /* MGLTask.m in Sources */,
+				D0BAC99F11A03C520000C54B /* SSTask+Reporting.m in Sources */,
+				D0BAC9C911A03DE10000C54B /* SSFakeTask.m in Sources */,
+				D0BAC9D211A03FAD0000C54B /* SSFakeTaskSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +767,66 @@
 			};
 			name = Release;
 		};
+		D0622B59119DE42D0040ECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/../Frameworks/BWToolkit\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D0622B5A119DE42D0040ECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/../Frameworks/BWToolkit\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -680,6 +844,15 @@
 			buildConfigurations = (
 				26FC0A890875C7B200E6366F /* Debug */,
 				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0622B5B119DE42D0040ECD7 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0622B59119DE42D0040ECD7 /* Debug */,
+				D0622B5A119DE42D0040ECD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
