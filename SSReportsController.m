@@ -6,12 +6,12 @@
 //  .
 //
 
-#import "MGLReportsController.h"
+#import "SSReportsController.h"
 #import "SSTaskReport.h"
 #import "SSTaskReportView.h"
 
 
-@implementation MGLReportsController
+@implementation SSReportsController
 
 @synthesize reportingWindow;
 @synthesize datePicker;
@@ -23,7 +23,7 @@
 	NSManagedObjectContext *context  = [[NSApp delegate] managedObjectContext];
 	NSManagedObjectModel   *model    = [[NSApp delegate] managedObjectModel];
 	NSDictionary           *entities = [model entitiesByName];
-	NSEntityDescription    *entity   = [entities valueForKey:@"MGLTask"];
+	NSEntityDescription    *entity   = [entities valueForKey:@"SSTask"];
 	
 	//NSDate *date = [[NSDate date] dateByAddingTimeInterval:-1000000];
 	//NSPredicate * predicate = [NSPredicate predicateWithFormat:@"ANY taskSessions.createDate > %@", date];

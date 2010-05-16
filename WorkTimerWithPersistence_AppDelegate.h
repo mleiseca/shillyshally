@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 @class MGLTaskAppController;
-@class MGLReportsController;
+@class SSReportsController;
 @class MGLProjectsController;
 @class MGLBreakController;
 @class MGLPreferencesController;
@@ -20,7 +20,7 @@
 {
     NSWindow *window;
 	MGLProjectsController *projectsController;
-	MGLReportsController  *reportController;
+	SSReportsController  *reportController;
 	MGLBreakController    *breakController;
 	MGLPreferencesController *preferencesController;
 	
@@ -39,7 +39,7 @@
 @property (nonatomic, retain) IBOutlet MGLTaskAppController *appController;
 
 @property (nonatomic, retain) MGLProjectsController *projectsController;
-@property (nonatomic, retain) MGLReportsController  *reportController;
+@property (nonatomic, retain) SSReportsController  *reportController;
 @property (nonatomic, retain) MGLBreakController *breakController;
 @property (nonatomic, retain) MGLPreferencesController *preferencesController;
 @property (nonatomic, retain) SSBreakTimer *breakTimer;

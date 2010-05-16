@@ -1954,7 +1954,7 @@
 				<bool key="NSEditable">YES</bool>
 				<bool key="NSAutomaticallyPreparesContent">YES</bool>
 				<object class="_NSManagedProxy" key="_NSManagedProxy">
-					<string key="NSEntityName">MGLTask</string>
+					<string key="NSEntityName">SSTask</string>
 				</object>
 				<bool key="_NSIsUsingManagedProxy">YES</bool>
 				<bool key="NSAvoidsEmptySelection">YES</bool>
@@ -1974,7 +1974,7 @@
 				<bool key="NSEditable">YES</bool>
 				<bool key="NSAutomaticallyPreparesContent">YES</bool>
 				<object class="_NSManagedProxy" key="_NSManagedProxy">
-					<string key="NSEntityName">MGLProject</string>
+					<string key="NSEntityName">SSProject</string>
 					<object class="NSComparisonPredicate" key="NSFetchPredicate">
 						<object class="NSKeyPathExpression" key="NSLeftExpression">
 							<int key="NSExpressionType">3</int>
@@ -2019,7 +2019,7 @@
 				</object>
 				<bool key="NSEditable">YES</bool>
 				<object class="_NSManagedProxy" key="_NSManagedProxy">
-					<string key="NSEntityName">MGLTaskSession</string>
+					<string key="NSEntityName">SSTaskSession</string>
 				</object>
 				<bool key="_NSIsUsingManagedProxy">YES</bool>
 				<bool key="NSAvoidsEmptySelection">YES</bool>
@@ -4579,9 +4579,9 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<integer value="1"/>
-					<string>{{280, 83}, {984, 612}}</string>
+					<string>{{296, 83}, {984, 612}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{280, 83}, {984, 612}}</string>
+					<string>{{296, 83}, {984, 612}}</string>
 					<integer value="1"/>
 					<integer value="1"/>
 					<integer value="1"/>

@@ -12,7 +12,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		D027C697116A236D00EEB624 /* MGLReportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027C696116A236D00EEB624 /* MGLReportsController.m */; };
+		D027C697116A236D00EEB624 /* SSReportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027C696116A236D00EEB624 /* SSReportsController.m */; };
 		D03812A61144A65E0097C1A5 /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03812A51144A65E0097C1A5 /* Break.xib */; };
 		D038BFC3119529500020D86A /* SSNotificationWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D038BFC2119529500020D86A /* SSNotificationWatcher.m */; };
 		D0420C52113AEFE7008D0211 /* SSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0420C51113AEFE7008D0211 /* SSProject.m */; };
@@ -124,8 +124,8 @@
 		77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkTimerWithPersistence_AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkTimerWithPersistence_AppDelegate.m; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* shillyshally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shillyshally.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D027C695116A236D00EEB624 /* MGLReportsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLReportsController.h; sourceTree = "<group>"; };
-		D027C696116A236D00EEB624 /* MGLReportsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLReportsController.m; sourceTree = "<group>"; };
+		D027C695116A236D00EEB624 /* SSReportsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSReportsController.h; sourceTree = "<group>"; };
+		D027C696116A236D00EEB624 /* SSReportsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSReportsController.m; sourceTree = "<group>"; };
 		D036779E118273A400561690 /* WorkTimerWithPersistence_DataModel 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 3.xcdatamodel"; sourceTree = "<group>"; };
 		D03812A51144A65E0097C1A5 /* Break.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Break.xib; sourceTree = "<group>"; };
 		D038BFC1119529500020D86A /* SSNotificationWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNotificationWatcher.h; sourceTree = "<group>"; };
@@ -223,6 +223,7 @@
 		D0BAC9D111A03FAD0000C54B /* SSFakeTaskSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFakeTaskSession.m; sourceTree = "<group>"; };
 		D0BAC9F811A042DA0000C54B /* SSTask+TableFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSTask+TableFormatting.h"; sourceTree = "<group>"; };
 		D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSTask+TableFormatting.m"; sourceTree = "<group>"; };
+		D0BACA4311A04A0C0000C54B /* WorkTimerWithPersistence_DataModel 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 4.xcdatamodel"; sourceTree = "<group>"; };
 		D0C9F50A1181AFA900A2E55B /* SSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConstants.h; sourceTree = "<group>"; };
 		D0C9F50B1181AFA900A2E55B /* SSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConstants.m; sourceTree = "<group>"; };
 		D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBreakTimer.h; sourceTree = "<group>"; };
@@ -457,8 +458,8 @@
 				D0615A961197B12900568295 /* SSTaskSessionView.m */,
 				D0615A6F1197AD5B00568295 /* SSTaskReport.h */,
 				D0615A701197AD5B00568295 /* SSTaskReport.m */,
-				D027C695116A236D00EEB624 /* MGLReportsController.h */,
-				D027C696116A236D00EEB624 /* MGLReportsController.m */,
+				D027C695116A236D00EEB624 /* SSReportsController.h */,
+				D027C696116A236D00EEB624 /* SSReportsController.m */,
 			);
 			name = Reports;
 			sourceTree = "<group>";
@@ -656,7 +657,7 @@
 				D0420C52113AEFE7008D0211 /* SSProject.m in Sources */,
 				D0845F2F1141A6ED0082DC6E /* MGLTableView.m in Sources */,
 				D0845F8B1141B11B0082DC6E /* SSTask.m in Sources */,
-				D027C697116A236D00EEB624 /* MGLReportsController.m in Sources */,
+				D027C697116A236D00EEB624 /* SSReportsController.m in Sources */,
 				D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */,
 				D054AA8C11720A79001B23AE /* MGLBreakController.m in Sources */,
 				D046A3BF117F102D008DD853 /* MGLPreferencesController.m in Sources */,
@@ -874,8 +875,9 @@
 				770B37EC0679A11B001EADE2 /* WorkTimerWithPersistence_DataModel.xcdatamodel */,
 				D0984969116F480900CD6C20 /* WorkTimerWithPersistence_DataModel 2.xcdatamodel */,
 				D036779E118273A400561690 /* WorkTimerWithPersistence_DataModel 3.xcdatamodel */,
+				D0BACA4311A04A0C0000C54B /* WorkTimerWithPersistence_DataModel 4.xcdatamodel */,
 			);
-			currentVersion = D036779E118273A400561690 /* WorkTimerWithPersistence_DataModel 3.xcdatamodel */;
+			currentVersion = D0BACA4311A04A0C0000C54B /* WorkTimerWithPersistence_DataModel 4.xcdatamodel */;
 			path = WorkTimerWithPersistence_DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

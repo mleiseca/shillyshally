@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 @class SSTaskReport;
-@interface MGLReportsController : NSObject {
+@interface SSReportsController : NSObject {
 
 	NSWindow *reportingWindow;
 	NSDatePicker *datePicker;

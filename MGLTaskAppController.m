@@ -27,7 +27,7 @@
 - (void) startTask: (SSTask *) selectedTask  {
 	//either 
 	SSTaskSession *taskSession = [NSEntityDescription
-								   insertNewObjectForEntityForName:@"MGLTaskSession" inManagedObjectContext:self.appDelegate.managedObjectContext];
+								   insertNewObjectForEntityForName:@"SSTaskSession" inManagedObjectContext:self.appDelegate.managedObjectContext];
 
 	taskSession.task = selectedTask;
 

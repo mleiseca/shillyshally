@@ -8,7 +8,7 @@
 
 #import "WorkTimerWithPersistence_AppDelegate.h"
 #import "MGLTaskAppController.h"
-#import "MGLReportsController.h"
+#import "SSReportsController.h"
 #import "MGLProjectsController.h"
 #import "MGLBreakController.h"
 #import "MGLPreferencesController.h"
@@ -78,7 +78,7 @@
 
 -(IBAction) openReportingWindw:(id) sender{
 	if(! reportController){
-		self.reportController = [[MGLReportsController alloc] init];
+		self.reportController = [[SSReportsController alloc] init];
 	}
 	
 	[self.reportController showReportsWindow:sender];
