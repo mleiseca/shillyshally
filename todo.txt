@@ -48,6 +48,9 @@ Date range (start) - (end) Project (project name) aggregate? (checkbox)
     - create controllers from nib during windowController.awakeFromNib
 
 
+- keyboard shortcut for toggling from history to notes
+
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 - timeout style break timing

@@ -226,6 +226,7 @@
 		D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSTask+TableFormatting.m"; sourceTree = "<group>"; };
 		D0BACA4311A04A0C0000C54B /* WorkTimerWithPersistence_DataModel 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 4.xcdatamodel"; sourceTree = "<group>"; };
 		D0BACAC411A05D620000C54B /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		D0BACBB811A0EE150000C54B /* WorkTimerWithPersistence_DataModel 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 5.xcdatamodel"; sourceTree = "<group>"; };
 		D0C9F50A1181AFA900A2E55B /* SSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConstants.h; sourceTree = "<group>"; };
 		D0C9F50B1181AFA900A2E55B /* SSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConstants.m; sourceTree = "<group>"; };
 		D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBreakTimer.h; sourceTree = "<group>"; };
@@ -880,8 +881,9 @@
 				D0984969116F480900CD6C20 /* WorkTimerWithPersistence_DataModel 2.xcdatamodel */,
 				D036779E118273A400561690 /* WorkTimerWithPersistence_DataModel 3.xcdatamodel */,
 				D0BACA4311A04A0C0000C54B /* WorkTimerWithPersistence_DataModel 4.xcdatamodel */,
+				D0BACBB811A0EE150000C54B /* WorkTimerWithPersistence_DataModel 5.xcdatamodel */,
 			);
-			currentVersion = D0BACA4311A04A0C0000C54B /* WorkTimerWithPersistence_DataModel 4.xcdatamodel */;
+			currentVersion = D0BACBB811A0EE150000C54B /* WorkTimerWithPersistence_DataModel 5.xcdatamodel */;
 			path = WorkTimerWithPersistence_DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
