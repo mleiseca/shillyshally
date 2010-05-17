@@ -27,6 +27,9 @@
 @synthesize projectsController;
 @synthesize reportController;
 
+@synthesize treeController;
+@synthesize outlineView;
+
 
 - (void) startTask: (SSTask *) selectedTask  {
 	//either 
@@ -216,6 +219,117 @@
 	
 	[self.reportController showReportsWindow:sender];
 }
+
+
+-(IBAction) add: (id) sender{
+	NSLog(@"add");
+}
+-(IBAction) addChild: (id) sender{
+	NSLog(@"addChild");
+}
+-(IBAction) insert: (id) sender{
+	NSLog(@"insert");
+}
+-(IBAction) insertChild: (id) sender{
+	NSLog(@"insertChild");
+}
+
+
+#pragma mark -
+#pragma mark Outline view drag/drop
+/*
+ Up to this point, the code in this file is generated when you select an Xcode project 
+ of type Cocoa Core Data Application. The methods below are implemented to support 
+ drag and drop. For general information on drag and drop in Cocoa, go to 
+ http://developer.apple.com/documentation/Cocoa/Conceptual/DragandDrop/DragandDrop.html
+ Outline views have their own API for drag and drop within the NSOutlineViewDataSource
+ informal protocol. Reference for that protocol can be found at
+ http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Protocols/NSOutlineViewDataSource_Protocol/Reference/Reference.html
+ */
+
+// Declare a string constant for the drag type - to be used when writing and retrieving pasteboard data...
+NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
+
+/*
+ Run time setup.
+ */
+- (void)awakeFromNib {
+    // Set the outline view to accept the custom drag type AbstractTreeNodeType...
+    [outlineView registerForDraggedTypes:[NSArray arrayWithObject:AbstractTreeNodeType]];
+}
+
+/*
+ Beginning the drag from the outline view.
+ */
+- (BOOL)outlineView:(NSOutlineView *)outlineView writeItems:(NSArray *)items toPasteboard:(NSPasteboard *)pboard {
+	NSLog(@"write");
+    // Tell the pasteboard what kind of data we'll be placing on it
+    [pboard declareTypes:[NSArray arrayWithObject:AbstractTreeNodeType] owner:self];
+    // Query the NSTreeNode (not the underlying Core Data object) for its index path under the tree controller.
+    NSIndexPath *pathToDraggedNode = [[items objectAtIndex:0] indexPath];
+    // Place the index path on the pasteboard.
+    NSData *indexPathData = [NSKeyedArchiver archivedDataWithRootObject:pathToDraggedNode];
+    [pboard setData:indexPathData forType:AbstractTreeNodeType];
+    // Return YES so that the drag actually begins...
+    return YES;
+}
+
+/*
+ Performing a drop in the outline view. This allows the user to manipulate the structure of the tree by moving subtrees under new parent nodes.
+ */
+- (BOOL)outlineView:(NSOutlineView *)outlineView acceptDrop:(id <NSDraggingInfo>)info item:(id)item childIndex:(NSInteger)index {
+	NSLog(@"accept");
+
+    // Retrieve the index path from the pasteboard.
+    NSIndexPath *droppedIndexPath = [NSKeyedUnarchiver unarchiveObjectWithData:[[info draggingPasteboard] dataForType:AbstractTreeNodeType]];
+    // We need to find the NSTreeNode positioned at the index path. We start by getting the root node of the tree.
+    // In NSTreeController, arrangedObjects returns the root node of the tree.
+	id treeRoot = [treeController arrangedObjects];
+	 // Find the node being moved by querying the root node. NSTreeNode is a 10.5 API.
+	 NSTreeNode *node = [treeRoot descendantNodeAtIndexPath:droppedIndexPath];
+	 // Use the tree controller to move the node. This will manage any changes necessary in the parent-child relationship.
+	 // modeNode:toIndex:Path is a 10.5 API addition to NSTreeController.
+	 [treeController moveNode:node toIndexPath:[[item indexPath] indexPathByAddingIndex:0]];
+	 // Return YES so that the user gets visual feedback that the drag was successful...
+	return YES;
+}
+
+/*
+ Validating a drop in the outline view. This method is called to determine whether or not to permit a drop operation. There are two cases in which this application will not permit a drop to occur:
+ • A node cannot be dropped onto one of its descendents
+ • A node cannot be dropped "between" two other nodes. That would imply some kind of ordering, which is not provided for in the data model.
+ */
+- (NSDragOperation)outlineView:(NSOutlineView *)outlineView validateDrop:(id <NSDraggingInfo>)info proposedItem:(id)item proposedChildIndex:(NSInteger)index {
+	NSLog(@"validate");
+
+    // The index indicates whether the drop would take place directly on an item or between two items. 
+    // Between items implies that sibling ordering is supported (it's not in this application),
+    // so we only indicate a valid operation if the drop is directly over (index == -1) an item.
+    if (index != -1) {
+        return NSDragOperationNone;
+    }
+    
+    // Retrieve the index path from the pasteboard.
+    NSIndexPath *droppedIndexPath = [NSKeyedUnarchiver unarchiveObjectWithData:[[info draggingPasteboard] dataForType:AbstractTreeNodeType]];
+    // We need to find the NSTreeNode positioned at the index path. We start by getting the root node of the tree.
+    // In NSTreeController, arrangedObjects returns the root node of the tree.
+	 id treeRoot = [treeController arrangedObjects];
+	 // Find the node being moved by querying the root node. NSTreeNode is a 10.5 API.
+	 NSTreeNode *node = [treeRoot descendantNodeAtIndexPath:droppedIndexPath];
+	 NSTreeNode *parent = item;
+	 while (parent != nil) {
+	 if (parent == node) {
+		 return NSDragOperationNone;
+	 }
+		 parent = [parent parentNode];
+	 }
+	    
+    // All tests have been passed; permit the drop by returning a valid drag operation.
+    return NSDragOperationGeneric;
+}
+
+
+
 
 - (void) dealloc{
 	[reportController release];

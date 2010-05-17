@@ -1,5 +1,5 @@
 //
-//  SSTask+Reporting.h
+//  SSProject+Reporting.h
 //  WorkTimerWithPersistence
 //
 //  Created by Michael Leiseca on 5/16/10.
@@ -8,12 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "SSTask.h"
+#import "SSProject.h"
 
-@interface SSTask (reporting)
+@interface SSProject(reporting)
 
 - (void) awakeFromInsert;
+
 - (NSNumber *) secondsWorked;
 - (NSString *) timeWorked;
+- (NSDate *) workStartDate;
 
 @end

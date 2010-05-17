@@ -283,13 +283,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>26</integer>
 									<integer>24</integer>
-									<integer>22</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {246, 605}}</string>
+							<string>{{0, 52}, {246, 605}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -320,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>D00C55881128959E0013AB05</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WorkTimerWithPersistence_DataModel 5.xcdatamodel</string>
+								<string>todo.txt</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>D00C55891128959E0013AB05</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WorkTimerWithPersistence_DataModel 5.xcdatamodel</string>
+										<string>todo.txt</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D0BACBF611A0F1D30000C54B</string>
+										<string>D0BACD2811A106DC0000C54B</string>
 										<key>history</key>
 										<array>
 											<string>D07848061129E12300A2755E</string>
@@ -397,10 +397,8 @@
 											<string>D036788C1183820A00561690</string>
 											<string>D0F0A0BD1185CFC500DDB9F0</string>
 											<string>D038BFD511952C3E0020D86A</string>
-											<string>D038C014119530900020D86A</string>
 											<string>D02261FF119761FE007F4694</string>
 											<string>D022621011976572007F4694</string>
-											<string>D0226245119769A8007F4694</string>
 											<string>D022627311976DDB007F4694</string>
 											<string>D061597C11979FE100568295</string>
 											<string>D07C00421197C97D0046EB88</string>
@@ -411,35 +409,39 @@
 											<string>D0BAC9E611A041400000C54B</string>
 											<string>D0BAC9E811A041400000C54B</string>
 											<string>D0BAC9E911A041400000C54B</string>
-											<string>D0BACA0411A0432D0000C54B</string>
-											<string>D0BACA0F11A043B80000C54B</string>
-											<string>D0BACA1911A044260000C54B</string>
-											<string>D0BACA1A11A044260000C54B</string>
-											<string>D0BACA1B11A044260000C54B</string>
-											<string>D0BACA1C11A044260000C54B</string>
 											<string>D0BACA2111A044840000C54B</string>
-											<string>D0BACA2B11A0457A0000C54B</string>
 											<string>D0BACA2C11A0457A0000C54B</string>
-											<string>D0BACA3A11A049550000C54B</string>
 											<string>D0BACA6511A04AE00000C54B</string>
 											<string>D0BACA6611A04AE00000C54B</string>
 											<string>D0BACAC911A05D7F0000C54B</string>
 											<string>D0BACACA11A05D7F0000C54B</string>
 											<string>D0BACACB11A05D7F0000C54B</string>
-											<string>D0BACB3811A065580000C54B</string>
 											<string>D0BACB3911A065580000C54B</string>
-											<string>D0BACB3F11A0663C0000C54B</string>
 											<string>D0BACB5311A06AE30000C54B</string>
-											<string>D0BACB6611A0DF260000C54B</string>
-											<string>D0BACB7A11A0E3D40000C54B</string>
 											<string>D0BACBA811A0EB9F0000C54B</string>
 											<string>D0BACBA911A0EB9F0000C54B</string>
 											<string>D0BACBB311A0EC450000C54B</string>
-											<string>D0BACBBB11A0EEA40000C54B</string>
 											<string>D0BACBBC11A0EEA40000C54B</string>
 											<string>D0BACBBD11A0EEA40000C54B</string>
 											<string>D0BACBBE11A0EEA40000C54B</string>
-											<string>D0BACBEF11A0F1770000C54B</string>
+											<string>D0BACC2811A0FB350000C54B</string>
+											<string>D0BACC2911A0FB350000C54B</string>
+											<string>D0BACCB711A101A70000C54B</string>
+											<string>D0BACCB811A101A70000C54B</string>
+											<string>D0BACCDB11A104070000C54B</string>
+											<string>D0BACCDC11A104070000C54B</string>
+											<string>D0BACCDE11A104070000C54B</string>
+											<string>D0BACCDF11A104070000C54B</string>
+											<string>D0BACCE211A104070000C54B</string>
+											<string>D0BACCFB11A104C80000C54B</string>
+											<string>D0BACCFD11A104C80000C54B</string>
+											<string>D0BACCFE11A104C80000C54B</string>
+											<string>D0BACD0C11A105170000C54B</string>
+											<string>D0BACD0D11A105170000C54B</string>
+											<string>D0BACD0E11A105170000C54B</string>
+											<string>D0BACD1311A1053E0000C54B</string>
+											<string>D0BACD1D11A106580000C54B</string>
+											<string>D0BACD2211A1066C0000C54B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -453,16 +455,16 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1012, 522}}</string>
+								<string>{{0, 0}, {1012, 515}}</string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>522pt</string>
+							<string>515pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>96pt</string>
+							<string>103pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -476,7 +478,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1012, 69}}</string>
+										<string>{{10, 27}, {1012, 76}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -492,7 +494,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1012, 257}}</string>
+										<string>{{10, 27}, {1012, 253}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -530,7 +532,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1012, 257}}</string>
+										<string>{{10, 27}, {1012, 253}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -760,7 +762,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D0BACBF711A0F1D30000C54B</string>
+		<string>D0BACD2911A106DC0000C54B</string>
 		<string>D07848DD112A27B100A2755E</string>
 		<string>D0BAC99711A03BE60000C54B</string>
 		<string>D0BAC99811A03BE60000C54B</string>

@@ -1,53 +1,53 @@
 //
-//  SSTask+Reporting.m
+//  SSProject+Reporting.m
 //  WorkTimerWithPersistence
 //
 //  Created by Michael Leiseca on 5/16/10.
 //  Copyright 2010 Grubhub Inc. All rights reserved.
 //
 
-#import "SSTask+Reporting.h"
-#import "SSTaskSession.h"
+#import "SSProject+Reporting.h"
 
-@implementation SSTask (reporting)
+#import "SSProject.h"
 
+@implementation SSProject(reporting)
 
-- (void) awakeFromInsert{
+- (void) awakeFromInsert
+{
 	//this is the only way I found to default the create date to current date on insert
 	NSDate *now = [NSDate date];
 	self.createDate = now;
 }
 
 - (NSNumber *) secondsWorked{
-	return [self valueForKeyPath:@"taskSessions.@sum.secondsWorked"];
+	return [self valueForKeyPath:@"tasks.@sum.secondsWorked"];
 }
 
 - (NSString *) timeWorked{
 	NSNumber *secondsWorked = [self secondsWorked];
+	
 	if(secondsWorked){
 		int seconds = [secondsWorked intValue];
 		int minutesWorked =  seconds / 60;
 		
-		return [NSString stringWithFormat:@"%d:%02d", (minutesWorked/60), (minutesWorked % 60) ];
+		return [NSString stringWithFormat:@"%d:%02d", (minutesWorked/60), (minutesWorked % 60)];
     }else{
 		return @"";
     }
 }
 
 - (NSDate *) workStartDate{
-	SSTaskSession *taskSession = nil;
+	SSTask *task = nil;
 	NSDate *earliestStart = nil;
 	
-	for(taskSession in self.taskSessions){
+	for(task in self.tasks){
 		if(earliestStart == nil){
-			earliestStart = taskSession.createDate;
+			earliestStart = [task workStartDate];
 		} else{
-			earliestStart = [earliestStart earlierDate:taskSession.createDate];
+			earliestStart = [earliestStart earlierDate:[task workStartDate]];
 		}
 	}
 	return earliestStart;
 }
-
-
 
 @end

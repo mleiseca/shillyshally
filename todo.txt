@@ -9,7 +9,6 @@ Date range (start) - (end) Project (project name) aggregate? (checkbox)
 
 - start/stop when notes field is selected
 
-
 - reporting for work done
  - it would be neat if it could display bars per ticket showing how much time spent
  
@@ -49,6 +48,8 @@ Date range (start) - (end) Project (project name) aggregate? (checkbox)
 
 
 - keyboard shortcut for toggling from history to notes
+
+- cleanup project view to have separate nsviewcontroller
 
 
 --------------------------------------------------------------------------------------------------------------------------------

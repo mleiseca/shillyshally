@@ -15,7 +15,6 @@
 		D027C697116A236D00EEB624 /* SSReportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027C696116A236D00EEB624 /* SSReportsController.m */; };
 		D03812A61144A65E0097C1A5 /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03812A51144A65E0097C1A5 /* Break.xib */; };
 		D038BFC3119529500020D86A /* SSNotificationWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D038BFC2119529500020D86A /* SSNotificationWatcher.m */; };
-		D0420C52113AEFE7008D0211 /* SSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0420C51113AEFE7008D0211 /* SSProject.m */; };
 		D046A13F117BF957008DD853 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
 		D046A174117BF9A8008DD853 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
 		D046A3BC117F1019008DD853 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D046A3BB117F1019008DD853 /* Preferences.xib */; };
@@ -93,6 +92,8 @@
 		D0BAC9FA11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */; };
 		D0BAC9FB11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */; };
 		D0BACAC511A05D620000C54B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BACAC411A05D620000C54B /* MainMenu.xib */; };
+		D0BACCCC11A103160000C54B /* SSProject+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BACCCB11A103160000C54B /* SSProject+Reporting.m */; };
+		D0BACCFA11A104840000C54B /* SSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BACCF911A104840000C54B /* SSProject.m */; };
 		D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
 		D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */; };
 		D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0E16F701141E2D80026607A /* TheBendsActive.icns */; };
@@ -131,8 +132,6 @@
 		D03812A51144A65E0097C1A5 /* Break.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Break.xib; sourceTree = "<group>"; };
 		D038BFC1119529500020D86A /* SSNotificationWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNotificationWatcher.h; sourceTree = "<group>"; };
 		D038BFC2119529500020D86A /* SSNotificationWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNotificationWatcher.m; sourceTree = "<group>"; };
-		D0420C50113AEFE7008D0211 /* SSProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProject.h; sourceTree = "<group>"; };
-		D0420C51113AEFE7008D0211 /* SSProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProject.m; sourceTree = "<group>"; };
 		D046A13E117BF957008DD853 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/mleiseca/dev/osx/Frameworks/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
 		D046A3BB117F1019008DD853 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		D046A3BD117F102D008DD853 /* MGLPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLPreferencesController.h; sourceTree = "<group>"; };
@@ -227,6 +226,10 @@
 		D0BACA4311A04A0C0000C54B /* WorkTimerWithPersistence_DataModel 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 4.xcdatamodel"; sourceTree = "<group>"; };
 		D0BACAC411A05D620000C54B /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		D0BACBB811A0EE150000C54B /* WorkTimerWithPersistence_DataModel 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 5.xcdatamodel"; sourceTree = "<group>"; };
+		D0BACCCA11A103160000C54B /* SSProject+Reporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSProject+Reporting.h"; sourceTree = "<group>"; };
+		D0BACCCB11A103160000C54B /* SSProject+Reporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSProject+Reporting.m"; sourceTree = "<group>"; };
+		D0BACCF811A104840000C54B /* SSProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSProject.h; path = WorkTimerWithPersistence_DataModel.xcdatamodeld/SSProject.h; sourceTree = "<group>"; };
+		D0BACCF911A104840000C54B /* SSProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSProject.m; path = WorkTimerWithPersistence_DataModel.xcdatamodeld/SSProject.m; sourceTree = "<group>"; };
 		D0C9F50A1181AFA900A2E55B /* SSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConstants.h; sourceTree = "<group>"; };
 		D0C9F50B1181AFA900A2E55B /* SSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConstants.m; sourceTree = "<group>"; };
 		D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBreakTimer.h; sourceTree = "<group>"; };
@@ -349,8 +352,10 @@
 				D0845F8A1141B11B0082DC6E /* SSTask.m */,
 				D07847681129D3CC00A2755E /* SSTaskSession.h */,
 				D07847691129D3CC00A2755E /* SSTaskSession.m */,
-				D0420C50113AEFE7008D0211 /* SSProject.h */,
-				D0420C51113AEFE7008D0211 /* SSProject.m */,
+				D0BACCF811A104840000C54B /* SSProject.h */,
+				D0BACCF911A104840000C54B /* SSProject.m */,
+				D0BACCCA11A103160000C54B /* SSProject+Reporting.h */,
+				D0BACCCB11A103160000C54B /* SSProject+Reporting.m */,
 				D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */,
 			);
 			name = Models;
@@ -659,7 +664,6 @@
 				D078469F112918E600A2755E /* SSWindowController.m in Sources */,
 				D078476B1129D3CC00A2755E /* SSTaskSession.m in Sources */,
 				D0784A971131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m in Sources */,
-				D0420C52113AEFE7008D0211 /* SSProject.m in Sources */,
 				D0845F2F1141A6ED0082DC6E /* SSTaskTableView.m in Sources */,
 				D0845F8B1141B11B0082DC6E /* SSTask.m in Sources */,
 				D027C697116A236D00EEB624 /* SSReportsController.m in Sources */,
@@ -674,6 +678,8 @@
 				D07C00571197CB080046EB88 /* SSTaskReportView.m in Sources */,
 				D0BAC9A011A03C520000C54B /* SSTask+Reporting.m in Sources */,
 				D0BAC9FB11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */,
+				D0BACCCC11A103160000C54B /* SSProject+Reporting.m in Sources */,
+				D0BACCFA11A104840000C54B /* SSProject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

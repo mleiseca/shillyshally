@@ -26,10 +26,5 @@
 @synthesize running;
 
 
-- (void) awakeFromInsert{
-	//this is the only way I found to default the create date to current date on insert
-	NSDate *now = [NSDate date];
-	self.createDate = now;
-}
 
 @end

@@ -30,6 +30,9 @@
 	MGLProjectsController *projectsController;
 	SSReportsController  *reportController;
 	
+	NSOutlineView *outlineView;
+	NSTreeController *treeController;
+	
 }
 
 @property(nonatomic, retain) WorkTimerWithPersistence_AppDelegate	 *appDelegate;
@@ -48,6 +51,9 @@
 @property (nonatomic, retain) MGLProjectsController *projectsController;
 @property (nonatomic, retain) SSReportsController  *reportController;
 
+@property (nonatomic, retain) IBOutlet NSOutlineView *outlineView;
+@property (nonatomic, retain) IBOutlet NSTreeController *treeController;
+
 -(IBAction) toggleSelectedTask:(id) sender;
 -(IBAction) finishTask:(id) sender;
 -(void) stopTask;
@@ -63,5 +69,9 @@
 -(IBAction) openProjectsWindow:(id) sender;
 -(IBAction) openReportingWindw:(id) sender;
 
+-(IBAction) add: (id) sender;
+-(IBAction) addChild: (id) sender;
+-(IBAction) insert: (id) sender;
+-(IBAction) insertChild: (id) sender;
 
 @end
