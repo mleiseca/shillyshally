@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 
-@class MGLTaskAppController;
+@class SSWindowController;
 
 @interface MGLBreakController : NSObject {
 	NSWindow *breakWindow;
@@ -21,7 +21,7 @@
 	NSTimer *breakTimer;
 	NSTimer *stopTaskTimer;
 	
-	MGLTaskAppController *appController;
+	SSWindowController *appController;
 	
 }
 
@@ -29,7 +29,7 @@
 @property (nonatomic, retain) IBOutlet NSTextField *countdownLabel;
 @property (nonatomic, retain) IBOutlet NSButton *stillAroundButton;
 
-@property (nonatomic, retain) MGLTaskAppController *appController;
+@property (nonatomic, retain) SSWindowController *appController;
 @property (nonatomic, retain) NSTimer *breakTimer;
 @property (nonatomic, retain) NSTimer *stopTaskTimer;
 
@@ -37,7 +37,7 @@
 
 -(IBAction) stillAroundConfirmation:(id) sender;
 
-- (id) initWithAppController: (MGLTaskAppController *) appController;
+- (id) initWithAppController: (SSWindowController *) appController;
 
 
 @end

@@ -6,13 +6,15 @@
 //  .
 //
 
-#import "MGLTaskAppController.h"
+#import "SSWindowController.h"
 #import "MGLTaskProgressTimer.h"
 #import "SSTask.h"
 #import "SSTaskSession.h"
 #import "WorkTimerWithPersistence_AppDelegate.h"
+#import "MGLProjectsController.h"
+#import "SSReportsController.h"
 
-@implementation MGLTaskAppController
+@implementation SSWindowController
 
 @synthesize taskList;
 @synthesize projectList;
@@ -21,7 +23,9 @@
 @synthesize taskToggleToolbarItem;
 @synthesize taskTableView;
 @synthesize taskDoneToolbarItem;
-@synthesize mainWindow;
+
+@synthesize projectsController;
+@synthesize reportController;
 
 
 - (void) startTask: (SSTask *) selectedTask  {
@@ -184,6 +188,42 @@
 -(SSTask *) taskInProgress{
 	return [[taskProgressTimer activeTaskSession] task];	
 }
+
+
+- (void)copy:(id)sender;
+{
+	//	http://www.omnigroup.com/mailman/archive/macosx-dev/2001-June/028436.html
+	//NSLog(@"Copy: WorkTimerWithPersistence_AppDelegate");
+	//	NSResponder *firstResponder;
+	
+	//	firstResponder = [[self window] firstResponder];
+	
+	[self copyCurrentTableRow];
+	
+}
+
+-(IBAction) openProjectsWindow:(id) sender{
+	if (! projectsController){
+		self.projectsController = [[MGLProjectsController alloc] init];
+	}
+	[self.projectsController showProjectsWindow:sender];
+}
+
+-(IBAction) openReportingWindw:(id) sender{
+	if(! reportController){
+		self.reportController = [[SSReportsController alloc] init];
+	}
+	
+	[self.reportController showReportsWindow:sender];
+}
+
+- (void) dealloc{
+	[reportController release];
+	[projectsController release];
+
+	[super dealloc];
+}
+
 
 
 @end

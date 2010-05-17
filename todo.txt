@@ -9,9 +9,6 @@ Date range (start) - (end) Project (project name) aggregate? (checkbox)
 
 - start/stop when notes field is selected
 
-- sidebar for showing projects
- -> add "Context" to project so that I can see/hide GRubhub or personal or just choose one project
- -> http://developer.apple.com/mac/library/samplecode/SourceView/Introduction/Intro.html
 
 - reporting for work done
  - it would be neat if it could display bars per ticket showing how much time spent
@@ -40,8 +37,15 @@ Date range (start) - (end) Project (project name) aggregate? (checkbox)
  -> this could lead to interesting reports (http://projecthamster.wordpress.com/2010/01/03/implementing-tags-part-two/)
  -> OR, could be used like how I search in yojimbo (or delicious)
  
- 
- 
+- break mainmenu nib into mainwindow and mainmenu. see SourceView sample project for details
+
+
+- sidebar for showing projects
+ -> add "Context" to project so that I can see/hide GRubhub or personal or just choose one project
+ -> http://developer.apple.com/mac/library/samplecode/SourceView/Introduction/Intro.html
+ -> subclass @interface MyWindowController : NSWindowController
+ -> need new nib for each of the content views (now: work timing, reports)
+    - create controllers from nib during windowController.awakeFromNib
 
 
 --------------------------------------------------------------------------------------------------------------------------------

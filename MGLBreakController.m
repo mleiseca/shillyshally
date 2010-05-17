@@ -7,7 +7,7 @@
 //
 
 #import "MGLBreakController.h"
-#import "MGLTaskAppController.h"
+#import "SSWindowController.h"
 #import "SSConstants.h"
 
 @implementation MGLBreakController
@@ -20,7 +20,7 @@
 @synthesize appController;
 
 
-- (id) initWithAppController: (MGLTaskAppController *) appControllerArg{
+- (id) initWithAppController: (SSWindowController *) appControllerArg{
 	if(![super init]){
 		return nil;
 	}

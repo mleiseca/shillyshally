@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class MGLTaskAppController;
+@class SSWindowController;
 @class SSReportsController;
 @class MGLProjectsController;
 @class MGLBreakController;
@@ -18,15 +18,12 @@
 
 @interface WorkTimerWithPersistence_AppDelegate : NSObject 
 {
-    NSWindow *window;
-	MGLProjectsController *projectsController;
-	SSReportsController  *reportController;
 	MGLBreakController    *breakController;
 	MGLPreferencesController *preferencesController;
 	
 	SSBreakTimer *breakTimer;
 	
-	MGLTaskAppController *appController;
+	SSWindowController *windowController;
 	
     NSPersistentStoreCoordinator *persistentStoreCoordinator;
     NSManagedObjectModel *managedObjectModel;
@@ -35,11 +32,8 @@
 	SSNotificationWatcher *notificationWatcher;
 }
 
-@property (nonatomic, retain) IBOutlet NSWindow *window;
-@property (nonatomic, retain) IBOutlet MGLTaskAppController *appController;
+@property (nonatomic, retain) SSWindowController *windowController;
 
-@property (nonatomic, retain) MGLProjectsController *projectsController;
-@property (nonatomic, retain) SSReportsController  *reportController;
 @property (nonatomic, retain) MGLBreakController *breakController;
 @property (nonatomic, retain) MGLPreferencesController *preferencesController;
 @property (nonatomic, retain) SSBreakTimer *breakTimer;
@@ -49,12 +43,12 @@
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
 
-- (IBAction)saveAction:sender;
+//- (IBAction)saveAction:sender;
 
--(IBAction) openProjectsWindow:(id) sender;
--(IBAction) openReportingWindw:(id) sender;
--(IBAction) openPreferencesWindow: (id) sender;
 -(IBAction) startBreak:(id) sender;
+
+-(IBAction) openPreferencesWindow: (id) sender;
+
 
 - (NSUndoManager *)applicationUndoManager;
 

@@ -7,7 +7,7 @@
 //
 
 #import "WorkTimerWithPersistence_AppDelegate.h"
-#import "MGLTaskAppController.h"
+#import "SSWindowController.h"
 #import "SSReportsController.h"
 #import "MGLProjectsController.h"
 #import "MGLBreakController.h"
@@ -19,11 +19,8 @@
 
 @implementation WorkTimerWithPersistence_AppDelegate
 
-@synthesize window;
-@synthesize appController;
+@synthesize windowController;
 
-@synthesize projectsController;
-@synthesize reportController;
 @synthesize breakController;
 @synthesize preferencesController;
 @synthesize breakTimer;
@@ -48,23 +45,16 @@
 	
 	[defaults release];
 }
-- (void)copy:(id)sender;
-{
-//	http://www.omnigroup.com/mailman/archive/macosx-dev/2001-June/028436.html
-	//NSLog(@"Copy: WorkTimerWithPersistence_AppDelegate");
-//	NSResponder *firstResponder;
-	
-//	firstResponder = [[self window] firstResponder];
 
-	[self.appController copyCurrentTableRow];
 
-}
-
--(IBAction) openProjectsWindow:(id) sender{
-	if (! projectsController){
-		self.projectsController = [[MGLProjectsController alloc] init];
+-(IBAction) startBreak:(id) sender{
+	NSLog(@"Starting Break");
+	if( breakController == nil){
+		self.breakController = [[MGLBreakController alloc] initWithAppController:self.windowController];
 	}
-	[self.projectsController showProjectsWindow:sender];
+	
+	[self.breakController showBreakWindow:sender];
+	
 }
 
 -(IBAction) openPreferencesWindow: (id) sender{
@@ -73,25 +63,6 @@
 	}
 	
 	[preferencesController showWindow:self];
-}
-
-
--(IBAction) openReportingWindw:(id) sender{
-	if(! reportController){
-		self.reportController = [[SSReportsController alloc] init];
-	}
-	
-	[self.reportController showReportsWindow:sender];
-}
-
--(IBAction) startBreak:(id) sender{
-	NSLog(@"Starting Break");
-	if( breakController == nil){
-		self.breakController = [[MGLBreakController alloc] initWithAppController:self.appController];
-	}
-	
-	[self.breakController showBreakWindow:sender];
-	
 }
 
 #pragma mark -
@@ -229,6 +200,7 @@
     are presented to the user.
  */
  
+/*
 - (IBAction) saveAction:(id)sender {
 
     NSError *error = nil;
@@ -241,6 +213,7 @@
         [[NSApplication sharedApplication] presentError:error];
     }
 }
+ */
 
 
 
@@ -255,6 +228,19 @@
 	
 	self.notificationWatcher = [[SSNotificationWatcher alloc] init];
 }
+
+
+// -------------------------------------------------------------------------------
+//	applicationDidFinishLaunching:notification
+// -------------------------------------------------------------------------------
+- (void)applicationDidFinishLaunching:(NSNotification*)notification
+{
+	// load the app's main window for display
+	windowController = [[SSWindowController alloc] initWithWindowNibName:@"MainWindow"];
+	windowController.appDelegate = self;
+	[windowController showWindow:self];
+}
+
 
 /**
     Implementation of the applicationShouldTerminate: method, used here to
@@ -316,9 +302,7 @@
  
 - (void)dealloc {
 
-    [window release];
-	[reportController release];
-	[projectsController release];
+    [windowController release];
 	[breakController release];
 	[breakTimer release];
 	[notificationWatcher release];

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		2F7446990DB6B7EA00F9684A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainWindow.xib */; };
 		77C8280E06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -32,7 +32,7 @@
 		D0622BBB119DEE790040ECD7 /* Test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0622BBA119DEE790040ECD7 /* Test-Info.plist */; };
 		D0622BCA119DF1760040ECD7 /* SSTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* SSTaskSession.m */; };
 		D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */; };
-		D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078469E112918E600A2755E /* MGLTaskAppController.m */; };
+		D078469F112918E600A2755E /* SSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078469E112918E600A2755E /* SSWindowController.m */; };
 		D078476B1129D3CC00A2755E /* SSTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D07847691129D3CC00A2755E /* SSTaskSession.m */; };
 		D0784A971131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */; };
 		D0784B491132210D00A2755E /* Add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B1A1132210D00A2755E /* Add.tiff */; };
@@ -84,7 +84,7 @@
 		D0784C091132319C00A2755E /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0784C081132319C00A2755E /* todo.txt */; };
 		D0784C5D11323C2800A2755E /* TheBends.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0784C5C11323C2800A2755E /* TheBends.icns */; };
 		D07C00571197CB080046EB88 /* SSTaskReportView.m in Sources */ = {isa = PBXBuildFile; fileRef = D07C00561197CB080046EB88 /* SSTaskReportView.m */; };
-		D0845F2F1141A6ED0082DC6E /* MGLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F2E1141A6ED0082DC6E /* MGLTableView.m */; };
+		D0845F2F1141A6ED0082DC6E /* SSTaskTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F2E1141A6ED0082DC6E /* SSTaskTableView.m */; };
 		D0845F8B1141B11B0082DC6E /* SSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F8A1141B11B0082DC6E /* SSTask.m */; };
 		D0BAC99F11A03C520000C54B /* SSTask+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */; };
 		D0BAC9A011A03C520000C54B /* SSTask+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */; };
@@ -92,6 +92,7 @@
 		D0BAC9D211A03FAD0000C54B /* SSFakeTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9D111A03FAD0000C54B /* SSFakeTaskSession.m */; };
 		D0BAC9FA11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */; };
 		D0BAC9FB11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */; };
+		D0BACAC511A05D620000C54B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BACAC411A05D620000C54B /* MainMenu.xib */; };
 		D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
 		D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */; };
 		D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0E16F701141E2D80026607A /* TheBendsActive.icns */; };
@@ -117,7 +118,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* WorkTimerWithPersistence_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkTimerWithPersistence_Prefix.pch; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* WorkTimerWithPersistence_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = WorkTimerWithPersistence_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -153,8 +154,8 @@
 		D0622BBA119DEE790040ECD7 /* Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
 		D0784651112913D100A2755E /* MGLTaskProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskProgressTimer.h; sourceTree = "<group>"; };
 		D0784652112913D100A2755E /* MGLTaskProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskProgressTimer.m; sourceTree = "<group>"; };
-		D078469D112918E600A2755E /* MGLTaskAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskAppController.h; sourceTree = "<group>"; };
-		D078469E112918E600A2755E /* MGLTaskAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskAppController.m; sourceTree = "<group>"; };
+		D078469D112918E600A2755E /* SSWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWindowController.h; sourceTree = "<group>"; };
+		D078469E112918E600A2755E /* SSWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWindowController.m; sourceTree = "<group>"; };
 		D07847681129D3CC00A2755E /* SSTaskSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskSession.h; sourceTree = "<group>"; };
 		D07847691129D3CC00A2755E /* SSTaskSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskSession.m; sourceTree = "<group>"; };
 		D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLArrayController_CompletedTaskFilter.h; sourceTree = "<group>"; };
@@ -210,8 +211,8 @@
 		D0784C5C11323C2800A2755E /* TheBends.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TheBends.icns; sourceTree = "<group>"; };
 		D07C00551197CB080046EB88 /* SSTaskReportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskReportView.h; sourceTree = "<group>"; };
 		D07C00561197CB080046EB88 /* SSTaskReportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReportView.m; sourceTree = "<group>"; };
-		D0845F2D1141A6ED0082DC6E /* MGLTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTableView.h; sourceTree = "<group>"; };
-		D0845F2E1141A6ED0082DC6E /* MGLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTableView.m; sourceTree = "<group>"; };
+		D0845F2D1141A6ED0082DC6E /* SSTaskTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskTableView.h; sourceTree = "<group>"; };
+		D0845F2E1141A6ED0082DC6E /* SSTaskTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskTableView.m; sourceTree = "<group>"; };
 		D0845F891141B11B0082DC6E /* SSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTask.h; sourceTree = "<group>"; };
 		D0845F8A1141B11B0082DC6E /* SSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTask.m; sourceTree = "<group>"; };
 		D0984969116F480900CD6C20 /* WorkTimerWithPersistence_DataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 2.xcdatamodel"; sourceTree = "<group>"; };
@@ -224,6 +225,7 @@
 		D0BAC9F811A042DA0000C54B /* SSTask+TableFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSTask+TableFormatting.h"; sourceTree = "<group>"; };
 		D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSTask+TableFormatting.m"; sourceTree = "<group>"; };
 		D0BACA4311A04A0C0000C54B /* WorkTimerWithPersistence_DataModel 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 4.xcdatamodel"; sourceTree = "<group>"; };
+		D0BACAC411A05D620000C54B /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		D0C9F50A1181AFA900A2E55B /* SSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConstants.h; sourceTree = "<group>"; };
 		D0C9F50B1181AFA900A2E55B /* SSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConstants.m; sourceTree = "<group>"; };
 		D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBreakTimer.h; sourceTree = "<group>"; };
@@ -435,13 +437,14 @@
 		D0C9F50D1181B00200A2E55B /* Main Window */ = {
 			isa = PBXGroup;
 			children = (
-				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
-				D078469D112918E600A2755E /* MGLTaskAppController.h */,
-				D078469E112918E600A2755E /* MGLTaskAppController.m */,
+				D0BACAC411A05D620000C54B /* MainMenu.xib */,
+				2F7446970DB6B7EA00F9684A /* MainWindow.xib */,
+				D078469D112918E600A2755E /* SSWindowController.h */,
+				D078469E112918E600A2755E /* SSWindowController.m */,
 				D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */,
 				D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */,
-				D0845F2D1141A6ED0082DC6E /* MGLTableView.h */,
-				D0845F2E1141A6ED0082DC6E /* MGLTableView.m */,
+				D0845F2D1141A6ED0082DC6E /* SSTaskTableView.h */,
+				D0845F2E1141A6ED0082DC6E /* SSTaskTableView.m */,
 				D038BFC1119529500020D86A /* SSNotificationWatcher.h */,
 				D038BFC2119529500020D86A /* SSNotificationWatcher.m */,
 			);
@@ -559,7 +562,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				2F7446990DB6B7EA00F9684A /* MainWindow.xib in Resources */,
 				D0784B491132210D00A2755E /* Add.tiff in Resources */,
 				D0784B4A1132210D00A2755E /* Blue Ball.tiff in Resources */,
 				D0784B4B1132210D00A2755E /* Brushed Window.tiff in Resources */,
@@ -614,6 +617,7 @@
 				D054A9F111715A82001B23AE /* Projects.xib in Resources */,
 				D046A3BC117F1019008DD853 /* Preferences.xib in Resources */,
 				D0622BBB119DEE790040ECD7 /* Test-Info.plist in Resources */,
+				D0BACAC511A05D620000C54B /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,11 +655,11 @@
 				77C8280E06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m in Sources */,
 				D0E400A61148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */,
 				D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */,
-				D078469F112918E600A2755E /* MGLTaskAppController.m in Sources */,
+				D078469F112918E600A2755E /* SSWindowController.m in Sources */,
 				D078476B1129D3CC00A2755E /* SSTaskSession.m in Sources */,
 				D0784A971131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m in Sources */,
 				D0420C52113AEFE7008D0211 /* SSProject.m in Sources */,
-				D0845F2F1141A6ED0082DC6E /* MGLTableView.m in Sources */,
+				D0845F2F1141A6ED0082DC6E /* SSTaskTableView.m in Sources */,
 				D0845F8B1141B11B0082DC6E /* SSTask.m in Sources */,
 				D027C697116A236D00EEB624 /* SSReportsController.m in Sources */,
 				D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */,
@@ -697,12 +701,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		2F7446970DB6B7EA00F9684A /* MainMenu.xib */ = {
+		2F7446970DB6B7EA00F9684A /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2F7446980DB6B7EA00F9684A /* English */,
 			);
-			name = MainMenu.xib;
+			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
