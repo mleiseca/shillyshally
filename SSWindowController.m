@@ -11,6 +11,7 @@
 #import "SSTask.h"
 #import "SSTaskSession.h"
 #import "WorkTimerWithPersistence_AppDelegate.h"
+#import "MGLArrayController_CompletedTaskFilter.h"
 #import "MGLProjectsController.h"
 #import "SSReportsController.h"
 
@@ -30,6 +31,21 @@
 @synthesize treeController;
 @synthesize outlineView;
 
+
+
+
+- (void) dealloc{
+	[reportController release];
+	[projectsController release];
+	[treeController release];
+	[outlineView release];
+	
+	[super dealloc];
+}
+
+
+#pragma mark -
+#pragma mark Task Management
 
 - (void) startTask: (SSTask *) selectedTask  {
 	//either 
@@ -57,6 +73,11 @@
 	
 	[self.taskProgressTimer stopTask];	
 }
+
+-(void) createTask{
+	[taskList insert:self];
+}
+
 
 -(IBAction) toggleSelectedTask:(id) sender{
 	NSLog(@"Toggling selected task");
@@ -220,23 +241,38 @@
 	[self.reportController showReportsWindow:sender];
 }
 
+- (void)keyDown:(NSEvent *)theEvent{
+	short keyCode = [theEvent keyCode];
+	NSLog(@"keyDown: %d", keyCode );
+	
+	unsigned flags = [theEvent modifierFlags];
+	
+    BOOL isShiftPressed = (flags & NSShiftKeyMask)  == NSShiftKeyMask ;
+	BOOL isCommandPressed = (flags & NSCommandKeyMask)  == NSCommandKeyMask;
+	
+	if(isShiftPressed || isCommandPressed){
+		if (isShiftPressed && isCommandPressed){
+			if(keyCode == 40){
+				//command shift k = start/stop				
+				[self toggleSelectedTask:self];
+				return;
+			}else if(keyCode == 14){
+				//command shift e = done 
+				[self finishTask:self];
+				return;
+			}else if (keyCode == 45){
+				[self createTask];
+				return;
+			}
+		}
+	}
 
--(IBAction) add: (id) sender{
-	NSLog(@"add");
 }
--(IBAction) addChild: (id) sender{
-	NSLog(@"addChild");
-}
--(IBAction) insert: (id) sender{
-	NSLog(@"insert");
-}
--(IBAction) insertChild: (id) sender{
-	NSLog(@"insertChild");
-}
+
 
 
 #pragma mark -
-#pragma mark Outline view drag/drop
+#pragma mark Project Outline view drag/drop
 /*
  Up to this point, the code in this file is generated when you select an Xcode project 
  of type Cocoa Core Data Application. The methods below are implemented to support 
@@ -256,6 +292,10 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
 - (void)awakeFromNib {
     // Set the outline view to accept the custom drag type AbstractTreeNodeType...
     [outlineView registerForDraggedTypes:[NSArray arrayWithObject:AbstractTreeNodeType]];
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self 
+											 selector:@selector(outlineViewSelectionDidChange:) 
+												 name:NSOutlineViewSelectionDidChangeNotification object:outlineView];
 }
 
 /*
@@ -328,17 +368,24 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
     return NSDragOperationGeneric;
 }
 
-
-
-
-- (void) dealloc{
-	[reportController release];
-	[projectsController release];
-	[treeController release];
-	[outlineView release];
-
-	[super dealloc];
+- (void)outlineViewSelectionDidChange:(NSNotification *)notification{
+	NSArray *selectedObjects = [treeController selectedObjects];
+	if (selectedObjects && ([selectedObjects count] > 0)){
+		taskList.currentProject = [selectedObjects objectAtIndex:0];
+	}else{
+		taskList.currentProject = nil;
+	}
+	
+	[taskList rearrangeObjects];
+	
 }
+
+
+
+
+
+
+
 
 
 

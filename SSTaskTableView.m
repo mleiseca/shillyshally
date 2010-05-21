@@ -18,25 +18,10 @@
 	short keyCode = [theEvent keyCode];
 	//	NSLog(@"keyDown: %d", keyCode );
 	
-	unsigned flags = [theEvent modifierFlags];
-
-    BOOL isShiftPressed = (flags & NSShiftKeyMask)  == NSShiftKeyMask ;
-	BOOL isCommandPressed = (flags & NSCommandKeyMask)  == NSCommandKeyMask;
 	
-	if(isShiftPressed || isCommandPressed){
-		if (isShiftPressed && isCommandPressed){
-			if(keyCode == 40){
-				//command shift k = start/stop				
-				[windowController toggleSelectedTask:self];
-				return;
-			}else if(keyCode == 14){
-				//command shift e = done 
-				[windowController finishTask:self];
-				return;
-			}
-		}
 		
-	}else if(keyCode == 123){
+		
+	if(keyCode == 123){
 		//left arrow
 		[windowController changeSelectedTaskProjectUp];
 		return;

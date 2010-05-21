@@ -57,6 +57,7 @@
 -(IBAction) toggleSelectedTask:(id) sender;
 -(IBAction) finishTask:(id) sender;
 -(void) stopTask;
+-(void) createTask;
 
 
 -(IBAction) changeSelectedTaskProjectUp;
@@ -69,9 +70,8 @@
 -(IBAction) openProjectsWindow:(id) sender;
 -(IBAction) openReportingWindw:(id) sender;
 
--(IBAction) add: (id) sender;
--(IBAction) addChild: (id) sender;
--(IBAction) insert: (id) sender;
--(IBAction) insertChild: (id) sender;
+//todo: move? monitoring for changes in project selection
+- (void)outlineViewSelectionDidChange:(NSNotification *)notification;
+
 
 @end

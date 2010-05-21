@@ -12,6 +12,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D003C65411A690D600C29973 /* SSProject+Related.m in Sources */ = {isa = PBXBuildFile; fileRef = D003C65311A690D500C29973 /* SSProject+Related.m */; };
 		D027C697116A236D00EEB624 /* SSReportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027C696116A236D00EEB624 /* SSReportsController.m */; };
 		D03812A61144A65E0097C1A5 /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03812A51144A65E0097C1A5 /* Break.xib */; };
 		D038BFC3119529500020D86A /* SSNotificationWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D038BFC2119529500020D86A /* SSNotificationWatcher.m */; };
@@ -126,6 +127,9 @@
 		77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkTimerWithPersistence_AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkTimerWithPersistence_AppDelegate.m; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* shillyshally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shillyshally.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D003C64611A68EC100C29973 /* SSProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProject.h; sourceTree = "<group>"; };
+		D003C65211A690D500C29973 /* SSProject+Related.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSProject+Related.h"; sourceTree = "<group>"; };
+		D003C65311A690D500C29973 /* SSProject+Related.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSProject+Related.m"; sourceTree = "<group>"; };
 		D027C695116A236D00EEB624 /* SSReportsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSReportsController.h; sourceTree = "<group>"; };
 		D027C696116A236D00EEB624 /* SSReportsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSReportsController.m; sourceTree = "<group>"; };
 		D036779E118273A400561690 /* WorkTimerWithPersistence_DataModel 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 3.xcdatamodel"; sourceTree = "<group>"; };
@@ -228,7 +232,6 @@
 		D0BACBB811A0EE150000C54B /* WorkTimerWithPersistence_DataModel 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 5.xcdatamodel"; sourceTree = "<group>"; };
 		D0BACCCA11A103160000C54B /* SSProject+Reporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSProject+Reporting.h"; sourceTree = "<group>"; };
 		D0BACCCB11A103160000C54B /* SSProject+Reporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSProject+Reporting.m"; sourceTree = "<group>"; };
-		D0BACCF811A104840000C54B /* SSProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSProject.h; path = WorkTimerWithPersistence_DataModel.xcdatamodeld/SSProject.h; sourceTree = "<group>"; };
 		D0BACD4D11A18EEC0000C54B /* SSProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProject.m; sourceTree = "<group>"; };
 		D0C9F50A1181AFA900A2E55B /* SSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConstants.h; sourceTree = "<group>"; };
 		D0C9F50B1181AFA900A2E55B /* SSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConstants.m; sourceTree = "<group>"; };
@@ -352,10 +355,12 @@
 				D0845F8A1141B11B0082DC6E /* SSTask.m */,
 				D07847681129D3CC00A2755E /* SSTaskSession.h */,
 				D07847691129D3CC00A2755E /* SSTaskSession.m */,
-				D0BACCF811A104840000C54B /* SSProject.h */,
+				D003C64611A68EC100C29973 /* SSProject.h */,
 				D0BACD4D11A18EEC0000C54B /* SSProject.m */,
 				D0BACCCA11A103160000C54B /* SSProject+Reporting.h */,
 				D0BACCCB11A103160000C54B /* SSProject+Reporting.m */,
+				D003C65211A690D500C29973 /* SSProject+Related.h */,
+				D003C65311A690D500C29973 /* SSProject+Related.m */,
 				D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */,
 			);
 			name = Models;
@@ -680,6 +685,7 @@
 				D0BAC9FB11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */,
 				D0BACCCC11A103160000C54B /* SSProject+Reporting.m in Sources */,
 				D0BACD4E11A18EEC0000C54B /* SSProject.m in Sources */,
+				D003C65411A690D600C29973 /* SSProject+Related.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

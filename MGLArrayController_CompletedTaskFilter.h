@@ -8,9 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class SSProject;
 
 @interface MGLArrayController_CompletedTaskFilter : NSArrayController {
-
+	SSProject *currentProject;
 }
 
+
+@property(nonatomic, retain) SSProject *currentProject;
 @end

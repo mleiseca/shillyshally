@@ -21,7 +21,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="848"/>
+			<integer value="992"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -967,7 +967,7 @@
 																										<string>public.url</string>
 																									</object>
 																								</object>
-																								<string key="NSFrameSize">{666, 107}</string>
+																								<string key="NSFrame">{{0, 93}, {666, 14}}</string>
 																								<reference key="NSSuperview" ref="914921864"/>
 																								<object class="NSTextContainer" key="NSTextContainer" id="351215431">
 																									<object class="NSLayoutManager" key="NSLayoutManager">
@@ -1419,6 +1419,7 @@
 					<string>font</string>
 					<string>color</string>
 				</object>
+				<string key="NSObjectClassName">SSTask</string>
 				<bool key="NSEditable">YES</bool>
 				<bool key="NSAutomaticallyPreparesContent">YES</bool>
 				<object class="_NSManagedProxy" key="_NSManagedProxy">
@@ -1501,6 +1502,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>desc</string>
 					<string>timeWorked</string>
+					<string>relatedTasks</string>
 				</object>
 				<bool key="NSEditable">YES</bool>
 				<bool key="NSAutomaticallyPreparesContent">YES</bool>
@@ -3094,9 +3096,9 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{65, 88}, {1148, 612}}</string>
+					<string>{{263, 88}, {1148, 612}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{65, 88}, {1148, 612}}</string>
+					<string>{{263, 88}, {1148, 612}}</string>
 					<integer value="1"/>
 					<integer value="1"/>
 					<integer value="1"/>
@@ -3199,7 +3201,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">1013</int>
+			<int key="maxID">1018</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
