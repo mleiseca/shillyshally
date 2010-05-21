@@ -93,7 +93,7 @@
 		D0BAC9FB11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC9F911A042DA0000C54B /* SSTask+TableFormatting.m */; };
 		D0BACAC511A05D620000C54B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BACAC411A05D620000C54B /* MainMenu.xib */; };
 		D0BACCCC11A103160000C54B /* SSProject+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BACCCB11A103160000C54B /* SSProject+Reporting.m */; };
-		D0BACCFA11A104840000C54B /* SSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BACCF911A104840000C54B /* SSProject.m */; };
+		D0BACD4E11A18EEC0000C54B /* SSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BACD4D11A18EEC0000C54B /* SSProject.m */; };
 		D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
 		D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */; };
 		D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0E16F701141E2D80026607A /* TheBendsActive.icns */; };
@@ -229,7 +229,7 @@
 		D0BACCCA11A103160000C54B /* SSProject+Reporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSProject+Reporting.h"; sourceTree = "<group>"; };
 		D0BACCCB11A103160000C54B /* SSProject+Reporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSProject+Reporting.m"; sourceTree = "<group>"; };
 		D0BACCF811A104840000C54B /* SSProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSProject.h; path = WorkTimerWithPersistence_DataModel.xcdatamodeld/SSProject.h; sourceTree = "<group>"; };
-		D0BACCF911A104840000C54B /* SSProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSProject.m; path = WorkTimerWithPersistence_DataModel.xcdatamodeld/SSProject.m; sourceTree = "<group>"; };
+		D0BACD4D11A18EEC0000C54B /* SSProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProject.m; sourceTree = "<group>"; };
 		D0C9F50A1181AFA900A2E55B /* SSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConstants.h; sourceTree = "<group>"; };
 		D0C9F50B1181AFA900A2E55B /* SSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConstants.m; sourceTree = "<group>"; };
 		D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBreakTimer.h; sourceTree = "<group>"; };
@@ -353,7 +353,7 @@
 				D07847681129D3CC00A2755E /* SSTaskSession.h */,
 				D07847691129D3CC00A2755E /* SSTaskSession.m */,
 				D0BACCF811A104840000C54B /* SSProject.h */,
-				D0BACCF911A104840000C54B /* SSProject.m */,
+				D0BACD4D11A18EEC0000C54B /* SSProject.m */,
 				D0BACCCA11A103160000C54B /* SSProject+Reporting.h */,
 				D0BACCCB11A103160000C54B /* SSProject+Reporting.m */,
 				D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */,
@@ -679,7 +679,7 @@
 				D0BAC9A011A03C520000C54B /* SSTask+Reporting.m in Sources */,
 				D0BAC9FB11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */,
 				D0BACCCC11A103160000C54B /* SSProject+Reporting.m in Sources */,
-				D0BACCFA11A104840000C54B /* SSProject.m in Sources */,
+				D0BACD4E11A18EEC0000C54B /* SSProject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

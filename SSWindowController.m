@@ -262,7 +262,7 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
  Beginning the drag from the outline view.
  */
 - (BOOL)outlineView:(NSOutlineView *)outlineView writeItems:(NSArray *)items toPasteboard:(NSPasteboard *)pboard {
-	NSLog(@"write");
+	//NSLog(@"write");
     // Tell the pasteboard what kind of data we'll be placing on it
     [pboard declareTypes:[NSArray arrayWithObject:AbstractTreeNodeType] owner:self];
     // Query the NSTreeNode (not the underlying Core Data object) for its index path under the tree controller.
@@ -278,7 +278,7 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
  Performing a drop in the outline view. This allows the user to manipulate the structure of the tree by moving subtrees under new parent nodes.
  */
 - (BOOL)outlineView:(NSOutlineView *)outlineView acceptDrop:(id <NSDraggingInfo>)info item:(id)item childIndex:(NSInteger)index {
-	NSLog(@"accept");
+	//NSLog(@"accept");
 
     // Retrieve the index path from the pasteboard.
     NSIndexPath *droppedIndexPath = [NSKeyedUnarchiver unarchiveObjectWithData:[[info draggingPasteboard] dataForType:AbstractTreeNodeType]];
@@ -300,7 +300,7 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
  • A node cannot be dropped "between" two other nodes. That would imply some kind of ordering, which is not provided for in the data model.
  */
 - (NSDragOperation)outlineView:(NSOutlineView *)outlineView validateDrop:(id <NSDraggingInfo>)info proposedItem:(id)item proposedChildIndex:(NSInteger)index {
-	NSLog(@"validate");
+	//NSLog(@"validate");
 
     // The index indicates whether the drop would take place directly on an item or between two items. 
     // Between items implies that sibling ordering is supported (it's not in this application),
@@ -334,6 +334,8 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
 - (void) dealloc{
 	[reportController release];
 	[projectsController release];
+	[treeController release];
+	[outlineView release];
 
 	[super dealloc];
 }
