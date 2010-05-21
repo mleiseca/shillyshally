@@ -21,7 +21,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="992"/>
+			<integer value="538"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1439,6 +1439,7 @@
 					<string>active</string>
 					<string>workStartDate</string>
 					<string>timeWorked</string>
+					<string>descWithContext</string>
 				</object>
 				<bool key="NSEditable">YES</bool>
 				<bool key="NSAutomaticallyPreparesContent">YES</bool>
@@ -1846,40 +1847,6 @@
 						</object>
 					</object>
 					<int key="connectionID">742</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">contentValues: arrangedObjects.desc</string>
-						<reference key="source" ref="588818390"/>
-						<reference key="destination" ref="915978278"/>
-						<object class="NSNibBindingConnector" key="connector" id="579923875">
-							<reference key="NSSource" ref="588818390"/>
-							<reference key="NSDestination" ref="915978278"/>
-							<string key="NSLabel">contentValues: arrangedObjects.desc</string>
-							<string key="NSBinding">contentValues</string>
-							<string key="NSKeyPath">arrangedObjects.desc</string>
-							<reference key="NSPreviousConnector" ref="1016274839"/>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">744</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">selectedObject: arrangedObjects.project</string>
-						<reference key="source" ref="588818390"/>
-						<reference key="destination" ref="604434242"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="588818390"/>
-							<reference key="NSDestination" ref="604434242"/>
-							<string key="NSLabel">selectedObject: arrangedObjects.project</string>
-							<string key="NSBinding">selectedObject</string>
-							<string key="NSKeyPath">arrangedObjects.project</string>
-							<reference key="NSPreviousConnector" ref="579923875"/>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">749</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -2392,6 +2359,56 @@
 						<reference key="destination" ref="741904865"/>
 					</object>
 					<int key="connectionID">1013</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">contentValues: arrangedObjects.descWithContext</string>
+						<reference key="source" ref="588818390"/>
+						<reference key="destination" ref="915978278"/>
+						<object class="NSNibBindingConnector" key="connector" id="799161852">
+							<reference key="NSSource" ref="588818390"/>
+							<reference key="NSDestination" ref="915978278"/>
+							<string key="NSLabel">contentValues: arrangedObjects.descWithContext</string>
+							<string key="NSBinding">contentValues</string>
+							<string key="NSKeyPath">arrangedObjects.descWithContext</string>
+							<reference key="NSPreviousConnector" ref="1016274839"/>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1019</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">selectedObject: arrangedObjects.project</string>
+						<reference key="source" ref="588818390"/>
+						<reference key="destination" ref="604434242"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="588818390"/>
+							<reference key="NSDestination" ref="604434242"/>
+							<string key="NSLabel">selectedObject: arrangedObjects.project</string>
+							<string key="NSBinding">selectedObject</string>
+							<string key="NSKeyPath">arrangedObjects.project</string>
+							<reference key="NSPreviousConnector" ref="799161852"/>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1020</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">sortDescriptors: self.createProjectSortDescriptors</string>
+						<reference key="source" ref="915978278"/>
+						<reference key="destination" ref="493647166"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="915978278"/>
+							<reference key="NSDestination" ref="493647166"/>
+							<string key="NSLabel">sortDescriptors: self.createProjectSortDescriptors</string>
+							<string key="NSBinding">sortDescriptors</string>
+							<string key="NSKeyPath">self.createProjectSortDescriptors</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1023</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3141,7 +3158,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{-234, 1770}, {891, 23}}</string>
+					<string>{{435, 660}, {964, 23}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3201,7 +3218,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">1018</int>
+			<int key="maxID">1023</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3253,21 +3270,13 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>add:</string>
-							<string>addChild:</string>
 							<string>finishTask:</string>
-							<string>insert:</string>
-							<string>insertChild:</string>
 							<string>openProjectsWindow:</string>
 							<string>openReportingWindw:</string>
 							<string>toggleSelectedTask:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>

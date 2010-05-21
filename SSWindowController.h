@@ -73,5 +73,6 @@
 //todo: move? monitoring for changes in project selection
 - (void)outlineViewSelectionDidChange:(NSNotification *)notification;
 
+- (NSArray *) createProjectSortDescriptors;
 
 @end

@@ -17,5 +17,6 @@
 - (NSNumber *) secondsWorked;
 - (NSString *) timeWorked;
 - (NSDate *) workStartDate;
+- (NSString *) descWithContext;
 
 @end

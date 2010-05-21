@@ -50,4 +50,14 @@
 	return earliestStart;
 }
 
+- (NSString *) descWithContext{
+	if (self.parentProject){
+		return [NSString stringWithFormat:@"%@ > %@", self.parentProject.desc, self.desc];
+		
+	}else{
+		return self.desc;
+	}
+	
+}
+
 @end

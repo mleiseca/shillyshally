@@ -381,8 +381,16 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
 }
 
 
+- (NSArray *) createProjectSortDescriptors{
+	
+	NSSortDescriptor *sort = [[[NSSortDescriptor alloc]
+						   initWithKey:@"descWithContext"
+						   ascending:YES
+						   selector:@selector(localizedCaseInsensitiveCompare:)] autorelease];
 
-
+	return [NSArray arrayWithObject:sort];
+	
+}
 
 
 
