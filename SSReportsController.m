@@ -13,10 +13,10 @@
 
 @implementation SSReportsController
 
-@synthesize reportingWindow;
-@synthesize datePicker;
 @synthesize contentsView;
-
+@synthesize selectedStartDate;
+@synthesize dateTypeSelection;
+@synthesize selectedStartDateTextField;
 
 - (IBAction) generateReport:(id)sender{
 	
@@ -28,7 +28,7 @@
 	//NSDate *date = [[NSDate date] dateByAddingTimeInterval:-1000000];
 	//NSPredicate * predicate = [NSPredicate predicateWithFormat:@"ANY taskSessions.createDate > %@", date];
 	
-	NSDate *startDate = [self.datePicker  dateValue];
+	NSDate *startDate =self.selectedStartDate;
 	
 	NSLog(@"Using date: %@", startDate );
 
@@ -78,6 +78,15 @@
 	
 }
 
+- (void) updateStartDate: (NSDate *) date{
+	
+	self.selectedStartDate = date;
+	[self.selectedStartDateTextField setObjectValue:date];
+	//[self.selectedStartDateTextField setStringValue:@"foo"];
+	NSLog(@"Using date: %@", date );
+
+}
+
 -(void) showReportsWindow:(id) sender{
 
 	if (![NSBundle loadNibNamed:@"Reports" owner:self]) {
@@ -85,13 +94,26 @@
 	} else {
 		NSLog(@"showReportsWindow");
 		
-		[self.datePicker setDateValue:[NSDate date]];
+		//[self.datePicker setDateValue:];
 		
+		[self updateStartDate: [NSDate date]];
 		[self generateReport:self];
 		
-		[self.reportingWindow orderFront:sender];
-			   
+		[self.window orderFront:sender];
 	}
+}
+
+
+- (IBAction) nextDate: (id)sender{
+	NSLog(@"nextDate");
+	
+}
+- (IBAction) previousDate: (id)sender{	
+	NSLog(@"previousDate");
+
+}
+- (IBAction) selectedDateType: (id)sender{
+	NSLog(@"selectedDateType");
 }
 
 - (void)dealloc {
