@@ -72,7 +72,20 @@
 }
 
 -(void) createTask{
-	[taskList insert:self];
+	NSArray *selectedProjects = [self.treeController selectedObjects] ;
+	
+	NSManagedObjectContext *context  = [[NSApp delegate] managedObjectContext];
+
+	
+	SSTask *task = [NSEntityDescription
+								  insertNewObjectForEntityForName:@"SSTask" inManagedObjectContext:context];
+
+	if([selectedProjects count] == 1){
+		task.project = [selectedProjects objectAtIndex:0];
+	}
+	
+	
+	[taskList addObject:task];
 }
 
 
