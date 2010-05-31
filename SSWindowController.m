@@ -257,7 +257,9 @@
 				//command shift e = done 
 				[self finishTask:self];
 				return;
-			}else if (keyCode == 45){
+			}
+		}else if (isCommandPressed){
+			if (keyCode == 45){
 				[self createTask];
 				return;
 			}
