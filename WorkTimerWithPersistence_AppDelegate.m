@@ -8,7 +8,7 @@
 
 #import "WorkTimerWithPersistence_AppDelegate.h"
 #import "SSWindowController.h"
-#import "SSReportsController.h"
+#import "SSReportsWindowController.h"
 #import "MGLProjectsController.h"
 #import "MGLBreakController.h"
 #import "MGLPreferencesController.h"
@@ -25,6 +25,8 @@
 @synthesize preferencesController;
 @synthesize breakTimer;
 @synthesize notificationWatcher;
+
+@synthesize saveTimer;
 
 + (void) initialize{
 	
@@ -235,6 +237,8 @@
 // -------------------------------------------------------------------------------
 - (void)applicationDidFinishLaunching:(NSNotification*)notification
 {
+	self.saveTimer = [NSTimer scheduledTimerWithTimeInterval:60.0 target:managedObjectContext selector:@selector(save:) userInfo: nil repeats:YES];
+	
 	// load the app's main window for display
 	windowController = [[SSWindowController alloc] initWithWindowNibName:@"MainWindow"];
 	windowController.appDelegate = self;

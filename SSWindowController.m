@@ -13,7 +13,7 @@
 #import "WorkTimerWithPersistence_AppDelegate.h"
 #import "MGLArrayController_CompletedTaskFilter.h"
 #import "MGLProjectsController.h"
-#import "SSReportsController.h"
+#import "SSReportsWindowController.h"
 
 @implementation SSWindowController
 
@@ -30,9 +30,6 @@
 
 @synthesize treeController;
 @synthesize outlineView;
-
-
-
 
 - (void) dealloc{
 	[reportController release];
@@ -235,7 +232,7 @@
 
 -(IBAction) openReportingWindw:(id) sender{
 	if(! reportController){
-		self.reportController = [[SSReportsController alloc] init];
+		self.reportController = [[SSReportsWindowController alloc] init];
 	}
 	
 	[self.reportController showReportsWindow:sender];
@@ -266,6 +263,8 @@
 			}
 		}
 	}
+	
+	[super keyDown:theEvent];
 
 }
 

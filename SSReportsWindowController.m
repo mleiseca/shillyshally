@@ -6,12 +6,12 @@
 //  .
 //
 
-#import "SSReportsController.h"
+#import "SSReportsWindowController.h"
 #import "SSTaskReport.h"
 #import "SSTaskReportView.h"
 
 
-@implementation SSReportsController
+@implementation SSReportsWindowController
 
 @synthesize contentsView;
 @synthesize selectedStartDate;

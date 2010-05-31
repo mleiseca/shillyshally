@@ -13,7 +13,7 @@
 @class MGLArrayController_CompletedTaskFilter;
 @class SSTask;
 @class MGLProjectsController;
-@class SSReportsController;
+@class SSReportsWindowController;
 
 @interface SSWindowController : NSWindowController {
 	WorkTimerWithPersistence_AppDelegate	*appDelegate;
@@ -28,7 +28,7 @@
 	
 	NSTableView	*taskTableView;
 	MGLProjectsController *projectsController;
-	SSReportsController  *reportController;
+	SSReportsWindowController  *reportController;
 	
 	NSOutlineView *outlineView;
 	NSTreeController *treeController;
@@ -49,7 +49,7 @@
 
 
 @property (nonatomic, retain) MGLProjectsController *projectsController;
-@property (nonatomic, retain) SSReportsController  *reportController;
+@property (nonatomic, retain) SSReportsWindowController  *reportController;
 
 @property (nonatomic, retain) IBOutlet NSOutlineView *outlineView;
 @property (nonatomic, retain) IBOutlet NSTreeController *treeController;

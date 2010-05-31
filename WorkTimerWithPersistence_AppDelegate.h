@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 @class SSWindowController;
-@class SSReportsController;
+@class SSReportsWindowController;
 @class MGLProjectsController;
 @class MGLBreakController;
 @class MGLPreferencesController;
@@ -28,6 +28,7 @@
     NSPersistentStoreCoordinator *persistentStoreCoordinator;
     NSManagedObjectModel *managedObjectModel;
     NSManagedObjectContext *managedObjectContext;
+	NSTimer *saveTimer;
 	
 	SSNotificationWatcher *notificationWatcher;
 }
@@ -42,6 +43,7 @@
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, retain) NSTimer *saveTimer;
 
 //- (IBAction)saveAction:sender;
 

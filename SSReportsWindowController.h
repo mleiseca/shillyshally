@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 @class SSTaskReport;
-@interface SSReportsController : NSWindowController {
+@interface SSReportsWindowController : NSWindowController {
 
 	NSDate *selectedStartDate;
 	NSView *contentsView;
