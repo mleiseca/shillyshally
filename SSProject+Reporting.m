@@ -52,7 +52,7 @@
 
 - (NSString *) descWithContext{
 	if (self.parentProject){
-		return [NSString stringWithFormat:@"%@ > %@", self.parentProject.desc, self.desc];
+		return [NSString stringWithFormat:@"%@ > %@", [self.parentProject descWithContext], self.desc];
 		
 	}else{
 		return self.desc;
