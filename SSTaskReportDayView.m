@@ -6,10 +6,14 @@
 //  .
 //
 
-#import "SSTaskReportView.h"
+#import "SSTaskReportDayView.h"
+#import "SSTaskReport.h"
 
+#import "SSTask.h"
 
-@implementation SSTaskReportView
+@implementation SSTaskReportDayView
+
+@synthesize taskReport;
 
 - (id)initWithFrame:(NSRect)frame {
     self = [super initWithFrame:frame];
@@ -20,6 +24,32 @@
 }
 
 - (void)drawRect:(NSRect)dirtyRect {
+	
+	SSTask *task; 
+	
+	int currentY = 0;
+	
+	NSMutableDictionary *drawStringAttributes = [[NSMutableDictionary alloc] init];
+	[drawStringAttributes setValue:[NSColor blackColor] forKey:NSForegroundColorAttributeName];
+	[drawStringAttributes setValue:[NSFont fontWithName:@"American Typewriter" size:14] forKey:NSFontAttributeName];
+	
+	for(task in taskReport.tasks){
+		
+		
+		NSString *MRString = [task desc];
+		NSString *budgetString = [NSString stringWithFormat:@"%@", MRString];
+		//NSSize stringSize = [budgetString sizeWithAttributes:drawStringAttributes];
+		NSPoint centerPoint;
+		centerPoint.x = 0;
+		centerPoint.y = currentY;
+		[budgetString drawAtPoint:centerPoint withAttributes:drawStringAttributes];
+		
+		currentY += 20;
+	}
+	
+	[drawStringAttributes release];		
+
+	/*
     // Drawing code here.
 	NSGradient *backgroundGradient = [[NSGradient alloc] initWithStartingColor:[NSColor grayColor] endingColor:[NSColor blackColor]];
 	[backgroundGradient drawInRect:dirtyRect angle:90];
@@ -45,6 +75,8 @@
 	centerPoint.y = dirtyRect.size.height / 2 - (stringSize.height / 2);
 	[budgetString drawAtPoint:centerPoint withAttributes:drawStringAttributes];
 	[drawStringAttributes release];
+	 
+	 */
 }
 
 @end

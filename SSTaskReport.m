@@ -11,8 +11,23 @@
 
 @implementation SSTaskReport
 
-@synthesize matchingTasks;
+@synthesize tasks;
 
+- (id) initWithStartDate:(NSDate *)startDate withEndDate:(NSDate *)endDate
+{
+	
+	if (self = [super init]){
+		tasks = [[NSMutableArray alloc] init];
+		
+	}
+	return self;
+}
+
+-(void)dealloc{
+	[tasks release];
+	
+	[super dealloc];
+}
 
 
 

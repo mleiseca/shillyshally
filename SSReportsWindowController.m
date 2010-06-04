@@ -8,8 +8,7 @@
 
 #import "SSReportsWindowController.h"
 #import "SSTaskReport.h"
-#import "SSTaskReportView.h"
-
+#import "SSTaskReportDayView.h"
 
 @implementation SSReportsWindowController
 
@@ -69,13 +68,15 @@
 	//	[fetch setSortDescriptors: sortDescriptors];
 	
 	NSArray * results = [context executeFetchRequest:fetch error:nil];
-	NSLog(@"%@", results );
 	
-	NSRect frame = NSMakeRect(10, 10, 100, 100);
-	NSView *slice = [[SSTaskReportView alloc] initWithFrame:frame];
+	SSTaskReport *report = [[SSTaskReport alloc] initWithStartDate:startDate withEndDate:endDate];
+	[report.tasks addObjectsFromArray:results];
 	
-	[self.contentsView addSubview:slice]; 
+	NSLog(@"%@", report.tasks );
 	
+	SSTaskReportDayView *dayView = [[SSTaskReportDayView alloc] initWithFrame:self.contentsView.frame];
+	dayView.taskReport = report;
+	[self.contentsView addSubview:dayView]; 	
 }
 
 - (void) updateStartDate: (NSDate *) date{

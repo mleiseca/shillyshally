@@ -25,7 +25,6 @@
 		D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D054A9F411715AA5001B23AE /* MGLProjectsController.m */; };
 		D054AA8C11720A79001B23AE /* MGLBreakController.m in Sources */ = {isa = PBXBuildFile; fileRef = D054AA8B11720A79001B23AE /* MGLBreakController.m */; };
 		D0615A711197AD5B00568295 /* SSTaskReport.m in Sources */ = {isa = PBXBuildFile; fileRef = D0615A701197AD5B00568295 /* SSTaskReport.m */; };
-		D0615A971197B12900568295 /* SSTaskSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0615A961197B12900568295 /* SSTaskSessionView.m */; };
 		D0622B1C119DE0DF0040ECD7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0622B1B119DE0DF0040ECD7 /* SenTestingKit.framework */; };
 		D0622B61119DE49C0040ECD7 /* SSTaskReportingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D0622B3B119DE1690040ECD7 /* SSTaskReportingTest.m */; };
 		D0622B63119DE49C0040ECD7 /* SSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F8A1141B11B0082DC6E /* SSTask.m */; };
@@ -83,7 +82,7 @@
 		D0784B771132210D00A2755E /* Users.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0784B481132210D00A2755E /* Users.tiff */; };
 		D0784C091132319C00A2755E /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0784C081132319C00A2755E /* todo.txt */; };
 		D0784C5D11323C2800A2755E /* TheBends.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0784C5C11323C2800A2755E /* TheBends.icns */; };
-		D07C00571197CB080046EB88 /* SSTaskReportView.m in Sources */ = {isa = PBXBuildFile; fileRef = D07C00561197CB080046EB88 /* SSTaskReportView.m */; };
+		D07C00571197CB080046EB88 /* SSTaskReportDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D07C00561197CB080046EB88 /* SSTaskReportDayView.m */; };
 		D0845F2F1141A6ED0082DC6E /* SSTaskTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F2E1141A6ED0082DC6E /* SSTaskTableView.m */; };
 		D0845F8B1141B11B0082DC6E /* SSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F8A1141B11B0082DC6E /* SSTask.m */; };
 		D0BAC99F11A03C520000C54B /* SSTask+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAC99E11A03C520000C54B /* SSTask+Reporting.m */; };
@@ -97,7 +96,6 @@
 		D0BACD4E11A18EEC0000C54B /* SSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BACD4D11A18EEC0000C54B /* SSProject.m */; };
 		D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
 		D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */; };
-		D0D2581811A9FB84009BB713 /* SSReportDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D2581711A9FB84009BB713 /* SSReportDayViewController.m */; };
 		D0E16F711141E2D80026607A /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0E16F701141E2D80026607A /* TheBendsActive.icns */; };
 		D0E400A61148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0E400A51148376600C29464 /* WorkTimerWithPersistence_DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
@@ -149,8 +147,6 @@
 		D054AA8B11720A79001B23AE /* MGLBreakController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLBreakController.m; sourceTree = "<group>"; };
 		D0615A6F1197AD5B00568295 /* SSTaskReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskReport.h; sourceTree = "<group>"; };
 		D0615A701197AD5B00568295 /* SSTaskReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReport.m; sourceTree = "<group>"; };
-		D0615A951197B12900568295 /* SSTaskSessionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskSessionView.h; sourceTree = "<group>"; };
-		D0615A961197B12900568295 /* SSTaskSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskSessionView.m; sourceTree = "<group>"; };
 		D0622B1B119DE0DF0040ECD7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = SDKROOT; };
 		D0622B3A119DE1690040ECD7 /* SSTaskReportingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskReportingTest.h; sourceTree = "<group>"; };
 		D0622B3B119DE1690040ECD7 /* SSTaskReportingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReportingTest.m; sourceTree = "<group>"; };
@@ -213,8 +209,8 @@
 		D0784B481132210D00A2755E /* Users.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Users.tiff; sourceTree = "<group>"; };
 		D0784C081132319C00A2755E /* todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
 		D0784C5C11323C2800A2755E /* TheBends.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TheBends.icns; sourceTree = "<group>"; };
-		D07C00551197CB080046EB88 /* SSTaskReportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskReportView.h; sourceTree = "<group>"; };
-		D07C00561197CB080046EB88 /* SSTaskReportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReportView.m; sourceTree = "<group>"; };
+		D07C00551197CB080046EB88 /* SSTaskReportDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskReportDayView.h; sourceTree = "<group>"; };
+		D07C00561197CB080046EB88 /* SSTaskReportDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReportDayView.m; sourceTree = "<group>"; };
 		D0845F2D1141A6ED0082DC6E /* SSTaskTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskTableView.h; sourceTree = "<group>"; };
 		D0845F2E1141A6ED0082DC6E /* SSTaskTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskTableView.m; sourceTree = "<group>"; };
 		D0845F891141B11B0082DC6E /* SSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTask.h; sourceTree = "<group>"; };
@@ -238,8 +234,6 @@
 		D0C9F50B1181AFA900A2E55B /* SSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConstants.m; sourceTree = "<group>"; };
 		D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBreakTimer.h; sourceTree = "<group>"; };
 		D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBreakTimer.m; sourceTree = "<group>"; };
-		D0D2581611A9FB84009BB713 /* SSReportDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSReportDayViewController.h; sourceTree = "<group>"; };
-		D0D2581711A9FB84009BB713 /* SSReportDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSReportDayViewController.m; sourceTree = "<group>"; };
 		D0E16F701141E2D80026607A /* TheBendsActive.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TheBendsActive.icns; sourceTree = "<group>"; };
 		D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "shillyshally-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -369,6 +363,15 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		D03F741C11B4714F003E6621 /* Day */ = {
+			isa = PBXGroup;
+			children = (
+				D07C00551197CB080046EB88 /* SSTaskReportDayView.h */,
+				D07C00561197CB080046EB88 /* SSTaskReportDayView.m */,
+			);
+			name = Day;
+			sourceTree = "<group>";
+		};
 		D054A9F611715AAB001B23AE /* Break */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,17 +471,12 @@
 		D0C9F50E1181B02300A2E55B /* Reports */ = {
 			isa = PBXGroup;
 			children = (
+				D03F741C11B4714F003E6621 /* Day */,
 				D054A9C81171582B001B23AE /* Reports.xib */,
-				D07C00551197CB080046EB88 /* SSTaskReportView.h */,
-				D07C00561197CB080046EB88 /* SSTaskReportView.m */,
-				D0615A951197B12900568295 /* SSTaskSessionView.h */,
-				D0615A961197B12900568295 /* SSTaskSessionView.m */,
 				D0615A6F1197AD5B00568295 /* SSTaskReport.h */,
 				D0615A701197AD5B00568295 /* SSTaskReport.m */,
 				D027C695116A236D00EEB624 /* SSReportsWindowController.h */,
 				D027C696116A236D00EEB624 /* SSReportsWindowController.m */,
-				D0D2581611A9FB84009BB713 /* SSReportDayViewController.h */,
-				D0D2581711A9FB84009BB713 /* SSReportDayViewController.m */,
 			);
 			name = Reports;
 			sourceTree = "<group>";
@@ -684,14 +682,12 @@
 				D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */,
 				D038BFC3119529500020D86A /* SSNotificationWatcher.m in Sources */,
 				D0615A711197AD5B00568295 /* SSTaskReport.m in Sources */,
-				D0615A971197B12900568295 /* SSTaskSessionView.m in Sources */,
-				D07C00571197CB080046EB88 /* SSTaskReportView.m in Sources */,
+				D07C00571197CB080046EB88 /* SSTaskReportDayView.m in Sources */,
 				D0BAC9A011A03C520000C54B /* SSTask+Reporting.m in Sources */,
 				D0BAC9FB11A042DA0000C54B /* SSTask+TableFormatting.m in Sources */,
 				D0BACCCC11A103160000C54B /* SSProject+Reporting.m in Sources */,
 				D0BACD4E11A18EEC0000C54B /* SSProject.m in Sources */,
 				D003C65411A690D600C29973 /* SSProject+Related.m in Sources */,
-				D0D2581811A9FB84009BB713 /* SSReportDayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

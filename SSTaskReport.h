@@ -10,10 +10,11 @@
 
 
 @interface SSTaskReport : NSObject {
-	NSArray *matchingTasks;
+	NSMutableArray *tasks;
 
 }
+- (id) initWithStartDate:(NSDate *)startDate withEndDate:(NSDate *)endDate;
 
-@property (nonatomic, retain) NSArray *matchingTasks;
+@property (nonatomic, retain) NSMutableArray *tasks;
 
 @end
