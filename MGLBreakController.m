@@ -43,23 +43,32 @@
 	}else{
 		[self.breakTimer invalidate];
 		self.breakTimer = nil;
-		
-		[self.countdownLabel setHidden:YES];
-		[self.stillAroundButton setHidden:NO];
+
+		if ( ! [appController taskInProgress] ){
+			//no currently selected task. deactivate break screen
+			[[NSApplication sharedApplication] stopModalWithCode:0];
+			[self.breakWindow close];	
+		}else{
+			[self.countdownLabel setHidden:YES];
+			[self.stillAroundButton setHidden:NO];
 			//[self.stillAroundButton becomeFirstResponder];
-
-		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-		NSTimeInterval interval = [defaults doubleForKey:SSPrefBreakStillAroundConfirmationInterval];
-
-		self.stopTaskTimer = [NSTimer timerWithTimeInterval:interval target:self selector:@selector(stopCurrentTask:) userInfo: nil repeats:YES];
+			
+			NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+			NSTimeInterval interval = [defaults doubleForKey:SSPrefBreakStillAroundConfirmationInterval];
+			
+			self.stopTaskTimer = [NSTimer timerWithTimeInterval:interval target:self selector:@selector(stopCurrentTask:) userInfo: nil repeats:YES];
+			
+			[[NSRunLoop currentRunLoop] addTimer: self.stopTaskTimer
+										 forMode:NSModalPanelRunLoopMode];
+			
+		}
 		
-		[[NSRunLoop currentRunLoop] addTimer: self.stopTaskTimer
-									 forMode:NSModalPanelRunLoopMode];
 	}
 }
 
 
 -(IBAction) stillAroundConfirmation:(id) sender{
+		
 	[self.stopTaskTimer invalidate];
 	self.stopTaskTimer = nil;
 	[[NSApplication sharedApplication] stopModalWithCode:0];
