@@ -80,7 +80,9 @@ Date range (start) - (end) Project (project name) aggregate? (checkbox)
 - if you are making data model changes, how do you migrate the changes?
 
 How do I get undo/redo for free in my non-document-architecture-based app?
-In a Core Data document-based application, the standard NSDocument undo manager is replaced by the document’s managed object context’s undo manager. In a non-document-based application for desktop Mac OS X, your window’s delegate can supply the managed object context’s undo manager using the windowWillReturnUndoManager: delegate method. If your window delegate has an accessor method for the managed object context (as is the case if you use the Core Data Application template), your implementation of windowWillReturnUndoManager: might be as follows.
+In a Core Data document-based application, the standard NSDocument undo manager is replaced by the document’s managed object context’s undo manager. 
+In a non-document-based application for desktop Mac OS X, your window’s delegate can supply the managed object context’s undo manager using the windowWillReturnUndoManager: delegate method. 
+If your window delegate has an accessor method for the managed object context (as is the case if you use the Core Data Application template), your implementation of windowWillReturnUndoManager: might be as follows.
 - (NSUndoManager *)windowWillReturnUndoManager:(NSWindow *)sender {
     return [[self managedObjectContext] undoManager];
 }

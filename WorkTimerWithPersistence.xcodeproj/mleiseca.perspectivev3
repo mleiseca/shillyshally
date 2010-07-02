@@ -330,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D046707D11DE7929000C2C09</string>
+										<string>D046715B11DE959A000C2C09</string>
 										<key>history</key>
 										<array>
 											<string>D07848061129E12300A2755E</string>
@@ -403,7 +403,6 @@
 											<string>D0BACBBD11A0EEA40000C54B</string>
 											<string>D0BACCDC11A104070000C54B</string>
 											<string>D0BACD0D11A105170000C54B</string>
-											<string>D0BACD3111A107B10000C54B</string>
 											<string>D0BACD4811A18EB20000C54B</string>
 											<string>D003C64A11A6901700C29973</string>
 											<string>D003C65B11A6927F00C29973</string>
@@ -434,12 +433,13 @@
 											<string>D048CA7711B8A9F20042281B</string>
 											<string>D048CA8711B8AA670042281B</string>
 											<string>D0102E6F11C13F5200A16C8C</string>
-											<string>D09E9CA211C4709F00EB108A</string>
 											<string>D09E9CD011C6715300EB108A</string>
 											<string>D046700911DE6844000C2C09</string>
-											<string>D046706611DE73CB000C2C09</string>
-											<string>D046707A11DE7920000C2C09</string>
-											<string>D046707B11DE7920000C2C09</string>
+											<string>D046708D11DE8208000C2C09</string>
+											<string>D046714511DE952C000C2C09</string>
+											<string>D046714711DE952C000C2C09</string>
+											<string>D046715911DE9598000C2C09</string>
+											<string>D046715611DE9586000C2C09</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -453,16 +453,16 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1596, 973}}</string>
+								<string>{{0, 0}, {1596, 750}}</string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>973pt</string>
+							<string>750pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>126pt</string>
+							<string>349pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -476,7 +476,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1596, 99}}</string>
+										<string>{{10, 27}, {1596, 322}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -492,7 +492,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1596, 99}}</string>
+										<string>{{10, 27}, {1596, 322}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -760,7 +760,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D046707E11DE7929000C2C09</string>
+		<string>D046715C11DE959A000C2C09</string>
 		<string>D046701311DE6845000C2C09</string>
 		<string>D046701411DE6845000C2C09</string>
 		<string>/Users/mleiseca/dev/osx/shillyshally/WorkTimerWithPersistence.xcodeproj</string>

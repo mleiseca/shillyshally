@@ -188,9 +188,7 @@
     returned is that of the managed object context for the application.
  */
  
-- (NSUndoManager *)windowWillReturnUndoManager:(NSWindow *)window {
-    return [[self managedObjectContext] undoManager];
-}
+
 
 - (NSUndoManager *)applicationUndoManager{
     return [[self managedObjectContext] undoManager];		

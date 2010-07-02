@@ -15,7 +15,7 @@
 @class MGLProjectsController;
 @class SSReportsWindowController;
 
-@interface SSWindowController : NSWindowController {
+@interface SSWindowController : NSWindowController<NSWindowDelegate> {
 	WorkTimerWithPersistence_AppDelegate	*appDelegate;
 	MGLArrayController_CompletedTaskFilter	*taskList;
 	NSArrayController	*projectList;

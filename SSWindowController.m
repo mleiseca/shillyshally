@@ -176,7 +176,8 @@
 	if([selectedTasks count] == 1){
 		SSTask *selectedTask = [selectedTasks objectAtIndex:0];
 		
-		[[[appDelegate applicationUndoManager]  prepareWithInvocationTarget:self.taskList] rearrangeObjects];
+		NSUndoManager *undoManager = [appDelegate applicationUndoManager];
+		[[undoManager  prepareWithInvocationTarget:self.taskList] rearrangeObjects];
 
 		if(self.taskProgressTimer.activeTaskSession.task == selectedTask){
 			NSLog(@"...done with currently running task");
@@ -225,10 +226,20 @@
 
 #pragma mark -
 #pragma mark firstResponder methods
+
 -(void) newTask:(id)sender{
 	[self createTask];	
 }
 
+-(void) undo:(id)sender{
+	
+	NSLog(@"trying to undo");
+}
+
+-(void) redo:(id)sender{
+	
+	NSLog(@"trying to redo");
+}
 
 /*
 - (BOOL)validateUserInterfaceItem:(id <NSValidatedUserInterfaceItem>)anItem
@@ -438,6 +449,12 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
 
 	return [NSArray arrayWithObject:sort];
 	
+}
+
+#pragma mark -
+#pragma mark NSWindowDelegate
+- (NSUndoManager *)windowWillReturnUndoManager:(NSWindow *)window {
+    return [self.appDelegate.managedObjectContext undoManager];
 }
 
 
