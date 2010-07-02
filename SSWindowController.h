@@ -68,7 +68,7 @@
 -(SSTask *) taskInProgress;
 
 -(IBAction) openProjectsWindow:(id) sender;
--(IBAction) openReportingWindw:(id) sender;
+-(IBAction) openReportingWindow:(id) sender;
 
 //todo: move? monitoring for changes in project selection
 - (void)outlineViewSelectionDidChange:(NSNotification *)notification;

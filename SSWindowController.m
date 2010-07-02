@@ -223,6 +223,28 @@
 	return [[taskProgressTimer activeTaskSession] task];	
 }
 
+-(void) newTask:(id)sender{
+	[self createTask];	
+}
+
+
+/*
+- (BOOL)validateUserInterfaceItem:(id <NSValidatedUserInterfaceItem>)anItem
+{
+    SEL theAction = [anItem action];
+	//	NSLog(@"validating ui item: %@", theAction);
+	if (theAction == @selector(copy:)){
+		return YES;
+	}
+	
+	return NO;
+}
+ 
+ */
+
+-(void) save:(id)sender{
+	NSLog(@"trying to save");
+}
 
 - (void)copy:(id)sender;
 {
@@ -243,7 +265,7 @@
 	[self.projectsController showProjectsWindow:sender];
 }
 
--(IBAction) openReportingWindw:(id) sender{
+-(IBAction) openReportingWindow:(id) sender{
 	if(! reportController){
 		self.reportController = [[SSReportsWindowController alloc] init];
 	}
@@ -251,6 +273,7 @@
 	[self.reportController showReportsWindow:sender];
 }
 
+/*
 - (void)keyDown:(NSEvent *)theEvent{
 	short keyCode = [theEvent keyCode];
 	NSLog(@"keyDown: %d", keyCode );
@@ -273,15 +296,20 @@
 			}
 		}else if (isCommandPressed){
 			if (keyCode == 45){
+				//command n = create task
 				[self createTask];
 				return;
 			}
 		}
 	}
 	
+	NSLog(@"keyDown: using default");
+	
 	[super keyDown:theEvent];
 
 }
+ 
+ */
 
 
 
