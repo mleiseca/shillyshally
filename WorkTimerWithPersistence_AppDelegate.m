@@ -237,7 +237,7 @@
 // -------------------------------------------------------------------------------
 - (void)applicationDidFinishLaunching:(NSNotification*)notification
 {
-	self.saveTimer = [NSTimer scheduledTimerWithTimeInterval:3600.0 target:managedObjectContext selector:@selector(save:) userInfo: nil repeats:YES];
+	//self.saveTimer = [NSTimer scheduledTimerWithTimeInterval:3600.0 target:managedObjectContext selector:@selector(save:) userInfo: nil repeats:YES];
 	
 	// load the app's main window for display
 	windowController = [[SSWindowController alloc] initWithWindowNibName:@"MainWindow"];

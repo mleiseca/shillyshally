@@ -223,6 +223,8 @@
 	return [[taskProgressTimer activeTaskSession] task];	
 }
 
+#pragma mark -
+#pragma mark firstResponder methods
 -(void) newTask:(id)sender{
 	[self createTask];	
 }
@@ -244,6 +246,10 @@
 
 -(void) save:(id)sender{
 	NSLog(@"trying to save");
+	//	:managedObjectContext selector:@selector(save:
+	//										 co
+	NSError *error;
+	[self.appDelegate.managedObjectContext save:&error];
 }
 
 - (void)copy:(id)sender;
