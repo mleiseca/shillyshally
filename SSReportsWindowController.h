@@ -14,6 +14,7 @@
 	NSDate *selectedStartDate;
 	NSView *contentsView;
 	SSTaskReport *taskReport;
+	NSView *currentReportView;
 	
 	NSSegmentedControl *dateTypeSelection;
 	NSTextField *selectedStartDateTextField;
@@ -24,6 +25,7 @@
 @property (nonatomic, retain) NSDate *selectedStartDate;
 @property (nonatomic, retain) IBOutlet NSSegmentedControl *dateTypeSelection;
 @property (nonatomic, retain) IBOutlet NSTextField *selectedStartDateTextField;
+@property(nonatomic, retain ) NSView *currentReportView;
 
 - (IBAction) showReportsWindow:(id) sender;
 - (IBAction) generateReport:(id)sender;

@@ -16,6 +16,8 @@
 @synthesize selectedStartDate;
 @synthesize dateTypeSelection;
 @synthesize selectedStartDateTextField;
+@synthesize currentReportView;
+
 
 - (IBAction) generateReport:(id)sender{
 	
@@ -24,13 +26,15 @@
 	NSDictionary           *entities = [model entitiesByName];
 	NSEntityDescription    *entity   = [entities valueForKey:@"SSTask"];
 	
+	
+	//todo: move this. i don't really know why, but adding new task will make it appear on reports, until the context is saved
+	NSError *err;
+	[context save:&err];
+	
 	//NSDate *date = [[NSDate date] dateByAddingTimeInterval:-1000000];
 	//NSPredicate * predicate = [NSPredicate predicateWithFormat:@"ANY taskSessions.createDate > %@", date];
 	
 	NSDate *startDate =self.selectedStartDate;
-	
-	NSLog(@"Using date: %@", startDate );
-
 	
 	NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
 
@@ -53,29 +57,34 @@
     [gregorian components:(NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit)
 				 fromDate: startDate];
 	startDate = [gregorian dateFromComponents:components];	
-	
+
+	NSLog(@"Using start date: %@, end date %@", startDate, endDate );
+
 	//get tasks which have a taskSession after the start and before the end
 	// http://www.cocoabuilder.com/archive/cocoa/210757-nspredicate-for-any-match-based-on-two-properties-at-once.html
 	NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(SUBQUERY(taskSessions, $x, $x.createDate >= %@ AND $x.createDate <= %@) != 0)",
 						 startDate, endDate];
 	
-	//	NSSortDescriptor * sort = [[NSortDescriptor alloc] initWithKey:@"title"];
-	//	NSArray * sortDescriptors = [NSArray arrayWithObject: sort];
-	
+
 	NSFetchRequest * fetch = [[NSFetchRequest alloc] init];
 	[fetch setEntity: entity];
 	[fetch setPredicate: predicate];
-	//	[fetch setSortDescriptors: sortDescriptors];
 	
 	NSArray * results = [context executeFetchRequest:fetch error:nil];
 	
 	SSTaskReport *report = [[SSTaskReport alloc] initWithStartDate:startDate withEndDate:endDate];
 	[report.tasks addObjectsFromArray:results];
 	
-	NSLog(@"%@", report.tasks );
+	NSLog(@"%@", results );
+	
+	[self.currentReportView removeFromSuperview];
 	
 	SSTaskReportDayView *dayView = [[SSTaskReportDayView alloc] initWithFrame:self.contentsView.frame];
 	dayView.taskReport = report;
+	
+	self.currentReportView = dayView;
+	[dayView release];
+	[report release];
 	[self.contentsView addSubview:dayView]; 	
 }
 
@@ -88,6 +97,11 @@
 
 }
 
+- (void) generateReportWithDate:(NSDate *)date{
+	[self updateStartDate:date ];
+	[self generateReport:nil];
+}
+
 -(void) showReportsWindow:(id) sender{
 
 	if (![NSBundle loadNibNamed:@"Reports" owner:self]) {
@@ -95,22 +109,17 @@
 	} else {
 		NSLog(@"showReportsWindow");
 		
-		//[self.datePicker setDateValue:];
-		
-		[self updateStartDate: [NSDate date]];
-		[self generateReport:self];
-		
+		[self generateReportWithDate:[NSDate date]];
 		[self.window orderFront:sender];
 	}
 }
 
 
 - (IBAction) nextDate: (id)sender{
-	NSLog(@"nextDate");
-	
+	[self generateReportWithDate:[self.selectedStartDate dateByAddingTimeInterval:86400]];
 }
 - (IBAction) previousDate: (id)sender{	
-	NSLog(@"previousDate");
+	[self generateReportWithDate:[self.selectedStartDate dateByAddingTimeInterval:-86400]];
 
 }
 - (IBAction) selectedDateType: (id)sender{
