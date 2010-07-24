@@ -6,12 +6,5 @@
 //  Copyright 2010 Grubhub Inc. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+//#import <SenTestingKit/SenTestingKit.h>
 
-
-@interface SSTaskReportingTest : SenTestCase {
-	
-}
-
-
-@end

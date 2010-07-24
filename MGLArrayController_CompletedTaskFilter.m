@@ -9,6 +9,7 @@
 #import "MGLArrayController_CompletedTaskFilter.h"
 #import "SSProject.h"
 #import "SSProject+Related.h"
+#import "SSTask.h"
 
 @implementation MGLArrayController_CompletedTaskFilter
 @synthesize currentProject;
@@ -41,7 +42,12 @@
 		if ([item respondsToSelector:@selector(completedDate)]){
 			if([item valueForKey:@"completedDate"] == nil){
 				
-				if (! relatedProjects || ! [item project] || [relatedProjects containsObject:[item project]]){
+                NSLog(@"Starred? %@" , (  [item isStarred]));
+				if (! relatedProjects || 
+                    ! [item project] || 
+                    [relatedProjects containsObject:[item project]] ||
+                    [[item isStarred] boolValue]){
+                    
 					[filteredObjects addObject:item];					
 				}
 			}

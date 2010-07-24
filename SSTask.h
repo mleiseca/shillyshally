@@ -26,6 +26,7 @@
 @property (nonatomic, retain) SSProject * project;
 @property (nonatomic, retain) NSSet* taskSessions;
 @property (nonatomic, assign) BOOL running;
+@property (nonatomic, retain) NSNumber* isStarred;
 
 @end
 

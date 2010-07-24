@@ -22,6 +22,7 @@
 @dynamic hoursEstimate;
 @dynamic taskSessions;
 @dynamic project;
+@dynamic isStarred;
 
 @synthesize running;
 
