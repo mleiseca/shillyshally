@@ -235,12 +235,14 @@
 // -------------------------------------------------------------------------------
 - (void)applicationDidFinishLaunching:(NSNotification*)notification
 {
-	//self.saveTimer = [NSTimer scheduledTimerWithTimeInterval:3600.0 target:managedObjectContext selector:@selector(save:) userInfo: nil repeats:YES];
 	
 	// load the app's main window for display
 	windowController = [[SSWindowController alloc] initWithWindowNibName:@"MainWindow"];
 	windowController.appDelegate = self;
 	[windowController showWindow:self];
+
+	self.saveTimer = [NSTimer scheduledTimerWithTimeInterval:3600.0 target:windowController selector:@selector(save:) userInfo:nil repeats:YES];
+
 }
 
 
@@ -290,7 +292,7 @@
         [alert release];
         alert = nil;
         
-        if (answer == NSAlertAlternateReturn) return NSTerminateCancel;
+        if (answer == NSAlertSecondButtonReturn) return NSTerminateCancel;
 
     }
 

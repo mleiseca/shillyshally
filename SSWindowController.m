@@ -241,38 +241,28 @@
 	NSLog(@"trying to redo");
 }
 
-/*
-- (BOOL)validateUserInterfaceItem:(id <NSValidatedUserInterfaceItem>)anItem
-{
-    SEL theAction = [anItem action];
-	//	NSLog(@"validating ui item: %@", theAction);
-	if (theAction == @selector(copy:)){
-		return YES;
-	}
-	
-	return NO;
-}
- 
- */
 
 -(void) save:(id)sender{
+    //we are keeping the firstResponder around in order to flush changes from the current text field
+    // and then resume the operation that the user was in the middle of.
+    // Doing this will prevent loss of the data the user just typed and not interrupt the user's work flow
+    
+    id firstResponder = [[self window] firstResponder];
+    [[self window] makeFirstResponder:nil];
+    
 	NSLog(@"trying to save");
-	//	:managedObjectContext selector:@selector(save:
-	//										 co
-	NSError *error;
+	NSError *error = nil;
 	[self.appDelegate.managedObjectContext save:&error];
+
+    
+    //restore first responder to continue user's workflow
+    [[self window] makeFirstResponder:firstResponder];
+
 }
 
 - (void)copy:(id)sender;
 {
-	//	http://www.omnigroup.com/mailman/archive/macosx-dev/2001-June/028436.html
-	//NSLog(@"Copy: WorkTimerWithPersistence_AppDelegate");
-	//	NSResponder *firstResponder;
-	
-	//	firstResponder = [[self window] firstResponder];
-	
-	[self copyCurrentTableRow];
-	
+	[self copyCurrentTableRow];	
 }
 
 -(IBAction) openProjectsWindow:(id) sender{
