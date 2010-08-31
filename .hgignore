@@ -1,3 +1,5 @@
 syntax: glob
 build/**
 .DS_Store
+*pbxuser
+*perspectivev3
