@@ -3,7 +3,7 @@
 //  WorkTimerWithPersistence
 //
 //  Created by Michael Leiseca on 5/21/10.
-//  Copyright 2010 Grubhub Inc. All rights reserved.
+
 //
 
 #import "SSProject+Related.h"
@@ -12,7 +12,17 @@
 @implementation SSProject(related)
 
 
-- (NSSet *) relatedProjects{
+- (void) helperAddRelatedProjects: (NSMutableSet *) allProjects{
+	
+	[allProjects addObject:self];
+	
+	SSProject *project;
+	for (project in self.childProjects){
+		[project helperAddRelatedProjects:allProjects];		
+	}
+}
+
+- (NSSet*) relatedProjects{
 
 	NSMutableSet *allProjects = [[NSMutableSet alloc] init];
 
@@ -23,16 +33,5 @@
 	return allProjects;
 }
 
-- (void) helperAddRelatedProjects: (NSMutableSet *) allProjects{
-	
-	[allProjects addObject:self];
-	
-	SSProject *project;
-	for (project in self.childProjects){
-		[project helperAddRelatedProjects:allProjects];		
-	}
-		 
-	
-}
 
 @end

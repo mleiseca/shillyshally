@@ -266,6 +266,7 @@
 		D0784C5C11323C2800A2755E /* TheBends.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TheBends.icns; sourceTree = "<group>"; };
 		D07C00551197CB080046EB88 /* SSTaskReportDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskReportDayView.h; sourceTree = "<group>"; };
 		D07C00561197CB080046EB88 /* SSTaskReportDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReportDayView.m; sourceTree = "<group>"; };
+		D07ED637122C9B7B006A593E /* WorkTimerWithPersistence_DataModel 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WorkTimerWithPersistence_DataModel 7.xcdatamodel"; sourceTree = "<group>"; };
 		D0845F2D1141A6ED0082DC6E /* SSTaskTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskTableView.h; sourceTree = "<group>"; };
 		D0845F2E1141A6ED0082DC6E /* SSTaskTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskTableView.m; sourceTree = "<group>"; };
 		D0845F891141B11B0082DC6E /* SSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTask.h; sourceTree = "<group>"; };
@@ -1262,8 +1263,9 @@
 				D0BACA4311A04A0C0000C54B /* WorkTimerWithPersistence_DataModel 4.xcdatamodel */,
 				D0BACBB811A0EE150000C54B /* WorkTimerWithPersistence_DataModel 5.xcdatamodel */,
 				D0E3168811FB2F3600D0E3D9 /* WorkTimerWithPersistence_DataModel 6.xcdatamodel */,
+				D07ED637122C9B7B006A593E /* WorkTimerWithPersistence_DataModel 7.xcdatamodel */,
 			);
-			currentVersion = D0E3168811FB2F3600D0E3D9 /* WorkTimerWithPersistence_DataModel 6.xcdatamodel */;
+			currentVersion = D07ED637122C9B7B006A593E /* WorkTimerWithPersistence_DataModel 7.xcdatamodel */;
 			path = WorkTimerWithPersistence_DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

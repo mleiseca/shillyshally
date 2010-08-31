@@ -31,11 +31,18 @@
 @synthesize treeController;
 @synthesize outlineView;
 
+@synthesize starredActiveTaskController;
+
 - (void) dealloc{
 	[reportController release];
 	[projectsController release];
 	[treeController release];
 	[outlineView release];
+    
+    
+    [starredActiveTaskController removeObserver:self forKeyPath:@"selectionIndexes"];
+
+    [starredActiveTaskController release];
 	
 	[super dealloc];
 }
@@ -345,6 +352,14 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector:@selector(outlineViewSelectionDidChange:) 
 												 name:NSOutlineViewSelectionDidChangeNotification object:outlineView];
+    
+    
+    //watch for change in selection for starredActiveTasks
+    // http://www.pietrop.com/wordpress/dev-area/tutorials/manage-nscollectionview-and-nsarraycontroller-selection-using-observers/
+    
+    [starredActiveTaskController addObserver:self forKeyPath:@"selectionIndexes" options:NSKeyValueObservingOptionNew context:nil];
+
+    
 }
 
 /*
@@ -417,16 +432,19 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
     return NSDragOperationGeneric;
 }
 
-- (void)outlineViewSelectionDidChange:(NSNotification *)notification{
-	NSArray *selectedObjects = [treeController selectedObjects];
-	if (selectedObjects && ([selectedObjects count] > 0)){
+-(void)updateProjectSelection:(NSArray*)selectedObjects{
+    if ([selectedObjects count] > 0){
 		taskList.currentProject = [selectedObjects objectAtIndex:0];
 	}else{
 		taskList.currentProject = nil;
 	}
 	
 	[taskList rearrangeObjects];
-	
+}
+
+- (void)outlineViewSelectionDidChange:(NSNotification *)notification{
+	NSArray *selectedObjects = [treeController selectedObjects];
+	[self updateProjectSelection:selectedObjects];
 }
 
 
@@ -439,6 +457,18 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
 
 	return [NSArray arrayWithObject:sort];
 	
+}
+
+#pragma mark -
+#pragma mark Starred project subview support
+
+//Observer for the collection view array controller selection: "selectionIndexes"
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+    if(object == starredActiveTaskController && [keyPath isEqualTo:@"selectionIndexes"])
+    {
+        [self updateProjectSelection:[starredActiveTaskController selectedObjects]];
+    }
 }
 
 #pragma mark -

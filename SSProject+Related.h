@@ -3,7 +3,7 @@
 //  WorkTimerWithPersistence
 //
 //  Created by Michael Leiseca on 5/21/10.
-//  Copyright 2010 Grubhub Inc. All rights reserved.
+
 //
 
 #import <Cocoa/Cocoa.h>
@@ -12,8 +12,10 @@
 
 @interface SSProject(related)
 
-- (NSSet *) relatedProjects;
 
-- (void) helperAddRelatedProjects: (NSMutableSet *) relatedProjects;
+/*
+ This method returns a set contain the target and all its descendants
+ */
+- (NSSet *) relatedProjects;
 
 @end

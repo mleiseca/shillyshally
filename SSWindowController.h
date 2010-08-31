@@ -32,6 +32,8 @@
 	
 	NSOutlineView *outlineView;
 	NSTreeController *treeController;
+    
+    NSArrayController *starredActiveTaskController;
 	
 }
 
@@ -53,6 +55,8 @@
 
 @property (nonatomic, retain) IBOutlet NSOutlineView *outlineView;
 @property (nonatomic, retain) IBOutlet NSTreeController *treeController;
+
+@property (nonatomic, retain) IBOutlet NSArrayController *starredActiveTaskController;
 
 -(IBAction) toggleSelectedTask:(id) sender;
 -(IBAction) finishTask:(id) sender;
