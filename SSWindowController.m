@@ -31,19 +31,22 @@
 @synthesize treeController;
 @synthesize outlineView;
 
+@synthesize currentlySelectedProject;
+
 @synthesize starredActiveTaskController;
 
 - (void) dealloc{
-	[reportController release];
-	[projectsController release];
-	[treeController release];
-	[outlineView release];
+	SS_RELEASE_SAFELY(reportController);
+	SS_RELEASE_SAFELY(projectsController);
+	SS_RELEASE_SAFELY(treeController);
+    SS_RELEASE_SAFELY(outlineView);
     
     
     [starredActiveTaskController removeObserver:self forKeyPath:@"selectionIndexes"];
 
-    [starredActiveTaskController release];
-	
+    SS_RELEASE_SAFELY(starredActiveTaskController);
+	SS_RELEASE_SAFELY(currentlySelectedProject);
+    
 	[super dealloc];
 }
 
@@ -79,18 +82,14 @@
 }
 
 -(void) createTask{
-	NSArray *selectedProjects = [self.treeController selectedObjects] ;
-	
+    	
 	NSManagedObjectContext *context  = [[NSApp delegate] managedObjectContext];
 
 	
 	SSTask *task = [NSEntityDescription
 								  insertNewObjectForEntityForName:@"SSTask" inManagedObjectContext:context];
 
-	if([selectedProjects count] == 1){
-		task.project = [selectedProjects objectAtIndex:0];
-	}
-	
+    task.project = self.currentlySelectedProject;
 	
 	[taskList addObject:task];
 }
@@ -433,11 +432,14 @@ NSString *AbstractTreeNodeType = @"AbstractTreeNodeType";
 }
 
 -(void)updateProjectSelection:(NSArray*)selectedObjects{
+    
+    SSProject *project = nil;
     if ([selectedObjects count] > 0){
-		taskList.currentProject = [selectedObjects objectAtIndex:0];
-	}else{
-		taskList.currentProject = nil;
+        project = [selectedObjects objectAtIndex:0];
 	}
+
+    taskList.currentProject = project;
+    self.currentlySelectedProject = project;
 	
 	[taskList rearrangeObjects];
 }

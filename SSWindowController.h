@@ -14,6 +14,7 @@
 @class SSTask;
 @class MGLProjectsController;
 @class SSReportsWindowController;
+@class SSProject;
 
 @interface SSWindowController : NSWindowController<NSWindowDelegate> {
 	WorkTimerWithPersistence_AppDelegate	*appDelegate;
@@ -34,6 +35,12 @@
 	NSTreeController *treeController;
     
     NSArrayController *starredActiveTaskController;
+    
+    
+    //this might be selected by either the tree or list on the screen left
+    //keeping it around so we know which project to use when creating a 
+    // new task
+    SSProject *currentlySelectedProject;
 	
 }
 
@@ -57,6 +64,9 @@
 @property (nonatomic, retain) IBOutlet NSTreeController *treeController;
 
 @property (nonatomic, retain) IBOutlet NSArrayController *starredActiveTaskController;
+
+@property (nonatomic, retain) SSProject *currentlySelectedProject;
+
 
 -(IBAction) toggleSelectedTask:(id) sender;
 -(IBAction) finishTask:(id) sender;
