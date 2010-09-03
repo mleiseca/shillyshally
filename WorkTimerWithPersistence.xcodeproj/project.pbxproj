@@ -7,31 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F7446990DB6B7EA00F9684A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainWindow.xib */; };
 		77C8280E06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		D027C697116A236D00EEB624 /* SSReportsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027C696116A236D00EEB624 /* SSReportsWindowController.m */; };
-		D03812A61144A65E0097C1A5 /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03812A51144A65E0097C1A5 /* Break.xib */; };
-		D038BFC3119529500020D86A /* SSNotificationWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D038BFC2119529500020D86A /* SSNotificationWatcher.m */; };
 		D046A13F117BF957008DD853 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
 		D046A174117BF9A8008DD853 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
-		D046A3BC117F1019008DD853 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D046A3BB117F1019008DD853 /* Preferences.xib */; };
-		D046A3BF117F102D008DD853 /* MGLPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = D046A3BE117F102D008DD853 /* MGLPreferencesController.m */; };
-		D054A9C91171582B001B23AE /* Reports.xib in Resources */ = {isa = PBXBuildFile; fileRef = D054A9C81171582B001B23AE /* Reports.xib */; };
-		D054A9F111715A82001B23AE /* Projects.xib in Resources */ = {isa = PBXBuildFile; fileRef = D054A9F011715A82001B23AE /* Projects.xib */; };
-		D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D054A9F411715AA5001B23AE /* MGLProjectsController.m */; };
-		D054AA8C11720A79001B23AE /* MGLBreakController.m in Sources */ = {isa = PBXBuildFile; fileRef = D054AA8B11720A79001B23AE /* MGLBreakController.m */; };
-		D0615A711197AD5B00568295 /* SSTaskReport.m in Sources */ = {isa = PBXBuildFile; fileRef = D0615A701197AD5B00568295 /* SSTaskReport.m */; };
 		D0622B1C119DE0DF0040ECD7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0622B1B119DE0DF0040ECD7 /* SenTestingKit.framework */; };
 		D0622BBB119DEE790040ECD7 /* Test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0622BBA119DEE790040ECD7 /* Test-Info.plist */; };
-		D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784652112913D100A2755E /* MGLTaskProgressTimer.m */; };
-		D078469F112918E600A2755E /* SSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D078469E112918E600A2755E /* SSWindowController.m */; };
-		D0784A971131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */; };
 		D0784C091132319C00A2755E /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0784C081132319C00A2755E /* todo.txt */; };
-		D07C00571197CB080046EB88 /* SSTaskReportDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D07C00561197CB080046EB88 /* SSTaskReportDayView.m */; };
-		D0845F2F1141A6ED0082DC6E /* SSTaskTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0845F2E1141A6ED0082DC6E /* SSTaskTableView.m */; };
 		D08F65ED12316881003D9E8B /* Users.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65BD12316881003D9E8B /* Users.tiff */; };
 		D08F65EE12316881003D9E8B /* Universal Binary.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65BE12316881003D9E8B /* Universal Binary.tiff */; };
 		D08F65EF12316881003D9E8B /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D08F65BF12316881003D9E8B /* TheBendsActive.icns */; };
@@ -148,9 +132,43 @@
 		D08F667B12316AAF003D9E8B /* SSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666812316AAF003D9E8B /* SSProject.m */; };
 		D08F667C12316AAF003D9E8B /* SSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666B12316AAF003D9E8B /* SSTask.m */; };
 		D08F667D12316AAF003D9E8B /* SSTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666C12316AAF003D9E8B /* SSTaskSession.m */; };
-		D0BACAC511A05D620000C54B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BACAC411A05D620000C54B /* MainMenu.xib */; };
+		D08F66A512316D33003D9E8B /* MGLPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66A212316D33003D9E8B /* MGLPreferencesController.m */; };
+		D08F66A612316D33003D9E8B /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66A412316D33003D9E8B /* Preferences.xib */; };
+		D08F66A712316D33003D9E8B /* MGLPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66A212316D33003D9E8B /* MGLPreferencesController.m */; };
+		D08F66A812316D33003D9E8B /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66A412316D33003D9E8B /* Preferences.xib */; };
+		D08F66B012316D91003D9E8B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66AC12316D91003D9E8B /* SSBreakTimer.m */; };
+		D08F66B112316D91003D9E8B /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66AD12316D91003D9E8B /* MGLTaskProgressTimer.m */; };
+		D08F66B212316D91003D9E8B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66AC12316D91003D9E8B /* SSBreakTimer.m */; };
+		D08F66B312316D91003D9E8B /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66AD12316D91003D9E8B /* MGLTaskProgressTimer.m */; };
+		D08F66C312316E68003D9E8B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66B912316E68003D9E8B /* MainWindow.xib */; };
+		D08F66C412316E68003D9E8B /* SSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BB12316E68003D9E8B /* SSWindowController.m */; };
+		D08F66C512316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BC12316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m */; };
+		D08F66C612316E68003D9E8B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66BD12316E68003D9E8B /* MainMenu.xib */; };
+		D08F66C712316E68003D9E8B /* SSTaskTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BE12316E68003D9E8B /* SSTaskTableView.m */; };
+		D08F66C812316E68003D9E8B /* SSNotificationWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66C112316E68003D9E8B /* SSNotificationWatcher.m */; };
+		D08F66C912316E68003D9E8B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66B912316E68003D9E8B /* MainWindow.xib */; };
+		D08F66CA12316E68003D9E8B /* SSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BB12316E68003D9E8B /* SSWindowController.m */; };
+		D08F66CB12316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BC12316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m */; };
+		D08F66CC12316E68003D9E8B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66BD12316E68003D9E8B /* MainMenu.xib */; };
+		D08F66CD12316E68003D9E8B /* SSTaskTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BE12316E68003D9E8B /* SSTaskTableView.m */; };
+		D08F66CE12316E68003D9E8B /* SSNotificationWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66C112316E68003D9E8B /* SSNotificationWatcher.m */; };
+		D08F66D212316F0B003D9E8B /* Projects.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66CF12316F0B003D9E8B /* Projects.xib */; };
+		D08F66D312316F0B003D9E8B /* MGLProjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66D012316F0B003D9E8B /* MGLProjectsController.m */; };
+		D08F66D412316F0B003D9E8B /* Projects.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66CF12316F0B003D9E8B /* Projects.xib */; };
+		D08F66D512316F0B003D9E8B /* MGLProjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66D012316F0B003D9E8B /* MGLProjectsController.m */; };
+		D08F66D812316F29003D9E8B /* SSTaskReportDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66D612316F29003D9E8B /* SSTaskReportDayView.m */; };
+		D08F66D912316F29003D9E8B /* SSTaskReportDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66D612316F29003D9E8B /* SSTaskReportDayView.m */; };
+		D08F66DF12316F38003D9E8B /* SSReportsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66DA12316F38003D9E8B /* SSReportsWindowController.m */; };
+		D08F66E012316F38003D9E8B /* Reports.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66DC12316F38003D9E8B /* Reports.xib */; };
+		D08F66E112316F38003D9E8B /* SSTaskReport.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66DD12316F38003D9E8B /* SSTaskReport.m */; };
+		D08F66E212316F38003D9E8B /* SSReportsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66DA12316F38003D9E8B /* SSReportsWindowController.m */; };
+		D08F66E312316F38003D9E8B /* Reports.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66DC12316F38003D9E8B /* Reports.xib */; };
+		D08F66E412316F38003D9E8B /* SSTaskReport.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66DD12316F38003D9E8B /* SSTaskReport.m */; };
+		D08F66E812316F4D003D9E8B /* MGLBreakController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66E512316F4D003D9E8B /* MGLBreakController.m */; };
+		D08F66E912316F4D003D9E8B /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66E712316F4D003D9E8B /* Break.xib */; };
+		D08F66EA12316F4D003D9E8B /* MGLBreakController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66E512316F4D003D9E8B /* MGLBreakController.m */; };
+		D08F66EB12316F4D003D9E8B /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66E712316F4D003D9E8B /* Break.xib */; };
 		D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
-		D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */; };
 		D0E3172A11FB528B00D0E3D9 /* star_off.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3172811FB528B00D0E3D9 /* star_off.png */; };
 		D0E3172B11FB528B00D0E3D9 /* star_on.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3172911FB528B00D0E3D9 /* star_on.png */; };
 		D0E3172C11FB528B00D0E3D9 /* star_off.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3172811FB528B00D0E3D9 /* star_off.png */; };
@@ -225,43 +243,16 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* WorkTimerWithPersistence_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkTimerWithPersistence_Prefix.pch; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkTimerWithPersistence_AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkTimerWithPersistence_AppDelegate.m; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* shillyshally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shillyshally.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D027C695116A236D00EEB624 /* SSReportsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSReportsWindowController.h; sourceTree = "<group>"; };
-		D027C696116A236D00EEB624 /* SSReportsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSReportsWindowController.m; sourceTree = "<group>"; };
-		D03812A51144A65E0097C1A5 /* Break.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Break.xib; sourceTree = "<group>"; };
-		D038BFC1119529500020D86A /* SSNotificationWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNotificationWatcher.h; sourceTree = "<group>"; };
-		D038BFC2119529500020D86A /* SSNotificationWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNotificationWatcher.m; sourceTree = "<group>"; };
 		D046A13E117BF957008DD853 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/mleiseca/dev/osx/Frameworks/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
-		D046A3BB117F1019008DD853 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
-		D046A3BD117F102D008DD853 /* MGLPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLPreferencesController.h; sourceTree = "<group>"; };
-		D046A3BE117F102D008DD853 /* MGLPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLPreferencesController.m; sourceTree = "<group>"; };
-		D054A9C81171582B001B23AE /* Reports.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Reports.xib; sourceTree = "<group>"; };
-		D054A9F011715A82001B23AE /* Projects.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Projects.xib; sourceTree = "<group>"; };
-		D054A9F311715AA5001B23AE /* MGLProjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLProjectsController.h; sourceTree = "<group>"; };
-		D054A9F411715AA5001B23AE /* MGLProjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLProjectsController.m; sourceTree = "<group>"; };
-		D054AA8A11720A79001B23AE /* MGLBreakController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLBreakController.h; sourceTree = "<group>"; };
-		D054AA8B11720A79001B23AE /* MGLBreakController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLBreakController.m; sourceTree = "<group>"; };
-		D0615A6F1197AD5B00568295 /* SSTaskReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskReport.h; sourceTree = "<group>"; };
-		D0615A701197AD5B00568295 /* SSTaskReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReport.m; sourceTree = "<group>"; };
 		D0622B1B119DE0DF0040ECD7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = SDKROOT; };
 		D0622B57119DE42D0040ECD7 /* Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0622BBA119DEE790040ECD7 /* Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
-		D0784651112913D100A2755E /* MGLTaskProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLTaskProgressTimer.h; sourceTree = "<group>"; };
-		D0784652112913D100A2755E /* MGLTaskProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLTaskProgressTimer.m; sourceTree = "<group>"; };
-		D078469D112918E600A2755E /* SSWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSWindowController.h; sourceTree = "<group>"; };
-		D078469E112918E600A2755E /* SSWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSWindowController.m; sourceTree = "<group>"; };
-		D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLArrayController_CompletedTaskFilter.h; sourceTree = "<group>"; };
-		D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLArrayController_CompletedTaskFilter.m; sourceTree = "<group>"; };
 		D0784C081132319C00A2755E /* todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
-		D07C00551197CB080046EB88 /* SSTaskReportDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskReportDayView.h; sourceTree = "<group>"; };
-		D07C00561197CB080046EB88 /* SSTaskReportDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskReportDayView.m; sourceTree = "<group>"; };
-		D0845F2D1141A6ED0082DC6E /* SSTaskTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTaskTableView.h; sourceTree = "<group>"; };
-		D0845F2E1141A6ED0082DC6E /* SSTaskTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTaskTableView.m; sourceTree = "<group>"; };
 		D08F65BD12316881003D9E8B /* Users.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Users.tiff; path = icons/Users.tiff; sourceTree = "<group>"; };
 		D08F65BE12316881003D9E8B /* Universal Binary.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Universal Binary.tiff"; path = "icons/Universal Binary.tiff"; sourceTree = "<group>"; };
 		D08F65BF12316881003D9E8B /* TheBendsActive.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = TheBendsActive.icns; path = icons/TheBendsActive.icns; sourceTree = "<group>"; };
@@ -338,11 +329,38 @@
 		D08F666B12316AAF003D9E8B /* SSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTask.m; path = models/SSTask.m; sourceTree = "<group>"; };
 		D08F666C12316AAF003D9E8B /* SSTaskSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTaskSession.m; path = models/SSTaskSession.m; sourceTree = "<group>"; };
 		D08F666D12316AAF003D9E8B /* SSTaskSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTaskSession.h; path = models/SSTaskSession.h; sourceTree = "<group>"; };
-		D0BACAC411A05D620000C54B /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		D08F66A212316D33003D9E8B /* MGLPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGLPreferencesController.m; path = windows/preferences/MGLPreferencesController.m; sourceTree = "<group>"; };
+		D08F66A312316D33003D9E8B /* MGLPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGLPreferencesController.h; path = windows/preferences/MGLPreferencesController.h; sourceTree = "<group>"; };
+		D08F66A412316D33003D9E8B /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Preferences.xib; path = windows/preferences/Preferences.xib; sourceTree = "<group>"; };
+		D08F66AC12316D91003D9E8B /* SSBreakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSBreakTimer.m; path = timers/SSBreakTimer.m; sourceTree = "<group>"; };
+		D08F66AD12316D91003D9E8B /* MGLTaskProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGLTaskProgressTimer.m; path = timers/MGLTaskProgressTimer.m; sourceTree = "<group>"; };
+		D08F66AE12316D91003D9E8B /* MGLTaskProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGLTaskProgressTimer.h; path = timers/MGLTaskProgressTimer.h; sourceTree = "<group>"; };
+		D08F66AF12316D91003D9E8B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSBreakTimer.h; path = timers/SSBreakTimer.h; sourceTree = "<group>"; };
+		D08F66B912316E68003D9E8B /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = windows/mainwindow/MainWindow.xib; sourceTree = "<group>"; };
+		D08F66BA12316E68003D9E8B /* SSWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSWindowController.h; path = windows/mainwindow/SSWindowController.h; sourceTree = "<group>"; };
+		D08F66BB12316E68003D9E8B /* SSWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSWindowController.m; path = windows/mainwindow/SSWindowController.m; sourceTree = "<group>"; };
+		D08F66BC12316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGLArrayController_CompletedTaskFilter.m; path = windows/mainwindow/MGLArrayController_CompletedTaskFilter.m; sourceTree = "<group>"; };
+		D08F66BD12316E68003D9E8B /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenu.xib; path = windows/mainwindow/MainMenu.xib; sourceTree = "<group>"; };
+		D08F66BE12316E68003D9E8B /* SSTaskTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTaskTableView.m; path = windows/mainwindow/SSTaskTableView.m; sourceTree = "<group>"; };
+		D08F66BF12316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGLArrayController_CompletedTaskFilter.h; path = windows/mainwindow/MGLArrayController_CompletedTaskFilter.h; sourceTree = "<group>"; };
+		D08F66C012316E68003D9E8B /* SSTaskTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTaskTableView.h; path = windows/mainwindow/SSTaskTableView.h; sourceTree = "<group>"; };
+		D08F66C112316E68003D9E8B /* SSNotificationWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSNotificationWatcher.m; path = windows/mainwindow/SSNotificationWatcher.m; sourceTree = "<group>"; };
+		D08F66C212316E68003D9E8B /* SSNotificationWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSNotificationWatcher.h; path = windows/mainwindow/SSNotificationWatcher.h; sourceTree = "<group>"; };
+		D08F66CF12316F0B003D9E8B /* Projects.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Projects.xib; path = windows/projects/Projects.xib; sourceTree = "<group>"; };
+		D08F66D012316F0B003D9E8B /* MGLProjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGLProjectsController.m; path = windows/projects/MGLProjectsController.m; sourceTree = "<group>"; };
+		D08F66D112316F0B003D9E8B /* MGLProjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGLProjectsController.h; path = windows/projects/MGLProjectsController.h; sourceTree = "<group>"; };
+		D08F66D612316F29003D9E8B /* SSTaskReportDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTaskReportDayView.m; path = windows/reports/day/SSTaskReportDayView.m; sourceTree = "<group>"; };
+		D08F66D712316F29003D9E8B /* SSTaskReportDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTaskReportDayView.h; path = windows/reports/day/SSTaskReportDayView.h; sourceTree = "<group>"; };
+		D08F66DA12316F38003D9E8B /* SSReportsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSReportsWindowController.m; path = windows/reports/SSReportsWindowController.m; sourceTree = "<group>"; };
+		D08F66DB12316F38003D9E8B /* SSReportsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSReportsWindowController.h; path = windows/reports/SSReportsWindowController.h; sourceTree = "<group>"; };
+		D08F66DC12316F38003D9E8B /* Reports.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Reports.xib; path = windows/reports/Reports.xib; sourceTree = "<group>"; };
+		D08F66DD12316F38003D9E8B /* SSTaskReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTaskReport.m; path = windows/reports/SSTaskReport.m; sourceTree = "<group>"; };
+		D08F66DE12316F38003D9E8B /* SSTaskReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTaskReport.h; path = windows/reports/SSTaskReport.h; sourceTree = "<group>"; };
+		D08F66E512316F4D003D9E8B /* MGLBreakController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGLBreakController.m; path = windows/break/MGLBreakController.m; sourceTree = "<group>"; };
+		D08F66E612316F4D003D9E8B /* MGLBreakController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGLBreakController.h; path = windows/break/MGLBreakController.h; sourceTree = "<group>"; };
+		D08F66E712316F4D003D9E8B /* Break.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Break.xib; path = windows/break/Break.xib; sourceTree = "<group>"; };
 		D0C9F50A1181AFA900A2E55B /* SSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConstants.h; sourceTree = "<group>"; };
 		D0C9F50B1181AFA900A2E55B /* SSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConstants.m; sourceTree = "<group>"; };
-		D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBreakTimer.h; sourceTree = "<group>"; };
-		D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBreakTimer.m; sourceTree = "<group>"; };
 		D0E3172811FB528B00D0E3D9 /* star_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_off.png; path = images/star_off.png; sourceTree = "<group>"; };
 		D0E3172911FB528B00D0E3D9 /* star_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_on.png; path = images/star_on.png; sourceTree = "<group>"; };
 		D0F0A0771185494200DDB9F0 /* shillyshally-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "shillyshally-Info.plist"; sourceTree = "<group>"; };
@@ -517,14 +535,10 @@
 			children = (
 				D0E3172711FB527900D0E3D9 /* images */,
 				D0F134BB11E94DC7000ED763 /* GTM */,
-				D0784B19113220F000A2755E /* Icons */,
-				7756732906782D8800D1FEB8 /* Models */,
-				D0C9F5111181B05B00A2E55B /* Preferences */,
-				D0C9F5101181B05400A2E55B /* Timers */,
-				D0C9F50D1181B00200A2E55B /* Main Window */,
-				D0C9F50F1181B03200A2E55B /* Projects */,
-				D0C9F50E1181B02300A2E55B /* Reports */,
-				D054A9F611715AAB001B23AE /* Break */,
+				D0784B19113220F000A2755E /* icons */,
+				D08F66AB12316D84003D9E8B /* timers */,
+				D08F669F12316B81003D9E8B /* windows */,
+				7756732906782D8800D1FEB8 /* models */,
 				77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */,
 				77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */,
 				D0784C081132319C00A2755E /* todo.txt */,
@@ -567,7 +581,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7756732906782D8800D1FEB8 /* Models */ = {
+		7756732906782D8800D1FEB8 /* models */ = {
 			isa = PBXGroup;
 			children = (
 				D08F665812316AAF003D9E8B /* WorkTimerWithPersistence_DataModel.xcdatamodeld */,
@@ -587,26 +601,26 @@
 				D08F666D12316AAF003D9E8B /* SSTaskSession.h */,
 				D0622B39119DE0EC0040ECD7 /* tests */,
 			);
-			name = Models;
+			name = models;
 			sourceTree = "<group>";
 		};
-		D03F741C11B4714F003E6621 /* Day */ = {
+		D03F741C11B4714F003E6621 /* day */ = {
 			isa = PBXGroup;
 			children = (
-				D07C00551197CB080046EB88 /* SSTaskReportDayView.h */,
-				D07C00561197CB080046EB88 /* SSTaskReportDayView.m */,
+				D08F66D612316F29003D9E8B /* SSTaskReportDayView.m */,
+				D08F66D712316F29003D9E8B /* SSTaskReportDayView.h */,
 			);
-			name = Day;
+			name = day;
 			sourceTree = "<group>";
 		};
-		D054A9F611715AAB001B23AE /* Break */ = {
+		D054A9F611715AAB001B23AE /* break */ = {
 			isa = PBXGroup;
 			children = (
-				D03812A51144A65E0097C1A5 /* Break.xib */,
-				D054AA8A11720A79001B23AE /* MGLBreakController.h */,
-				D054AA8B11720A79001B23AE /* MGLBreakController.m */,
+				D08F66E512316F4D003D9E8B /* MGLBreakController.m */,
+				D08F66E612316F4D003D9E8B /* MGLBreakController.h */,
+				D08F66E712316F4D003D9E8B /* Break.xib */,
 			);
-			name = Break;
+			name = break;
 			sourceTree = "<group>";
 		};
 		D0622B39119DE0EC0040ECD7 /* tests */ = {
@@ -625,7 +639,7 @@
 			name = tests;
 			sourceTree = "<group>";
 		};
-		D0784B19113220F000A2755E /* Icons */ = {
+		D0784B19113220F000A2755E /* icons */ = {
 			isa = PBXGroup;
 			children = (
 				D08F65BD12316881003D9E8B /* Users.tiff */,
@@ -677,68 +691,80 @@
 				D08F65EB12316881003D9E8B /* Blue Ball.tiff */,
 				D08F65EC12316881003D9E8B /* Add.tiff */,
 			);
-			name = Icons;
+			name = icons;
 			sourceTree = "<group>";
 		};
-		D0C9F50D1181B00200A2E55B /* Main Window */ = {
+		D08F669F12316B81003D9E8B /* windows */ = {
 			isa = PBXGroup;
 			children = (
-				D0BACAC411A05D620000C54B /* MainMenu.xib */,
-				2F7446970DB6B7EA00F9684A /* MainWindow.xib */,
-				D078469D112918E600A2755E /* SSWindowController.h */,
-				D078469E112918E600A2755E /* SSWindowController.m */,
-				D0784A951131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.h */,
-				D0784A961131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m */,
-				D0845F2D1141A6ED0082DC6E /* SSTaskTableView.h */,
-				D0845F2E1141A6ED0082DC6E /* SSTaskTableView.m */,
-				D038BFC1119529500020D86A /* SSNotificationWatcher.h */,
-				D038BFC2119529500020D86A /* SSNotificationWatcher.m */,
+				D0C9F5111181B05B00A2E55B /* preferences */,
+				D0C9F50D1181B00200A2E55B /* mainwindow */,
+				D0C9F50F1181B03200A2E55B /* projects */,
+				D0C9F50E1181B02300A2E55B /* reports */,
+				D054A9F611715AAB001B23AE /* break */,
 			);
-			name = "Main Window";
+			name = windows;
 			sourceTree = "<group>";
 		};
-		D0C9F50E1181B02300A2E55B /* Reports */ = {
+		D08F66AB12316D84003D9E8B /* timers */ = {
 			isa = PBXGroup;
 			children = (
-				D03F741C11B4714F003E6621 /* Day */,
-				D054A9C81171582B001B23AE /* Reports.xib */,
-				D0615A6F1197AD5B00568295 /* SSTaskReport.h */,
-				D0615A701197AD5B00568295 /* SSTaskReport.m */,
-				D027C695116A236D00EEB624 /* SSReportsWindowController.h */,
-				D027C696116A236D00EEB624 /* SSReportsWindowController.m */,
+				D08F66AC12316D91003D9E8B /* SSBreakTimer.m */,
+				D08F66AD12316D91003D9E8B /* MGLTaskProgressTimer.m */,
+				D08F66AE12316D91003D9E8B /* MGLTaskProgressTimer.h */,
+				D08F66AF12316D91003D9E8B /* SSBreakTimer.h */,
 			);
-			name = Reports;
+			name = timers;
 			sourceTree = "<group>";
 		};
-		D0C9F50F1181B03200A2E55B /* Projects */ = {
+		D0C9F50D1181B00200A2E55B /* mainwindow */ = {
 			isa = PBXGroup;
 			children = (
-				D054A9F011715A82001B23AE /* Projects.xib */,
-				D054A9F311715AA5001B23AE /* MGLProjectsController.h */,
-				D054A9F411715AA5001B23AE /* MGLProjectsController.m */,
+				D08F66B912316E68003D9E8B /* MainWindow.xib */,
+				D08F66BA12316E68003D9E8B /* SSWindowController.h */,
+				D08F66BB12316E68003D9E8B /* SSWindowController.m */,
+				D08F66BC12316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m */,
+				D08F66BD12316E68003D9E8B /* MainMenu.xib */,
+				D08F66BE12316E68003D9E8B /* SSTaskTableView.m */,
+				D08F66BF12316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.h */,
+				D08F66C012316E68003D9E8B /* SSTaskTableView.h */,
+				D08F66C112316E68003D9E8B /* SSNotificationWatcher.m */,
+				D08F66C212316E68003D9E8B /* SSNotificationWatcher.h */,
 			);
-			name = Projects;
+			name = mainwindow;
 			sourceTree = "<group>";
 		};
-		D0C9F5101181B05400A2E55B /* Timers */ = {
+		D0C9F50E1181B02300A2E55B /* reports */ = {
 			isa = PBXGroup;
 			children = (
-				D0784651112913D100A2755E /* MGLTaskProgressTimer.h */,
-				D0784652112913D100A2755E /* MGLTaskProgressTimer.m */,
-				D0C9F5361181B3BF00A2E55B /* SSBreakTimer.h */,
-				D0C9F5371181B3BF00A2E55B /* SSBreakTimer.m */,
+				D03F741C11B4714F003E6621 /* day */,
+				D08F66DA12316F38003D9E8B /* SSReportsWindowController.m */,
+				D08F66DB12316F38003D9E8B /* SSReportsWindowController.h */,
+				D08F66DC12316F38003D9E8B /* Reports.xib */,
+				D08F66DD12316F38003D9E8B /* SSTaskReport.m */,
+				D08F66DE12316F38003D9E8B /* SSTaskReport.h */,
 			);
-			name = Timers;
+			name = reports;
 			sourceTree = "<group>";
 		};
-		D0C9F5111181B05B00A2E55B /* Preferences */ = {
+		D0C9F50F1181B03200A2E55B /* projects */ = {
 			isa = PBXGroup;
 			children = (
-				D046A3BB117F1019008DD853 /* Preferences.xib */,
-				D046A3BD117F102D008DD853 /* MGLPreferencesController.h */,
-				D046A3BE117F102D008DD853 /* MGLPreferencesController.m */,
+				D08F66CF12316F0B003D9E8B /* Projects.xib */,
+				D08F66D012316F0B003D9E8B /* MGLProjectsController.m */,
+				D08F66D112316F0B003D9E8B /* MGLProjectsController.h */,
 			);
-			name = Preferences;
+			name = projects;
+			sourceTree = "<group>";
+		};
+		D0C9F5111181B05B00A2E55B /* preferences */ = {
+			isa = PBXGroup;
+			children = (
+				D08F66A212316D33003D9E8B /* MGLPreferencesController.m */,
+				D08F66A312316D33003D9E8B /* MGLPreferencesController.h */,
+				D08F66A412316D33003D9E8B /* Preferences.xib */,
+			);
+			name = preferences;
 			sourceTree = "<group>";
 		};
 		D0E3172711FB527900D0E3D9 /* images */ = {
@@ -932,14 +958,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				2F7446990DB6B7EA00F9684A /* MainWindow.xib in Resources */,
 				D0784C091132319C00A2755E /* todo.txt in Resources */,
-				D03812A61144A65E0097C1A5 /* Break.xib in Resources */,
-				D054A9C91171582B001B23AE /* Reports.xib in Resources */,
-				D054A9F111715A82001B23AE /* Projects.xib in Resources */,
-				D046A3BC117F1019008DD853 /* Preferences.xib in Resources */,
 				D0622BBB119DEE790040ECD7 /* Test-Info.plist in Resources */,
-				D0BACAC511A05D620000C54B /* MainMenu.xib in Resources */,
 				D0E3172C11FB528B00D0E3D9 /* star_off.png in Resources */,
 				D0E3172D11FB528B00D0E3D9 /* star_on.png in Resources */,
 				D08F661D12316881003D9E8B /* Users.tiff in Resources */,
@@ -990,6 +1010,12 @@
 				D08F664A12316881003D9E8B /* Brushed Window.tiff in Resources */,
 				D08F664B12316881003D9E8B /* Blue Ball.tiff in Resources */,
 				D08F664C12316881003D9E8B /* Add.tiff in Resources */,
+				D08F66A812316D33003D9E8B /* Preferences.xib in Resources */,
+				D08F66C912316E68003D9E8B /* MainWindow.xib in Resources */,
+				D08F66CC12316E68003D9E8B /* MainMenu.xib in Resources */,
+				D08F66D412316F0B003D9E8B /* Projects.xib in Resources */,
+				D08F66E312316F38003D9E8B /* Reports.xib in Resources */,
+				D08F66EB12316F4D003D9E8B /* Break.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1047,6 +1073,12 @@
 				D08F661A12316881003D9E8B /* Brushed Window.tiff in Resources */,
 				D08F661B12316881003D9E8B /* Blue Ball.tiff in Resources */,
 				D08F661C12316881003D9E8B /* Add.tiff in Resources */,
+				D08F66A612316D33003D9E8B /* Preferences.xib in Resources */,
+				D08F66C312316E68003D9E8B /* MainWindow.xib in Resources */,
+				D08F66C612316E68003D9E8B /* MainMenu.xib in Resources */,
+				D08F66D212316F0B003D9E8B /* Projects.xib in Resources */,
+				D08F66E012316F38003D9E8B /* Reports.xib in Resources */,
+				D08F66E912316F4D003D9E8B /* Break.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1075,19 +1107,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				77C8280E06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m in Sources */,
-				D0784653112913D100A2755E /* MGLTaskProgressTimer.m in Sources */,
-				D078469F112918E600A2755E /* SSWindowController.m in Sources */,
-				D0784A971131FACF00A2755E /* MGLArrayController_CompletedTaskFilter.m in Sources */,
-				D0845F2F1141A6ED0082DC6E /* SSTaskTableView.m in Sources */,
-				D027C697116A236D00EEB624 /* SSReportsWindowController.m in Sources */,
-				D054A9F511715AA5001B23AE /* MGLProjectsController.m in Sources */,
-				D054AA8C11720A79001B23AE /* MGLBreakController.m in Sources */,
-				D046A3BF117F102D008DD853 /* MGLPreferencesController.m in Sources */,
 				D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */,
-				D0C9F5381181B3BF00A2E55B /* SSBreakTimer.m in Sources */,
-				D038BFC3119529500020D86A /* SSNotificationWatcher.m in Sources */,
-				D0615A711197AD5B00568295 /* SSTaskReport.m in Sources */,
-				D07C00571197CB080046EB88 /* SSTaskReportDayView.m in Sources */,
 				D08F667612316AAF003D9E8B /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */,
 				D08F667712316AAF003D9E8B /* SSProject+Related.m in Sources */,
 				D08F667812316AAF003D9E8B /* SSTask+TableFormatting.m in Sources */,
@@ -1096,6 +1116,18 @@
 				D08F667B12316AAF003D9E8B /* SSProject.m in Sources */,
 				D08F667C12316AAF003D9E8B /* SSTask.m in Sources */,
 				D08F667D12316AAF003D9E8B /* SSTaskSession.m in Sources */,
+				D08F66A712316D33003D9E8B /* MGLPreferencesController.m in Sources */,
+				D08F66B212316D91003D9E8B /* SSBreakTimer.m in Sources */,
+				D08F66B312316D91003D9E8B /* MGLTaskProgressTimer.m in Sources */,
+				D08F66CA12316E68003D9E8B /* SSWindowController.m in Sources */,
+				D08F66CB12316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m in Sources */,
+				D08F66CD12316E68003D9E8B /* SSTaskTableView.m in Sources */,
+				D08F66CE12316E68003D9E8B /* SSNotificationWatcher.m in Sources */,
+				D08F66D512316F0B003D9E8B /* MGLProjectsController.m in Sources */,
+				D08F66D912316F29003D9E8B /* SSTaskReportDayView.m in Sources */,
+				D08F66E212316F38003D9E8B /* SSReportsWindowController.m in Sources */,
+				D08F66E412316F38003D9E8B /* SSTaskReport.m in Sources */,
+				D08F66EA12316F4D003D9E8B /* MGLBreakController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1164,6 +1196,18 @@
 				D08F667312316AAF003D9E8B /* SSProject.m in Sources */,
 				D08F667412316AAF003D9E8B /* SSTask.m in Sources */,
 				D08F667512316AAF003D9E8B /* SSTaskSession.m in Sources */,
+				D08F66A512316D33003D9E8B /* MGLPreferencesController.m in Sources */,
+				D08F66B012316D91003D9E8B /* SSBreakTimer.m in Sources */,
+				D08F66B112316D91003D9E8B /* MGLTaskProgressTimer.m in Sources */,
+				D08F66C412316E68003D9E8B /* SSWindowController.m in Sources */,
+				D08F66C512316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m in Sources */,
+				D08F66C712316E68003D9E8B /* SSTaskTableView.m in Sources */,
+				D08F66C812316E68003D9E8B /* SSNotificationWatcher.m in Sources */,
+				D08F66D312316F0B003D9E8B /* MGLProjectsController.m in Sources */,
+				D08F66D812316F29003D9E8B /* SSTaskReportDayView.m in Sources */,
+				D08F66DF12316F38003D9E8B /* SSReportsWindowController.m in Sources */,
+				D08F66E112316F38003D9E8B /* SSTaskReport.m in Sources */,
+				D08F66E812316F4D003D9E8B /* MGLBreakController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1176,14 +1220,6 @@
 				089C165DFE840E0CC02AAC07 /* English */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2F7446970DB6B7EA00F9684A /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F7446980DB6B7EA00F9684A /* English */,
-			);
-			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
