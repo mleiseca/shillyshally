@@ -168,6 +168,7 @@
 		D08F66E912316F4D003D9E8B /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66E712316F4D003D9E8B /* Break.xib */; };
 		D08F66EA12316F4D003D9E8B /* MGLBreakController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66E512316F4D003D9E8B /* MGLBreakController.m */; };
 		D08F66EB12316F4D003D9E8B /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66E712316F4D003D9E8B /* Break.xib */; };
+		D08F670C12317227003D9E8B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
 		D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
 		D0E3172A11FB528B00D0E3D9 /* star_off.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3172811FB528B00D0E3D9 /* star_off.png */; };
 		D0E3172B11FB528B00D0E3D9 /* star_on.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3172911FB528B00D0E3D9 /* star_on.png */; };
@@ -1135,6 +1136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08F670C12317227003D9E8B /* SSConstants.m in Sources */,
 				D0F135F211E951EB000ED763 /* GTMAppKit+UnitTesting.m in Sources */,
 				D0F135F511E951EB000ED763 /* GTMCALayer+UnitTesting.m in Sources */,
 				D0F135F611E951EB000ED763 /* GTMAppKitUnitTestingUtilities.m in Sources */,
@@ -1308,7 +1310,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				GCC_PREFIX_HEADER = WorkTimerWithPersistence_Prefix.pch;
 				INFOPLIST_FILE = "Test-Info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				OTHER_LDFLAGS = (
