@@ -17,6 +17,8 @@
     NSPersistentStore *store;
 }
 
+-(id)newEntity:(NSString*)entityName;
+
 @property(nonatomic, retain) NSPersistentStoreCoordinator *coord;
 @property(nonatomic, retain) NSManagedObjectContext *ctx;
 @property(nonatomic, retain) NSManagedObjectModel *model;

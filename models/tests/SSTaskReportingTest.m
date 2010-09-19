@@ -6,7 +6,6 @@
 //  .
 //
 
-#import "SSTaskReportingTest.h"
 #import "SSFakeTask.h"
 #import "SSFakeTaskSession.h"
 #import "SSTask+Reporting.h"

@@ -13,57 +13,8 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D046A13F117BF957008DD853 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
 		D046A174117BF9A8008DD853 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D046A13E117BF957008DD853 /* BWToolkitFramework.framework */; };
-		D0622B1C119DE0DF0040ECD7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0622B1B119DE0DF0040ECD7 /* SenTestingKit.framework */; };
 		D0622BBB119DEE790040ECD7 /* Test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0622BBA119DEE790040ECD7 /* Test-Info.plist */; };
 		D0784C091132319C00A2755E /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0784C081132319C00A2755E /* todo.txt */; };
-		D08F65ED12316881003D9E8B /* Users.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65BD12316881003D9E8B /* Users.tiff */; };
-		D08F65EE12316881003D9E8B /* Universal Binary.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65BE12316881003D9E8B /* Universal Binary.tiff */; };
-		D08F65EF12316881003D9E8B /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D08F65BF12316881003D9E8B /* TheBendsActive.icns */; };
-		D08F65F012316881003D9E8B /* TheBends.icns in Resources */ = {isa = PBXBuildFile; fileRef = D08F65C012316881003D9E8B /* TheBends.icns */; };
-		D08F65F112316881003D9E8B /* Terminal.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65C112316881003D9E8B /* Terminal.tiff */; };
-		D08F65F212316881003D9E8B /* Stop.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65C212316881003D9E8B /* Stop.tiff */; };
-		D08F65F312316881003D9E8B /* Sticky.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65C312316881003D9E8B /* Sticky.tiff */; };
-		D08F65F412316881003D9E8B /* Spotlight.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65C412316881003D9E8B /* Spotlight.tiff */; };
-		D08F65F512316881003D9E8B /* SnapBack.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65C512316881003D9E8B /* SnapBack.tiff */; };
-		D08F65F612316881003D9E8B /* Smart Folder.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65C612316881003D9E8B /* Smart Folder.tiff */; };
-		D08F65F712316881003D9E8B /* RSS.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65C712316881003D9E8B /* RSS.tiff */; };
-		D08F65F812316881003D9E8B /* RSS 2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65C812316881003D9E8B /* RSS 2.tiff */; };
-		D08F65F912316881003D9E8B /* Remove.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65C912316881003D9E8B /* Remove.tiff */; };
-		D08F65FA12316881003D9E8B /* reload.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65CA12316881003D9E8B /* reload.tiff */; };
-		D08F65FB12316881003D9E8B /* Red Ball.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65CB12316881003D9E8B /* Red Ball.tiff */; };
-		D08F65FC12316881003D9E8B /* Record.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65CC12316881003D9E8B /* Record.tiff */; };
-		D08F65FD12316881003D9E8B /* Power.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65CD12316881003D9E8B /* Power.tiff */; };
-		D08F65FE12316881003D9E8B /* plus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = D08F65CE12316881003D9E8B /* plus-8.png */; };
-		D08F65FF12316881003D9E8B /* Play.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65CF12316881003D9E8B /* Play.tiff */; };
-		D08F660012316881003D9E8B /* Pause.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65D012316881003D9E8B /* Pause.tiff */; };
-		D08F660112316881003D9E8B /* Orange Ball.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65D112316881003D9E8B /* Orange Ball.tiff */; };
-		D08F660212316881003D9E8B /* Network Utility.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65D212316881003D9E8B /* Network Utility.tiff */; };
-		D08F660312316881003D9E8B /* Movies.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65D312316881003D9E8B /* Movies.tiff */; };
-		D08F660412316881003D9E8B /* minus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = D08F65D412316881003D9E8B /* minus-8.png */; };
-		D08F660512316881003D9E8B /* LinkBack.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65D512316881003D9E8B /* LinkBack.tiff */; };
-		D08F660612316881003D9E8B /* Linkback Green.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65D612316881003D9E8B /* Linkback Green.tiff */; };
-		D08F660712316881003D9E8B /* Linkback Green 2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65D712316881003D9E8B /* Linkback Green 2.tiff */; };
-		D08F660812316881003D9E8B /* HUD.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65D812316881003D9E8B /* HUD.tiff */; };
-		D08F660912316881003D9E8B /* History.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65D912316881003D9E8B /* History.tiff */; };
-		D08F660A12316881003D9E8B /* Help.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65DA12316881003D9E8B /* Help.tiff */; };
-		D08F660B12316881003D9E8B /* Green Ball.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65DB12316881003D9E8B /* Green Ball.tiff */; };
-		D08F660C12316881003D9E8B /* Get Info.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65DC12316881003D9E8B /* Get Info.tiff */; };
-		D08F660D12316881003D9E8B /* General Preferences.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65DD12316881003D9E8B /* General Preferences.tiff */; };
-		D08F660E12316881003D9E8B /* Folder.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65DE12316881003D9E8B /* Folder.tiff */; };
-		D08F660F12316881003D9E8B /* flag.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65DF12316881003D9E8B /* flag.tiff */; };
-		D08F661012316881003D9E8B /* Emoticon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65E012316881003D9E8B /* Emoticon.tiff */; };
-		D08F661112316881003D9E8B /* Eject.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65E112316881003D9E8B /* Eject.tiff */; };
-		D08F661212316881003D9E8B /* Drawer.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65E212316881003D9E8B /* Drawer.tiff */; };
-		D08F661312316881003D9E8B /* Drawer-List.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65E312316881003D9E8B /* Drawer-List.tiff */; };
-		D08F661412316881003D9E8B /* Disc.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65E412316881003D9E8B /* Disc.tiff */; };
-		D08F661512316881003D9E8B /* Delete.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65E512316881003D9E8B /* Delete.tiff */; };
-		D08F661612316881003D9E8B /* Database.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65E612316881003D9E8B /* Database.tiff */; };
-		D08F661712316881003D9E8B /* Dashboard.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65E712316881003D9E8B /* Dashboard.tiff */; };
-		D08F661812316881003D9E8B /* colors.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65E812316881003D9E8B /* colors.tiff */; };
-		D08F661912316881003D9E8B /* Burn.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65E912316881003D9E8B /* Burn.tiff */; };
-		D08F661A12316881003D9E8B /* Brushed Window.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65EA12316881003D9E8B /* Brushed Window.tiff */; };
-		D08F661B12316881003D9E8B /* Blue Ball.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65EB12316881003D9E8B /* Blue Ball.tiff */; };
-		D08F661C12316881003D9E8B /* Add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65EC12316881003D9E8B /* Add.tiff */; };
 		D08F661D12316881003D9E8B /* Users.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65BD12316881003D9E8B /* Users.tiff */; };
 		D08F661E12316881003D9E8B /* Universal Binary.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D08F65BE12316881003D9E8B /* Universal Binary.tiff */; };
 		D08F661F12316881003D9E8B /* TheBendsActive.icns in Resources */ = {isa = PBXBuildFile; fileRef = D08F65BF12316881003D9E8B /* TheBendsActive.icns */; };
@@ -116,14 +67,6 @@
 		D08F66551231690A003D9E8B /* SSFakeTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F664F1231690A003D9E8B /* SSFakeTaskSession.m */; };
 		D08F66561231690A003D9E8B /* SSFakeTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66511231690A003D9E8B /* SSFakeTask.m */; };
 		D08F66571231690A003D9E8B /* SSTaskReportingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66531231690A003D9E8B /* SSTaskReportingTest.m */; };
-		D08F666E12316AAF003D9E8B /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D08F665812316AAF003D9E8B /* WorkTimerWithPersistence_DataModel.xcdatamodeld */; };
-		D08F666F12316AAF003D9E8B /* SSProject+Related.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666012316AAF003D9E8B /* SSProject+Related.m */; };
-		D08F667012316AAF003D9E8B /* SSTask+TableFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666212316AAF003D9E8B /* SSTask+TableFormatting.m */; };
-		D08F667112316AAF003D9E8B /* SSTask+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666412316AAF003D9E8B /* SSTask+Reporting.m */; };
-		D08F667212316AAF003D9E8B /* SSProject+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666612316AAF003D9E8B /* SSProject+Reporting.m */; };
-		D08F667312316AAF003D9E8B /* SSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666812316AAF003D9E8B /* SSProject.m */; };
-		D08F667412316AAF003D9E8B /* SSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666B12316AAF003D9E8B /* SSTask.m */; };
-		D08F667512316AAF003D9E8B /* SSTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666C12316AAF003D9E8B /* SSTaskSession.m */; };
 		D08F667612316AAF003D9E8B /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D08F665812316AAF003D9E8B /* WorkTimerWithPersistence_DataModel.xcdatamodeld */; };
 		D08F667712316AAF003D9E8B /* SSProject+Related.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666012316AAF003D9E8B /* SSProject+Related.m */; };
 		D08F667812316AAF003D9E8B /* SSTask+TableFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666212316AAF003D9E8B /* SSTask+TableFormatting.m */; };
@@ -132,50 +75,28 @@
 		D08F667B12316AAF003D9E8B /* SSProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666812316AAF003D9E8B /* SSProject.m */; };
 		D08F667C12316AAF003D9E8B /* SSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666B12316AAF003D9E8B /* SSTask.m */; };
 		D08F667D12316AAF003D9E8B /* SSTaskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F666C12316AAF003D9E8B /* SSTaskSession.m */; };
-		D08F66A512316D33003D9E8B /* MGLPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66A212316D33003D9E8B /* MGLPreferencesController.m */; };
-		D08F66A612316D33003D9E8B /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66A412316D33003D9E8B /* Preferences.xib */; };
 		D08F66A712316D33003D9E8B /* MGLPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66A212316D33003D9E8B /* MGLPreferencesController.m */; };
 		D08F66A812316D33003D9E8B /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66A412316D33003D9E8B /* Preferences.xib */; };
-		D08F66B012316D91003D9E8B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66AC12316D91003D9E8B /* SSBreakTimer.m */; };
-		D08F66B112316D91003D9E8B /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66AD12316D91003D9E8B /* MGLTaskProgressTimer.m */; };
 		D08F66B212316D91003D9E8B /* SSBreakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66AC12316D91003D9E8B /* SSBreakTimer.m */; };
 		D08F66B312316D91003D9E8B /* MGLTaskProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66AD12316D91003D9E8B /* MGLTaskProgressTimer.m */; };
-		D08F66C312316E68003D9E8B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66B912316E68003D9E8B /* MainWindow.xib */; };
-		D08F66C412316E68003D9E8B /* SSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BB12316E68003D9E8B /* SSWindowController.m */; };
-		D08F66C512316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BC12316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m */; };
-		D08F66C612316E68003D9E8B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66BD12316E68003D9E8B /* MainMenu.xib */; };
-		D08F66C712316E68003D9E8B /* SSTaskTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BE12316E68003D9E8B /* SSTaskTableView.m */; };
-		D08F66C812316E68003D9E8B /* SSNotificationWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66C112316E68003D9E8B /* SSNotificationWatcher.m */; };
 		D08F66C912316E68003D9E8B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66B912316E68003D9E8B /* MainWindow.xib */; };
 		D08F66CA12316E68003D9E8B /* SSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BB12316E68003D9E8B /* SSWindowController.m */; };
 		D08F66CB12316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BC12316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m */; };
 		D08F66CC12316E68003D9E8B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66BD12316E68003D9E8B /* MainMenu.xib */; };
 		D08F66CD12316E68003D9E8B /* SSTaskTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66BE12316E68003D9E8B /* SSTaskTableView.m */; };
 		D08F66CE12316E68003D9E8B /* SSNotificationWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66C112316E68003D9E8B /* SSNotificationWatcher.m */; };
-		D08F66D212316F0B003D9E8B /* Projects.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66CF12316F0B003D9E8B /* Projects.xib */; };
-		D08F66D312316F0B003D9E8B /* MGLProjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66D012316F0B003D9E8B /* MGLProjectsController.m */; };
 		D08F66D412316F0B003D9E8B /* Projects.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66CF12316F0B003D9E8B /* Projects.xib */; };
 		D08F66D512316F0B003D9E8B /* MGLProjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66D012316F0B003D9E8B /* MGLProjectsController.m */; };
-		D08F66D812316F29003D9E8B /* SSTaskReportDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66D612316F29003D9E8B /* SSTaskReportDayView.m */; };
 		D08F66D912316F29003D9E8B /* SSTaskReportDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66D612316F29003D9E8B /* SSTaskReportDayView.m */; };
-		D08F66DF12316F38003D9E8B /* SSReportsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66DA12316F38003D9E8B /* SSReportsWindowController.m */; };
-		D08F66E012316F38003D9E8B /* Reports.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66DC12316F38003D9E8B /* Reports.xib */; };
-		D08F66E112316F38003D9E8B /* SSTaskReport.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66DD12316F38003D9E8B /* SSTaskReport.m */; };
 		D08F66E212316F38003D9E8B /* SSReportsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66DA12316F38003D9E8B /* SSReportsWindowController.m */; };
 		D08F66E312316F38003D9E8B /* Reports.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66DC12316F38003D9E8B /* Reports.xib */; };
 		D08F66E412316F38003D9E8B /* SSTaskReport.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66DD12316F38003D9E8B /* SSTaskReport.m */; };
-		D08F66E812316F4D003D9E8B /* MGLBreakController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66E512316F4D003D9E8B /* MGLBreakController.m */; };
-		D08F66E912316F4D003D9E8B /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66E712316F4D003D9E8B /* Break.xib */; };
 		D08F66EA12316F4D003D9E8B /* MGLBreakController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08F66E512316F4D003D9E8B /* MGLBreakController.m */; };
 		D08F66EB12316F4D003D9E8B /* Break.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08F66E712316F4D003D9E8B /* Break.xib */; };
-		D08F670C12317227003D9E8B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
 		D0C9F50C1181AFA900A2E55B /* SSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F50B1181AFA900A2E55B /* SSConstants.m */; };
-		D0E3172A11FB528B00D0E3D9 /* star_off.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3172811FB528B00D0E3D9 /* star_off.png */; };
-		D0E3172B11FB528B00D0E3D9 /* star_on.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3172911FB528B00D0E3D9 /* star_on.png */; };
 		D0E3172C11FB528B00D0E3D9 /* star_off.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3172811FB528B00D0E3D9 /* star_off.png */; };
 		D0E3172D11FB528B00D0E3D9 /* star_on.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3172911FB528B00D0E3D9 /* star_on.png */; };
 		D0F135F211E951EB000ED763 /* GTMAppKit+UnitTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F134C711E94DDB000ED763 /* GTMAppKit+UnitTesting.m */; };
-		D0F135F511E951EB000ED763 /* GTMCALayer+UnitTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F134CD11E94DF0000ED763 /* GTMCALayer+UnitTesting.m */; };
 		D0F135F611E951EB000ED763 /* GTMAppKitUnitTestingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F134C911E94DDB000ED763 /* GTMAppKitUnitTestingUtilities.m */; };
 		D0F135F811E951EB000ED763 /* GTMNSObject+BindingUnitTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F134D011E94E05000ED763 /* GTMNSObject+BindingUnitTesting.m */; };
 		D0F135FA11E951EB000ED763 /* GTMNSObject+UnitTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F134D211E94E05000ED763 /* GTMNSObject+UnitTesting.m */; };
@@ -225,6 +146,16 @@
 		D0F136E211EAABE7000ED763 /* SSTestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F136E111EAABE7000ED763 /* SSTestBase.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D04354E1124664D300409627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090 /* shillyshally */;
+			remoteInfo = shillyshally;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		D046A145117BF988008DD853 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -249,8 +180,8 @@
 		77C8280B06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkTimerWithPersistence_AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* WorkTimerWithPersistence_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkTimerWithPersistence_AppDelegate.m; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* shillyshally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shillyshally.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D043547D12465E0E00409627 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D046A13E117BF957008DD853 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/mleiseca/dev/osx/Frameworks/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
-		D0622B1B119DE0DF0040ECD7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = SDKROOT; };
 		D0622B57119DE42D0040ECD7 /* Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0622BBA119DEE790040ECD7 /* Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
 		D0784C081132319C00A2755E /* todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
@@ -302,7 +233,6 @@
 		D08F65EA12316881003D9E8B /* Brushed Window.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Brushed Window.tiff"; path = "icons/Brushed Window.tiff"; sourceTree = "<group>"; };
 		D08F65EB12316881003D9E8B /* Blue Ball.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Blue Ball.tiff"; path = "icons/Blue Ball.tiff"; sourceTree = "<group>"; };
 		D08F65EC12316881003D9E8B /* Add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Add.tiff; path = icons/Add.tiff; sourceTree = "<group>"; };
-		D08F664D1231690A003D9E8B /* SSTaskReportingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTaskReportingTest.h; path = models/tests/SSTaskReportingTest.h; sourceTree = "<group>"; };
 		D08F664E1231690A003D9E8B /* SSTaskAccountingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTaskAccountingTest.m; path = models/tests/SSTaskAccountingTest.m; sourceTree = "<group>"; };
 		D08F664F1231690A003D9E8B /* SSFakeTaskSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSFakeTaskSession.m; path = models/tests/SSFakeTaskSession.m; sourceTree = "<group>"; };
 		D08F66501231690A003D9E8B /* SSFakeTaskSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSFakeTaskSession.h; path = models/tests/SSFakeTaskSession.h; sourceTree = "<group>"; };
@@ -370,8 +300,6 @@
 		D0F134C711E94DDB000ED763 /* GTMAppKit+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMAppKit+UnitTesting.m"; path = "../../grubHub/trunk/iphone-app/google-toolbox-for-mac-read-only/UnitTesting/GTMAppKit+UnitTesting.m"; sourceTree = SOURCE_ROOT; };
 		D0F134C811E94DDB000ED763 /* GTMAppKitUnitTestingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMAppKitUnitTestingUtilities.h; path = "../../grubHub/trunk/iphone-app/google-toolbox-for-mac-read-only/UnitTesting/GTMAppKitUnitTestingUtilities.h"; sourceTree = SOURCE_ROOT; };
 		D0F134C911E94DDB000ED763 /* GTMAppKitUnitTestingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMAppKitUnitTestingUtilities.m; path = "../../grubHub/trunk/iphone-app/google-toolbox-for-mac-read-only/UnitTesting/GTMAppKitUnitTestingUtilities.m"; sourceTree = SOURCE_ROOT; };
-		D0F134CC11E94DF0000ED763 /* GTMCALayer+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMCALayer+UnitTesting.h"; path = "../../grubHub/trunk/iphone-app/google-toolbox-for-mac-read-only/UnitTesting/GTMCALayer+UnitTesting.h"; sourceTree = SOURCE_ROOT; };
-		D0F134CD11E94DF0000ED763 /* GTMCALayer+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMCALayer+UnitTesting.m"; path = "../../grubHub/trunk/iphone-app/google-toolbox-for-mac-read-only/UnitTesting/GTMCALayer+UnitTesting.m"; sourceTree = SOURCE_ROOT; };
 		D0F134CF11E94E05000ED763 /* GTMNSObject+BindingUnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSObject+BindingUnitTesting.h"; path = "../../grubHub/trunk/iphone-app/google-toolbox-for-mac-read-only/UnitTesting/GTMNSObject+BindingUnitTesting.h"; sourceTree = SOURCE_ROOT; };
 		D0F134D011E94E05000ED763 /* GTMNSObject+BindingUnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSObject+BindingUnitTesting.m"; path = "../../grubHub/trunk/iphone-app/google-toolbox-for-mac-read-only/UnitTesting/GTMNSObject+BindingUnitTesting.m"; sourceTree = SOURCE_ROOT; };
 		D0F134D111E94E05000ED763 /* GTMNSObject+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSObject+UnitTesting.h"; path = "../../grubHub/trunk/iphone-app/google-toolbox-for-mac-read-only/UnitTesting/GTMNSObject+UnitTesting.h"; sourceTree = SOURCE_ROOT; };
@@ -488,7 +416,6 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				D046A13F117BF957008DD853 /* BWToolkitFramework.framework in Frameworks */,
-				D0622B1C119DE0DF0040ECD7 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,7 +432,6 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D0622B1B119DE0DF0040ECD7 /* SenTestingKit.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				D046A13E117BF957008DD853 /* BWToolkitFramework.framework */,
 			);
@@ -549,6 +475,7 @@
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				D0622BBA119DEE790040ECD7 /* Test-Info.plist */,
 				D0F134B211E94D4B000ED763 /* GTM Unit Test-Info.plist */,
+				D043547D12465E0E00409627 /* Cocoa.framework */,
 			);
 			name = WorkTimerWithPersistence;
 			sourceTree = "<group>";
@@ -627,10 +554,9 @@
 		D0622B39119DE0EC0040ECD7 /* tests */ = {
 			isa = PBXGroup;
 			children = (
-				D08F664D1231690A003D9E8B /* SSTaskReportingTest.h */,
 				D08F664E1231690A003D9E8B /* SSTaskAccountingTest.m */,
-				D08F664F1231690A003D9E8B /* SSFakeTaskSession.m */,
 				D08F66501231690A003D9E8B /* SSFakeTaskSession.h */,
+				D08F664F1231690A003D9E8B /* SSFakeTaskSession.m */,
 				D08F66511231690A003D9E8B /* SSFakeTask.m */,
 				D08F66521231690A003D9E8B /* SSFakeTask.h */,
 				D08F66531231690A003D9E8B /* SSTaskReportingTest.m */,
@@ -785,8 +711,6 @@
 				D0F134C611E94DDB000ED763 /* GTMAppKit+UnitTesting.h */,
 				D0F134C711E94DDB000ED763 /* GTMAppKit+UnitTesting.m */,
 				D0F134C811E94DDB000ED763 /* GTMAppKitUnitTestingUtilities.h */,
-				D0F134CC11E94DF0000ED763 /* GTMCALayer+UnitTesting.h */,
-				D0F134CD11E94DF0000ED763 /* GTMCALayer+UnitTesting.m */,
 				D0F134C911E94DDB000ED763 /* GTMAppKitUnitTestingUtilities.m */,
 				D0F134CF11E94E05000ED763 /* GTMNSObject+BindingUnitTesting.h */,
 				D0F134D011E94E05000ED763 /* GTMNSObject+BindingUnitTesting.m */,
@@ -929,6 +853,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D04354E2124664D300409627 /* PBXTargetDependency */,
 			);
 			name = Test;
 			productName = Test;
@@ -1031,62 +956,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E3172A11FB528B00D0E3D9 /* star_off.png in Resources */,
-				D0E3172B11FB528B00D0E3D9 /* star_on.png in Resources */,
-				D08F65ED12316881003D9E8B /* Users.tiff in Resources */,
-				D08F65EE12316881003D9E8B /* Universal Binary.tiff in Resources */,
-				D08F65EF12316881003D9E8B /* TheBendsActive.icns in Resources */,
-				D08F65F012316881003D9E8B /* TheBends.icns in Resources */,
-				D08F65F112316881003D9E8B /* Terminal.tiff in Resources */,
-				D08F65F212316881003D9E8B /* Stop.tiff in Resources */,
-				D08F65F312316881003D9E8B /* Sticky.tiff in Resources */,
-				D08F65F412316881003D9E8B /* Spotlight.tiff in Resources */,
-				D08F65F512316881003D9E8B /* SnapBack.tiff in Resources */,
-				D08F65F612316881003D9E8B /* Smart Folder.tiff in Resources */,
-				D08F65F712316881003D9E8B /* RSS.tiff in Resources */,
-				D08F65F812316881003D9E8B /* RSS 2.tiff in Resources */,
-				D08F65F912316881003D9E8B /* Remove.tiff in Resources */,
-				D08F65FA12316881003D9E8B /* reload.tiff in Resources */,
-				D08F65FB12316881003D9E8B /* Red Ball.tiff in Resources */,
-				D08F65FC12316881003D9E8B /* Record.tiff in Resources */,
-				D08F65FD12316881003D9E8B /* Power.tiff in Resources */,
-				D08F65FE12316881003D9E8B /* plus-8.png in Resources */,
-				D08F65FF12316881003D9E8B /* Play.tiff in Resources */,
-				D08F660012316881003D9E8B /* Pause.tiff in Resources */,
-				D08F660112316881003D9E8B /* Orange Ball.tiff in Resources */,
-				D08F660212316881003D9E8B /* Network Utility.tiff in Resources */,
-				D08F660312316881003D9E8B /* Movies.tiff in Resources */,
-				D08F660412316881003D9E8B /* minus-8.png in Resources */,
-				D08F660512316881003D9E8B /* LinkBack.tiff in Resources */,
-				D08F660612316881003D9E8B /* Linkback Green.tiff in Resources */,
-				D08F660712316881003D9E8B /* Linkback Green 2.tiff in Resources */,
-				D08F660812316881003D9E8B /* HUD.tiff in Resources */,
-				D08F660912316881003D9E8B /* History.tiff in Resources */,
-				D08F660A12316881003D9E8B /* Help.tiff in Resources */,
-				D08F660B12316881003D9E8B /* Green Ball.tiff in Resources */,
-				D08F660C12316881003D9E8B /* Get Info.tiff in Resources */,
-				D08F660D12316881003D9E8B /* General Preferences.tiff in Resources */,
-				D08F660E12316881003D9E8B /* Folder.tiff in Resources */,
-				D08F660F12316881003D9E8B /* flag.tiff in Resources */,
-				D08F661012316881003D9E8B /* Emoticon.tiff in Resources */,
-				D08F661112316881003D9E8B /* Eject.tiff in Resources */,
-				D08F661212316881003D9E8B /* Drawer.tiff in Resources */,
-				D08F661312316881003D9E8B /* Drawer-List.tiff in Resources */,
-				D08F661412316881003D9E8B /* Disc.tiff in Resources */,
-				D08F661512316881003D9E8B /* Delete.tiff in Resources */,
-				D08F661612316881003D9E8B /* Database.tiff in Resources */,
-				D08F661712316881003D9E8B /* Dashboard.tiff in Resources */,
-				D08F661812316881003D9E8B /* colors.tiff in Resources */,
-				D08F661912316881003D9E8B /* Burn.tiff in Resources */,
-				D08F661A12316881003D9E8B /* Brushed Window.tiff in Resources */,
-				D08F661B12316881003D9E8B /* Blue Ball.tiff in Resources */,
-				D08F661C12316881003D9E8B /* Add.tiff in Resources */,
-				D08F66A612316D33003D9E8B /* Preferences.xib in Resources */,
-				D08F66C312316E68003D9E8B /* MainWindow.xib in Resources */,
-				D08F66C612316E68003D9E8B /* MainMenu.xib in Resources */,
-				D08F66D212316F0B003D9E8B /* Projects.xib in Resources */,
-				D08F66E012316F38003D9E8B /* Reports.xib in Resources */,
-				D08F66E912316F4D003D9E8B /* Break.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1104,7 +973,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n#\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n/Users/mleiseca/dev/grubHub/trunk/iphone-app/google-toolbox-for-mac-read-only/UnitTesting/RunMacOSUnitTests.sh";
+			shellScript = "# Run the unit tests in this test bundle.\n#\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n../google-toolbox-for-mac-read-only/UnitTesting/RunMacOSUnitTests.sh";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1143,9 +1013,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08F670C12317227003D9E8B /* SSConstants.m in Sources */,
 				D0F135F211E951EB000ED763 /* GTMAppKit+UnitTesting.m in Sources */,
-				D0F135F511E951EB000ED763 /* GTMCALayer+UnitTesting.m in Sources */,
 				D0F135F611E951EB000ED763 /* GTMAppKitUnitTestingUtilities.m in Sources */,
 				D0F135F811E951EB000ED763 /* GTMNSObject+BindingUnitTesting.m in Sources */,
 				D0F135FA11E951EB000ED763 /* GTMNSObject+UnitTesting.m in Sources */,
@@ -1197,30 +1065,18 @@
 				D08F66551231690A003D9E8B /* SSFakeTaskSession.m in Sources */,
 				D08F66561231690A003D9E8B /* SSFakeTask.m in Sources */,
 				D08F66571231690A003D9E8B /* SSTaskReportingTest.m in Sources */,
-				D08F666E12316AAF003D9E8B /* WorkTimerWithPersistence_DataModel.xcdatamodeld in Sources */,
-				D08F666F12316AAF003D9E8B /* SSProject+Related.m in Sources */,
-				D08F667012316AAF003D9E8B /* SSTask+TableFormatting.m in Sources */,
-				D08F667112316AAF003D9E8B /* SSTask+Reporting.m in Sources */,
-				D08F667212316AAF003D9E8B /* SSProject+Reporting.m in Sources */,
-				D08F667312316AAF003D9E8B /* SSProject.m in Sources */,
-				D08F667412316AAF003D9E8B /* SSTask.m in Sources */,
-				D08F667512316AAF003D9E8B /* SSTaskSession.m in Sources */,
-				D08F66A512316D33003D9E8B /* MGLPreferencesController.m in Sources */,
-				D08F66B012316D91003D9E8B /* SSBreakTimer.m in Sources */,
-				D08F66B112316D91003D9E8B /* MGLTaskProgressTimer.m in Sources */,
-				D08F66C412316E68003D9E8B /* SSWindowController.m in Sources */,
-				D08F66C512316E68003D9E8B /* MGLArrayController_CompletedTaskFilter.m in Sources */,
-				D08F66C712316E68003D9E8B /* SSTaskTableView.m in Sources */,
-				D08F66C812316E68003D9E8B /* SSNotificationWatcher.m in Sources */,
-				D08F66D312316F0B003D9E8B /* MGLProjectsController.m in Sources */,
-				D08F66D812316F29003D9E8B /* SSTaskReportDayView.m in Sources */,
-				D08F66DF12316F38003D9E8B /* SSReportsWindowController.m in Sources */,
-				D08F66E112316F38003D9E8B /* SSTaskReport.m in Sources */,
-				D08F66E812316F4D003D9E8B /* MGLBreakController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D04354E2124664D300409627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* shillyshally */;
+			targetProxy = D04354E1124664D300409627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
@@ -1306,6 +1162,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/shillyshally.app/Contents/MacOS/shillyshally";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -1328,6 +1185,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Test;
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
