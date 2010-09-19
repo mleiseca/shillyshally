@@ -15,13 +15,14 @@
 
 - (void)setUp
 {
-	model = [[NSManagedObjectModel alloc] initWithContentsOfURL:
-			 [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"WorkTimerWithPersistence_DataModel" ofType:@"momd"]]];
+	//model = [[NSManagedObjectModel alloc] initWithContentsOfURL:
+	//		 [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"WorkTimerWithPersistence_DataModel" ofType:@"momd"]]];
 
     model = [[NSManagedObjectModel mergedModelFromBundles: nil] retain];
     coord = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:model];
 	NSLog(@"model entities: %d", [model.entities count]);
-	STAssertNotEquals([model.entities count], 0, @"Entity count should be greater than zero");
+	STAssertNotEquals([model.entities count], (NSUInteger)0, @"Entity count should be greater than zero");
+	
     store = [coord addPersistentStoreWithType: NSInMemoryStoreType
                                 configuration: nil
                                           URL: nil
