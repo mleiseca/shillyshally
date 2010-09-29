@@ -15,9 +15,6 @@
 
 - (void)setUp
 {
-	//model = [[NSManagedObjectModel alloc] initWithContentsOfURL:
-	//		 [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"WorkTimerWithPersistence_DataModel" ofType:@"momd"]]];
-
     model = [[NSManagedObjectModel mergedModelFromBundles: nil] retain];
     coord = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:model];
 	NSLog(@"model entities: %d", [model.entities count]);

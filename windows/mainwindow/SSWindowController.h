@@ -68,6 +68,7 @@
 @property (nonatomic, retain) SSProject *currentlySelectedProject;
 
 
+-(void)openTicketForCurrentTask:(id)sender;
 -(IBAction) toggleSelectedTask:(id) sender;
 -(IBAction) finishTask:(id) sender;
 -(void) stopTask;

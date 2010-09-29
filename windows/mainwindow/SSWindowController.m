@@ -7,6 +7,7 @@
 //
 
 #import "SSWindowController.h"
+#import "SSConstants.h"
 #import "MGLTaskProgressTimer.h"
 #import "SSTask.h"
 #import "SSTaskSession.h"
@@ -94,6 +95,25 @@
 	[taskList addObject:task];
 }
 
+-(void)openTicketForCurrentTask:(id)sender{
+	NSArray *selectedTasks = [self.taskList selectedObjects] ;
+	if([selectedTasks count] == 1){
+		
+		SSTask *selectedTask = [selectedTasks objectAtIndex:0];
+		
+		if (selectedTask.ticketId){
+			
+			NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+			NSString *ticketSystemBaseUrl = [defaults stringForKey:SSPrefTicketSystemBaseURL];
+
+			if (ticketSystemBaseUrl){			
+				NSString *urlString = [NSString stringWithFormat:@"%@%@", ticketSystemBaseUrl, selectedTask.ticketId];
+				[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:urlString]];
+			}
+
+		}
+	}		
+}
 
 -(IBAction) toggleSelectedTask:(id) sender{
 	NSLog(@"Toggling selected task");

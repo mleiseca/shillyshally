@@ -12,3 +12,4 @@ NSString * const SSPrefBreakEnabled = @"breakEnabled";
 NSString * const SSPrefBreakDuration = @"breakDurationInSeconds";
 NSString * const SSPrefBreakInterval = @"breakInterval";
 NSString * const SSPrefBreakStillAroundConfirmationInterval = @"breakStillAroundConfirmationInterval";
+NSString * const SSPrefTicketSystemBaseURL = @"ticketSystemBaseURL";
